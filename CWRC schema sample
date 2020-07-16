@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://cwrc.ca/schemas/cwrc_entry.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/cwrc.css"?><CWRC xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <CWRCHEADER>
+        <FILEDESC>
+            <TITLESTMT>
+                <DOCTITLE>Lydia Agnes Edwards</DOCTITLE>
+                 
+                <DOCAUTHOR>Linnea McNally</DOCAUTHOR>
+                <DOCAUTHOR>Katie Gillespie</DOCAUTHOR>
+            </TITLESTMT>
+            <PUBLICATIONSTMT>
+                <AUTHORITY>Canada's Early Women Writers</AUTHORITY>
+                <AUTHORITY>Canadian Writing Research Collaboratory</AUTHORITY>
+            </PUBLICATIONSTMT>
+            <SOURCEDESC>Born digital object, initially housed by the Simon Fraser University library</SOURCEDESC>
+        </FILEDESC>
+        <PROFILEDESC>
+            <LANGUSAGE>
+                <LANG IDENT="eng">English</LANG>
+            </LANGUSAGE>
+            <TEXTCLASS>
+                <KEYWORDS>
+                    <TERM>Born digital</TERM>
+                    <TERM>Life writing</TERM>
+                    <TERM>Biography</TERM>
+                    <TERM>Bibliography</TERM>
+                </KEYWORDS>
+            </TEXTCLASS>
+        </PROFILEDESC>
+        <REVISIONDESC>
+            <WORKFLOW RESP="MRB" WORKCATEGORY="created" WORKSTATUS="C">
+                <DATE/>
+                <ITEM/>
+            </WORKFLOW>
+        </REVISIONDESC>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+</rdf:RDF></CWRCHEADER>
+    <ENTRY>
+        <HEADING SUBTYPE="1"><NAME STANDARD="LYDIA AGNES EDWARDS" REF="http://commons.cwrc.ca/cwrc:2d7185b5-db2d-4037-9427-09c4db8a0afa">Lydia Agnes Edwards</NAME> (1848-1939)</HEADING>
+        <RESEARCHNOTE> </RESEARCHNOTE>
+        <AUTHORSUMMARY>
+           <P>In addition to publishing a volume of poetry, Lydia Agnes Edwards also wrote patriotic verse about the South African war.</P>
+        </AUTHORSUMMARY>
+        <BIRTH>
+            <CHRONSTRUCT><DATE VALUE="1848-08-08">8 August 1848, </DATE> <CHRONPROSE> <PLACE>Clarence, ON</PLACE> </CHRONPROSE> </CHRONSTRUCT>
+        </BIRTH>
+        <DEATH>
+            <CHRONSTRUCT><DATE VALUE="1939-09-07">7 September 1939, </DATE> <CHRONPROSE> <PLACE>Truro, NS</PLACE> </CHRONPROSE> </CHRONSTRUCT>
+        </DEATH>
+        <PERSONNAME>
+            <HEADING SUBTYPE="5">Name at birth: </HEADING>
+            <DATASTRUCT>
+                <DATAITEM>
+                    <BIRTHNAME><GIVEN>Lydia Agnes</GIVEN> <SURNAME>Edwards</SURNAME> </BIRTHNAME>
+                </DATAITEM>
+            </DATASTRUCT>
+        </PERSONNAME>
+        <PERSONNAME>
+            <HEADING SUBTYPE="5">Alternate names: </HEADING>
+            <DATASTRUCT>
+                <DATAITEM>
+                    <NAME STANDARD="LYDIA AGNES EDWARDS">L.A.E.</NAME>
+                </DATAITEM>
+            </DATASTRUCT>
+        </PERSONNAME>
+        <HEADING SUBTYPE="2">Note</HEADING>
+        <FRONT>
+           <P>This author's life has been researched earlier for inclusion in the <TITLE LEVEL="MONOGRAPHIC"><XREF URL="http://digital.lib.sfu.ca/ceww-collection" RESP="KME">Canada's Early Women Writers</XREF></TITLE> project at Simon Fraser University. Information in this entry therefore may not be comprehensive, but has been verified.</P>
+           <P>Entry revised by Linnea McNally and Katie Gillespie</P>
+        </FRONT>
+        <AUTHORSUMMARY>
+            <HEADING SUBTYPE="2"><NAME STANDARD="LYDIA AGNES EDWARDS">Lydia Agnes Edwards</NAME> (1848-1939)</HEADING>
+           <P>As Lydia Agnes Edwards earned her living as a teacher of French, at the Truro Academy and later privately, it is not surprising that she titled one of her works <TITLE LEVEL="MONOGRAPHIC" REF="http://commons.cwrc.ca/islandora:edcf14c0-46c1-4c5c-a4ff-fc05bb55dd67">Pensées Poétiques</TITLE> (1900). Her writing received two unique honours: her poem, <TITLE LEVEL="ANALYTIC">The First Contingent,</TITLE> was chosen to be given as a keepsake to each soldier returning to Truro, NS, from the South African War, and her compilation, <TITLE LEVEL="MONOGRAPHIC" REF="http://commons.cwrc.ca/islandora:02be3def-d043-4018-92b9-d8564a430c67">How Canadians Mourned for Their Queen</TITLE> (1901) received acknowledgement and thanks from King Edward VII and each member of the royal family.</P><P>Lydia was not the only writer in her family; her brother, Joseph Plimsoll Edwards, wrote historical sketches, poems, and pamphlets; and her niece Muriel Katherine Annesley Edwards (1904-1973) was a poet.</P>
+           <P>A temperance advocate, Lydia served seventeen years as president of the Truro branch of the Women's Christian Temperence Union. She died of pneumonia one month after her ninetieth birthday, and was buried in Londonderry, NS.</P>
+        </AUTHORSUMMARY>
+        <HEADING SUBTYPE="2">Published Texts</HEADING>
+        <HEADING SUBTYPE="3">Poetry</HEADING>
+        <LISTBIBCIT>
+            <BIBCIT REF="http://commons.cwrc.ca/islandora:edcf14c0-46c1-4c5c-a4ff-fc05bb55dd67"><TITLE LEVEL="MONOGRAPHIC">Pensées Poétiques</TITLE> (s.l.: s.n., 1900)</BIBCIT>
+        </LISTBIBCIT>
+        <HEADING SUBTYPE="2">Periodical Contributions</HEADING>
+        <LISTBIBCIT>
+            <BIBCIT REF=""><TITLE LEVEL="JOURNAL">Canadian Magazine</TITLE> (Toronto, ON)</BIBCIT>
+        </LISTBIBCIT>
+        <HEADING SUBTYPE="2">Other Publications</HEADING>
+        <HEADING SUBTYPE="3">Edited: </HEADING>
+        <LISTBIBCIT>
+            <BIBCIT REF="http://commons.cwrc.ca/islandora:02be3def-d043-4018-92b9-d8564a430c67"><TITLE LEVEL="MONOGRAPHIC">How Canadians Mourned For Their Queen: Tributes of Loyalty and Love in Memory of Queen Victoria</TITLE> (Truro, NS: News, 1901)</BIBCIT>
+        </LISTBIBCIT>
+        <HEADING SUBTYPE="2">Family and Relationships</HEADING>
+        <FAMILY>
+            <FAMILYMEMBER RELATION="FATHER">
+                <CHRONSTRUCT><CHRONPROSE>Father: <NAME>John Edwards</NAME></CHRONPROSE> <DATERANGE FROM="1808-04-29" TO="1866-12-22">(29 April 1808 – 22 Decembe 1866)</DATERANGE></CHRONSTRUCT>
+               <P>Born in Edinburgh, Scotland, in 1808, John Edwards was a Baptist clergyman and pastor in Clarence, ON. He married Sarah Plimsoll (1816-1907) in 1839, a few years after she immigrated to Canada. They had several children together, at least four of whom lived to adulthood. John died in Port Hope, ON in 1866, survived by his wife.</P>
+            </FAMILYMEMBER>
+            <FAMILYMEMBER RELATION="MOTHER">
+                <CHRONSTRUCT><CHRONPROSE>Mother: <NAME>Sarah Plimsoll</NAME></CHRONPROSE> <DATERANGE FROM="1816-12-06" TO="1907-05-03">(6 December 1816 – 3 May 1907)</DATERANGE></CHRONSTRUCT>
+               <P>Sarah was born in 1816 in Plymouth, England. She immigrated to Canada 1834, and in 1839 married Reverend John Edwards (1808-1866). Several of their children died in infancy, but at least four lived to adulthood. Sarah died in 1907 in Truro, NS.</P>
+            </FAMILYMEMBER>
+            <HEADING SUBTYPE="4">Siblings</HEADING>
+            <FAMILYMEMBER RELATION="SISTER">
+                <CHRONSTRUCT> <CHRONPROSE><NAME>Sarah Edwards</NAME></CHRONPROSE><DATERANGE FROM="1847" TO="1893">(1847 – 1893): m. George Gurney</DATERANGE></CHRONSTRUCT>
+            </FAMILYMEMBER>
+            <FAMILYMEMBER RELATION="BROTHER">
+                <CHRONSTRUCT> <CHRONPROSE><NAME>John Edwards</NAME></CHRONPROSE><DATERANGE FROM="1851" TO="1939">(1851 – 1939)</DATERANGE></CHRONSTRUCT>
+            </FAMILYMEMBER>
+            <FAMILYMEMBER RELATION="BROTHER">
+                <CHRONSTRUCT> <CHRONPROSE><NAME>Joseph Plimsoll Edwards</NAME></CHRONPROSE><DATERANGE FROM="1857" TO="1930">(1857 – 1930)</DATERANGE></CHRONSTRUCT>
+               <P>Joseph wrote historical sketches, poems, and pamphlets.</P>
+            </FAMILYMEMBER>
+        </FAMILY>
+        <HEADING SUBTYPE="2">Religion</HEADING>
+        <CULTURALFORMATION>
+            <RELIGION>
+                <DENOMINATION>Baptist</DENOMINATION>
+            </RELIGION>
+        </CULTURALFORMATION>
+        <HEADING SUBTYPE="2">Residences</HEADING>
+        <RESIDENCEANDMOBILITY RELATIONTO="LIVED">
+           <P><PLACE>Clarence, ON</PLACE></P>
+           <P><PLACE>Kingston, ON</PLACE> <DATE VALUE="1961">(1861)</DATE></P>
+           <P><PLACE>Montreal, QC</PLACE> <DATE VALUE="1881">(1881)</DATE></P>
+           <P><PLACE>Londonderry, NS</PLACE></P>
+           <P><PLACE>Sherbrooke, QC</PLACE> <DATE VALUE="1891">(1891)</DATE></P>
+           <P><PLACE>Truro, NS</PLACE> <DATERANGE FROM="1901" TO="1939">(1901-1939)</DATERANGE></P>
+        </RESIDENCEANDMOBILITY>
+        <HEADING SUBTYPE="2">Education</HEADING>
+        <HEADING SUBTYPE="2">Awards</HEADING>
+        <HEADING SUBTYPE="2">Employment and Volunteer Activities</HEADING>
+        <OCCUPATION>
+            <HEADING SUBTYPE="3">Employment</HEADING>
+           <P>Schoolteacher</P>
+            <HEADING SUBTYPE="3">Memberships</HEADING>
+           <P>Women's Christian Temperence Union</P>
+        </OCCUPATION>
+        <HEADING SUBTYPE="2">Archival Holdings</HEADING>
+        
+        <LISTBIBCIT>
+            <BIBCIT REF="">Cornell University Library</BIBCIT>
+        </LISTBIBCIT>
+        
+        <HEADING SUBTYPE="2">Published Resources</HEADING>
+        <LISTBIBCIT>
+            <BIBCIT REF="http://commons.cwrc.ca/islandora:558e7f89-c0b5-4677-a789-200ff684134d ">1861 Census of Canada.</BIBCIT>
+            <BIBCIT REF="http://commons.cwrc.ca/islandora:b5c05073-4af2-45fe-869f-451acdb0b499">1871 Census of Canada.</BIBCIT>
+            <BIBCIT REF="http://commons.cwrc.ca/islandora:b87ed8a0-3329-4a4f-9ca4-7c519be7e90f">1881 Census of Canada.</BIBCIT>
+            <BIBCIT REF="http://commons.cwrc.ca/islandora:7d1e2312-7dbe-488f-b33f-b3bef5df833f">1891 Census of Canada.</BIBCIT>
+            <BIBCIT REF="http://commons.cwrc.ca/islandora:fd2747a8-e654-46fd-abe0-e3f5c10dede6">1901 Census of Canada.</BIBCIT>
+            <BIBCIT REF="http://commons.cwrc.ca/islandora:ebb87bfe-8bf8-43c3-9e06-a7e90b215393">1911 Census of Canada.</BIBCIT>
+            <BIBCIT REF="http://commons.cwrc.ca/islandora:8974937c-a2c3-432f-bbe4-a79e1a6a2d44">Canada, City and Area Directories, 1819-1906.</BIBCIT>
+            <BIBCIT REF="http://commons.cwrc.ca/islandora:dcc0cba5-845b-416e-a29f-058d6936be4f">Morgan, Henry J. <TITLE LEVEL="MONOGRAPHIC">Canadian Men and Women of the Time</TITLE> 2nd ed. (Toronto: Briggs, 1912).</BIBCIT>
+            <BIBCIT REF="http://commons.cwrc.ca/islandora:4d3641d7-9fd4-430d-91b5-7a41b332e122">Nova Scotia, Canada, Deaths, 1864-1877, 1890-1960.</BIBCIT>
+            <BIBCIT REF="http://commons.cwrc.ca/islandora:a480b802-6ca1-4c14-a31d-313302db8bcf">Quebec, Vital and Church Records (Drouin Collection), 1621-1967.</BIBCIT>
+            <BIBCIT REF="http://commons.cwrc.ca/islandora:d6b30bf6-570d-4d6c-af87-4281a0cbae51">Watters, R.E. <TITLE LEVEL="MONOGRAPHIC">Checklist of Canadian Literature and Background Materials, 1620-1960</TITLE> (Toronto: U of Toronto P, 1972): 65.</BIBCIT>
+        </LISTBIBCIT>
+    </ENTRY>
+</CWRC>
