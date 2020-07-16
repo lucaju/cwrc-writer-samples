@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://cwrc.ca/schemas/orlando_event.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/orlando.css"?><EVENT xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" EID="6808" FILENAME="mis319-e.sgm" SUBSET="PILOT02">
+   <ORLANDOHEADER>
+      <FILEDESC>
+         <TITLESTMT>
+            <DOCTITLE>Autumn 1834: Charles Babbage envisioned the Analytical...</DOCTITLE>
+         </TITLESTMT>
+         <PUBLICATIONSTMT>
+            <AUTHORITY>Canadian Writing Research Collaboratory</AUTHORITY>
+         </PUBLICATIONSTMT>
+         <SOURCEDESC>Created from original research by members of the Orlando Project</SOURCEDESC>
+      </FILEDESC>
+      <XENODATA><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+</rdf:RDF></XENODATA><REVISIONDESC>
+         <RESPONSIBILITY RESP="JDS" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="1998-08-28">28 August 1998</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="NLG" WORKSTATUS="CAS" WORKVALUE="C">
+            <DATE VALUE="1999-02-16">16 February 1999</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="SIB" WORKSTATUS="PUB" WORKVALUE="I">
+            <DATE VALUE="1999-06-04">04 June 1999</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="KAH" WORKSTATUS="CFB" WORKVALUE="C">
+            <DATE VALUE="1999-09-11">11 September 1999</DATE>
+            <ITEM>added dbrefs</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="SYS" WORKSTATUS="PUB" WORKVALUE="C">
+            <DATE VALUE="1999-10-04">4 October 1999</DATE>
+            <ITEM>Batch Pub Status Update</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="SYS" WORKSTATUS="CFT" WORKVALUE="C">
+            <DATE VALUE="1999-12-22">22 December 1999</DATE>
+            <ITEM>BATCH CHANGE: primarily orgName and bibCit cleanup</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="SIB" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-03-30">30 March 2001</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="SIB" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-04-03">03 April 2001</DATE>
+            <ITEM>added quotation from Stanley</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="CJH" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-04-03">03 April 2001</DATE>
+            <ITEM>Added: Bibcit</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="CJH" WORKSTATUS="CAS" WORKVALUE="C">
+            <DATE VALUE="2001-04-03">03 April 2001</DATE>
+            <ITEM>cas'd shanley quote</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="CJH" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-04-03">03 April 2001</DATE>
+            <ITEM>Added: Bibcit</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="CJH" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-04-03">03 April 2001</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="CJH" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-04-03">03 April 2001</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="CJH" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-04-03">03 April 2001</DATE>
+            <ITEM>added additional page</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="CJH" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-04-03">03 April 2001</DATE>
+            <ITEM>added IBM and Ada language info</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="OSM" WORKSTATUS="CAS" WORKVALUE="C">
+            <DATE VALUE="2001-04-03">03 April 2001</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="CJH" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-04-03">03 April 2001</DATE>
+            <ITEM>added orgname tags</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="SIB" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-04-03">03 April 2001</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="CJH" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-04-09">09 April 2001</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="SLB" WORKSTATUS="CFT" WORKVALUE="C">
+            <DATE VALUE="2001-04-09">09 April 2001</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="SLB" WORKSTATUS="CFT" WORKVALUE="C">
+            <DATE VALUE="2001-04-18">18 April 2001</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="JJD" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-05-10">10 May 2001</DATE>
+            <ITEM>bibcit in shortprose cleaned up</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="SYS" WORKSTATUS="CFT" WORKVALUE="C">
+            <DATE VALUE="2003-04-17">17 April 2003</DATE>
+            <ITEM>BATCH CHANGE: primarily PLACE cleanup</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="SYS" WORKSTATUS="CFT" WORKVALUE="C">
+            <DATE VALUE="2003-06-16">16 June 2003</DATE>
+            <ITEM>BATCH CHANGE: primarily PLACE cleanup</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="SYS" WORKSTATUS="CFT" WORKVALUE="C">
+            <DATE VALUE="2005-04-08">08 April 2005</DATE>
+            <ITEM>BATCH CHANGE: primarily PLACE cleanup</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="SLB" WORKSTATUS="CFT" WORKVALUE="C">
+            <DATE VALUE="2005-04-15">15 April 2005</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY RESP="IMG" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2010-08-08">08 August 2010</DATE>
+         </RESPONSIBILITY>
+      </REVISIONDESC>
+   </ORLANDOHEADER>
+   <CHRONEVENT>
+      <CHRONSTRUCT CHRONCOLUMN="SOCIALCLIMATE" RELEVANCE="SELECTIVE" RESP="SIB">
+         <DATE CALENDAR="NEWSTYLE" CERTAINTY="CERT" VALUE="1834-09">Autumn 1834</DATE>
+         <CHRONPROSE>
+            <NAME STANDARD="Babbage, Charles" REF="https://dev-02.cwrc.ca/islandora/objectorlando:a43ceeae-adbb-4a35-ab47-cd9cd936b743">Charles Babbage</NAME> envisioned the Analytical Engine or calculating machine, an advance on his previous work on the Difference Engine and precursor to the modern computer.</CHRONPROSE>
+      </CHRONSTRUCT>
+      <SHORTPROSE>
+         <P>Using punch cards, the Analytical Engine he designed could carry out any combination of arithmetic operations and algebraic functions. Although he was hampered by lack of funding to build his elaborate invention, as well as the fact that the <QUOTE DIRECT="Y">precision milling and machinery necessary for some of its parts simply did not yet exist,</QUOTE>
+            <BIBCITS>
+               <BIBCIT PLACEHOLDER="Stanley, Mothers and Daughters 633" DBREF="8640" REF="https://dev-02.cwrc.ca/islandora/objectorlando:d33af405-6bff-4675-afef-d61dee8d7184">633</BIBCIT>
+            </BIBCITS> Babbage continued to refine and modify his ideas of the Analytical Engine until his death in 1871. On the strength of her analysis of its potential applications, <NAME STANDARD="Byron, Augusta Ada" REF="https://dev-02.cwrc.ca/islandora/objectorlando:0e88c9e0-d4ec-48f6-90d6-a8abea3247c6">Augusta Ada Byron</NAME> has been hailed as the first computer programmer. Using Babbage's plans and current machining technology, <ORGNAME STANDARD="IBM" REF="https://dev-02.cwrc.ca/islandora/objectorlando:9ed62806-d19e-4614-867a-cbb6081dc967">IBM</ORGNAME> recently constructed the Analytical Engine.</P>
+      </SHORTPROSE>
+      <RESEARCHNOTES>
+         <RESEARCHNOTE>sib: needs to be merged with info on analytical engine from shortprose to info on difference engine ch1829-e; related event also in vicsci-e: links needed</RESEARCHNOTE>
+      </RESEARCHNOTES>
+      <BIBCITS>
+         <BIBCIT DBREF="109282" PLACEHOLDER="Hyman 1, 164-166, 253" REF="https://dev-02.cwrc.ca/islandora/objectorlando:83217820-3bc2-4954-b6bc-22d5201ef48a">1, 164-6, 253</BIBCIT>
+         <BIBCIT DBREF="109281" PLACEHOLDER="Hyman Science and Reform 242" REF="https://dev-02.cwrc.ca/islandora/objectorlando:464d0259-7f28-4a7f-9651-6fe6f5bb519d">242</BIBCIT>
+         <BIBCIT DBREF="802" PLACEHOLDER="Swade 30" REF="https://dev-02.cwrc.ca/islandora/objectorlando:34dec3e1-1fe8-498d-a9fb-83c4bf1c0fd4">30</BIBCIT>
+         <BIBCIT DBREF="8640" PLACEHOLDER="Stanley 633" REF="https://dev-02.cwrc.ca/islandora/objectorlando:d33af405-6bff-4675-afef-d61dee8d7184">633</BIBCIT>
+         <BIBCIT DBREF="8639" PLACEHOLDER="Baum 66ff, 105" REF="https://dev-02.cwrc.ca/islandora/objectorlando:7fa94401-3204-461f-af2f-764101d2b135">66ff, 105</BIBCIT>
+      </BIBCITS>
+      <SOURCES>
+         <SOURCE FILENAME="mis319-e.sgm">Ashton, Rosemary. <TITLE TITLETYPE="MONOGRAPHIC">The Life of Samuel Taylor Coleridge</TITLE>. 1996.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Arnold, Thomas. <TITLE TITLETYPE="MONOGRAPHIC">Principals of Church Reform</TITLE>. 1962.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Barber, Lynn. <TITLE TITLETYPE="MONOGRAPHIC">The Heyday of Natural History 1820-1870</TITLE>. 1980</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Barry, Kathleen. <TITLE TITLETYPE="MONOGRAPHIC">Susan B. Anthony: A Biography of a Singular Feminist</TITLE>. 1988.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Beckford, James A. <TITLE TITLETYPE="MONOGRAPHIC">The Trumpet of Prophecy</TITLE>. 1975.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Bentham, Jeremy. <TITLE TITLETYPE="MONOGRAPHIC">The Collected Works of Jeremy Bentham</TITLE>. 1983.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Bingham, Madeleine. <TITLE TITLETYPE="MONOGRAPHIC">Henry Irving and the Victorian Theatre</TITLE>. 1978.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Blackburn, Helen. <TITLE TITLETYPE="MONOGRAPHIC">Women's Suffrage</TITLE>. 1970.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Braun, Thom. <TITLE TITLETYPE="MONOGRAPHIC">Disraeli the Novelist</TITLE>. 1981.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Bredsdorff, Elias. <TITLE TITLETYPE="MONOGRAPHIC">Hans Christian Andersen</TITLE>. 1993.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Brereton, Austin. <TITLE TITLETYPE="MONOGRAPHIC">Henry Irving</TITLE>. 1905.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Briggs, John and Christopher Harrison, Angus McInnes and David Vincent. <TITLE TITLETYPE="MONOGRAPHIC">Crime and Punishment in England</TITLE>. 1996.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Brooke, John L. <TITLE TITLETYPE="MONOGRAPHIC">The Refiner's Fire</TITLE>. 1994.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Browning, Robert. <TITLE TITLETYPE="MONOGRAPHIC">The Poems</TITLE>. 1981.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Burton, Brian J. ed.<TITLE TITLETYPE="MONOGRAPHIC">The Murder of Maria Marten or The Red Barn</TITLE>. 1964.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Bury, J. B. <TITLE TITLETYPE="MONOGRAPHIC">History of the Papacy in the 19th Century</TITLE>. 1964.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Carpenter, J. Estlin. <TITLE TITLETYPE="MONOGRAPHIC">The Life and Work of Mary Carpenter</TITLE>. 1879.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Carr, William. <TITLE TITLETYPE="MONOGRAPHIC">The Origins of the Wars of German Unification</TITLE>. 1991.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Colebatch, Sir Hal. <TITLE TITLETYPE="MONOGRAPHIC">A Story of A Hundred Years</TITLE>. 1929.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Cook, Chris and John Stevenson. <TITLE TITLETYPE="MONOGRAPHIC">The Longman Handbook of Modern British History: 1714-1995</TITLE>. 1996.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Coote, Jack H. <TITLE TITLETYPE="MONOGRAPHIC">The Illustrated History of Colour Photography</TITLE>. 1993.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Cuny, Hilaire. <TITLE TITLETYPE="MONOGRAPHIC">Louis Pasteur: The Man and His Theories</TITLE>. 1966.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Crowley F.K. <TITLE TITLETYPE="MONOGRAPHIC">Australia's Western Third: A History of Western Australia from the first Settlements to Modern Times</TITLE>. 1960.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Davies, John D. <TITLE TITLETYPE="MONOGRAPHIC">Phrenology Fad and Science</TITLE>. 1971.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Desmond, Adrian. <TITLE TITLETYPE="MONOGRAPHIC">Hukley: The Devil's Disciple</TITLE>. 1994.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">
+            <TITLE>Dictionary of National Biography</TITLE>
+         </SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Drabble, Margaret. <TITLE TITLETYPE="MONOGRAPHIC">The Oxford Companion to English Literature</TITLE>. 1985.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Dubos, René. <TITLE TITLETYPE="MONOGRAPHIC">Pasteur and Modern Science</TITLE>. 1960.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Dunant, Henry. <TITLE TITLETYPE="MONOGRAPHIC">A Memory of Solferino</TITLE>. 1986.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Duput, Ernest R. and Trevor N. Dupuny. <TITLE TITLETYPE="MONOGRAPHIC">The Encyclopedia of Military History From 3500 B.C. to the Present</TITLE>. 1986.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Faber, Doris. <TITLE TITLETYPE="MONOGRAPHIC">Petticoat Politics</TITLE>. 1967.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Fawcett, Millicent Garrett. <TITLE TITLETYPE="MONOGRAPHIC">What I Remember</TITLE>. 1976.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Gardner, Brian. <TITLE TITLETYPE="MONOGRAPHIC">The East India Company: A History</TITLE>. 1971.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Garland, Henry and Mary. <TITLE TITLETYPE="MONOGRAPHIC">The Oxford Companion to German Literature</TITLE>, 1997.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Gilbert, Olive ed. and transcriber. <TITLE TITLETYPE="MONOGRAPHIC">Narrative of Sojourner Truth</TITLE>. 1968.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Gillespie, Michael Patrick. <TITLE TITLETYPE="MONOGRAPHIC">Oscar Wilde and the Politics of Ambiguity</TITLE>. 1996.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Goode, George Brown. <TITLE TITLETYPE="MONOGRAPHIC">The Smithsonian Institution</TITLE> 1846-1896.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Grierson, Sir Walter. <TITLE TITLETYPE="MONOGRAPHIC">Sir Walter Scott, Bart.</TITLE>. 1969.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Grimshaw, Patricia. <TITLE TITLETYPE="MONOGRAPHIC">Women's Suffrage in New Zealand</TITLE>. 1972.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Hafertepe, Kenneth. <TITLE TITLETYPE="MONOGRAPHIC">America's Castle</TITLE>. 1984.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Haldane, E.S. <TITLE TITLETYPE="ANALYTIC">Translator's Note</TITLE>. <TITLE TITLETYPE="MONOGRAPHIC">Hegel's Lectures on the History of Philosophy</TITLE>. 1963.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Hansen, Klaus J. <TITLE TITLETYPE="MONOGRAPHIC">Mormonism and the American Experience</TITLE>. 1981.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Hardman, Malcolm. <TITLE TITLETYPE="MONOGRAPHIC">Six Victorian Thinkers</TITLE>. 1991.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Hesketh, Pearson. <TITLE TITLETYPE="MONOGRAPHIC">The Life of Oscar Wilde</TITLE>. 1978.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Holcombe, Lee. <TITLE TITLETYPE="MONOGRAPHIC">Victorian Ladies at Work</TITLE>. 1973</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Hollingdate, R.J. <TITLE TITLETYPE="MONOGRAPHIC">Nietzsche: The Man and His Philosophy</TITLE>. 1965.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Hoskins, Mrs. Robert. <TITLE TITLETYPE="MONOGRAPHIC">Clara A Swain, M.D.</TITLE> 1912.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Howe, Sir Ronald. <TITLE TITLETYPE="MONOGRAPHIC">The Story of Scotland Yard</TITLE>. 1965.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Hutchinson, John F. <TITLE TITLETYPE="MONOGRAPHIC">Champions of Charity</TITLE>. 1996.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Hyman, Anthony. <TITLE TITLETYPE="MONOGRAPHIC">Charles Babbage</TITLE>. 1983.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Hyman, Anthony ed. <TITLE TITLETYPE="MONOGRAPHIC">Science and Reform</TITLE>. 1989.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Iles, George. <TITLE TITLETYPE="MONOGRAPHIC">Flame, Electricity and the Camera</TITLE>. 1903.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">James, Joseph B. <TITLE TITLETYPE="MONOGRAPHIC">The Framing of the Fourteenth Amendment</TITLE> .1965.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Jerrold, Walter. <TITLE TITLETYPE="MONOGRAPHIC">Thomas Hood: His Life and Times</TITLE>. 1969.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">John, Angela V. ed. <TITLE TITLETYPE="MONOGRAPHIC">Unequal Opportunities</TITLE>. 1986.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Keble, John. <TITLE TITLETYPE="MONOGRAPHIC">The Christian Year</TITLE>. 1975.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Kent, Susan Kingsley. <TITLE TITLETYPE="MONOGRAPHIC">Sex and Suffrage in Britain, 1860-1914</TITLE>. 1987.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Knox, T.M. <TITLE TITLETYPE="ANALYTIC">Translator's Foreword</TITLE>. <TITLE TITLETYPE="MONOGRAPHIC">Introduction to the Lectures on the History of Philosophy</TITLE>. 1985.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Kirchhoff, Frederick. <TITLE TITLETYPE="MONOGRAPHIC">John Ruskin</TITLE>. 1984.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Lambourne, Lionel. <TITLE TITLETYPE="MONOGRAPHIC">The Aesthetic Movement</TITLE>. 1996.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">L'Ami, C.E. and Alexander Welikotny. <TITLE TITLETYPE="MONOGRAPHIC">Michael Lermontove: Biography and Translation</TITLE>. 1967.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Lavrin, Janko. <TITLE TITLETYPE="MONOGRAPHIC">Lermontov</TITLE>. 1959.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Lecky, William. trans. C. Wright Mills. <TITLE TITLETYPE="MONOGRAPHIC">The History of the Rise and Influence of the Spirit of Radicalism in Europe</TITLE>. 1955.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Lermontov, Mihail. <TITLE TITLETYPE="MONOGRAPHIC">A Hero of Our Time</TITLE>. 1958.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Levi, Peter. <TITLE TITLETYPE="MONOGRAPHIC">Tennyson</TITLE>. 1992.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">MacDonald, Susan Peck. <TITLE TITLETYPE="MONOGRAPHIC">Anthony Trollope</TITLE>. 1987.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Maitland, Sara. <TITLE TITLETYPE="MONOGRAPHIC">Vesta Tilley</TITLE>. 1986.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Manton, Jo. <TITLE TITLETYPE="MONOGRAPHIC">Mary Carpenter and the Children of the Streets</TITLE>. 1976.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Manvell, Roger. <TITLE TITLETYPE="MONOGRAPHIC">Sarah Siddons</TITLE>. 1970.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Marlow, Joyce. <TITLE TITLETYPE="MONOGRAPHIC">Captain Boycott and the Irish</TITLE>. 1973.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Millman, Richard. <TITLE TITLETYPE="MONOGRAPHIC">British Foreign Policy and the Coming of the Franco-Prussian War</TITLE>. 1965.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Mitchell, Sally. <TITLE TITLETYPE="MONOGRAPHIC">Victorian Britain; An Encyclopedia</TITLE>. 1988.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Morgan, Roger. <TITLE TITLETYPE="MONOGRAPHIC">The German Social Democrats and the First International</TITLE>. 1965.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Oehser, Paul H. <TITLE TITLETYPE="MONOGRAPHIC">Sons of Science</TITLE>. 1968.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Page, Norman. <TITLE TITLETYPE="MONOGRAPHIC">Charles Dickens: Hard Times, Great Expectations and Our Mutual Friend</TITLE>. 1985.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Painter, Nell Irvin. <TITLE TITLETYPE="MONOGRAPHIC">Sojourner Truth</TITLE>. 1996.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Palmer, Alan and Veronica Palmer. <TITLE TITLETYPE="MONOGRAPHIC">Chronology of British History</TITLE>. 1992.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Pellew, Jill. <TITLE TITLETYPE="MONOGRAPHIC">The Home Office 1848-1914</TITLE>. 1982.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Penton, M. James. <TITLE TITLETYPE="MONOGRAPHIC">Apocalypse Delayed</TITLE>. 1985.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Raitt, A. W. ed. and introduction. <TITLE TITLETYPE="MONOGRAPHIC">Balzac Short Stories</TITLE>. 1964.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Raymond, Dora Neill. <TITLE TITLETYPE="MONOGRAPHIC">British Policy and Opinion During the Franco-Prussian War</TITLE>. 1967.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Ridler, Anne. ed. <TITLE TITLETYPE="MONOGRAPHIC">Poems and Some Letters of James Thompson</TITLE>. 1963.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Rothkopf, Carol Z. <TITLE TITLETYPE="MONOGRAPHIC">Jean Henri Dunant</TITLE>. 1969.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Sheer, Lynn. ed. <TITLE TITLETYPE="MONOGRAPHIC">Failure is Impossible: Susan B. Anthony in Her Own Words</TITLE>. 1995.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Slater, Montagu. ed. <TITLE TITLETYPE="MONOGRAPHIC">Maria Marten or the Murder in the Red Barn</TITLE>. 1971.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Smith, J.R. <TITLE TITLETYPE="MONOGRAPHIC">The Speckled Monster: Smallpox in England, 1670-1970</TITLE>. 1987.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Spencer, Robin. <TITLE TITLETYPE="MONOGRAPHIC">The Aesthetic Movement</TITLE>. 1972.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Stannage, C. T. ed. <TITLE TITLETYPE="MONOGRAPHIC">A New History of Western Australia</TITLE>. 1981.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Stern, Madeleine B. ed. <TITLE TITLETYPE="MONOGRAPHIC">A Phrenological Dictionary of Nineteenth-Century Americans</TITLE>. 1982.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Stillinger, Jack ed. <TITLE TITLETYPE="MONOGRAPHIC">Selected Poems and Prefaces by William Wordsworth</TITLE>. 1965.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Sutherland, John <TITLE TITLETYPE="MONOGRAPHIC">The Stanford Companion to Victorian Fiction</TITLE>. 1989.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Swade, Doron. <TITLE TITLETYPE="MONOGRAPHIC">Charles Babbage and his Calculating Engines</TITLE>. 1991.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">The University of Toronto Library</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Thomas, Dwight and David K. Jackson. <TITLE TITLETYPE="MONOGRAPHIC">The Poe Log</TITLE>. 1987.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Thompson, William and Anna Wheeler. <TITLE TITLETYPE="MONOGRAPHIC">Appeal of One Half the Human Race, Women</TITLE>. 1994.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Thulborn, Tony. <TITLE TITLETYPE="MONOGRAPHIC">Dinosaur Tracks</TITLE>. 1990.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Tillotson, Geoffrey. <TITLE TITLETYPE="MONOGRAPHIC">A View of Victorian Literature</TITLE>. 1978.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Verlaine, Paul. trans. by C.F. MacIntyre. <TITLE TITLETYPE="MONOGRAPHIC">Paul Verlaine: Selected Poems</TITLE>. 1948.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Vincent, Benjamin ed. <TITLE TITLETYPE="MONOGRAPHIC">Haydn's Dictionary of Dates</TITLE>. 1895.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Wagner, Gillian. <TITLE TITLETYPE="MONOGRAPHIC">Children of the Empire</TITLE>. 1982.</SOURCE>
+         <SOURCE FILENAME="mis319-e.sgm">Wise, Thomas. <TITLE TITLETYPE="MONOGRAPHIC">A Bibliography of the Writing in Prose and Verse of Algernon Charles Swinburne</TITLE>. 1966.</SOURCE>
+      </SOURCES>
+      <KEYWORDCLASSES>
+         <KEYWORDCLASS>Computers</KEYWORDCLASS>
+      </KEYWORDCLASSES>
+   </CHRONEVENT>
+</EVENT>
