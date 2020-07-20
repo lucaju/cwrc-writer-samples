@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://cwrc.ca/schemas/orlando_event_v2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/orlando.css"?><EVENT xmlns="" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://cwrc.ca/schemas/orlando_event.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/orlando.css"?><EVENT xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <ORLANDOHEADER>
         <FILEDESC>
             <TITLESTMT>
@@ -9,7 +9,8 @@
             </PUBLICATIONSTMT>
             <SOURCEDESC>Created from original research by members of [insert project name here]</SOURCEDESC>
         </FILEDESC>
-        <REVISIONDESC>
+        <XENODATA><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+</rdf:RDF></XENODATA><REVISIONDESC>
             <RESPONSIBILITY RESP="SYS" WORKSTATUS="SUB" WORKVALUE="I">
                 <DATE VALUE="2015-03-18">18 March 2015</DATE>
                 <ITEM>Event document template complete</ITEM>
