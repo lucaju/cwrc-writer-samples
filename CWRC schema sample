@@ -35,8 +35,7 @@
     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
 </rdf:RDF></CWRCHEADER>
     <ENTRY>
-        <HEADING SUBTYPE="1"><NAME STANDARD="LYDIA AGNES EDWARDS" REF="http://commons.cwrc.ca/cwrc:2d7185b5-db2d-4037-9427-09c4db8a0afa">Lydia Agnes Edwards</NAME> (1848-1939)</HEADING>
-        <RESEARCHNOTE> </RESEARCHNOTE>
+        <HEADING SUBTYPE="1"><NAME STANDARD="LYDIA AGNES EDWARDS" REF="http://commons.cwrc.ca/cwrc:2d7185b5-db2d-4037-9427-09c4db8a0afa">Lydia Agnes Edwards</NAME> (1848-1939) 888</HEADING><RESEARCHNOTE> </RESEARCHNOTE>
         <AUTHORSUMMARY>
            <P>In addition to publishing a volume of poetry, Lydia Agnes Edwards also wrote patriotic verse about the South African war.</P>
         </AUTHORSUMMARY>
