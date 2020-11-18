@@ -1228,7 +1228,7 @@
                </PRODUCTION>
                <TEXTUALFEATURES>
                   <SHORTPROSE>
-                     <P>
+                     <TPLOT/><P>
                         <TSETTINGPLACE SETTINGPLACETYPE="IDENTIFIABLE" SETTINGCLASS="WIDERANGE">
                            <TCHARACTERNAME>Rachel Cameron</TCHARACTERNAME>, aged <TCHARACTERTYPEROLE PROTAGONIST="FEMALE">thirty-four and unmarried, is the grade one teacher</TCHARACTERTYPEROLE> at the Manawaka school, living with her mother above the funeral home and chapel which once belonged to her now-dead father, the <TCHARACTERTYPEROLE>town undertaker</TCHARACTERTYPEROLE>. Rachel is trapped in what <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> perceives as extended childhood.</TSETTINGPLACE> She is afraid of making an exhibition of herself, afraid of showing her feelings: how much she loves the bright little James, one of the children in her class; how she despises her <TCHARACTERTYPEROLE>generous-hearted colleague</TCHARACTERTYPEROLE> Calla, who attends a <TTHEMETOPIC>
                            <SOCALLED>weird</SOCALLED> religious Tabernacle</TTHEMETOPIC> and wears the same clothes day after day. Rachel secretly mourns her <TTHEMETOPIC>childlessness</TTHEMETOPIC>, resents her demanding mother, and both admires and resents her <SOCALLED>decisive</SOCALLED> elder sister <TCHARACTERNAME REG="MacAindra, Stacey Cameron">Stacey</TCHARACTERNAME>, who has left Manawaka never to return. It is easy to see how close Rachel is coming to the <TTHEMETOPIC>hide-bound conventionality</TTHEMETOPIC> that she dislikes in her mother.</P>
