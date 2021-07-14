@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://cwrc.ca/schemas/orlando_entry.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/orlando.css"?><ENTRY xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ID="laurma" SEX="FEMALE" PERSON="IBRWRITER">
+   <ORLANDOHEADER>
+      <FILEDESC>
+         <TITLESTMT>
+            <DOCTITLE>Margaret Laurence</DOCTITLE>
+         </TITLESTMT>
+         <PUBLICATIONSTMT>
+            <AUTHORITY>Orlando Project</AUTHORITY>
+         </PUBLICATIONSTMT>
+         <SOURCEDESC>Created from original research by members of the Orlando
+                        Project</SOURCEDESC>
+      </FILEDESC>
+      <XENODATA><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+</rdf:RDF></XENODATA><REVISIONDESC TYPE="LEGACY">
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="JEB" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="1998-01-09">9 January 1998</DATE>
+            <ITEM>Initial document given to tagger.</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="JEB" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="1998-01-09">9 January 1998</DATE>
+            <ITEM>Initial document given to tagger.</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="JEB" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="1998-01-14">14 January 1998</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="JEB" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="1998-01-14">14 January 1998</DATE>
+            <ITEM>Template for v2 Biography </ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="JEB" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="1998-01-19">19 January 1998</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="JEB" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="1998-01-19">19 January 1998</DATE>
+            <ITEM>Template for v1 Writing </ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="JEB" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="1998-01-24">24 January 1998</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="JEB" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="1998-02-09">9 February 1998</DATE>
+            <ITEM>Template for v1 Writing </ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="JSC" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="1998-03-11">11 March 1998</DATE>
+            <ITEM>JSC: fixed standard name</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="JEB" WORKSTATUS="REV" WORKVALUE="P">
+            <DATE VALUE="1998-04-05">5 April 1998</DATE>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="JEB" WORKSTATUS="REV" WORKVALUE="P">
+            <DATE VALUE="1998-04-14">14 April 1998</DATE>
+            <ITEM>JSC: fixed standard name</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="KAH" WORKSTATUS="CFC" WORKVALUE="P">
+            <DATE VALUE="1998-04-28">28 April 1998</DATE>
+            <ITEM>kah: checked content</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="KAH" WORKSTATUS="CFC" WORKVALUE="I">
+            <DATE VALUE="1998-04-28">28 April 1998</DATE>
+            <ITEM>kah: checked content</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="JSC" WORKSTATUS="REV" WORKVALUE="P">
+            <DATE VALUE="1998-05-23">23 May 1998</DATE>
+            <ITEM>jsc: mtr rev</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="PDC" WORKSTATUS="RWT" WORKVALUE="C">
+            <DATE VALUE="1998-10-06">6 October 1998</DATE>
+            <ITEM>Updated for Sept 1998 Audit</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="PDC" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="1998-10-06">6 October 1998</DATE>
+            <ITEM>Updated for Sept 1998 Audit</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="SRF" WORKSTATUS="CFT" WORKVALUE="I">
+            <DATE VALUE="1999-08-27">27 August 1999</DATE>
+            <ITEM>removed proximity</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="SYS" WORKSTATUS="CFT" WORKVALUE="C">
+            <DATE VALUE="1999-12-21">21 December 1999</DATE>
+            <ITEM>BATCH CHANGE: primarily orgName and bibCit cleanup</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="SYS" WORKSTATUS="CFT" WORKVALUE="C">
+            <DATE VALUE="1999-12-21">21 December 1999</DATE>
+            <ITEM>BATCH CHANGE: primarily orgName and bibCit cleanup</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="SLB" WORKSTATUS="CFT" WORKVALUE="I">
+            <DATE VALUE="2000-11-22">22 November 2000</DATE>
+            <ITEM>fixed standard name</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="DRG" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-02-01">1 February 2001</DATE>
+            <ITEM>converted textual apostrophes and quotation marks to entity references</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="DRG" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2001-02-01">1 February 2001</DATE>
+            <ITEM>converted textual apostrophes and quotation marks to entity references</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="SLB" WORKSTATUS="CFT" WORKVALUE="I">
+            <DATE VALUE="2001-08-17">17 August 2001</DATE>
+            <ITEM>removed title tag(s) from workscited</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="SLB" WORKSTATUS="CFT" WORKVALUE="I">
+            <DATE VALUE="2002-11-21">21 November 2002</DATE>
+            <ITEM>removed title tag(s) from workscited</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="SYS" WORKSTATUS="CFT" WORKVALUE="I">
+            <DATE VALUE="2003-04-14">14 April 2003</DATE>
+            <ITEM>BATCH CHANGE: primarily PLACE cleanup</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="SYS" WORKSTATUS="CFT" WORKVALUE="I">
+            <DATE VALUE="2003-04-14">14 April 2003</DATE>
+            <ITEM>BATCH CHANGE: primarily PLACE cleanup</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="SYS" WORKSTATUS="CFT" WORKVALUE="I">
+            <DATE VALUE="2003-06-16">16 June 2003</DATE>
+            <ITEM>BATCH CHANGE: primarily TGENRENAME cleanup, BIBCIT following P moved before P, BIBCITS TAG added</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="SYS" WORKSTATUS="CFT" WORKVALUE="I">
+            <DATE VALUE="2003-06-16">16 June 2003</DATE>
+            <ITEM>BATCH CHANGE: primarily TGENRENAME cleanup, BIBCIT following P moved before P, BIBCITS TAG added</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="SYS" WORKSTATUS="CFT" WORKVALUE="I">
+            <DATE VALUE="2005-04-08">08 April 2005</DATE>
+            <ITEM>BATCH CHANGE: March 2005 Specifications. Mainly tag/attribute name changes</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="SYS" WORKSTATUS="CFT" WORKVALUE="I">
+            <DATE VALUE="2005-04-08">08 April 2005</DATE>
+            <ITEM>BATCH CHANGE: March 2005 Specifications. Mainly tag/attribute name changes</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="IMG" WORKSTATUS="RWT" WORKVALUE="P">
+            <DATE VALUE="2010-02-02">2 February 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="IMG" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="2010-02-04">4 February 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="IMG" WORKSTATUS="RWT" WORKVALUE="P">
+            <DATE VALUE="2010-02-10">10 February 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="IMG" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="2010-02-10">10 February 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="IMG" WORKSTATUS="RWT" WORKVALUE="I">
+            <DATE VALUE="2010-04-08">8 April 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="IMG" WORKSTATUS="RWT" WORKVALUE="P">
+            <DATE VALUE="2010-04-12">12 April 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="IMG" WORKSTATUS="RWT" WORKVALUE="C">
+            <DATE VALUE="2010-04-12">12 April 2010</DATE>
+            <ITEM>rwt c, ready for cas and for pilot99</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="IMG" WORKSTATUS="RWT" WORKVALUE="P">
+            <DATE VALUE="2010-04-12">12 April 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="IMG" WORKSTATUS="RWT" WORKVALUE="C">
+            <DATE VALUE="2010-04-12">12 April 2010</DATE>
+            <ITEM>rwt c, ready for cas and pilot99</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="LJH" WORKSTATUS="CAS" WORKVALUE="I">
+            <DATE VALUE="2010-05-13">13 May 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="LJH" WORKSTATUS="CAS" WORKVALUE="I">
+            <DATE VALUE="2010-05-13">13 May 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="LJH" WORKSTATUS="CAS" WORKVALUE="I">
+            <DATE VALUE="2010-05-17">17 May 2010</DATE>
+            <ITEM>Isobel - could you please check a couple of my comments? This document will be finished shortly.</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="IMG" WORKSTATUS="RBV" WORKVALUE="P">
+            <DATE VALUE="2010-05-17">17 May 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="LJH" WORKSTATUS="CAS" WORKVALUE="P">
+            <DATE VALUE="2010-05-18">18 May 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="LJH" WORKSTATUS="CAS" WORKVALUE="C">
+            <DATE VALUE="2010-05-20">20 May 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="LJH" WORKSTATUS="CAS" WORKVALUE="I">
+            <DATE VALUE="2010-05-24">24 May 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="LJH" WORKSTATUS="CAS" WORKVALUE="P">
+            <DATE VALUE="2010-05-25">25 May 2010</DATE>
+            <ITEM>Isobel - please respond to one research note that I left. It is right at the top of the document. Other than updating 2 entries in the bibl database, this document is ready to go. </ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="IMG" WORKSTATUS="RBV" WORKVALUE="C">
+            <DATE VALUE="2010-05-27">27 May 2010</DATE>
+            <ITEM> cft c, rbv c</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="LJH" WORKSTATUS="CAS" WORKVALUE="C">
+            <DATE VALUE="2010-05-31">31 May 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="LJH" WORKSTATUS="CAS" WORKVALUE="C">
+            <DATE VALUE="2010-05-31">31 May 2010</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="IMG" WORKSTATUS="RBV" WORKVALUE="C">
+            <DATE VALUE="2010-06-03">3 June 2010</DATE>
+            <ITEM>cft c, rbv c</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="MPO" WORKSTATUS="CFB" WORKVALUE="C">
+            <DATE VALUE="2010-06-11">11 June 2010</DATE>
+            <ITEM>cfb c, cft c (mpo), pilot40</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="MPO" WORKSTATUS="CFB" WORKVALUE="C">
+            <DATE VALUE="2010-06-11">11 June 2010</DATE>
+            <ITEM>cfb c, cft c (mpo), pilot40</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="IMG" WORKSTATUS="PUB" WORKVALUE="I">
+            <DATE VALUE="2010-06-15">15 June 2010</DATE>
+            <ITEM>pub i</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="IMG" WORKSTATUS="PUB" WORKVALUE="I">
+            <DATE VALUE="2010-06-15">15 June 2010</DATE>
+            <ITEM>pub i</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="MPO" WORKSTATUS="PUB" WORKVALUE="C">
+            <DATE VALUE="2010-06-25">25 June 2010</DATE>
+            <ITEM>pilot 40, pub c</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" RESP="MPO" WORKSTATUS="PUB" WORKVALUE="C">
+            <DATE VALUE="2010-06-25">25 June 2010</DATE>
+            <ITEM>pilot 40, pub c</ITEM>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" WORKSTATUS="ENH" RESP="IMG" WORKVALUE="C">
+            <DATE VALUE="2011-02-15">15 February 2011</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="MDG" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2012-06-18">18 June 2012</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" RESP="MKD" WORKSTATUS="REV" WORKVALUE="C">
+            <DATE VALUE="2012-11-26">26 November 2012</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" WORKSTATUS="REV" RESP="MKD" WORKVALUE="C">
+            <DATE VALUE="2013-06-25">25 June 2013</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="BIOGRAPHY" WORKSTATUS="REV" RESP="AAR" WORKVALUE="C">
+            <DATE VALUE="2013-11-08">8 November 2013</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+         <RESPONSIBILITY TARGET="WRITING" WORKSTATUS="REV" RESP="K_M" WORKVALUE="C">
+            <DATE VALUE="2014-09-29">29 September 2014</DATE>
+            <ITEM/>
+         </RESPONSIBILITY>
+      </REVISIONDESC>
+   </ORLANDOHEADER>
+   <DIV0>
+      <STANDARD REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">Laurence, Margaret</STANDARD>
+      <AUTHORSUMMARY>
+         <P>
+            <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> was a mid-twentieth-century Canadian who began to publish while resident in <PLACE>
+               <AREA>Africa</AREA>
+            </PLACE>, <GENERICRANGE>putting her gift at the service of preserving oral <TGENRE GENRENAME="LEGENDFOLKTALE">folk literature</TGENRE> through <TGENRE GENRENAME="TRANSLATION">translation</TGENRE> and <TGENRE GENRENAME="ADAPTATION">adaptation</TGENRE>. Already a <TGENRE GENRENAME="JOURNALISM">journalist</TGENRE>, she next turned her hand to <TGENRE GENRENAME="ESSAY">essays</TGENRE>, <TGENRE GENRENAME="SHORTSTORY">short stories</TGENRE>, and <TGENRE GENRENAME="TRAVELWRITING">travel writing</TGENRE>. She is best known for her series of Manawaka <TGENRE GENRENAME="NOVEL">novels</TGENRE>: <TGENRE GENRENAME="FEMINIST">explorations of the lives of women</TGENRE> from a closely imagined prairie community, whose experience takes in the whole span of her century.</GENERICRANGE>
+         </P>
+      </AUTHORSUMMARY>
+      <BIOGRAPHY>
+         <HEADING>Biography</HEADING>
+         <DIV1>
+            <PERSONNAME>
+               <DIV2>
+                  <DATASTRUCT>
+                     <DATAITEM>
+                        <BIRTHNAME REG="Wemyss, Margaret">
+                           <GIVEN>Jean</GIVEN>
+                           <GIVEN>Margaret</GIVEN>
+                           <SURNAME REG="Laurence, Margaret">Wemyss</SURNAME>
+                        </BIRTHNAME>
+                     </DATAITEM>
+                     <DATAITEM>
+                        <NICKNAME NAMETYPE="FAMILIAR" WROTEORPUBLISHEDAS="WROTEPUBLISHEDASYES" REG="Wemyss, Peggy">Peggy</NICKNAME>
+                     </DATAITEM>
+                     <DATAITEM>
+                        <MARRIED WROTEORPUBLISHEDAS="WROTEPUBLISHEDASYES" REG="Laurence, Margaret">
+                           <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">Laurence</NAME>
+                        </MARRIED>
+                     </DATAITEM>
+                  </DATASTRUCT>
+               </DIV2>
+            </PERSONNAME>
+         </DIV1>
+         <DIV1>
+            <HEADING>Birth and Background</HEADING>
+            <BIRTH>
+               <DIV2>
+                  <CHRONSTRUCT RELEVANCE="SELECTIVE" CHRONCOLUMN="WRITINGCLIMATE" RESP="JEB">
+                     <DATE VALUE="1926-07-18">18 July 1926</DATE>
+                     <CHRONPROSE>
+                        <BIRTHPOSITION POSITION="ONLY">Jean Margaret Wemyss (later <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>) was born in <PLACE>
+                              <SETTLEMENT>Neepawa</SETTLEMENT>, <REGION>Manitoba</REGION>
+                              <GEOG REG="Canada"/>
+                           </PLACE> (the town which later modelled for her fictional Manawaka), her parents' only child.</BIRTHPOSITION>
+                     </CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="Contemporary Authors Online" DBREF="16185" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c9f48920-d0fd-4ca2-96eb-78924488e576"/>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+                  <SHORTPROSE>
+                     <P>
+                        <BIRTHPOSITION POSITION="ELDEST">She later acquired a younger half-brother<BIBCITS><BIBCIT PLACEHOLDER="test">Test Bib</BIBCIT></BIBCITS>.</BIRTHPOSITION>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </BIRTH>
+         </DIV1>
+         <DIV1>
+            <CULTURALFORMATION>
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>
+                        <GEOGHERITAGE SELF-DEFINED="SELFYES" REG="Western Canada">Born on the <NATIONALITY SELF-DEFINED="SELFYES" REG="Canadian">Canadian</NATIONALITY>
+                           <PLACE>
+                              <REGION REG="Prairies">prairies</REGION>
+                              <GEOG REG="Canada"/>
+                           </PLACE>
+                        </GEOGHERITAGE> to a family of <NATIONALHERITAGE SELF-DEFINED="SELFYES" REG="Scottish">Scottish</NATIONALHERITAGE> heritage, with <CLASS SOCIALRANK="PROFESSIONAL" SELF-DEFINED="SELFYES">professional</CLASS> skills and culture but very little money, <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> grew up with a sense of the heroism of pioneer history and with deep-seated rebelliousness against small-town narrowness of vision. As an adult she was an <POLITICALAFFILIATION INVOLVEMENT="INVOLVEMENTYES" REG="internationalist">internationalist</POLITICALAFFILIATION>, a <POLITICALAFFILIATION WOMAN-GENDERISSUE="GENDERYES" MEMBERSHIP="MEMBERSHIPYES" REG="feminist">feminist</POLITICALAFFILIATION>, and an <DENOMINATION SELF-DEFINED="SELFYES" REG="Christianity">unorthodox Christian</DENOMINATION> whose imagination also responded to elements in <DENOMINATION>African religions</DENOMINATION>.</P>
+                  </SHORTPROSE>
+               </DIV2>
+            </CULTURALFORMATION>
+         </DIV1>
+         <DIV1>
+            <HEADING>Three Parents</HEADING>
+            <FAMILY>
+               <MEMBER RELATION="MOTHER">
+                  <DIV2>
+                     <SHORTPROSE>
+                        <P>
+                           <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s mother, <NAME STANDARD="Wemyss, Verna Simpson" REF="https://dev-02.cwrc.ca/islandora/objectorlando:b141b699-a76e-482f-a3c8-a0fd15892d91">Verna (Simpson)</NAME>, kept a <TITLE TITLETYPE="UNPUBLISHED">Mother's Record of Baby</TITLE> until her daughter's fourth birthday. That was just two days before Verna died, aged thirty-four, of an acute kidney infection. She was a gifted <SIGNIFICANTACTIVITY>musician</SIGNIFICANTACTIVITY> and <SIGNIFICANTACTIVITY>pianist</SIGNIFICANTACTIVITY>.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 37, 311" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">37, 311</BIBCIT>
+                           </BIBCITS>
+                        </P>
+                     </SHORTPROSE>
+                  </DIV2>
+               </MEMBER>
+               <MEMBER RELATION="FATHER">
+                  <DIV2>
+                     <SHORTPROSE>
+                        <P>
+                           <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s father, the town's <JOB REG="lawyer">solicitor</JOB>, <NAME STANDARD="Wemyss, Robert Harrison" REF="https://dev-02.cwrc.ca/islandora/objectorlando:e7e02094-be66-4218-9e55-e209e703b093">Robert Harrison Wemyss</NAME>, was a highly skilled amateur <SIGNIFICANTACTIVITY>carpenter</SIGNIFICANTACTIVITY> who built his daughter a shed-sized dolls' house complete with furniture and dishes, as well as a desk for writing. After the death of his first wife, Verna, he married her sister Margaret.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 38-9" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">38-9</BIBCIT>
+                           </BIBCITS>
+                        </P>
+                     </SHORTPROSE>
+                  </DIV2>
+               </MEMBER>
+               <MEMBER RELATION="AUNT">
+                  <DIV2>
+                     <SHORTPROSE>
+                        <P>Peggy's Aunt Marg thus became her stepmother, <NAME STANDARD="Wemyss, Margaret Simpson" REF="https://dev-02.cwrc.ca/islandora/objectorlando:7b29c41e-2f44-4d26-a82d-766758dfb545">Margaret (Simpson) Wemyss</NAME>. She brought Peggy up from the time of Verna's death, as well as raising from his birth her own son, Bob.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 39-40" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">39-40</BIBCIT>
+                           </BIBCITS>
+                        </P>
+                     </SHORTPROSE>
+                  </DIV2>
+               </MEMBER>
+               <MEMBER RELATION="STEPMOTHER">
+                  <DIV2>
+                     <SHORTPROSE>
+                        <P>All her life Peggy called her aunt-stepmother <SOCALLED>Mum</SOCALLED>. <NAME STANDARD="Wemyss, Margaret Simpson" REF="https://dev-02.cwrc.ca/islandora/objectorlando:7b29c41e-2f44-4d26-a82d-766758dfb545">Margaret Wemyss</NAME> worked as the town <JOB>librarian</JOB>, was <QUOTE DIRECT="Y">an early evangelist for Canadian writing,</QUOTE>
+                           <BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 41" DBREF="61265" QTDIN="QTDINYES" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">41</BIBCIT>
+                           </BIBCITS> and provided serious and constructive criticism of Peggy's early efforts.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 40-1" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">40-1</BIBCIT>
+                           </BIBCITS>
+                        </P>
+                     </SHORTPROSE>
+                  </DIV2>
+               </MEMBER>
+            </FAMILY>
+         </DIV1>
+         <DIV1>
+            <HEADING>Education</HEADING>
+            <EDUCATION MODE="INSTITUTIONAL">
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>Peggy Wemyss (later <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>) attended <SCHOOL INSTITUTION="STATE" STUDENTBODY="CO-ED" INSTITUTIONLEVEL="SECONDARY" REG="Viscount Collegiate School">Viscount Collegiate</SCHOOL> in <PLACE>
+                           <SETTLEMENT>Neepawa</SETTLEMENT>
+                           <REGION REG="Manitoba"/>
+                           <GEOG REG="Canada"/>
+                        </PLACE>, where her favourite subject was <SUBJECT>English literature</SUBJECT>, taught by <INSTRUCTOR>
+                           <NAME STANDARD="Musgrave, Mildred" REF="https://dev-02.cwrc.ca/islandora/objectorlando:bebf0ecb-3585-4f50-90d1-befde5f9972f">Mildred Musgrave</NAME>
+                        </INSTRUCTOR>, and her favourite activity (in competition with <SUBJECT>sports</SUBJECT>, playing the <SUBJECT REG="music">violin</SUBJECT>, and chairing the <SUBJECT>debating</SUBJECT> club) was editing the school newspaper. She left with a <AWARD AWARDTYPE="PRIZE" REG="Governor General's Award">Governor General's Gold Medal</AWARD> for her scholastic record, and kept for the rest of her life a poetry anthology from Miss Musgrave's class.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 34, 43-4, 46" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">34, 43-4, 46</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </EDUCATION>
+         </DIV1>
+         <DIV1>
+            <VIOLENCE>
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>Her adolescence was powerfully marked by the <TOPIC>second world war</TOPIC>. She lived through the deaths of many boys whom she knew, and tried to enlist in the <ORGNAME STANDARD="Royal Canadian Naval Service" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c6354441-d8a5-4719-a839-f5362c5df8ca">Women's Royal Canadian Naval Service</ORGNAME> (which, however, stopped recruiting just too early for her).<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 45-6, 306" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">45-6, 306</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </VIOLENCE>
+         </DIV1>
+         <DIV1>
+            <INTIMATERELATIONSHIPS EROTIC="EROTICYES">
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>She also entertained a youthful passion for a British airman, <NAME STANDARD="Armstrong, Derek" REF="https://dev-02.cwrc.ca/islandora/objectorlando:1680a75d-9b3c-4960-955b-cacd1d131ab1">Derek Armstrong</NAME>, who turned out, to her grief and chagrin, to be married.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 45-6" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">45-6</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </INTIMATERELATIONSHIPS>
+         </DIV1>
+         <DIV1>
+            <EDUCATION MODE="INSTITUTIONAL">
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>Having been unsuccessful in joining the forces, Peggy Wemyss (later <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>) therefore, in 1944, entered <SCHOOL STUDENTBODY="CO-ED" INSTITUTIONLEVEL="POST-SECONDARY" REG="University of Winnipeg">
+                           <ORGNAME STANDARD="University of Winnipeg" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c89ee3d1-3db6-4eae-ad56-52ef126eec10">United College</ORGNAME>
+                        </SCHOOL> (now the University of Winnipeg)<PLACE>
+                           <SETTLEMENT REG="Winnipeg"/>
+                           <REGION REG="Manitoba"/>
+                           <GEOG REG="Canada"/>
+                        </PLACE> on a <AWARD AWARDTYPE="SCHOLARSHIP">Manitoba Scholarship</AWARD>. Here she extended her literary studies to embrace the Modernists, and again served as assistant editor on a student paper. She graduated in 1947 with an <DEGREE>honours BA in <SUBJECT>English</SUBJECT>
+                        </DEGREE> and a <AWARD AWARDTYPE="PRIZE">prize for <SUBJECT>poetry</SUBJECT>
+                        </AWARD>.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 34, 46-7, 53" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">34, 46-7, 53</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </EDUCATION>
+         </DIV1>
+         <DIV1>
+            <OCCUPATION>
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>Having <SIGNIFICANTACTIVITY REG="editor">worked on</SIGNIFICANTACTIVITY>, and written for, university publications as a student, Peggy Wemyss found employment on graduating, first with the <EMPLOYER>
+                           <TITLE TITLETYPE="JOURNAL">Westerner</TITLE>
+                        </EMPLOYER> (a Communist paper of whose politics she remained unaware), then for the new <EMPLOYER>
+                           <TITLE TITLETYPE="JOURNAL">Winnipeg Citizen</TITLE>
+                        </EMPLOYER>, Canada's only co-operative daily. She wrote <JOB REG="journalist">reviews</JOB>, <JOB REG="reporter">labour news</JOB>, and a radio column.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 54" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">54</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </OCCUPATION>
+         </DIV1>
+         <DIV1>
+            <HEADING>Marriage and Children</HEADING>
+            <FAMILY>
+               <MEMBER RELATION="HUSBAND">
+                  <MARRIAGE>
+                     <DIV2>
+                        <CHRONSTRUCT RELEVANCE="COMPREHENSIVE" CHRONCOLUMN="WRITINGCLIMATE" RESP="IMG">
+                           <DATE VALUE="1947-06" CERTAINTY="AFTER">14 September, 1947</DATE>
+                           <CHRONPROSE>
+                              <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">Margaret Wemyss</NAME>, a recent graduate, married <NAME STANDARD="Laurence, Jack" REF="https://dev-02.cwrc.ca/islandora/objectorlando:f7b7073f-29de-43e5-9d9f-2b7b1a326155">Jack Laurence</NAME>, a fellow-student whose subject was <JOB REG="engineer">engineering</JOB>. He was also a <JOB REG="airman">war veteran</JOB>, having been a <JOB>mechanic</JOB> with the <ORGNAME STANDARD="Royal Air Force" REF="https://dev-02.cwrc.ca/islandora/objectorlando:ce06309a-187d-44b6-a2bd-d7d72e45be7a">RAF</ORGNAME>.</CHRONPROSE>
+                           <BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 53" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">53</BIBCIT>
+                              <BIBCIT PLACEHOLDER="Laurence, Dance 127" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">127</BIBCIT>
+                              <BIBCIT PLACEHOLDER="King 64" DBREF="63087" REF="https://dev-02.cwrc.ca/islandora/objectorlando:3e8f38fe-ce7a-4d35-8f90-23a0f5e0a5c0">64</BIBCIT>
+                           </BIBCITS>
+                        </CHRONSTRUCT>
+                        <SHORTPROSE>
+                           <P>She was, she writes, <QUOTE DIRECT="Y">in love, seriously and deeply and, for the first time, realistically.</QUOTE>
+                              <BIBCITS>
+                                 <BIBCIT PLACEHOLDER="Stovel 53" DBREF="61265" QTDIN="QTDINYES" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">53</BIBCIT>
+                              </BIBCITS> Jack graduated in 1949.<BIBCITS>
+                                 <BIBCIT PLACEHOLDER="Stovel 64" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">64</BIBCIT>
+                              </BIBCITS>
+                              <CHILDREN>They had two children, first a girl, <NAME STANDARD="Laurence, Jocelyn" REF="https://dev-02.cwrc.ca/islandora/objectorlando:9a2b5c93-4062-4074-805f-466e2349c4a0">Barbara Jocelyn</NAME>, who was conceived in Somalia but born in London, UK, on <DATE VALUE="1952-08-28">28 August 1952</DATE>. Next <NAME STANDARD="Laurence, David" REF="https://dev-02.cwrc.ca/islandora/objectorlando:d7d7df36-e75b-4eea-99f9-d0f51b05be11">David</NAME> was born in <PLACE>
+                                    <SETTLEMENT>Accra</SETTLEMENT>, <GEOG>Ghana</GEOG>
+                                 </PLACE>, on <DATE VALUE="1955-08-08">8 August 1955</DATE>.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Laurence, Dance 138, 150" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">138, 150</BIBCIT>
+                                 </BIBCITS>
+                              </CHILDREN>
+                              <SEPARATION>The couple separated in 1962</SEPARATION>
+                              <DIVORCE>and divorced in 1969.</DIVORCE>
+                           </P>
+                        </SHORTPROSE>
+                     </DIV2>
+                  </MARRIAGE>
+               </MEMBER>
+            </FAMILY>
+         </DIV1>
+         <DIV1>
+            <HEALTH ISSUE="FEMALEBODY">
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s childbirth experiences were not propitious. Her daughter was delivered by forceps (at the <ORGNAME STANDARD="Elizabeth Garrett Anderson Hospital" REF="https://dev-02.cwrc.ca/islandora/objectorlando:01c871f9-7487-4408-a553-e5ccfc4783f3">Elizabeth Garrett Anderson Maternity Hospital</ORGNAME> in <PLACE>
+                           <SETTLEMENT>London</SETTLEMENT>, <GEOG REG="England">UK</GEOG>
+                           <REGION REG="Middlesex"/>
+                        </PLACE>) after a 36-hour labour, and the delivery cracked the baby's collar-bone—a not unusual occurrence, <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> was assured. The bone healed within ten days. Jocelyn lived through a greater danger at two months, when her smallpox and yellow fever injections, for Africa, were administered too close together and in the wrong order. The baby went into convulsions, while the doctor concerned (who was angry with Laurence for insisting on continuing to breast-feed while her daughter was severely ill in hospital) ascribed the convulsions to either a congenital tendency or else meningitis. Two years later another doctor admitted that the first had been at fault. When Laurence got pregnant in <PLACE>
+                           <GEOG>Ghana</GEOG>
+                        </PLACE> a pregnancy test falsely registered negative, netting her a diagnosis of <SOCALLED>neurotic</SOCALLED>, and after that she had two false labours before managing a swift natural childbirth, assisted by a reassuring black midwife. A white nursing sister spoiled the experience slightly by forcing her to eat while in labour although she said she would throw up, which she duly did.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Laurence, Dance 138, 141-2, 146-9" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">138, 141-2, 146-9</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </HEALTH>
+         </DIV1>
+         <DIV1>
+            <HEADING>Travel and other Dislocations</HEADING>
+            <LOCATION RELATIONTO="TRAVELLED">
+               <DIV2>
+                  <HEADING>Africa</HEADING>
+                  <CHRONSTRUCT RELEVANCE="COMPREHENSIVE" CHRONCOLUMN="WRITINGCLIMATE" RESP="IMG">
+                     <DATE VALUE="1950-12">December 1950</DATE>
+                     <CHRONPROSE>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> set sail from <PLACE>
+                           <GEOG>Canada</GEOG>
+                        </PLACE> with her <NAME STANDARD="Laurence, Jack" REF="https://dev-02.cwrc.ca/islandora/objectorlando:f7b7073f-29de-43e5-9d9f-2b7b1a326155">husband</NAME> for <PLACE>
+                           <GEOG>England</GEOG>
+                        </PLACE>, en route for <PLACE>
+                           <GEOG REG="Somalia">Africa</GEOG>
+                           <AREA REG="Africa"/>
+                        </PLACE>.</CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="Stovel 64" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">64</BIBCIT>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+                  <SHORTPROSE>
+                     <P>The next month the two of them set out again for the remote areas of <PLACE>
+                           <GEOG REG="Somalia">Somaliland</GEOG>
+                           <AREA REG="Africa"/>
+                        </PLACE> (now Somalia) where Jack was to work for the British colonial government—but not until he had made a case for her as a kind of Canadian super-backwoodswoman, a natural exception to the rules and conventions governing the movements of most colonial women.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 124" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">124</BIBCIT>
+                        </BIBCITS> In 1952 the Laurences moved on to the <PLACE>
+                           <GEOG REG="Ghana">Gold Coast</GEOG>
+                           <AREA REG="Africa"/>
+                        </PLACE> (which was moving towards achieving its independence as Ghana). They stayed there until 1957, while Jack supervised the building of the country's vital new port, Tema. After leaving Africa for Canada , Margaret flew back twice for independence celebrations: of Ghana in 1958 and the Somali Republic in 1966. Meanwhile after her husband took work in Pakistan in 1962, she visited him at <PLACE>
+                           <SETTLEMENT REG="Kolkata">Calcutta</SETTLEMENT>
+                           <GEOG REG="India"/>
+                        </PLACE> in November 1963.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 64-5, 66, 67, 68" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">64-5, 66, 67, 68</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </LOCATION>
+         </DIV1>
+         <DIV1>
+            <FAMILY>
+               <MEMBER RELATION="HUSBAND">
+                  <DIV2>
+                     <HEADING>A Marriage in Decline</HEADING>
+                     <SHORTPROSE>
+                        <P>
+                           <SEPARATION>Jack's departure for Pakistan was nevertheless an emotional separation (putting half the world physically between them though not yet determined on a final break) for reasons which included his unenthusiastic response to the draft of Margaret's first novel, <TITLE TITLETYPE="MONOGRAPHIC">The Stone Angel</TITLE>.<BIBCITS>
+                                 <BIBCIT PLACEHOLDER="Stovel 174-5" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">174-5</BIBCIT>
+                              </BIBCITS>
+                           </SEPARATION>
+                           <DIVORCE>Their divorce, in 1969 (after a holiday together in Italy the year before had failed to heal the rift), was very painful for <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> in spite of their years apart.<BIBCITS>
+                                 <BIBCIT PLACEHOLDER="Stovel 309" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">309</BIBCIT>
+                                 <BIBCIT PLACEHOLDER="Laurence, Dance 189-90" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">189-90</BIBCIT>
+                              </BIBCITS>
+                           </DIVORCE>
+                        </P>
+                     </SHORTPROSE>
+                  </DIV2>
+               </MEMBER>
+               <MEMBER RELATION="OTHER">
+                  <DIV2>
+                     <SHORTPROSE>
+                        <P>
+                           <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s mother-in-law, <NAME STANDARD="Laurence, Elsie Fry" REF="https://dev-02.cwrc.ca/islandora/objectorlando:273892d6-8bab-4eab-89fd-39b094920e23">Elsie Fry Laurence</NAME>, was the only member of her family who understood, when she separated from Jack, something of her motivation, which was her writing. Elsie had submitted a novel, <TITLE TITLETYPE="MONOGRAPHIC">Half a Gypsy</TITLE>, for publication when she was nineteen, under the name of <SOCALLED>Christine Field</SOCALLED>; it had appeared in 1916.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Laurence, Dance 125-6" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">125-6</BIBCIT>
+                           </BIBCITS>
+                        </P>
+                     </SHORTPROSE>
+                  </DIV2>
+               </MEMBER>
+            </FAMILY>
+         </DIV1>
+         <DIV1>
+            <HEALTH ISSUE="MENTAL">
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>After her divorce in 1969 <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> attempted suicide. She locked herself in a bathroom and took an overdose of tranquillizers which kept her asleep for two days.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 309" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">309</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </HEALTH>
+         </DIV1>
+         <DIV1>
+            <LOCATION RELATIONTO="LIVED">
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>She lived in <PLACE>
+                           <SETTLEMENT>Vancouver</SETTLEMENT>
+                           <REGION REG="British Columbia"/>
+                           <GEOG REG="Canada"/>
+                        </PLACE> from <DATERANGE FROM="1957" TO="1972" EXACT="TO">1957 to 1962</DATERANGE> (a painful time marked by her stepmother's death and the difficulties between her and her husband which led to their separation).<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 67" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">67</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                     <P>At the end of this time she left Canada with her two children to settle for some years in England.</P>
+                  </SHORTPROSE>
+               </DIV2>
+            </LOCATION>
+            <LOCATION RELATIONTO="MIGRATED">
+               <DIV2>
+                  <HEADING>England</HEADING>
+                  <SHORTPROSE>
+                     <P>In 1962 <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> again set out from Canada (where she had been living in <PLACE>
+                           <SETTLEMENT>Vancouver</SETTLEMENT>
+                           <REGION REG="British Columbia"/>
+                           <GEOG REG="Canada"/>
+                        </PLACE>) to spend some years in <PLACE>
+                           <GEOG>England</GEOG>
+                        </PLACE> with her children. She hoped to find a congenial literary community there (while her husband went off to work in Pakistan).<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 68" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">68</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </LOCATION>
+         </DIV1>
+         <DIV1>
+            <INTIMATERELATIONSHIPS>
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>Another reason for travelling to England was that she hoped to establish a lasting relationship with Barbadian poet and novelist <NAME STANDARD="Lamming, George" REF="https://dev-02.cwrc.ca/islandora/objectorlando:d4ce792f-6033-41b7-ab00-c3907fa74145">George Lamming</NAME>, with whom she had an affair.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 68, 308" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">68, 308</BIBCIT>
+                           <BIBCIT PLACEHOLDER="King 168" DBREF="63087" REF="https://dev-02.cwrc.ca/islandora/objectorlando:3e8f38fe-ce7a-4d35-8f90-23a0f5e0a5c0">168</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                     <P>She was also said to have had an affair with an ambassador from an African nation, Jamal, a married man with seven children.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 109" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">109</BIBCIT>
+                           <BIBCIT PLACEHOLDER="King 223, 224" DBREF="63087" REF="https://dev-02.cwrc.ca/islandora/objectorlando:3e8f38fe-ce7a-4d35-8f90-23a0f5e0a5c0">223, 224</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </INTIMATERELATIONSHIPS>
+         </DIV1>
+         <DIV1>
+            <LOCATION RELATIONTO="LIVED">
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> began her English life in <PLACE>
+                           <SETTLEMENT REG="London">Hampstead</SETTLEMENT> (at a flat in <ADDRESS>
+                              <ADDRLINE>Hurst Heath Road</ADDRLINE>
+                           </ADDRESS>)<REGION REG="Middlesex"/>
+                           <GEOG REG="England"/>
+                        </PLACE>, then lived at <PLACE>
+                           <PLACENAME>Elm Cottage</PLACENAME> in the village of <SETTLEMENT>Penn</SETTLEMENT> in <REGION>Buckinghamshire</REGION>
+                           <GEOG REG="England"/>
+                        </PLACE>. She rented the cottage at first from her London editor, <NAME STANDARD="Maclean, Alan" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c50e13dd-89ef-44b3-822a-3468c3373a71">Alan Maclean</NAME>. It was a wreck, with inadequate heating, mould on the walls, and cigarette burns left by previous tenants on every mantlepiece. <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> and her children took it as a challenge, fixing what they could, and even subletting a room because money was so tight.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Laurence, Dance 167-9" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">167-9</BIBCIT>
+                        </BIBCITS> Of this cottage she wrote: <QUOTE DIRECT="Y">I live on two-thirds of an English acre which appears to be the maple leaf forever. To put it bluntly, the place is crawling with Canadians.</QUOTE>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 68" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">68</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </LOCATION>
+         </DIV1>
+         <DIV1>
+            <WEALTH>
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>She bought the cottage with money from the film option that <NAME STANDARD="Woodward, Joanne" REF="https://dev-02.cwrc.ca/islandora/objectorlando:610114c0-3735-4a0e-8799-afaa18d18871">Joanne Woodward</NAME> and <NAME STANDARD="Newman, Paul" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c20354a7-fa09-4825-b282-32e0aa853b2b">Paul Newman</NAME> took on <TITLE TITLETYPE="MONOGRAPHIC" REG="Jest of God, A">Rachel, Rachel</TITLE>—after great difficulty securing a mortgage, since being either a woman or a writer was suspect, and being both at once was even worse.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Laurence, Dance 181" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">181</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </WEALTH>
+         </DIV1>
+         <DIV1>
+            <LOCATION RELATIONTO="VISITED">
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>During these years <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> made several visits back from England to <PLACE>
+                           <GEOG>Canada</GEOG>
+                        </PLACE> and also visited, partly for the purpose of writing about them, <PLACE>
+                           <GEOG>Italy</GEOG>
+                        </PLACE>, <PLACE>
+                           <GEOG>Greece</GEOG>
+                        </PLACE>, and <PLACE>
+                           <GEOG>Egypt</GEOG>
+                        </PLACE>. Visits to <PLACE>
+                           <GEOG>Scotland</GEOG>
+                        </PLACE> were more personal, since they were quests for her heritage and for traces of her ancestors' way of life, but their chief effect was to confirm her sense of being a Canadian raised on myths of a fictional Highland identity.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 70-6" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">70-6</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </LOCATION>
+         </DIV1>
+         <DIV1>
+            <HEADING>Back in Canada</HEADING>
+            <OCCUPATION>
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> was appointed to a succession of <JOB REG="academic">writer-in-residence</JOB> positions: at the <EMPLOYER>
+                           <ORGNAME STANDARD="University of Toronto" REF="https://dev-02.cwrc.ca/islandora/objectorlando:0d7e106f-e7cf-45eb-b94b-059936e9a403">University of Toronto</ORGNAME>
+                        </EMPLOYER> in 1969, at the <EMPLOYER>
+                           <ORGNAME STANDARD="University of Western Ontario" REF="https://dev-02.cwrc.ca/islandora/objectorlando:9a54ed86-0049-4740-b32f-d69296f682f0">University of Western Ontario</ORGNAME>
+                        </EMPLOYER> in 1973, and the year after that at <EMPLOYER>
+                           <ORGNAME STANDARD="Trent University" REF="https://dev-02.cwrc.ca/islandora/objectorlando:043584bc-8599-4c2f-9b01-7acafed11f92">Trent University</ORGNAME>
+                        </EMPLOYER>. She returned to Trent as <JOB REG="governess">Chancellor</JOB> in 1981.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 76" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">76</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </OCCUPATION>
+         </DIV1>
+         <DIV1>
+            <LOCATION RELATIONTO="LIVED">
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>During her University of Toronto year <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> bought a cedar cabin beside the <PLACE>
+                           <REGION>Otonabee River</REGION>
+                           <GEOG REG="Canada"/>
+                        </PLACE> near <PLACE>
+                           <SETTLEMENT>Peterborough</SETTLEMENT>, <REGION>Ontario</REGION>
+                           <GEOG REG="Canada"/>
+                        </PLACE>. She called it the Shack, and came to love it deeply.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 76-7" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">76-7</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                     <P>Her final home, to which she moved on <DATE VALUE="1974-05-01">1 May 1974</DATE>, was in <PLACE>
+                           <SETTLEMENT>Lakefield</SETTLEMENT>, <REGION>Ontario</REGION>
+                           <GEOG REG="Canada"/>
+                        </PLACE> (which as an early settlement had been the home of both <NAME STANDARD="Moodie, Susanna" REF="https://dev-02.cwrc.ca/islandora/objectorlando:fa6cacf5-56a2-42bc-992c-01816ca53cea">Susanna Moodie</NAME> and <NAME STANDARD="Traill, Catharine Parr" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c993d922-00cd-42e0-83bd-f71eb8142e9d">Catharine Parr Traill</NAME>). Here <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> bought an old brick house.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Laurence, Dance 210" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">210</BIBCIT>
+                           <BIBCIT PLACEHOLDER="Stovel 78" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">78</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </LOCATION>
+         </DIV1>
+         <DIV1>
+            <POLITICS>
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> perceived a connection between two forces which she passionately opposed: the <POLITICALAFFILIATION WOMAN-GENDERISSUE="GENDERYES" INVOLVEMENT="INVOLVEMENTYES" REG="anti-colonialist">political colonialism</POLITICALAFFILIATION> which exerts dominion under the pretext of guiding backward nations towards independence, and the <POLITICALAFFILIATION WOMAN-GENDERISSUE="GENDERYES" MEMBERSHIP="MEMBERSHIPYES" REG="feminist">gender colonialism</POLITICALAFFILIATION> which denies women autonomous control of their own lives on grounds of their lesser capacity. Her daughter defined the political issues that most concerned her as <QUOTE DIRECT="Y">nuclear <POLITICALAFFILIATION MEMBERSHIP="MEMBERSHIPYES" REG="anti-nuclear">disarmament</POLITICALAFFILIATION>, <POLITICALAFFILIATION MEMBERSHIP="MEMBERSHIPYES" REG="environmentalist">pollution and the environment</POLITICALAFFILIATION>, <POLITICALAFFILIATION WOMAN-GENDERISSUE="GENDERYES" MEMBERSHIP="MEMBERSHIPYES" REG="pro-choice">pro-choice</POLITICALAFFILIATION> abortion legislation.</QUOTE>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 304" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">304</BIBCIT>
+                        </BIBCITS> She might have added the <POLITICALAFFILIATION INVOLVEMENT="INVOLVEMENTYES" REG="anti-censorship">battle against censorship</POLITICALAFFILIATION> in which Laurence somewhat reluctantly involved herself after <TITLE TITLETYPE="MONOGRAPHIC">The Diviners</TITLE> was banned by Ontario highschools.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Laurence, Dance 213-17" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">213-17</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </POLITICS>
+         </DIV1>
+         <DIV1>
+            <FRIENDSASSOCIATES>
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>Among her fellow writers <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> enjoyed a long and close friendship with <NAME STANDARD="Wiseman, Adele" REF="https://dev-02.cwrc.ca/islandora/objectorlando:5340d857-239a-4593-8254-59b332e3f5ff">Adele Wiseman</NAME>. She also became a friend of the younger <NAME STANDARD="Munro, Alice" REF="https://dev-02.cwrc.ca/islandora/objectorlando:7bb6bddd-7d0d-45ce-b38b-ed2284208beb">Alice Munro</NAME>, who championed her in the censorship affair.</P>
+                  </SHORTPROSE>
+               </DIV2>
+            </FRIENDSASSOCIATES>
+         </DIV1>
+         <DIV1>
+            <HEADING>Illness and Death</HEADING>
+            <HEALTH ISSUE="PHYSICAL">
+               <DIV2>
+                  <SHORTPROSE>
+                     <P>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> both smoked and drank heavily throughout her adult life. She was diagnosed with lung cancer in August 1968, and underwent surgery but refused other treatment.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 315, 318" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">315, 318</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </HEALTH>
+         </DIV1>
+         <DIV1>
+            <DEATH>
+               <DIV2>
+                  <CHRONSTRUCT RELEVANCE="SELECTIVE" CHRONCOLUMN="WRITINGCLIMATE" RESP="JEB">
+                     <DATE VALUE="1987-01-05">5 January 1987</DATE>
+                     <CHRONPROSE>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>, under diagnosis of terminal <CAUSE>lung cancer</CAUSE>, <CAUSE REG="suicide">ended her own life</CAUSE> at her home in <PLACE>
+                           <SETTLEMENT>Lakefield</SETTLEMENT>, <REGION>Ontario</REGION>
+                           <GEOG REG="Canada"/>
+                        </PLACE>.</CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="Stovel 83" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">83</BIBCIT>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+                  <SHORTPROSE>
+                     <P>Her biographer <NAME STANDARD="King, James" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2b12075f-2233-41a7-a34c-5ce817cb0941">James King</NAME> was open about her cigarette addiction. Newspaper reports of her death attributed it to the cancer rather than to suicide.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 315" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">315</BIBCIT>
+                           <BIBCIT PLACEHOLDER="Toronto Star (Jan. 6, 1987) p.D1" DBREF="63206" REF="https://dev-02.cwrc.ca/islandora/objectorlando:83d4e118-8800-4a9b-869b-59779cdb0d76">(Jan. 6, 1987) p.D1</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </DIV2>
+            </DEATH>
+         </DIV1>
+      </BIOGRAPHY>
+      <WRITING>
+         <HEADING>Writing</HEADING>
+         <DIV1>
+            <HEADING>Juvenilia</HEADING>
+            <DIV2>
+               <PRODUCTION>
+                  <SHORTPROSE>
+                     <P>
+                        <PFIRSTLITERARYACTIVITY>
+                           <PMATERIALCONDITIONS>As a child and teenager, Margaret Wemyss (later <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>) was constantly writing <TGENRE GENRENAME="JUVENILIA">
+                                 <TGENRE GENRENAME="SHORTSTORY">stories</TGENRE> and <TGENRE GENRENAME="POETRY">poems</TGENRE>
+                              </TGENRE>.</PMATERIALCONDITIONS>
+                           <PINFLUENCESHER INFLUENCETYPE="FAMILIAL">
+                              <RDESTRUCTIONOFWORK DESTROYEDBY="SELF">She destroyed most of this writing</RDESTRUCTIONOFWORK> (of which her aunt/stepmother, <NAME STANDARD="Wemyss, Margaret Simpson" REF="https://dev-02.cwrc.ca/islandora/objectorlando:7b29c41e-2f44-4d26-a82d-766758dfb545">Margaret Wemyss</NAME>, was both an inspiration and a useful critic).</PINFLUENCESHER>
+                           <PPERIODICALPUBLICATION>Some of it, however, was published in her highschool newspaper and later in <TITLE TITLETYPE="JOURNAL">Vox</TITLE> at the <ORGNAME STANDARD="University of Winnipeg" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c89ee3d1-3db6-4eae-ad56-52ef126eec10">United College of Winnipeg</ORGNAME> and in <TITLE TITLETYPE="JOURNAL">The Manitoban</TITLE> at the <ORGNAME STANDARD="University of Manitoba" REF="https://dev-02.cwrc.ca/islandora/objectorlando:85b8560d-5c78-4765-ba13-c6e7767f498e">University of Manitoba</ORGNAME>.</PPERIODICALPUBLICATION>
+                        </PFIRSTLITERARYACTIVITY>
+                        <PEDITIONS>These juvenilia have been collected and edited by <NAME STANDARD="Stovel, Nora Foster" REF="https://dev-02.cwrc.ca/islandora/objectorlando:b6c40886-9871-4657-8eae-67312365f82e">Nora Foster Stovel</NAME> in two publications from the <ORGNAME STANDARD="Juvenilia Press" REF="https://dev-02.cwrc.ca/islandora/objectorlando:69573ae8-132b-4997-9553-ea8a15104cc5">Juvenilia Press</ORGNAME>: <TITLE TITLETYPE="MONOGRAPHIC" REG="Embryo Words: Margaret Laurence's Early Writings">Embryo Words</TITLE>, 1997, and <TITLE TITLETYPE="MONOGRAPHIC" REG="Colours of Speech: Margaret Laurence's Early Writings">Colours of Speech</TITLE>, 2000.</PEDITIONS>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Laurence Embryo, Stovel ed." DBREF="62966" REF="https://dev-02.cwrc.ca/islandora/objectorlando:12f568a6-1533-4654-8fdf-f67d0c457cc7"/>
+                           <BIBCIT PLACEHOLDER="Laurence Colours, Stovel ed." DBREF="62967" REF="https://dev-02.cwrc.ca/islandora/objectorlando:57c91ab5-ac78-46ce-b09f-dd5693282a9b"/>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </PRODUCTION>
+            </DIV2>
+         </DIV1>
+         <DIV1>
+            <HEADING>African Books</HEADING>
+            <DIV2>
+               <HEADING>Translation</HEADING>
+               <TEXTSCOPE DBREF="61015" PLACEHOLDER="ML, A Tree for Poverty: Somali Poetry and Prose, 1954" REF="https://dev-02.cwrc.ca/islandora/objectorlando:347a51c5-cb7b-4dde-976b-488dbd3d94f8"/>
+               <PRODUCTION>
+                  <CHRONSTRUCT RESP="IMG" CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="SELECTIVE">
+                     <DATE VALUE="1954-12" CERTAINTY="BY">By December 1954</DATE>
+                     <CHRONPROSE>
+                        <RLANDMARKTEXT>
+                           <PPLACEOFPUBLICATION>
+                              <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> published her first book at <PLACE>
+                                 <SETTLEMENT>Nairobi</SETTLEMENT>, <GEOG>Kenya</GEOG>
+                              </PLACE>:</PPLACEOFPUBLICATION>
+                           <TITLE TITLETYPE="MONOGRAPHIC">A Tree for Poverty: <PLACE>
+                                 <GEOG CURRENT="Somalia" REG="Somalia">Somali</GEOG>
+                              </PLACE>
+                              <TGENRE GENRENAME="POETRY">Poetry</TGENRE> and Prose</TITLE>, a volume collecting <TGENRE GENRENAME="TRANSLATION">translation</TGENRE>s of <TGENRE GENRENAME="LEGENDFOLKTALE">folk literature</TGENRE> composed in a language which was as yet exclusively oral.</RLANDMARKTEXT>
+                     </CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="Stovel 373, 6" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">373, 6</BIBCIT>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+                  <SHORTPROSE>
+                     <P>
+                        <PMOTIVES MOTIVETYPE="SELF-IDENTIFIED">Part of <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s aim was to preserve a body of oral literature that might otherwise have been lost.</PMOTIVES>
+                        <PAUTHORSHIP COLLABORATION="COLLABORATIONYES">She had two collaborators in her work, a local poet named <NAME STANDARD="Gabaal, Musa" REF="https://dev-02.cwrc.ca/islandora/objectorlando:9975c49a-4d5c-4296-a2b1-861291439cf4">Musa Gabaal</NAME>, who provided much of the material but could discuss its finer points only in Somali, and a Polish poet and linguist, <NAME STANDARD="Andrzejewski, Bogumil" REF="https://dev-02.cwrc.ca/islandora/objectorlando:933ad77b-4da3-4a92-9726-7f90cee3b2d5">Bogumił (<SOCALLED>Gus</SOCALLED>) Andrzejewski</NAME>.</PAUTHORSHIP>
+                        <PEDITIONS>
+                           <PCIRCULATION>The last copies of the original edition were bought in bulk by the <ORGNAME STANDARD="Peace Corps" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c10a13b1-72be-40ba-a928-2485e41d2cdc">Peace Corps</ORGNAME> for volunteers going to work in the <PLACE>
+                                 <GEOG CURRENT="Somalia" REG="Somalia">Somali Republic</GEOG>
+                              </PLACE>.</PCIRCULATION> The first Canadian edition was photographically produced in 1970 (with Laurence's <TGENRE GENRENAME="PREFATORYPIECE">preface</TGENRE>) and 1993.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="NEOS" DBREF="2742" REF="https://dev-02.cwrc.ca/islandora/objectorlando:326b73a5-8268-4c42-b360-77fbdd3acfbc"/>
+                              <BIBCIT PLACEHOLDER="Stovel 89, 90-1" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">89, 90-1</BIBCIT>
+                           </BIBCITS>
+                        </PEDITIONS>
+                     </P>
+                  </SHORTPROSE>
+               </PRODUCTION>
+               <TEXTUALFEATURES>
+                  <SHORTPROSE>
+                     <P>
+                        <TTECHNIQUES TECHNIQUETYPE="NONSTANDARDENGLISH">In a few cases involving words whose implications would be lost in English (like <FOREIGN LANG="so">hhagar</FOREIGN>, meaning the thornbush which is almost the only plant growing visibly in the desert) <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> refuses to translate, but plants the Somali word in her English sentence.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 15" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">15</BIBCIT>
+                           </BIBCITS>
+                        </TTECHNIQUES>
+                        <TVOICENARRATION>Her volume contains only men's poetry, not women's, since Somali verse genres are gendered and Laurence was told the women were too shy to communicate their poems.</TVOICENARRATION> She included both <TGENRE GENRENAME="SONG">song</TGENRE>s and <FOREIGN LANG="so">gabei</FOREIGN> or long, alliterative <TGENRE GENRENAME="NARRATIVEPOETRY">narrative poems</TGENRE>. The prose consists mostly of moral tales and trickster tales, whose characters are largely male (apart from <TCHARACTERTYPEROLE>female monsters</TCHARACTERTYPEROLE> or <TMOTIF MOTIFNAME="female villain">wicked women</TMOTIF>), with plenty of incident, humour, <TTHEMETOPIC>magic</TTHEMETOPIC>, and <TTHEMETOPIC>religion</TTHEMETOPIC>.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 88-105" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">88-105</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </TEXTUALFEATURES>
+               <RECEPTION>
+                  <SHORTPROSE>
+                     <P>
+                        <RSELFDESCRIPTION>In her <TGENRE GENRENAME="PREFATORYPIECE">preface</TGENRE> to her translations, written sixteen years later, <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> said she was no antholopologist and called her own translations amateurish,</RSELFDESCRIPTION>
+                        <RRESPONSES RESPONSETYPE="INITIAL" FORMALITY="FORMAL" GENDEREDRESPONSE="GENDEREDNO">but <NAME STANDARD="Renault, Mary" REF="https://dev-02.cwrc.ca/islandora/objectorlando:fcf81e08-a258-41f4-9699-0a6abac36bf3">Mary Renault</NAME> (an English historical novelist settled in South Africa), in a review of her next book, called Laurence a scholar on the strength of this one. An early and appreciative review came from <NAME STANDARD="Wiseman, Adele" REF="https://dev-02.cwrc.ca/islandora/objectorlando:5340d857-239a-4593-8254-59b332e3f5ff">Adele Wiseman</NAME> (who did not forget to mention Laurence's collaborators).</RRESPONSES>
+                        <RPENALTIES>
+                           <RSHEINFLUENCED>In 1959 the book was paid a back-handed compliment when <NAME STANDARD="Buchholzer, John" REF="https://dev-02.cwrc.ca/islandora/objectorlando:8aa71a88-2c12-4166-9801-42b6382963c7">John Buchholzer</NAME> plagiarised from it in a travel book which he published about Somaliland.</RSHEINFLUENCED>
+                        </RPENALTIES>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 89-92" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">89-92</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </RECEPTION>
+            </DIV2>
+            <DIV2>
+               <HEADING>Novel</HEADING>
+               <TEXTSCOPE DBREF="61009" PLACEHOLDER="ML, This Side Jordan, 1960" REF="https://dev-02.cwrc.ca/islandora/objectorlando:f34dfb1f-6064-4ed6-b1d5-e63ea3572acb"/>
+               <PRODUCTION>
+                  <CHRONSTRUCT RESP="JEB" CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="PERIOD">
+                     <DATE VALUE="1960-12-10" CERTAINTY="BY">By December 1960</DATE>
+                     <CHRONPROSE>
+                        <TSETTINGDATE SETTINGDATETYPE="PRESENT">
+                           <TSETTINGPLACE SETTINGPLACETYPE="REAL" SETTINGCLASS="WIDERANGE">
+                              <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s first <TGENRE GENRENAME="NOVEL">novel</TGENRE>, <TITLE TITLETYPE="MONOGRAPHIC">This Side Jordan</TITLE> (set in <PLACE>
+                                 <GEOG>Ghana</GEOG>
+                                 <AREA REG="Africa"/>
+                              </PLACE> and revolving around two institutions, a <TTHEMETOPIC>mission school</TTHEMETOPIC> and a British-owned <TTHEMETOPIC>textile firm</TTHEMETOPIC>
+                           </TSETTINGPLACE>)</TSETTINGDATE>, <PPLACEOFPUBLICATION>was published simultaneously in <PLACE>
+                              <GEOG>Canada</GEOG>
+                           </PLACE>, <PLACE>
+                              <GEOG REG="UK">Britain</GEOG>
+                           </PLACE> and the <PLACE>
+                              <GEOG>USA</GEOG>
+                           </PLACE>.</PPLACEOFPUBLICATION>
+                     </CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="Stovel 140, 383, 139" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">140, 383, 139</BIBCIT>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+                  <SHORTPROSE>
+                     <P>
+                        <TCHARACTERIZATION>Having done extensive research for the cultural background of her African characters, <RRESPONSES RESPONSETYPE="INITIAL" FORMALITY="FORMAL">
+                              <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> was forced into radical revision by the comments of a publisher's reader;</RRESPONSES> she realised that she had so disliked the <TCHARACTERTYPEROLE>British colonists</TCHARACTERTYPEROLE> in Ghana that she had made them into caricatures.</TCHARACTERIZATION>
+                        <PEDITIONS>A later edition, 1976, was no. 126 in the <TITLE TITLETYPE="SERIES">New Canadian Library</TITLE>, with an introduction by <NAME STANDARD="Killam, Gordon Douglas" REF="https://dev-02.cwrc.ca/islandora/objectorlando:b020ed75-127f-43a7-b385-1d90f75ace44">G. D. Killam</NAME>.</PEDITIONS>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 140, 139" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">140, 139</BIBCIT>
+                           <BIBCIT PLACEHOLDER="NEOS" DBREF="2742" REF="https://dev-02.cwrc.ca/islandora/objectorlando:326b73a5-8268-4c42-b360-77fbdd3acfbc"/>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </PRODUCTION>
+               <TEXTUALFEATURES>
+                  <SHORTPROSE>
+                     <P>The characters and their setting are shaped by the <TTHEMETOPIC>pressure and speed of historical change</TTHEMETOPIC>, the <TTHEMETOPIC>impact of the new on the old and of the traditional on the new</TTHEMETOPIC>—seemingly even more frenetic in Africa than elsewhere. The central figure, <TCHARACTERNAME>Miranda Kestoe</TCHARACTERNAME>, is a <TCHARACTERTYPEROLE PROTAGONIST="FEMALE">white liberal</TCHARACTERTYPEROLE> who gradually learns that she is wrong to imagine that she can build a personal understanding with Africa. <TVOICENARRATION>The third-person narrative, however, presents two male viewpoints in alternate chapters: those of the Ashanti Ghanaian <TCHARACTERNAME>Nathaniel Amegbe</TCHARACTERNAME>, a <TCHARACTERTYPEROLE>teacher of African history</TCHARACTERTYPEROLE> who is poised between Christianity and the ancient beliefs of his people, and Miranda's husband, the <TCHARACTERTYPEROLE>sexist and racist <TCHARACTERNAME REG="Kestoe, Johnnie">Johnnie</TCHARACTERNAME>, an accountant working temporarily in Africa</TCHARACTERTYPEROLE>.</TVOICENARRATION> Johnnie is impelled by sexual curiosity towards the Black women he despises both for their race and their gender, until his <TMOTIF MOTIFNAME="rape">rape</TMOTIF> of a <TCHARACTERTYPEROLE>virgin prostitute</TCHARACTERTYPEROLE>
+                        <TMOTIF MOTIFNAME="violence">(the brutality of which is sharpened by the <TTHEMETOPIC>genital mutilation</TTHEMETOPIC> which had already been inflicted on her)</TMOTIF> compells him to some <TTHEMETOPIC>self-recognition</TTHEMETOPIC>.</P>
+                  </SHORTPROSE>
+               </TEXTUALFEATURES>
+               <RECEPTION>
+                  <SHORTPROSE>
+                     <P>
+                        <RRECOGNITIONS>This book, in manuscript, won the <RRECOGNITIONNAME>Beta Sigma Phi first novel award</RRECOGNITIONNAME> of <RRECOGNITIONVALUE>$1,000</RRECOGNITIONVALUE>.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Laurence, Dance 155" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">155</BIBCIT>
+                           </BIBCITS>
+                        </RRECOGNITIONS>
+                        <RRESPONSES RESPONSETYPE="INITIAL" FORMALITY="FORMAL" GENDEREDRESPONSE="GENDEREDNO">
+                           <NAME STANDARD="Renault, Mary" REF="https://dev-02.cwrc.ca/islandora/objectorlando:fcf81e08-a258-41f4-9699-0a6abac36bf3">Mary Renault</NAME> welcomed <QUOTE DIRECT="Y">a first novel of rare excellence.</QUOTE>
+                           <BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 140" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">140</BIBCIT>
+                           </BIBCITS>
+                        </RRESPONSES>
+                     </P>
+                  </SHORTPROSE>
+               </RECEPTION>
+            </DIV2>
+            <DIV2>
+               <HEADING>Stories</HEADING>
+               <TEXTSCOPE DBREF="61008" PLACEHOLDER="ML, The Tomorrow-Tamer: Short Stories, 1963" REF="https://dev-02.cwrc.ca/islandora/objectorlando:0cf3bbdf-5e43-4b93-b207-287dc791a5f0"/>
+               <PRODUCTION>
+                  <CHRONSTRUCT RESP="JEB" CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="DECADE">
+                     <DATE VALUE="1963-12" CERTAINTY="C">Late 1963</DATE>
+                     <CHRONPROSE>
+                        <TSETTINGPLACE SETTINGPLACETYPE="REAL" SETTINGCLASS="WIDERANGE">
+                           <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> followed her African novel with <TITLE TITLETYPE="MONOGRAPHIC">The Tomorrow-Tamer: <TGENRE GENRENAME="SHORTSTORY">Short Stories</TGENRE>
+                           </TITLE>, set in <PLACE>
+                              <GEOG>Ghana</GEOG>
+                           </PLACE>.</TSETTINGPLACE>
+                     </CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="OCLC" DBREF="1709" REF="https://dev-02.cwrc.ca/islandora/objectorlando:a0a59530-a7e2-4312-b330-7da3ab9917d6"/>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+               </PRODUCTION>
+               <TEXTUALFEATURES>
+                  <SHORTPROSE>
+                     <P>The topics of these ten stories include some that are highly challenging: <TTHEMETOPIC>child prostitution</TTHEMETOPIC>, <TMOTIF MOTIFNAME="forced marriage">child marriage</TMOTIF>, <TMOTIF MOTIFNAME="violence">wife-beating</TMOTIF>. Stovel argues that it is Ghana itself which is the hero of the book, as it moves gradually through the <TTHEMETOPIC>de-colonialising process of <SOCALLED>Africanization</SOCALLED>
+                        </TTHEMETOPIC>, and as the stories progress from the narrative of a <TCHARACTERTYPEROLE>white African, son of a missionary</TCHARACTERTYPEROLE> (though suckled by a Black nurse), to a celebration of the <TCHARACTERTYPEROLE>market woman</TCHARACTERTYPEROLE>
+                        <TCHARACTERNAME>Mammi Ama</TCHARACTERNAME>.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 133, 147-51" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">133, 147-51</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </TEXTUALFEATURES>
+               <RECEPTION>
+                  <SHORTPROSE>
+                     <P>
+                        <RSELFDESCRIPTION>One of these stories, <TITLE TITLETYPE="ANALYTIC">The Voices of Adamo</TITLE>, was considered by Laurence to be her best.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 150" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">150</BIBCIT>
+                           </BIBCITS>
+                        </RSELFDESCRIPTION>
+                     </P>
+                  </SHORTPROSE>
+               </RECEPTION>
+            </DIV2>
+            <DIV2>
+               <HEADING>A Travel Memoir</HEADING>
+               <TEXTSCOPE DBREF="61010" PLACEHOLDER="ML, The Prophet's Camel Bell, 1963" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2e594e13-c5ca-4a2d-b927-fa322c37705f"/>
+               <PRODUCTION>
+                  <CHRONSTRUCT RESP="JEB" CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="DECADE">
+                     <DATE VALUE="1963-08-10" CERTAINTY="C">About 10 August 1963</DATE>
+                     <CHRONPROSE>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s <TGENRE GENRENAME="TRAVELWRITING">travel <TGENRE GENRENAME="AUTOBIOGRAPHY">memoir or spiritual autobiography</TGENRE>
+                        </TGENRE> about her time spent in <PLACE>
+                           <GEOG>Somalia</GEOG>
+                           <AREA REG="Africa"/>
+                        </PLACE> was published under the title of <TITLE TITLETYPE="MONOGRAPHIC" REG="Prophet's Camel Bell, The">The Prophet's Camel Bell</TITLE>.</CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="Stovel 125" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">125</BIBCIT>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+                  <SHORTPROSE>
+                     <P>
+                        <PMATERIALCONDITIONS>
+                           <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> wrote this about a decade after the experience that it describes, drawing on the <QUOTE DIRECT="Y">voluminous <TGENRE GENRENAME="DIARY">diaries</TGENRE>
+                           </QUOTE> she had kept at the time and taking a break from the composition of her first novel.</PMATERIALCONDITIONS>
+                        <RSELFDESCRIPTION>After working on it for eight months she was dissatisfied with it, finding it bland, mediocre, and superficial.</RSELFDESCRIPTION>
+                        <RDESTRUCTIONOFWORK DESTROYEDBY="SELF">She destroyed the diaries after she had used them.</RDESTRUCTIONOFWORK>
+                        <PEARNINGS>
+                           <PMATERIALCONDITIONS>This was one of the several books she wrote in <PLACE>
+                                 <GEOG>England</GEOG>
+                              </PLACE>,</PMATERIALCONDITIONS> and her English editor, <NAME STANDARD="Maclean, Alan" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c50e13dd-89ef-44b3-822a-3468c3373a71">Alan Maclean</NAME>, helped her through a difficult time with a hundred-pound advance.</PEARNINGS>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 125" DBREF="61265" QTDIN="QTDINYES" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">125</BIBCIT>
+                           <BIBCIT PLACEHOLDER="Stovel 161" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">161</BIBCIT>
+                        </BIBCITS>
+                        <PEDITIONS>
+                           <PPLACEOFPUBLICATION>The book was published in the <PLACE>
+                                 <GEOG>USA</GEOG>
+                              </PLACE> under the title <TITLE TITLETYPE="MONOGRAPHIC" REG="Prophet's Camel Bell, The">New Wind in a Dry Land</TITLE>.<BIBCITS>
+                                 <BIBCIT PLACEHOLDER="Stovel 122" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">122</BIBCIT>
+                              </BIBCITS>
+                           </PPLACEOFPUBLICATION>
+                        </PEDITIONS>
+                     </P>
+                  </SHORTPROSE>
+               </PRODUCTION>
+               <TEXTUALFEATURES>
+                  <SHORTPROSE>
+                     <P>
+                        <TVOICENARRATION>It is written from a consciously outsider point of view, by an author whose nationality separates her from other white women in colonial Africa, as her race and class separates her from the native Africans.</TVOICENARRATION> She begins by relating her own <TTHEMETOPIC>innocence and eagerness</TTHEMETOPIC> at the start of her travels, anticipating the sight of marvels, and portraying this naive self with irony: <QUOTE DIRECT="Y">There you go rejoicing, as so you should, for anything might happen and you are carrying with you your notebook and camera so you may catch vast and elusive life in a word and a snapshot.</QUOTE>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 131" DBREF="61265" QTDIN="QTDINYES" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">131</BIBCIT>
+                        </BIBCITS> This attitude contrasts with the material of later pages—<TTHEMETOPIC>drought</TTHEMETOPIC>, <TTHEMETOPIC>death by dehydration</TTHEMETOPIC>, <TMOTIF MOTIFNAME="violence">
+                           <TTHEMETOPIC>female genital mutilation</TTHEMETOPIC>
+                        </TMOTIF>, and the narrator's gradual, sobering, humbling <TTHEMETOPIC>disillusionment</TTHEMETOPIC>.</P>
+                  </SHORTPROSE>
+               </TEXTUALFEATURES>
+               <RECEPTION>
+                  <SHORTPROSE>
+                     <P>
+                        <RRESPONSES RESPONSETYPE="INITIAL" FORMALITY="FORMAL">Some of the initial reviews in provincial papers were, said Laurence, <QUOTE DIRECT="Y">good for the laughs,</QUOTE> if not exactly flattering.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 125" DBREF="61265" QTDIN="QTDINYES" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">125</BIBCIT>
+                           </BIBCITS>
+                        </RRESPONSES>
+                        <RRESPONSES RESPONSETYPE="RE-EVALUATION" FORMALITY="FORMAL" GENDEREDRESPONSE="GENDEREDNO">Twenty years later <NAME STANDARD="Woodcock, George" REF="https://dev-02.cwrc.ca/islandora/objectorlando:719a39f0-bb77-4a40-b927-dd04ea4f8b65">George Woodcock</NAME> called this <QUOTE DIRECT="Y">arguably the best travel book ever written by a Canadian.</QUOTE>
+                           <BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 123-4" DBREF="61265" QTDIN="QTDINYES" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">123-4</BIBCIT>
+                           </BIBCITS>
+                        </RRESPONSES>
+                     </P>
+                  </SHORTPROSE>
+               </RECEPTION>
+            </DIV2>
+            <DIV2>
+               <HEADING>Criticism</HEADING>
+               <TEXTSCOPE DBREF="61013" PLACEHOLDER="ML, Long Drums and Cannons: Nigerian dramatists and novelists 1952-1966, 1963" REF="https://dev-02.cwrc.ca/islandora/objectorlando:4b382091-a9bc-47cf-8716-56c11b82546f"/>
+               <PRODUCTION>
+                  <CHRONSTRUCT RESP="IMG" CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="PERIOD">
+                     <DATE VALUE="1968-12" CERTAINTY="C">Probably late 1968</DATE>
+                     <CHRONPROSE>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> published a book of <TGENRE GENRENAME="LITERARYCRITICISM">criticism</TGENRE>, <TITLE TITLETYPE="MONOGRAPHIC" REG=" Nigerian dramatists and novelists 1952-1966">Long Drums and Cannons: <TTHEMETOPIC>
+                              <PLACE>
+                                 <GEOG REG="Nigeria">Nigerian</GEOG>
+                              </PLACE> dramatists and novelists</TTHEMETOPIC>, 1952-1966</TITLE>. It was the first book to appear about Nigerian writing.</CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="Stovel 111-12, 387" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">111-12, 387</BIBCIT>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+                  <SHORTPROSE>
+                     <P>
+                        <PMOTIVES MOTIVETYPE="ASCRIBED">This book began with a commission from the <ORGNAME STANDARD="BBC" REF="https://dev-02.cwrc.ca/islandora/objectorlando:377c20b8-d859-49ae-b44a-898faec68a0b">BBC</ORGNAME> to write four <TGENRE GENRENAME="JOURNALISM">programmes</TGENRE> about Nigerian literature.</PMOTIVES>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> gave herself a crash course in the subject, about which she was very enthusiastic, and expanded her radio work into a book, which she handed to her publisher, <ORGNAME STANDARD="Macmillan Publishers Limited" REF="https://dev-02.cwrc.ca/islandora/objectorlando:85bc8f3f-72f5-4378-be96-93ee92d8f05a">Macmillan</ORGNAME>, on 1 May 1967. <PEDITIONS>It was not reprinted until 2001.</PEDITIONS> She wrote an <TGENRE GENRENAME="INTRODUCTION">introduction</TGENRE> for it that was never published. <TINTERTEXTUALITY INTERTEXTTYPE="QUOTATION" GENDEROFAUTHOR="MALE">The title comes from a poem by <NAME STANDARD="Okigbo, Chris" REF="https://dev-02.cwrc.ca/islandora/objectorlando:022d44e9-b54d-471d-be5b-30682610f56a">Chris Okigbo</NAME>, who before the book appeared was killed in the Biafran civil war.</TINTERTEXTUALITY>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 109, 110, 10, 12" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">109, 110, 10, 12</BIBCIT>
+                           <BIBCIT PLACEHOLDER="Laurence, Dance 185" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">185</BIBCIT>
+                        </BIBCITS>
+                        <TVOICENARRATION>
+                           <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> wrote here as <QUOTE DIRECT="Y">a reasonably skilled reader who stood outside the culture.</QUOTE>
+                           <BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 110" DBREF="61265" QTDIN="QTDINYES" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">110</BIBCIT>
+                           </BIBCITS>
+                        </TVOICENARRATION>
+                     </P>
+                  </SHORTPROSE>
+               </PRODUCTION>
+               <TEXTUALFEATURES>
+                  <SHORTPROSE>
+                     <P>Much of what she says about Nigerian writing—its involvement in giving voice to a <TTHEMETOPIC>culture impoverished and devalued by the imposition of colonial standards</TTHEMETOPIC> of judgement, its value for a universal human audience—she and others were later to apply to Canadian writing. The only published book by a woman which she could find to consider was <TTHEMETOPIC>
+                           <TITLE TITLETYPE="MONOGRAPHIC">Efuru</TITLE>, 1966, by <NAME STANDARD="Nwapa, Florence" REF="https://dev-02.cwrc.ca/islandora/objectorlando:633bf98d-1c00-4db1-b18a-9f54999ae970">Florence Nwapa</NAME>
+                        </TTHEMETOPIC>, a hard-hitting novel in which <TTHEMETOPIC>women's plight in traditional Nigerian society</TTHEMETOPIC> is unflinchingly exposed.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 134-5" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">134-5</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </TEXTUALFEATURES>
+               <RECEPTION>
+                  <SHORTPROSE>
+                     <P>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s book was hailed by reviewers for its pioneering status.</P>
+                  </SHORTPROSE>
+               </RECEPTION>
+            </DIV2>
+         </DIV1>
+         <DIV1>
+            <HEADING>Manawaka Fictions</HEADING>
+            <DIV2>
+               <HEADING>
+                  <TITLE TITLETYPE="MONOGRAPHIC" REG="Stone Angel, The">The Stone Angel</TITLE>
+               </HEADING>
+               <TEXTSCOPE DBREF="61011" PLACEHOLDER="ML, The Stone Angel, 1964" REF="https://dev-02.cwrc.ca/islandora/objectorlando:5597c240-ae4c-4a0e-b83a-1732f706308a"/>
+               <PRODUCTION>
+                  <CHRONSTRUCT RESP="JEB" CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="SELECTIVE">
+                     <DATE VALUE="1964-05" CERTAINTY="C">Spring 1964</DATE>
+                     <CHRONPROSE>
+                        <TSETTINGPLACE SETTINGPLACETYPE="IDENTIFIABLE" SETTINGCLASS="WIDERANGE">
+                           <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> published <TITLE TITLETYPE="MONOGRAPHIC" REG="Stone Angel, The">The Stone Angel</TITLE>, her first of five <TGENRE GENRENAME="NOVEL">books</TGENRE> set in or starting out from the fictional prairie town of Manawaka. This, she insisted, though it had elements of her hometown, <PLACE>
+                              <SETTLEMENT>Neepawa</SETTLEMENT>, <REGION>Manitoba</REGION>
+                              <GEOG REG="Canada"/>
+                           </PLACE>, was not the same.</TSETTINGPLACE>
+                     </CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="Stouck 270" DBREF="64285" QTDIN="QTDINYES" REF="https://dev-02.cwrc.ca/islandora/objectorlando:4b5ef8b3-4708-4773-b667-e42815cfd90c">270</BIBCIT>
+                        <BIBCIT PLACEHOLDER="Stovel 155" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">155</BIBCIT>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+                  <SHORTPROSE>
+                     <P>
+                        <PINFLUENCESHER INFLUENCETYPE="FAMILIAL">
+                           <TVOICENARRATION>After completing her first draft <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> resisted the advice of her <NAME STANDARD="Laurence, Jack" REF="https://dev-02.cwrc.ca/islandora/objectorlando:f7b7073f-29de-43e5-9d9f-2b7b1a326155">husband</NAME> to substitute third- for first-person narrative and a straightforward chronological sequence for the vagaries of Hagar's intermittent present consciousness and her remembered past. Jack, in other words, would have preferred a more conventional technique.</TVOICENARRATION>
+                        </PINFLUENCESHER>
+                     </P>
+                  </SHORTPROSE>
+               </PRODUCTION>
+               <TEXTUALFEATURES>
+                  <SHORTPROSE>
+                     <P>
+                        <TVOICENARRATION>This book centres on its protagonist-narrator, <TCHARACTERTYPEROLE PROTAGONIST="FEMALE">ninety-year-old</TCHARACTERTYPEROLE>
+                           <TCHARACTERNAME REG="Shipley, Hagar Currie">Hagar Shipley (<FOREIGN>née</FOREIGN> Currie)</TCHARACTERNAME>, whom her creator described in a letter to <NAME STANDARD="Wiseman, Adele" REF="https://dev-02.cwrc.ca/islandora/objectorlando:5340d857-239a-4593-8254-59b332e3f5ff">Adele Wiseman</NAME> as <QUOTE DIRECT="Y">this <TCHARACTERTYPEROLE PROTAGONIST="FEMALE">daft old lady . . . crabby. snobbish. difficult</TCHARACTERTYPEROLE>, proud as Lucifer for no reason, a trial to her family, etc. She's also—I forgot to mention—dying.</QUOTE>
+                           <BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 173" DBREF="61265" QTDIN="QTDINYES" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">173</BIBCIT>
+                           </BIBCITS>
+                        </TVOICENARRATION> The book's working title was <TITLE TITLETYPE="UNPUBLISHED" REG="Stone Angel, The">Hagar</TITLE>. <TTECHNIQUES TECHNIQUETYPE="IMAGERY">The stone angel, mentioned in the opening sentence, dominates the cemetery at Manawaka, tall, cold, unseeing, raised by Hagar's father over the grave of her mother and asserting the prominent position of the Currie family in the community.</TTECHNIQUES>
+                        <TINTERTEXTUALITY INTERTEXTTYPE="ALLUSIONACKNOWLEDGED" GENDEROFAUTHOR="MALE">Hagar, named after a great-aunt who then left her money elsewhere, is ultimately named after the <TITLE TITLETYPE="MONOGRAPHIC" REG="Bible" REND="normal">biblical</TITLE> servant who was pregnant by the prophet Abraham and was driven out into the wilderness by his wife Sarah.</TINTERTEXTUALITY>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s Hagar is a <TCHARACTERTYPEROLE PROTAGONIST="FEMALE">Scots Presbyterian Canadian</TCHARACTERTYPEROLE> of the generation of her author's grandparents; her mother died at her birth. <TPLOT>Her <TCHARACTERTYPEROLE>father valued her for being tougher than his sons, but also bullied and dominated her</TCHARACTERTYPEROLE>. She married to offend and escape her father, and then broke the spirit of her <TCHARACTERTYPEROLE>rough-diamond husband</TCHARACTERTYPEROLE> by trying to tame and polish him. Of her two sons, she favoured the one she perceived as the tougher, but <TMOTIF MOTIFNAME="death of child">became indirectly responsible for his death in an accident</TMOTIF> because, disapproving of his girlfriend, she had forbidden him the house. In the present she has escaped from the nursing home she was sent to by her remaining son, and is a wanderer waiting to die.</TPLOT>
+                        <TTECHNIQUES>
+                           <TMOTIF MOTIFNAME="death of heroine">The book, her monologue, ends on an interrupted sentence: <QUOTE DIRECT="Y">And then—</QUOTE> Its punctuation clearly implies that this sentence is never finished.</TMOTIF>
+                        </TTECHNIQUES>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Laurence Stone 308" DBREF="61011" REF="https://dev-02.cwrc.ca/islandora/objectorlando:5597c240-ae4c-4a0e-b83a-1732f706308a">308</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </TEXTUALFEATURES>
+               <RECEPTION>
+                  <SHORTPROSE>
+                     <P>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> rocketed to success with this first novel. <RRESPONSES RESPONSETYPE="INITIAL" FORMALITY="INFORMAL">
+                           <NAME STANDARD="Wilson, Ethel" REF="https://dev-02.cwrc.ca/islandora/objectorlando:7a39c789-adf7-463b-b078-bd378187f688">Ethel Wilson</NAME>, to whom she sent a copy in spring 1964, responded with enthusiastic praise of this <QUOTE DIRECT="Y">
+                              <EMPH>great</EMPH>
+                           </QUOTE> and <QUOTE DIRECT="Y">
+                              <EMPH>glorious</EMPH>
+                           </QUOTE> book.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stouck 270" DBREF="64285" QTDIN="QTDINYES" REF="https://dev-02.cwrc.ca/islandora/objectorlando:4b5ef8b3-4708-4773-b667-e42815cfd90c">270</BIBCIT>
+                           </BIBCITS>
+                        </RRESPONSES>
+                        <RRECOGNITIONS>It was rated as the best Canadian novel in 1982 and as among the five best in 2002,<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 172" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">172</BIBCIT>
+                           </BIBCITS> and became a favourite for classroom study.</RRECOGNITIONS>
+                        <PNONBOOKMEDIA>A movie version was released in Canada in 2008.</PNONBOOKMEDIA>
+                     </P>
+                  </SHORTPROSE>
+               </RECEPTION>
+            </DIV2>
+            <DIV2>
+               <HEADING>
+                  <TITLE TITLETYPE="MONOGRAPHIC">A Jest of God</TITLE>
+               </HEADING>
+               <TEXTSCOPE DBREF="61012" PLACEHOLDER="ML, A Jest of God, 1966" REF="https://dev-02.cwrc.ca/islandora/objectorlando:48409dd5-faf9-41c7-8c0b-7cc4f65c81bd"/>
+               <PRODUCTION>
+                  <CHRONSTRUCT RESP="JEB" CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="PERIOD">
+                     <DATE VALUE="1966-06" CERTAINTY="BY">By June 1966</DATE>
+                     <CHRONPROSE>
+                        <TSETTINGDATE SETTINGDATETYPE="PRESENT">
+                           <TSETTINGPLACE SETTINGPLACETYPE="IDENTIFIABLE" SETTINGCLASS="WIDERANGE">
+                              <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s second Manawaka <TGENRE GENRENAME="NOVEL">novel</TGENRE>, <TITLE TITLETYPE="MONOGRAPHIC">A Jest of God</TITLE>, was published; <PEDITIONS>it was reissued as <TITLE TITLETYPE="MONOGRAPHIC" REG="Jest of God, A">Rachel, Rachel</TITLE> by <DATE CERTAINTY="BY" VALUE="1968-09">September 1968</DATE>, <PNONBOOKMEDIA>under which title it also became a successful film directed by <NAME STANDARD="Newman, Paul" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c20354a7-fa09-4825-b282-32e0aa853b2b">Paul Newman</NAME>.</PNONBOOKMEDIA>.</PEDITIONS>
+                           </TSETTINGPLACE>
+                        </TSETTINGDATE>
+                     </CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="BRI (4) 3005" DBREF="1704" REF="https://dev-02.cwrc.ca/islandora/objectorlando:1647023a-b144-43ab-9ce9-37976133f11e">(4) 3005</BIBCIT>
+                        <BIBCIT PLACEHOLDER="IMDb" DBREF="12265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:88cc162e-a5a3-4dc2-bc85-10e98d1fba1a"/>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+               </PRODUCTION>
+               <TEXTUALFEATURES>
+                  <SHORTPROSE>
+                     <TPLOT/><P>
+                        <TSETTINGPLACE SETTINGPLACETYPE="IDENTIFIABLE" SETTINGCLASS="WIDERANGE">
+                           <TCHARACTERNAME>Rachel Cameron</TCHARACTERNAME>, aged <TCHARACTERTYPEROLE PROTAGONIST="FEMALE">thirty-four and unmarried, is the grade one teacher</TCHARACTERTYPEROLE> at the Manawaka school, living with her mother above the funeral home and chapel which once belonged to her now-dead father, the <TCHARACTERTYPEROLE>town undertaker</TCHARACTERTYPEROLE>. Rachel is trapped in what <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> perceives as extended childhood.</TSETTINGPLACE> She is afraid of making an exhibition of herself, afraid of showing her feelings: how much she loves the bright little James, one of the children in her class; how she despises her <TCHARACTERTYPEROLE>generous-hearted colleague</TCHARACTERTYPEROLE> Calla, who attends a <TTHEMETOPIC>
+                           <SOCALLED>weird</SOCALLED> religious Tabernacle</TTHEMETOPIC> and wears the same clothes day after day. Rachel secretly mourns her <TTHEMETOPIC>childlessness</TTHEMETOPIC>, resents her demanding mother, and both admires and resents her <SOCALLED>decisive</SOCALLED> elder sister <TCHARACTERNAME REG="MacAindra, Stacey Cameron">Stacey</TCHARACTERNAME>, who has left Manawaka never to return. It is easy to see how close Rachel is coming to the <TTHEMETOPIC>hide-bound conventionality</TTHEMETOPIC> that she dislikes in her mother.</P>
+                     <P>The first upsetting event for Rachel is that she gives in to Calla's persuasion to accompany her (with secret contempt) to the Tabernacle, where she then shocks herself by bursting into <TTHEMETOPIC>unintelligible glossalalia, or <SOCALLED>speaking in tongues</SOCALLED>, followed by hysterical crying</TTHEMETOPIC>. Next Calla, having taken her home and tried to comfort her, kisses her on the lips. Next she finds herself in a trivial power struggle with the child James, and <TMOTIF MOTIFNAME="violence">feels compelled to assert her authority by hitting him</TMOTIF>. The major upsetting event is her affair with <TCHARACTERNAME>Nick Kaslik</TCHARACTERNAME>, a contemporary and <TCHARACTERTYPEROLE>childhood acquaintance</TCHARACTERTYPEROLE> who has moved to Winnipeg but is back visiting his parents for the summer. Nick's <TCHARACTERTYPEROLE>Ukrainian</TCHARACTERTYPEROLE> heritage is an issue for her snobbish mother. He is her first sexual partner: she wants, needs, loves him; but at the end of the summer he leaves without saying goodbye. She <TMOTIF MOTIFNAME="pregnancy">thinks she is pregnant</TMOTIF>, but it turns out that she has a <TMOTIF MOTIFNAME="illness">benign tumour</TMOTIF>. She makes the first big decision of her life when she arranges to move, with her <TMOTIF MOTIFNAME="bad mothering">protesting, emotionally blackmailing mother</TMOTIF>, to <PLACE>
+                           <SETTLEMENT>Vancouver</SETTLEMENT>
+                           <REGION REG="British Columbia"/>
+                           <GEOG REG="Canada"/>
+                        </PLACE> to a <TTHEMETOPIC>new job and a new life</TTHEMETOPIC>. The book closes on her conflicting fantasies for her future: becoming eccentric, becoming vague, becoming obsessive, getting married, not getting married. <QUOTE DIRECT="Y">I will quite frequently push the doors marked <EMPH>Pull</EMPH> and pull the ones marked <EMPH>Push</EMPH>.</QUOTE> She will make an exhibition of herself. Finally: <QUOTE DIRECT="Y">God's mercy on reluctant jesters. God's grace on fools. God's pity on God.</QUOTE>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Laurence, Jest 202" DBREF="61012" REF="https://dev-02.cwrc.ca/islandora/objectorlando:48409dd5-faf9-41c7-8c0b-7cc4f65c81bd">202</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </TEXTUALFEATURES>
+               <RECEPTION>
+                  <SHORTPROSE>
+                     <P>
+                        <RRECOGNITIONS>This novel won the <RRECOGNITIONNAME>Governor General's Award</RRECOGNITIONNAME>.</RRECOGNITIONS>
+                        <RRESPONSES RESPONSETYPE="INITIAL" FORMALITY="FORMAL" GENDEREDRESPONSE="GENDEREDYES">
+                           <TCHARACTERIZATION>Many commentators, however, found Rachel self-obsessed and whining. Complaints of her introversion might equally have been made about Hagar, but apparently introversion combined with an unhappiness and unbalance which seemed pecularily female was too much for reviewers to accept.<BIBCITS>
+                                 <BIBCIT PLACEHOLDER="Stovel 206" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">206</BIBCIT>
+                              </BIBCITS>
+                           </TCHARACTERIZATION>
+                        </RRESPONSES>
+                     </P>
+                  </SHORTPROSE>
+               </RECEPTION>
+            </DIV2>
+            <DIV2>
+               <HEADING>
+                  <TITLE TITLETYPE="MONOGRAPHIC">The Fire-Dwellers</TITLE>
+               </HEADING>
+               <TEXTSCOPE DBREF="61014" PLACEHOLDER="ML, The Fire-Dwellers, 1969" REF="https://dev-02.cwrc.ca/islandora/objectorlando:1f202917-c55c-4bc9-93cf-9dd2ea36cd30"/>
+               <PRODUCTION>
+                  <CHRONSTRUCT RESP="JEB" CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="DECADE">
+                     <DATE VALUE="1969-03" CERTAINTY="BY">By March 1969</DATE>
+                     <CHRONPROSE>
+                        <TSETTINGPLACE SETTINGPLACETYPE="IDENTIFIABLE" SETTINGCLASS="WIDERANGE">
+                           <TSETTINGDATE SETTINGDATETYPE="PRESENT">
+                              <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s <TGENRE GENRENAME="NOVEL">novel</TGENRE>
+                              <TITLE TITLETYPE="MONOGRAPHIC">The Fire-Dwellers</TITLE> was published. It is her third Manawaka <TGENRE GENRENAME="NOVEL">novel</TGENRE>, and makes a pair with the second, an account of the <TMOTIF MOTIFNAME="sister heroines">married sister to follow that of the spinster sister</TMOTIF>.</TSETTINGDATE>
+                        </TSETTINGPLACE>
+                     </CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="BRI (4) 3005" DBREF="1704" REF="https://dev-02.cwrc.ca/islandora/objectorlando:1647023a-b144-43ab-9ce9-37976133f11e">(4) 3005</BIBCIT>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+                  <SHORTPROSE>
+                     <P>
+                        <PMATERIALCONDITIONS>
+                           <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> had begun writing this novel before <TITLE TITLETYPE="MONOGRAPHIC">A Jest of God</TITLE>, then realised that what she needed was to write two novels, and that the other one must come first.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Laurence, Dance 176" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">176</BIBCIT>
+                           </BIBCITS>
+                        </PMATERIALCONDITIONS>
+                     </P>
+                  </SHORTPROSE>
+               </PRODUCTION>
+               <TEXTUALFEATURES>
+                  <SHORTPROSE>
+                     <P>A reader who has already met <TCHARACTERNAME>Rachel Cameron</TCHARACTERNAME> will know that she envies her married sister Stacey her sex life, her independence, and more especially her <TTHEMETOPIC>motherhood</TTHEMETOPIC>. This novel presents the life of <TCHARACTERNAME>Stacey Cameron MacAindra</TCHARACTERNAME> as she herself experiences it, as unappreciated servitude to four children and an inexpressive husband. A letter which Stacey writes to their mother, full of platitudes, is encountered in the first novel as Mrs Cameron reads it to Rachel, again in this novel as Stacey is writing it. <TTECHNIQUES>Stacey feels she is juggling with multiple selves, and the fictional technique is correspondingly fractured; <PRARITIESFEATURESDECORATIONS>the typography signals fantasies and news bulletins (about <TTHEMETOPIC>napalm and the threat of nuclear war</TTHEMETOPIC>) in italics and in capitals.</PRARITIESFEATURESDECORATIONS>
+                           <BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 210-11" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">210-11</BIBCIT>
+                           </BIBCITS>
+                        </TTECHNIQUES>
+                     </P>
+                     <P>Stacey's problems, involving the lives of many people, grow and multiply around her. A younger housewife, whose cool elegance she had envied, commits <TMOTIF MOTIFNAME="suicide">suicide</TMOTIF>; she throws away her father's gun for fear she might use it to similar effect. The first person she confesses this to is a <TCHARACTERTYPEROLE>younger, hippie Italian man</TCHARACTERTYPEROLE> with whom she has a <TMOTIF MOTIFNAME="adultery">brief sexual fling</TMOTIF>. She worries about the noncommunicativeness of her husband, Mac (not till late in the story does she begin at last to understand the burden he carries of <TTHEMETOPIC>compulsion to be strong because he is male</TTHEMETOPIC>) and about the <TTHEMETOPIC>teenage blossoming</TTHEMETOPIC> of her daughter Katie. She fears for the safety of her two boys (as part of the book's composite climax, Duncan has a <TCHARACTERTYPEROLE>narrow escape from drowning</TCHARACTERTYPEROLE>), and about the fact that her youngest child, Jen, is still mute at nearly three. Jen's first words (<QUOTE DIRECT="Y">Hi, Mum. Want tea?</QUOTE>) make a surprisingly moving moment: then she repeats the question and repeats it, till Stacey wonders: <QUOTE DIRECT="Y">Ye gods. What if she never learns to say anything else?</QUOTE>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Laurence, Fire 300" DBREF="61014" REF="https://dev-02.cwrc.ca/islandora/objectorlando:1f202917-c55c-4bc9-93cf-9dd2ea36cd30">300</BIBCIT>
+                        </BIBCITS> This book ends on a brief pause in the rushing world. Duncan has not died, Jen has spoken, Rachel is coming to live nearby with their mother. Stacey, lying awake the night before she turns forty, senses that for the moment the world is still there.</P>
+                  </SHORTPROSE>
+               </TEXTUALFEATURES>
+               <RECEPTION>
+                  <SHORTPROSE>
+                     <P>
+                        <RRESPONSES RESPONSETYPE="INITIAL" FORMALITY="FORMAL">
+                           <NAME STANDARD="Watt, F. M." REF="https://dev-02.cwrc.ca/islandora/objectorlando:43bc2aed-963c-4136-83f0-bc37d5cc0760">F. M. Watt</NAME> wrote in a review that this book <QUOTE DIRECT="Y">contains flaws enough to sink half a dozen books by lesser novelists.</QUOTE>
+                           <BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 211" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">211</BIBCIT>
+                           </BIBCITS> The reviewer for <TITLE TITLETYPE="JOURNAL">Time</TITLE> magazine hated the book, and moreover, to <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s indignation, wrote that it was autobiographical.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Laurence, Dance 209" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">209</BIBCIT>
+                           </BIBCITS>
+                        </RRESPONSES> Respect for it grew slowly, however.</P>
+                  </SHORTPROSE>
+               </RECEPTION>
+            </DIV2>
+            <DIV2>
+               <HEADING>
+                  <TITLE TITLETYPE="MONOGRAPHIC">A Bird in the House</TITLE>
+               </HEADING>
+               <TEXTSCOPE DBREF="61016" PLACEHOLDER="ML, A Bird in the House, 1970" REF="https://dev-02.cwrc.ca/islandora/objectorlando:6a0e322e-72ce-41b2-aff3-2a81eaae0cd1"/>
+               <PRODUCTION>
+                  <CHRONSTRUCT RESP="JEB" CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="DECADE">
+                     <DATE VALUE="1970-01" CERTAINTY="BY">By January 1970</DATE>
+                     <CHRONPROSE>
+                        <TSETTINGDATE SETTINGDATETYPE="PAST">
+                           <TSETTINGPLACE SETTINGPLACETYPE="IDENTIFIABLE" SETTINGCLASS="WIDERANGE">
+                              <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> published <TITLE TITLETYPE="MONOGRAPHIC">A Bird in the House</TITLE>, a collection of linked <TGENRE GENRENAME="SHORTSTORY">stories</TGENRE>, set in <SOCALLED>the old Connor house</SOCALLED> in Manawaka, the <SOCALLED>Brick House</SOCALLED>, home of the protagonist's <TCHARACTERTYPEROLE>dour pioneer grandfather</TCHARACTERTYPEROLE>.</TSETTINGPLACE>
+                        </TSETTINGDATE>
+                     </CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="BRI (4) 3005" DBREF="1704" REF="https://dev-02.cwrc.ca/islandora/objectorlando:1647023a-b144-43ab-9ce9-37976133f11e">(4) 3005</BIBCIT>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+               </PRODUCTION>
+               <TEXTUALFEATURES>
+                  <SHORTPROSE>
+                     <P>
+                        <TGENREISSUE>The <TGENRE GENRENAME="SHORTSTORY">story</TGENRE> form gives <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> an opportunity for intense compression of meaning.</TGENREISSUE> The <TCHARACTERTYPEROLE PROTAGONIST="FEMALE">ten-year-old child <TCHARACTERNAME>Vanessa MacLeod</TCHARACTERNAME> is <QUOTE DIRECT="Y">a professional listener</QUOTE>
+                        </TCHARACTERTYPEROLE> in her extended family, which because of the Depression has folded in on itself. <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Laurence, Bird 11" DBREF="61016" REF="https://dev-02.cwrc.ca/islandora/objectorlando:6a0e322e-72ce-41b2-aff3-2a81eaae0cd1">11</BIBCIT>
+                        </BIBCITS> This is the Irish side of the family, her mother's side. Her father's side is Scottish. The opening story, <TITLE TITLETYPE="ANALYTIC">The Sound of the Singing</TITLE>, sets the stage: Grandfather Connor laying down the law in his own <TTHEMETOPIC>pious household</TTHEMETOPIC>, with his <TCHARACTERTYPEROLE>doctor son-in-law</TCHARACTERTYPEROLE> absent attending a dying man who will not be able to pay. The other family members are Vanessa's mother, <TMOTIF MOTIFNAME="pregnancy">pregnant but working as long as she can</TMOTIF>; her <TMOTIF MOTIFNAME="single women">unmarried sister, Aunt Edna, who was working but is now unemployed</TMOTIF>; the <TCHARACTERTYPEROLE>grandmother who must be protected and cossetted</TCHARACTERTYPEROLE>; and the <TCHARACTERTYPEROLE>ne'er-do-well great-uncle Dan, who turns up singing songs and hoping to borrow money</TCHARACTERTYPEROLE>. Vanessa does not understand what milestone has been passed when Grandfather Connor turns his brother out of the house (as he has often threatened to do) and Grandmother unites the others to reverse his action.</P>
+                     <P>The last story in the series teems with events: because Vanessa's father has died, she and her mother and baby brother have given up their own house. They now live all the time with Grandfather and Grandmother Connor. Aunt Edna succeeds at last in getting away, marrying a man who unexpectedly turns out able to stand up to Grandfather. When Vanessa gets to dating, Grandfather taunts her that her boyfriend is probably married. She cannot forgive him for this, because it turns out to be true. The sequence ends many years later when the house is in other hands and, revisiting, Vanessa realises: <QUOTE DIRECT="Y">I had feared and fought the old man, yet he proclaimed himself in my veins.</QUOTE>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Laurence, Bird 207" DBREF="61016" REF="https://dev-02.cwrc.ca/islandora/objectorlando:6a0e322e-72ce-41b2-aff3-2a81eaae0cd1">207</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                     <P>Other stories address the central themes of the book in symbolic mode. In <TITLE TITLETYPE="ANALYTIC">The Half-Husky</TITLE>, an adorable puppy given to Vanessa and her brother Robbie turns gradually distrustful and aggressive as the <TCHARACTERTYPEROLE>paper boy</TCHARACTERTYPEROLE>, <TCHARACTERNAME>Harvey Shinwell</TCHARACTERNAME>, <TMOTIF MOTIFNAME="violence">torments him through the fence with a sharp stick and later with worse things</TMOTIF>. At last Vanessa's mother has the dog destroyed (telling her she has found him a more suitable home on a farm). Later Vanessa learns how Harvey grew up tormented by an unloving aunt who gave him the only home he had. Snubbing the aunt (who was also a person <TCHARACTERTYPEROLE>starved of affection</TCHARACTERTYPEROLE>), Vanessa is painfully aware that this too, like every link in the chain before it, has been unfair.</P>
+                  </SHORTPROSE>
+               </TEXTUALFEATURES>
+            </DIV2>
+            <DIV2>
+               <HEADING>
+                  <TITLE TITLETYPE="MONOGRAPHIC">The Diviners</TITLE>
+               </HEADING>
+               <TEXTSCOPE DBREF="35237" PLACEHOLDER="ML, The Diviners, 1974" REF="https://dev-02.cwrc.ca/islandora/objectorlando:98fcdc80-8d6c-4de0-b02e-f2109b022318"/>
+               <PRODUCTION>
+                  <CHRONSTRUCT RESP="IMG" CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="COMPREHENSIVE">
+                     <DATE VALUE="1973-02-07">7 February 1973</DATE>
+                     <CHRONPROSE>
+                        <PATTITUDES>
+                           <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> told the poet <NAME STANDARD="Purdy, Al" REF="https://dev-02.cwrc.ca/islandora/objectorlando:dd5042bf-5621-473b-ab3b-93885affd935">Al Purdy</NAME> that she had finished <TITLE TITLETYPE="MONOGRAPHIC">The Diviners</TITLE>, and that her withdrawal symptoms on completing it were worse than usual because she had now brought her sequence of five Manawaka books to a close.</PATTITUDES>
+                     </CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="Stovel 170" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">170</BIBCIT>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+                  <CHRONSTRUCT RESP="JEB" CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="SELECTIVE">
+                     <DATE VALUE="1974-05">May 1974</DATE>
+                     <CHRONPROSE>
+                        <RBESTKNOWNWORK>
+                           <TSETTINGPLACE SETTINGPLACETYPE="IDENTIFIABLE" SETTINGCLASS="WIDERANGE">
+                              <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> published her final <TGENRE GENRENAME="NOVEL">novel</TGENRE>, <TITLE TITLETYPE="MONOGRAPHIC">The Diviners</TITLE>, whose heroine, <TCHARACTERNAME>Morag Gunn</TCHARACTERNAME>, is another native of Manawaka. </TSETTINGPLACE>
+                        </RBESTKNOWNWORK>
+                     </CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="Laurence, Dance 210" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">210</BIBCIT>
+                        <BIBCIT PLACEHOLDER="BRI (4) 3005" DBREF="1704" REF="https://dev-02.cwrc.ca/islandora/objectorlando:1647023a-b144-43ab-9ce9-37976133f11e">(4) 3005</BIBCIT>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+                  <SHORTPROSE>
+                     <P>
+                        <PMANUSCRIPTHISTORY>She had cut down her first draft, of nearly 700 pages in typescript, to 578 pages, and intended to cut it by another hundred.</PMANUSCRIPTHISTORY>
+                        <PSUBMISSIONSREJECTIONS>
+                           <PPLACEOFPUBLICATION>It was, however, accepted by all of her publishers: <ORGNAME STANDARD="McClelland and Stewart" REF="https://dev-02.cwrc.ca/islandora/objectorlando:f6c1744e-4ca6-456e-a95b-7a7d3f623b1e">McClelland and Stewart</ORGNAME> in <PLACE>
+                                 <GEOG>Canada</GEOG>
+                              </PLACE>, <ORGNAME STANDARD="Knopf" REF="https://dev-02.cwrc.ca/islandora/objectorlando:785a64ce-26ed-45f6-ae44-6657c9686468">Knopf</ORGNAME> in the <PLACE>
+                                 <GEOG>USA</GEOG>
+                              </PLACE>, and <ORGNAME STANDARD="Macmillan Publishers Limited" REF="https://dev-02.cwrc.ca/islandora/objectorlando:85bc8f3f-72f5-4378-be96-93ee92d8f05a">Macmillan</ORGNAME> in <PLACE>
+                                 <GEOG>England</GEOG>
+                              </PLACE>.</PPLACEOFPUBLICATION>
+                        </PSUBMISSIONSREJECTIONS>
+                     </P>
+                  </SHORTPROSE>
+               </PRODUCTION>
+               <TEXTUALFEATURES>
+                  <SHORTPROSE>
+                     <P>The novel's title comes from the frame fiction surrounding the central tale, that of <TCHARACTERNAME>Morag Gunn</TCHARACTERNAME>, a <TCHARACTERTYPEROLE PROTAGONIST="FEMALE">writer in difficulty with her writing</TCHARACTERTYPEROLE>. <TTECHNIQUES TECHNIQUETYPE="IMAGERY">
+                           <TSETTINGPLACE SETTINGPLACETYPE="REAL" SETTINGCLASS="MIDDLECLASS">Morag, hoping to make a new start in the house where she has settled beside the <PLACE>
+                                 <REGION>Otonabee River</REGION>
+                                 <GEOG REG="Canada"/>
+                              </PLACE> in <PLACE>
+                                 <REGION>Ontario</REGION>
+                                 <GEOG REG="Canada"/>
+                              </PLACE>,</TSETTINGPLACE> sees the <TTHEMETOPIC>water-diviner</TTHEMETOPIC> (who comes to prospect for the well she proposes to have dug) as a symbol of the writer, calling by magic ritual on the life-giving water which he cannot see. This moment drives her back to seek the sources of her power in the hidden springs of her own life.</TTECHNIQUES>
+                     </P>
+                     <P>Morag's parents died in the <TTHEMETOPIC>flu epidemic</TTHEMETOPIC> that followed the First World War. She is <QUOTE DIRECT="Y">brought up by Manawaka's most marginal couple,</QUOTE>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="FC" DBREF="107913" REF="https://dev-02.cwrc.ca/islandora/objectorlando:0614ac01-c5d8-4b28-973f-96dca049d58a"/>
+                        </BIBCITS> the <TCHARACTERTYPEROLE>garbage-collector</TCHARACTERTYPEROLE>, <TCHARACTERNAME>Christie Logan</TCHARACTERNAME>, and his <TCHARACTERTYPEROLE>obese</TCHARACTERTYPEROLE> wife, Prin (short for Princess). Her <TTHEMETOPIC>success at school</TTHEMETOPIC> only partly offsets this experience of <TTHEMETOPIC>living as underclass</TTHEMETOPIC>. She shares Christie's intoxication over their joint, <TTHEMETOPIC>mythic or heroic, Scottish Highland heritage</TTHEMETOPIC>. Later, through her long on-again, off-again relationship with the <TCHARACTERTYPEROLE>Metis folk-singer</TCHARACTERTYPEROLE>
+                        <TCHARACTERNAME>Jules (Skinner) Tonnerre</TCHARACTERNAME> (a childhood friend, the closest she ever comes to a continuing lover, the father of her child) she experiences the other <TTHEMETOPIC>marginal positions occupied on the prairies by Native and French-descended people</TTHEMETOPIC>. At university she is taught by <TCHARACTERNAME>Brooke Skelton</TCHARACTERNAME>, an <TCHARACTERTYPEROLE>Englishman convinced of his cultural superiority</TCHARACTERTYPEROLE>, and on marrying him she realises that he feels superior through his gender, too: a woman, like a territory, can be colonized. Through her personal life Morag experiences the <QUOTE DIRECT="Y">competing national myths</QUOTE> of Canada,<BIBCITS>
+                           <BIBCIT PLACEHOLDER="FC" DBREF="107913" REF="https://dev-02.cwrc.ca/islandora/objectorlando:0614ac01-c5d8-4b28-973f-96dca049d58a"/>
+                        </BIBCITS> and as a writer she is constantly spinning myth and empowerment out of her own often raw and painful actuality both past and present. This actuality includes both an <TMOTIF MOTIFNAME="abortion">abortion</TMOTIF> and a <TMOTIF MOTIFNAME="violence">
+                           <TTHEMETOPIC>casual sexual encounter</TTHEMETOPIC> which turns violent and frightening</TMOTIF>. <RPENALTIES CENSORSHIP="CENSORSHIPYES">The novel's <QUOTE DIRECT="Y">unfudged depiction</QUOTE> of these episodes provoked its banning from highschool curricula in Ontario public schools. <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>, who defined herself as both a moral and a Christian writer, found this episode immensely painful.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="FC" DBREF="107913" REF="https://dev-02.cwrc.ca/islandora/objectorlando:0614ac01-c5d8-4b28-973f-96dca049d58a"/>
+                           </BIBCITS>
+                        </RPENALTIES>
+                     </P>
+                  </SHORTPROSE>
+               </TEXTUALFEATURES>
+               <RECEPTION>
+                  <SHORTPROSE>
+                     <P>
+                        <RRESPONSES RESPONSETYPE="INITIAL" FORMALITY="FORMAL" GENDEREDRESPONSE="GENDEREDYES">Again one reviewer, this time a woman writing for a Canadian magazine, insisted against Laurence's protests that the novel was entirely autobiographical.<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Laurence, Dance 208" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">208</BIBCIT>
+                           </BIBCITS>
+                        </RRESPONSES>
+                        <RRESPONSES RESPONSETYPE="RE-EVALUATION" FORMALITY="FORMAL">The <TITLE TITLETYPE="MONOGRAPHIC">Feminist Companion</TITLE> called <TITLE TITLETYPE="MONOGRAPHIC">The Diviners</TITLE>
+                           <TINTERTEXTUALITY INTERTEXTTYPE="ALLUSIONACKNOWLEDGED" GENDEROFAUTHOR="FEMALE">
+                              <QUOTE DIRECT="Y">a spacious novel which translates experience into art by various formal devices including the admonitory voice of <NAME STANDARD="Traill, Catharine Parr" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c993d922-00cd-42e0-83bd-f71eb8142e9d">Catharine Parr Traill</NAME>,</QUOTE> the pioneer author whose superwoman ability to rise above difficulty Morag finds both inspirational and irritating.</TINTERTEXTUALITY>
+                        </RRESPONSES>
+                        <RRESPONSES RESPONSETYPE="RECENT" FORMALITY="FORMAL">
+                           <NAME STANDARD="Stovel, Nora Foster" REF="https://dev-02.cwrc.ca/islandora/objectorlando:b6c40886-9871-4657-8eae-67312365f82e">Nora Stovel</NAME> calls the book <QUOTE DIRECT="Y">Laurence's most metafictional and meta-autobiographical novel.</QUOTE>
+                           <BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 263" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">263</BIBCIT>
+                           </BIBCITS>
+                        </RRESPONSES>
+                     </P>
+                     <P>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> formed the intention of concluding her Manawaka cycle with a novel about her terrible experience of being <TTHEMETOPIC>censored, rebuked, and hated</TTHEMETOPIC> for <TITLE TITLETYPE="MONOGRAPHIC">The Diviners</TITLE>. She planned to call it <TITLE TITLETYPE="UNPUBLISHED">Dance on the Earth</TITLE>. She worked on this novel during 1982 and 1983, but was unable to finish it. Only after that did she compose her memoir of the same title.<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 264, 266" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">264, 266</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </RECEPTION>
+            </DIV2>
+         </DIV1>
+         <DIV1>
+            <HEADING>Books for Children</HEADING>
+            <DIV2>
+               <PRODUCTION>
+                  <SHORTPROSE>
+                     <P>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> published four <TGENRE GENRENAME="CHILDRENSLITERATURE">books for children</TGENRE> over a span of ten years: <PRARITIESFEATURESDECORATIONS>first <TITLE TITLETYPE="MONOGRAPHIC">Jason's Quest</TITLE>, 1970 (illustrated by <NAME STANDARD="Torell, Staffan" REF="https://dev-02.cwrc.ca/islandora/objectorlando:05615da4-405e-48c8-b07b-995425d45f80">Staffan Torell</NAME>),</PRARITIESFEATURESDECORATIONS> then <TITLE TITLETYPE="MONOGRAPHIC">Six Darn Cows</TITLE>, 1979 (contributed to a series called <TITLE TITLETYPE="SERIES">Kids of Canada</TITLE>, with a prescribed, limited vocabulary), and <PDEDICATION>
+                           <TITLE TITLETYPE="MONOGRAPHIC">The Olden Days Coat</TITLE>, also 1979 (dedicated to <NAME STANDARD="Stone, Tamara" REF="https://dev-02.cwrc.ca/islandora/objectorlando:1e0cbdce-a057-48b7-a3d2-350ab48c75ae">Tamara Stone</NAME>, daughter of the writer <NAME STANDARD="Wiseman, Adele" REF="https://dev-02.cwrc.ca/islandora/objectorlando:5340d857-239a-4593-8254-59b332e3f5ff">Adele Wiseman</NAME>),</PDEDICATION>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 298" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">298</BIBCIT>
+                        </BIBCITS> and finally <TITLE TITLETYPE="MONOGRAPHIC">The Christmas Birthday Story</TITLE>, 1980.</P>
+                     <P>
+                        <PMOTIVES MOTIVETYPE="SELF-IDENTIFIED">She wrote the last-published first: a Christmas Nativity story written in 1960, for her children's Sunday School at the <ORGNAME STANDARD="Unitarian Church" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c08bbb29-29f4-4042-84dc-9fee5bffee3e">Unitarian Church</ORGNAME> in <PLACE>
+                              <SETTLEMENT>Vancouver</SETTLEMENT>
+                              <REGION REG="British Columbia"/>
+                              <GEOG REG="Canada"/>
+                           </PLACE>, where earnest sceptics wanted the involvement of angels downplayed.</PMOTIVES>
+                        <PMANUSCRIPTHISTORY>She then lost her copy. Years later she found the story was still being used in the same church, and was offered a copy,</PMANUSCRIPTHISTORY>
+                        <PRARITIESFEATURESDECORATIONS>which she then revised for publication with illustrations by <NAME STANDARD="Lucas, Helen" REF="https://dev-02.cwrc.ca/islandora/objectorlando:88899bfe-dc5a-4e1d-b0e6-fa9199cb6d99">Helen Lucas</NAME> (black and white so that children might colour them in).</PRARITIESFEATURESDECORATIONS>
+                        <RRESPONSES RESPONSETYPE="INITIAL" FORMALITY="INFORMAL" GENDEREDRESPONSE="GENDEREDYES">She met with condemnation from the orthodox for saying that Joseph and <TCHARACTERNAME REG="Mary, the mother of Jesus">Mary</TCHARACTERNAME> didn't mind whether their baby turned out to be a boy or a girl. But a prairie Jewish author, <NAME STANDARD="Maynard, Fredelle" REF="https://dev-02.cwrc.ca/islandora/objectorlando:09826a4b-a42b-409b-8335-e28ab3b7d7e9">Fredelle Maynard</NAME>, told her that this was the only telling of the Nativity story to put in the hands of a Jewish child.</RRESPONSES>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 292 and n10, 293" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">292, n10, 293</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </PRODUCTION>
+               <TEXTUALFEATURES>
+                  <SHORTPROSE>
+                     <P>
+                        <TITLE TITLETYPE="MONOGRAPHIC">Jason's Quest</TITLE> began when <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> and her two children found mole-hills on the lawn at their cottage in England (which she got rid of by means of a mole-catcher).<BIBCITS>
+                           <BIBCIT PLACEHOLDER="Laurence, Dance 189" DBREF="61019" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc">189</BIBCIT>
+                        </BIBCITS>
+                        <TPLOT>In the book the <TCHARACTERTYPEROLE>young mole</TCHARACTERTYPEROLE>
+                           <TCHARACTERNAME>Jason</TCHARACTERNAME> sets out on a <TMOTIF MOTIFNAME="quest">dangerous journey</TMOTIF> to a place called <SOCALLED>Thither</SOCALLED>, seeking a cure for a mysterious <TMOTIF MOTIFNAME="illness">illness</TMOTIF> that afflicts the denizens of Molanium—a complaint which turns out to be <TTHEMETOPIC>boredom</TTHEMETOPIC>.</TPLOT>
+                     </P>
+                     <P>
+                        <TPLOT>In <TITLE TITLETYPE="MONOGRAPHIC">Six Darn Cows</TITLE> the <TCHARACTERTYPEROLE>farm children</TCHARACTERTYPEROLE> (a girl and a boy) first wish the <TTHEMETOPIC>cows</TTHEMETOPIC> would <SOCALLED>just get lost</SOCALLED> and then leave a gate open, so they are doubly responsible when the cows are lost and doubly relieved when they help materially in finding them.</TPLOT>
+                     </P>
+                     <P>
+                        <RRESPONSES RESPONSETYPE="RECENT" FORMALITY="INFORMAL">
+                           <TITLE TITLETYPE="MONOGRAPHIC">The Olden Days Coat</TITLE>, called by <NAME STANDARD="Stovel, Nora Foster" REF="https://dev-02.cwrc.ca/islandora/objectorlando:b6c40886-9871-4657-8eae-67312365f82e">Nora Stovel</NAME>
+                           <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s best-loved childrens' book,</RRESPONSES> is also highly characteristic in its fascination with the <TTHEMETOPIC>passage of time</TTHEMETOPIC>. <TPLOT>
+                           <TSETTINGDATE SETTINGDATETYPE="PAST">
+                              <TSETTINGDATE SETTINGDATETYPE="PRESENT">Ten-year-old Sally <TMOTIF MOTIFNAME="disguise">dresses up in some clothes which belonged to her grandmother when young</TMOTIF>, and finds herself transported back into the past. There she meets a girl of her own age, who impresses her by being out alone driving two horses in a cutter (a sleigh). After she succeeds in getting back to the present day, she realises that the other girl was no other than her grandmother.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Stovel 297" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">297</BIBCIT>
+                                 </BIBCITS>
+                              </TSETTINGDATE>
+                           </TSETTINGDATE>
+                        </TPLOT>
+                     </P>
+                  </SHORTPROSE>
+               </TEXTUALFEATURES>
+            </DIV2>
+         </DIV1>
+         <DIV1>
+            <HEADING>Life-Writing</HEADING>
+            <DIV2>
+               <TEXTSCOPE DBREF="61018" PLACEHOLDER="ML, Heart of a Stranger, 1976" REF="https://dev-02.cwrc.ca/islandora/objectorlando:4b4966e5-3565-41ae-88b9-9c0e897cdecb"/>
+               <PRODUCTION>
+                  <CHRONSTRUCT RESP="JEB" CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="DECADE">
+                     <DATE VALUE="1976-11" CERTAINTY="BY">By November 1976</DATE>
+                     <CHRONPROSE>
+                        <PPERIODICALPUBLICATION>
+                           <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> collected a volume of nineteen <TGENRE GENRENAME="ESSAY">essays</TGENRE> already published in periodicals, under the title <TITLE TITLETYPE="MONOGRAPHIC">Heart of a Stranger</TITLE>.</PPERIODICALPUBLICATION> She wrote that in collecting them she was surprised to find they were all <TGENRE GENRENAME="TRAVELWRITING">travel pieces</TGENRE>.</CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="BRI (4) 3005" DBREF="1704" REF="https://dev-02.cwrc.ca/islandora/objectorlando:1647023a-b144-43ab-9ce9-37976133f11e">(4) 3005</BIBCIT>
+                        <BIBCIT PLACEHOLDER="Stovel 60" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">60</BIBCIT>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+               </PRODUCTION>
+               <TEXTUALFEATURES>
+                  <SHORTPROSE>
+                     <P>She writes here of <TTHEMETOPIC>travelling in <PLACE>
+                              <GEOG>Scotland</GEOG>
+                           </PLACE>, <PLACE>
+                              <GEOG>Greece</GEOG>
+                           </PLACE>, and <PLACE>
+                              <GEOG>Egypt</GEOG>
+                           </PLACE>
+                        </TTHEMETOPIC>, as well as about the impact of places where she spent longer: <TTHEMETOPIC>
+                           <PLACE>
+                              <AREA REG="Africa">sub-Saharan Africa</AREA>
+                           </PLACE>, <PLACE>
+                              <GEOG>England</GEOG>
+                           </PLACE>, and <PLACE>
+                              <GEOG>Canada</GEOG>
+                           </PLACE>
+                        </TTHEMETOPIC>. She describes both the comic and harrowing incidents involved in travel, and the effect of <TTHEMETOPIC>place and its discoveries</TTHEMETOPIC> on her inner life.</P>
+                  </SHORTPROSE>
+               </TEXTUALFEATURES>
+            </DIV2>
+            <DIV2>
+               <TEXTSCOPE DBREF="61019" PLACEHOLDER="ML, Dance on the Earth: A Memoir, 1979" REF="https://dev-02.cwrc.ca/islandora/objectorlando:2ce9e4d2-2e48-4072-9dcb-e0c6407018bc"/>
+               <PRODUCTION>
+                  <CHRONSTRUCT RESP="IMG" CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="SELECTIVE">
+                     <DATE VALUE="1989-08" CERTAINTY="BY">By August 1989</DATE>
+                     <CHRONPROSE>
+                        <PLASTLITERARYACTIVITY>
+                           <PAUTHORSHIP COLLABORATION="COLLABORATIONYES">
+                              <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>'s unfinished <TGENRE GENRENAME="AUTOBIOGRAPHY">memoir</TGENRE>, <TITLE TITLETYPE="MONOGRAPHIC" REG="Dance on the Earth: A Memoir">Dance On The Earth</TITLE>, was posthumously published, completed by her daughter, <NAME STANDARD="Laurence, Jocelyn" REF="https://dev-02.cwrc.ca/islandora/objectorlando:9a2b5c93-4062-4074-805f-466e2349c4a0">Jocelyn Laurence</NAME>,</PAUTHORSHIP>
+                           <PRARITIESFEATURESDECORATIONS>with a photo by her son, <NAME STANDARD="Laurence, David" REF="https://dev-02.cwrc.ca/islandora/objectorlando:d7d7df36-e75b-4eea-99f9-d0f51b05be11">David Laurence</NAME>.</PRARITIESFEATURESDECORATIONS>
+                        </PLASTLITERARYACTIVITY>
+                     </CHRONPROSE>
+                     <BIBCITS>
+                        <BIBCIT PLACEHOLDER="Stovel 318, 374" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">318, 374</BIBCIT>
+                     </BIBCITS>
+                  </CHRONSTRUCT>
+                  <SHORTPROSE>
+                     <P>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> had often thought of writing her autobiography. <PMATERIALCONDITIONS>She finished a draft of her memoir in <DATE VALUE="1986-07">July 1986</DATE>, the month before she was diagnosed with lung cancer. While recovering from surgery she found herself physically incapable of revising on a typewriter, so her second version was typed from her dictation by <NAME STANDARD="Johnstone, Joan" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c8e0890b-8b09-49ca-8180-a8b05dc0d5f9">Joan Johnstone</NAME>. This process was finished on <DATE VALUE="1968-10-06">6 October 1968</DATE>, just three months before Laurence took her own life.</PMATERIALCONDITIONS> Her daughter edited by smoothing and eliminating repetitions, but she also made many short cuts to bring down the overall length. <PDEDICATION>
+                           <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> dedicated this book to both of her children.</PDEDICATION>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 314, 318, 325" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">314, 318, 325</BIBCIT>
+                        </BIBCITS>
+                        <TINTERTEXTUALITY INTERTEXTTYPE="QUOTATION" GENDEROFAUTHOR="MALE">The published work (whose title comes from a modern hymn by <NAME STANDARD="Carter, Sydney" REF="https://dev-02.cwrc.ca/islandora/objectorlando:d774b49d-6ca4-41de-9b3e-33102a231c52">Sydney Carter</NAME>)<BIBCITS>
+                              <BIBCIT PLACEHOLDER="Stovel 305-6" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">305-6</BIBCIT>
+                           </BIBCITS>
+                        </TINTERTEXTUALITY> includes <TGENRE GENRENAME="POETRY">poems</TGENRE> by <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>, and <TGENRE GENRENAME="LETTER">letters</TGENRE> to <NAME STANDARD="Wiseman, Adele" REF="https://dev-02.cwrc.ca/islandora/objectorlando:5340d857-239a-4593-8254-59b332e3f5ff">Adele Wiseman</NAME>.</P>
+                  </SHORTPROSE>
+               </PRODUCTION>
+               <TEXTUALFEATURES>
+                  <SHORTPROSE>
+                     <P>In a <TGENRE GENRENAME="PREFATORYPIECE">foreword</TGENRE>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> explains that this is not <QUOTE DIRECT="Y">the entire story</QUOTE> of her life, but an examination of matters close to her heart. She considers especially the issue of <TTHEMETOPIC>maternity, its relation to creativity</TTHEMETOPIC>, <PINFLUENCESHER INFLUENCETYPE="FAMILIAL">and the influence on her of her mothers and foremothers.</PINFLUENCESHER> She sometimes said this was a book about four mothers: her <TTHEMETOPIC>
+                           <NAME STANDARD="Wemyss, Verna Simpson" REF="https://dev-02.cwrc.ca/islandora/objectorlando:b141b699-a76e-482f-a3c8-a0fd15892d91">birth mother</NAME>
+                        </TTHEMETOPIC>, her <TTHEMETOPIC>
+                           <NAME STANDARD="Wemyss, Margaret Simpson" REF="https://dev-02.cwrc.ca/islandora/objectorlando:7b29c41e-2f44-4d26-a82d-766758dfb545">adoptive mother</NAME>
+                        </TTHEMETOPIC>, her <TTHEMETOPIC>
+                           <NAME STANDARD="Laurence, Elsie Fry" REF="https://dev-02.cwrc.ca/islandora/objectorlando:273892d6-8bab-4eab-89fd-39b094920e23">mother-in-law</NAME>
+                        </TTHEMETOPIC>, and <TMOTIF MOTIFNAME="works (literary) as children">herself as mother to both her children and her writings</TMOTIF>. <TTECHNIQUES TECHNIQUETYPE="IMAGERY">For them all she used the metaphor of dance as life and as the handing on of life.</TTECHNIQUES>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 303-4, 310" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">303-4, 310</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </TEXTUALFEATURES>
+               <RECEPTION>
+                  <SHORTPROSE>
+                     <P>
+                        <RRESPONSES RESPONSETYPE="INITIAL" FORMALITY="FORMAL">Reviewers found this book somewhat shadowy and evasive, in the manner of an apologia rather than an objective account.</RRESPONSES>
+                     </P>
+                  </SHORTPROSE>
+               </RECEPTION>
+            </DIV2>
+            <DIV2>
+               <PRODUCTION>
+                  <SHORTPROSE>
+                     <P>
+                        <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME> kept a <TGENRE GENRENAME="DIARY">journal</TGENRE> almost up to the moment of her death. She ended it with a plea to her <QUOTE DIRECT="Y">near &amp; dear ones</QUOTE> to forgive and understand her <TMOTIF MOTIFNAME="suicide">action</TMOTIF>. <QUOTE DIRECT="Y">My spirit is already in another country, &amp; my body has become a damned nuisance. I have been so fortunate.</QUOTE>
+                        <BIBCITS>
+                           <BIBCIT PLACEHOLDER="Stovel 314" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">314</BIBCIT>
+                        </BIBCITS>
+                     </P>
+                  </SHORTPROSE>
+               </PRODUCTION>
+            </DIV2>
+         </DIV1>
+      </WRITING>
+      <WORKSCITED>
+         <SOURCE>Unless otherwise noted, all information is from the FC</SOURCE>
+         <SOURCE>Book Review Index(4) 3005</SOURCE>
+         <SOURCE>Canadian Periodical Index</SOURCE>
+         <SOURCE>Contemporary Authors (New Revision Series) (33)</SOURCE>
+         <SOURCE>Laurence, Dance on the Earth.</SOURCE>
+         <SOURCE>Stovel, Nora. Divining Margaret Laurence. 2008</SOURCE>
+         <SOURCE>Toronto Star(Jan. 6, 1987)p.D1</SOURCE>
+         <SOURCE>Unless otherwise noted, all information is from the FC</SOURCE>
+         <SOURCE>Unless otherwise noted, all information is from the FC.</SOURCE>
+      </WORKSCITED>
+   </DIV0>
+</ENTRY>
