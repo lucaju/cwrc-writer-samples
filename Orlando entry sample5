@@ -314,7 +314,7 @@
                   </CHRONSTRUCT>
                   <SHORTPROSE>
                      <P>
-                        <BIRTHPOSITION POSITION="ELDEST">She later acquired a younger half-brother<BIBCITS><BIBCIT PLACEHOLDER="test">​​​​ </BIBCIT></BIBCITS>.</BIRTHPOSITION>
+                        <BIRTHPOSITION POSITION="ELDEST">She later acquired a younger half-brother<BIBCITS><BIBCIT PLACEHOLDER="test"></BIBCIT></BIBCITS>.</BIRTHPOSITION>
                      </P>
                   </SHORTPROSE>
                </DIV2>
