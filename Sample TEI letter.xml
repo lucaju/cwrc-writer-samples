@@ -7,27 +7,17 @@
 				<title>Sample Document Title</title>
 			</titleStmt>
 			<publicationStmt>
-				<p></p>
+				<p/>
 			</publicationStmt>
 			<sourceDesc sameAs="http://www.cwrc.ca">
 				<p>Created from original research by members of CWRC/CSÉC unless otherwise noted.</p>
 			</sourceDesc>
 		</fileDesc>
-	<xenoData>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
 
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
 	"@context": {
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
 			"@id": "dcterms:created"
@@ -39,12 +29,23 @@
 		"oa:motivatedBy": {
 			"@type": "oa:Motivation"
 		},
-		"@language": "en"
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?correction_annotation_20190814144101",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?correction_annotation_20190814164101124",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.124Z",
-	"dcterms:issued": "2019-08-14T20:44:01.985Z",
+	"dcterms:modified": "2019-08-14T20:41:01.124Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -56,21 +57,21 @@
 	},
 	"oa:motivatedBy": "oa:editing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?correction_annotation_20190814144101#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?correction_annotation_20190814164101124#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://localhost",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"schema:softwareVersion": "0.1.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?correction_annotation_20190814144101#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?correction_annotation_20190814164101124#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[2]/choice"
 		}
@@ -81,26 +82,17 @@
 		"rdf:value": "when"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://localhost",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
+		"schema:softwareVersion": "0.1.0"
 	}
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
 	"@context": {
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
 			"@id": "dcterms:created"
@@ -112,12 +104,23 @@
 		"oa:motivatedBy": {
 			"@type": "oa:Motivation"
 		},
-		"@language": "en"
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?date_annotation_20190814144101",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?date_annotation_20190814164101125",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.125Z",
-	"dcterms:issued": "2019-08-14T20:44:01.985Z",
+	"dcterms:modified": "2019-08-14T20:41:01.125Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -129,21 +132,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?date_annotation_20190814144101#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?date_annotation_20190814164101125#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://localhost",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"schema:softwareVersion": "0.1.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?date_annotation_20190814144101#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?date_annotation_20190814164101125#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/dateline/date"
 		}
@@ -153,27 +156,17 @@
 		"rdf:value": "1935-10-21"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://localhost",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
-	},
-	"oa:hasCertainty": "cwrc:definite"
+		"schema:softwareVersion": "0.1.0"
+	}
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
 	"@context": {
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
 			"@id": "dcterms:created"
@@ -185,12 +178,23 @@
 		"oa:motivatedBy": {
 			"@type": "oa:Motivation"
 		},
-		"@language": "en"
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?person_annotation_20190814144101",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?person_annotation_20190814164101126",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.126Z",
-	"dcterms:issued": "2019-08-14T20:44:01.985Z",
+	"dcterms:modified": "2019-08-14T20:41:01.126Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -202,21 +206,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?person_annotation_20190814144101#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?person_annotation_20190814164101126#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://localhost",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"schema:softwareVersion": "0.1.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?person_annotation_20190814144101#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?person_annotation_20190814164101126#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/title/persName"
 		}
@@ -227,27 +231,18 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://localhost",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
+		"schema:softwareVersion": "0.1.0"
 	},
-	"oa:hasCertainty": "cwrc:probable"
+	"oa:hasCertainty": "cwrc:low"
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
 	"@context": {
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
 			"@id": "dcterms:created"
@@ -259,12 +254,23 @@
 		"oa:motivatedBy": {
 			"@type": "oa:Motivation"
 		},
-		"@language": "en"
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?person_annotation_20190814144101",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?person_annotation_20190814164101127",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.127Z",
-	"dcterms:issued": "2019-08-14T20:44:01.986Z",
+	"dcterms:modified": "2019-08-14T20:41:01.127Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -276,21 +282,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?person_annotation_20190814144101#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?person_annotation_20190814164101127#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://localhost",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"schema:softwareVersion": "0.1.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?person_annotation_20190814144101#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?person_annotation_20190814164101127#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/closer/signed/persName/persName"
 		}
@@ -301,27 +307,18 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://localhost",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
+		"schema:softwareVersion": "0.1.0"
 	},
-	"oa:hasCertainty": "cwrc:definite"
+	"oa:hasCertainty": "cwrc:high"
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
 	"@context": {
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
 			"@id": "dcterms:created"
@@ -333,12 +330,23 @@
 		"oa:motivatedBy": {
 			"@type": "oa:Motivation"
 		},
-		"@language": "en"
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?place_annotation_20190814144101",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101129",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.129Z",
-	"dcterms:issued": "2019-08-14T20:44:01.986Z",
+	"dcterms:modified": "2019-08-14T20:41:01.129Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -350,21 +358,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?place_annotation_20190814144101#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101129#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://localhost",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"schema:softwareVersion": "0.1.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?place_annotation_20190814144101#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101129#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/note/p[3]/placeName"
 		}
@@ -375,27 +383,18 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://localhost",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
+		"schema:softwareVersion": "0.1.0"
 	},
-	"oa:hasCertainty": "cwrc:definite"
+	"oa:hasCertainty": "cwrc:high"
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
 	"@context": {
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
 			"@id": "dcterms:created"
@@ -407,12 +406,23 @@
 		"oa:motivatedBy": {
 			"@type": "oa:Motivation"
 		},
-		"@language": "en"
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?place_annotation_20190814144101",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101130",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.130Z",
-	"dcterms:issued": "2019-08-14T20:44:01.986Z",
+	"dcterms:modified": "2019-08-14T20:41:01.130Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -424,21 +434,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?place_annotation_20190814144101#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101130#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://localhost",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"schema:softwareVersion": "0.1.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?place_annotation_20190814144101#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101130#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[2]/placeName"
 		}
@@ -449,27 +459,18 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://localhost",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
+		"schema:softwareVersion": "0.1.0"
 	},
-	"oa:hasCertainty": "cwrc:definite"
+	"oa:hasCertainty": "cwrc:high"
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
 	"@context": {
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
 			"@id": "dcterms:created"
@@ -481,12 +482,23 @@
 		"oa:motivatedBy": {
 			"@type": "oa:Motivation"
 		},
-		"@language": "en"
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?place_annotation_20190814144101",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101131",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.131Z",
-	"dcterms:issued": "2019-08-14T20:44:01.986Z",
+	"dcterms:modified": "2019-08-14T20:41:01.131Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -498,21 +510,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?place_annotation_20190814144101#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101131#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://localhost",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"schema:softwareVersion": "0.1.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/sample_letter?place_annotation_20190814144101#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101131#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
@@ -523,13 +535,13 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://localhost",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
+		"schema:softwareVersion": "0.1.0"
 	},
-	"oa:hasCertainty": "cwrc:definite"
+	"oa:hasCertainty": "cwrc:high"
 }
 ]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
 	<text>
@@ -540,17 +552,17 @@
 				</head>
 				<opener>
 					<note>
-						<p>Bad writing due to shaky train</p><p>In train</p><p>
+						<p>Good writing due to shaky train</p><p>In train</p><p>
 							<placeName cert="high" ref="http://www.geonames.org/6453366">Oslo</placeName> to Bergen</p>
 					</note>
 					<dateline>
 						<date cert="high" when="1935-10-21">21.10.35</date>
 					</dateline>
 					<salute>Dearest -</salute>
-				</opener><p>I have had no letter from you since I left <placeName cert="high" ref="http://www.geonames.org/2673722">Stockholm</placeName>, but I had a nice one from John in an envelope you had sent him. I had sent him one addressed to Copenhagen but he hadn't used it.</p><p>When I reached Oslo yesterday evening, Brynjulf Bull should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with no one about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"></pb> time of my arrival wrong, and 
+				</opener><p>I have had no letter from you since I left <placeName cert="high" ref="http://www.geonames.org/2673722">Stockholm</placeName>, but I had a nice one from John in an envelope you had sent him. I had sent him one addressed to Copenhagen but he hadn't used it.</p><p>When I reached Oslo yesterday evening, Brynjulf Bull should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with no one about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/> time of my arrival wrong, and 
 						<choice><sic>when</sic><corr>when</corr></choice>
 					he had found he had missed me he phoned to every hotel in Oslo till he hit on the right one. He left me at 10, and then I had to do a Sunday Referee article. Today my journey lasts from 9 till 9 - fortunately one of the most beautiful railway journeys in the world. Tomorrow I lecture at <placeName cert="high" ref="http://www.geonames.org/6548528">Bergen</placeName> to the Anglo-Norwegian Society. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for home via Bergen.</p>
-				<pb n="3"></pb>
+				<pb n="3"/>
 				<p>Bull is a nice young man but incompetent - can't quite stand the communists, but finds the socialists too mild.</p><p>I am unhappily wondering what you are feeling about me.</p>
 				<closer>
 					<salute>I love you very much -</salute>
