@@ -14,8 +14,9 @@
 			</sourceDesc>
 		</fileDesc>
 	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -41,7 +42,7 @@
 		"schema": "http://schema.org/",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?correction_annotation_20190814164101124",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?correction_annotation_20190814164101124",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.124Z",
 	"dcterms:modified": "2019-08-14T20:41:01.124Z",
@@ -56,21 +57,21 @@
 	},
 	"oa:motivatedBy": "oa:editing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?correction_annotation_20190814164101124#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?correction_annotation_20190814164101124#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://cwrc-writer.cwrc.ca",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "0.1.0"
+			"schema:softwareVersion": "8.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?correction_annotation_20190814164101124#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?correction_annotation_20190814164101124#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[2]/choice"
 		}
@@ -81,17 +82,16 @@
 		"rdf:value": "when"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://cwrc-writer.cwrc.ca",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "0.1.0"
+		"schema:softwareVersion": "8.2.0"
 	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -117,7 +117,7 @@
 		"schema": "http://schema.org/",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?date_annotation_20190814164101125",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?date_annotation_20190814164101125",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.125Z",
 	"dcterms:modified": "2019-08-14T20:41:01.125Z",
@@ -132,21 +132,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?date_annotation_20190814164101125#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?date_annotation_20190814164101125#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://cwrc-writer.cwrc.ca",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "0.1.0"
+			"schema:softwareVersion": "8.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?date_annotation_20190814164101125#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?date_annotation_20190814164101125#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/dateline/date"
 		}
@@ -156,17 +156,16 @@
 		"rdf:value": "1935-10-21"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://cwrc-writer.cwrc.ca",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "0.1.0"
+		"schema:softwareVersion": "8.2.0"
 	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -192,10 +191,10 @@
 		"schema": "http://schema.org/",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?person_annotation_20190814164101126",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?person_annotation_20190814164101126",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.126Z",
-	"dcterms:modified": "2019-08-14T20:41:01.126Z",
+	"dcterms:modified": "2021-12-20T17:06:35.676Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -207,43 +206,55 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?person_annotation_20190814164101126#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?person_annotation_20190814164101126#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://cwrc-writer.cwrc.ca",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "0.1.0"
+			"schema:softwareVersion": "8.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?person_annotation_20190814164101126#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?person_annotation_20190814164101126#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/title/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "279399399",
+		"@id": "http://viaf.org/viaf/7264159478058927990009/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://cwrc-writer.cwrc.ca",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "0.1.0"
+		"schema:softwareVersion": "8.2.0"
 	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/lucaju",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Persosn"
+				],
+				"cwrc:hasName": "Luciano Frizzera",
+				"foaf:nick": "lucaju"
+			}
+		}
+	],
 	"oa:hasCertainty": "cwrc:low"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -269,7 +280,7 @@
 		"schema": "http://schema.org/",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?person_annotation_20190814164101127",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?person_annotation_20190814164101127",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.127Z",
 	"dcterms:modified": "2019-08-14T20:41:01.127Z",
@@ -284,21 +295,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?person_annotation_20190814164101127#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?person_annotation_20190814164101127#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://cwrc-writer.cwrc.ca",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "0.1.0"
+			"schema:softwareVersion": "8.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?person_annotation_20190814164101127#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?person_annotation_20190814164101127#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/closer/signed/persName/persName"
 		}
@@ -309,18 +320,17 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://cwrc-writer.cwrc.ca",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "0.1.0"
+		"schema:softwareVersion": "8.2.0"
 	},
 	"oa:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -346,7 +356,7 @@
 		"schema": "http://schema.org/",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101129",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?place_annotation_20190814164101129",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.129Z",
 	"dcterms:modified": "2019-08-14T20:41:01.129Z",
@@ -361,21 +371,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101129#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?place_annotation_20190814164101129#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://cwrc-writer.cwrc.ca",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "0.1.0"
+			"schema:softwareVersion": "8.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101129#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?place_annotation_20190814164101129#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/note/p[3]/placeName"
 		}
@@ -386,18 +396,17 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://cwrc-writer.cwrc.ca",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "0.1.0"
+		"schema:softwareVersion": "8.2.0"
 	},
 	"oa:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -423,7 +432,7 @@
 		"schema": "http://schema.org/",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101130",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?place_annotation_20190814164101130",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.130Z",
 	"dcterms:modified": "2019-08-14T20:41:01.130Z",
@@ -438,21 +447,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101130#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?place_annotation_20190814164101130#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://cwrc-writer.cwrc.ca",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "0.1.0"
+			"schema:softwareVersion": "8.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101130#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?place_annotation_20190814164101130#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[2]/placeName"
 		}
@@ -463,18 +472,17 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://cwrc-writer.cwrc.ca",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "0.1.0"
+		"schema:softwareVersion": "8.2.0"
 	},
 	"oa:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -500,7 +508,7 @@
 		"schema": "http://schema.org/",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101131",
+	"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?place_annotation_20190814164101131",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.131Z",
 	"dcterms:modified": "2019-08-14T20:41:01.131Z",
@@ -515,21 +523,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101131#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?place_annotation_20190814164101131#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://cwrc-writer.cwrc.ca",
 			"@type": "as:Application",
 			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "0.1.0"
+			"schema:softwareVersion": "8.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter.xml?place_annotation_20190814164101131#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample TEI letter.xml?place_annotation_20190814164101131#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
@@ -540,21 +548,20 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://cwrc-writer.cwrc.ca",
 		"@type": "as:Application",
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "0.1.0"
+		"schema:softwareVersion": "8.2.0"
 	},
 	"oa:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
+}
+]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<div type="letter">
 				<head>
-					<title>Sample Letter - Bertrand Russell to <persName cert="low" ref="279399399">Patricia Spence</persName> - October 21, 1935</title>
+					<title>Sample Letter - Bertrand Russell to <persName cert="low" ref="http://viaf.org/viaf/7264159478058927990009/" key="Spence, Patricia" type="real">Patricia Spence</persName> - October 21, 1935</title>
 				</head>
 				<opener>
 					<note>
