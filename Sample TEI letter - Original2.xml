@@ -758,12 +758,11 @@
 				<pb n="3"/>
 				<sunny>day</sunny>
 				<p>Bull is a nice young man but incompetent - can't quite stand the communists, but finds the socialists too mild.</p><p>I am unhappily wondering what you are feeling about me.</p>
-				<gogo>hello</gogo>
 				<closer day="22">
 					<salute>I love you very much -</salute>
 					<signed>
 						<persName sameAs="http://www.freebase.com/view/en/bertrand_russell">
-							<persName cert="high" type="real" ref="http://viaf.org/viaf/36924137">B</persName>
+							<persName cert="none" type="real" ref="http://viaf.org/viaf/36924137">B</persName>
 						</persName>
 					</signed>
 				</closer>
