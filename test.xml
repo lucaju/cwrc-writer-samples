@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en-CA" level="m" type="main">Regenerations</title>
+                <title xml:lang="en-CA" level="m" type="sub">Canadian Women's Writing</title>
+                <title xml:lang="fr-CA" level="m" type="main">Régénérations</title>
+                <title xml:lang="fr-CA" level="m" type="sub">Écriture des femmes au Canada</title>
+                <editor role="editor">
+                    <forename>Marrie</forename>
+                    <forename>Carrière</forename>
+                </editor>
+                <editor role="editor">
+                    <forename>Patricia</forename>
+                    <surname>Demers</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <editor role="markup_editor">
+                    <forename>Mihaela</forename>
+                    <forename>Ilovan</forename>
+                </editor>
+                <editor role="markup_editor">
+                    <forename>Ruth</forename>
+                    <surname>Knechtel</surname>
+                </editor>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor><orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName></sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Text Mining and Visualization for Literary History</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Interface design lead:</resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead:</resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Researcher: </resp>
+                    <name role="researcher">
+                        <forename>Brent</forename>
+                        <surname>Nelson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copy editors and proofreaders: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Oliver</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designer - cover and text: </resp>
+                    <name role="book_designer">
+                        <forename>Marvin</forename>
+                        <surname>Harder</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexers: </resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name><forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>MaryLou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer: </resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <name role="markup_editor">
+                        <forename>Nadine</forename>
+                        <surname>Adelaar</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Olga</forename>
+                        <surname>Ivanova</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Samantha</forename>
+                        <surname>Fitzner</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Kaarina</forename>
+                        <surname>Mikalson</surname>
+                    </name>
+                </respStmt>
+
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address> 
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address><addrLine>www.cwrc.ca</addrLine></address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1-55195-345-8</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p/>
+            </seriesStmt>
+            <notesStmt>
+                <note/>
+            </notesStmt>
+            <sourceDesc>
+                <!-- Source Description, which Andrew uses to generate the table of contents,  needs to be updated with new bibl information: -->
+                <listBibl>
+                    <bibl> <title level="a" type="main">Preface/Préface</title> <author rend="bold"><forename>Marie</forename> <surname>Carrière</surname></author> &amp; <author rend="bold"><forename>Patricia</forename> <surname>Demers</surname></author> </bibl>
+                    <listBibl>
+                        <head>Au Fil de la Narration</head>
+                        <bibl>
+                            <title level="a" type="main">Au fill de la narration et des générations</title>
+                            <author>
+                                <forename>Nicole</forename>
+                                <surname>Brossard</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Women Who Invite Collaboration</title>
+                            <title type="sub">Caroline Bergvall, Erín Moure, et al.</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Rudy</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">A Modernist Commons in Canada/Une commune moderniste au Canada</title>
+                            <author>
+                                <forename>Dean</forename>
+                                <surname>Irvine</surname>
+                            </author>
+                        </bibl>
+                        <bibl><title level="a" type="main">L'apport du concept d'ontologie informatique à l'étude de l'histoire littéraire des femmes au XIXe siècle</title> <author><forename>Chantal</forename> <surname>Savoie</surname></author> &amp; <author><forename>Julie</forename> <surname>Roy</surname></author></bibl>
+                    </listBibl>
+                    <listBibl>
+                        <head>Back to the Future</head>
+                        <bibl>
+                            <title level="a" type="main">Reclaiming the Past, Nurturing the Future</title>
+                            <author>
+                                <forename>Rosemary</forename>
+                                <surname>Sullivan</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Du métaféminisme et des histoires au féminin</title>
+                            <author>
+                                <forename>Marie</forename>
+                                <surname>Carrière</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Gothic Romance in Quebec</title>
+                            <title type="sub">Engaging English and French in Nineteenth-Century English-Canadian Fiction by Women</title>
+                            <author>
+                                <forename>Lindsay</forename>
+                                <surname>McMaster</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Readers Reading Margaret Laurence, 1965–1980</title>
+                            <author>
+                                <forename>Cinda</forename>
+                                <surname>Gault</surname>
+                            </author>
+                        </bibl>
+                    </listBibl>
+                    <listBibl>
+                        <head>Des contextes minoritaires</head>
+                        <bibl>
+                            <title level="a" type="main">Être écrivaine en contexte minoritaire franco-canadien (1970–1985)</title>
+                            <author>
+                                <forename>Lucie</forename>
+                                <surname>Hotte</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Crooked Ribs, Modern Martyrs, and Dull Days</title>
+                            <title type="sub">Recovering Hidden Prince Edward Island Women through Their Life Writing</title>
+                            <author>
+                                <forename>Mary</forename>
+                                <surname>McDonald-Rissanen</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Common Measure</title>
+                            <title type="sub">“Folk Poetry” and the Scandal of Canadian Literature</title>
+                            <author>
+                                <forename>Gary</forename>
+                                <surname>Kelly</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Recuperating Oblivion in <title level="m">The Displaced View (1988)</title></title>
+                            <title type="sub">Midi Onodera’s Intercultural Feminist Experimental Cinematic Polyphony</title>
+                            <author>
+                                <forename>Sheena</forename>
+                                <surname>Wilson</surname>
+                            </author>
+                        </bibl>
+                    </listBibl>
+                    <listBibl>
+                        <head>Women in Movement</head>
+                        <bibl>
+                            <title level="a" type="main">Publishing and Women in Movement</title>
+                            <title type="sub">Changing the Game</title>
+                            <author>
+                                <forename>Louise</forename>
+                                <surname>Dennys</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">"To Get In Behind the Curtain"</title>
+                            <title type="sub">Miriam Green Ellis’s Travels and Tales</title>
+                            <author>
+                                <forename>Patricia</forename>
+                                <surname>Demers</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Catherine Mavrikakis</title>
+                            <title type="sub">La force de penser (chaque jour)</title>
+                            <author>
+                                <forename>Maïté</forename>
+                                <surname>Snauwaert</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">This is What a Public Intellectual Looks Like</title>
+                            <title type="sub">Dorothy Livesay’s Housewife Years and the Public Sphere</title>
+                            <author>
+                                <forename>Shauna</forename>
+                                <surname>Lancit</surname>
+                            </author>
+                        </bibl>
+                    </listBibl>
+                    <bibl><title level="a" type="main">Afterword</title> <author>Susan Brown</author> &amp; <author><forename>Mary-Jo</forename> <surname>Romaniuk</surname></author></bibl>
+                    <bibl>
+                        <title level="a" type="main">Contributors/Collaborateurs</title>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Library and Archives Canada Cataloguing in Publication</desc>
+                </taxonomy>
+
+                <!--<taxonomy>
+
+                    <!-\- Life tagset: -\->
+                    <category xml:id="class_issue">
+                        <catDesc>Encodes discussion related to class.</catDesc>
+                    </category>
+                    <category xml:id="nationality_issue">
+                        <catDesc>Encodes passages discussing nationality.</catDesc>
+                    </category>
+                    <category xml:id="race_and_ethnicity">
+                        <catDesc>Encodes passages dealing with the unstable, historically constituted categories of race and ethnicity.</catDesc>
+                    </category>
+                    <category xml:id="sexuality">
+                        <catDesc>Encodes discussions of sexuality in terms of culture, behaviour, or identity.</catDesc>
+                    </category>
+                    <category xml:id="education">
+                        <catDesc>Encodes information about educational background: schools or institutions, gender issues (conditions affecting women's access to education), subjects and crucial works studied, people encountered, behaviour, awards, and qualifications gained. </catDesc>
+                    </category>
+                    <category xml:id="health_issue">
+                        <catDesc>Encodes passages relating to well-being or illness (mental or physical).</catDesc>
+                    </category>
+                    <category xml:id="history">
+                        <catDesc>Encodes references to historical events or periods.</catDesc>
+                    </category>
+                    <category xml:id="politics">
+                        <catDesc>Encodes information concerning political activity.</catDesc>
+                    </category>
+                    <category xml:id="violence">
+                        <catDesc>Encodes instances of physical, sexual, institutional, or emotional abuse.</catDesc>
+                    </category>
+                    <category xml:id="gender_issue">
+                        <catDesc>Encodes the relation of a particular political engagement to gender issues, broadly defined.</catDesc>
+                    </category>
+                    <category xml:id="religion">
+                        <catDesc>Encodes discussion of religious issues.</catDesc>
+                    </category>
+                    <category xml:id="technology">
+                        <catDesc>Encodes substantial discussion of technology.</catDesc>
+                    </category>
+                    <category xml:id="collaboration">
+                        <catDesc>Encodes substantial discussion of collaboration.</catDesc>
+                    </category>
+                    <!-\-  Production tagset: -\->
+                    <category xml:id="authorship">
+                        <catDesc>Contains discussions of authorship</catDesc>
+                    </category>
+                    <category xml:id="literary_schools">
+                        <catDesc>Encodes a single reference to a school of thought.</catDesc>
+                    </category>
+                    <category xml:id="writing_climate">
+                        <catDesc>Encodes any physical, economic, or emotional circumstances affecting a writer's work.</catDesc>
+                    </category>
+                    <category xml:id="attitudes_to_women_writing">
+                        <catDesc>Contains material about authors' attitudes specifically to authorship, gender, and the relations between them.</catDesc>
+                    </category>
+                    <category xml:id="place_of_publication">
+                        <catDesc>Encloses significant statements about where books were published.</catDesc>
+                    </category>
+                    <category xml:id="editions">
+                        <catDesc> Contains information about later editions, re-issues, reprints or translations.</catDesc>
+                    </category>
+                    <category xml:id="anthologization">
+                        <catDesc> Encodes information about reprinting a work in collections with work by other people.</catDesc>
+                    </category>
+                    <category xml:id="manuscript_history">
+                        <catDesc>Encodes discussion of the history of unpublished or pre-published texts.</catDesc>
+                    </category>
+                    <category xml:id="non-survival_of_text">
+                        <catDesc>Encodes material on non-extant texts.</catDesc>
+                    </category>
+                    <category xml:id="archive">
+                        <catDesc>Encodes discussion about archived material.</catDesc>
+                    </category>
+                    <category xml:id="archival_location">
+                        <catDesc>Encodes information about location or ownership of manuscript or rare printed texts.</catDesc>
+                    </category>
+                    <category xml:id="non-book_media">
+                        <catDesc>Refers to a non-textual work or non-textual packaging of a written work.</catDesc>
+                    </category>
+                    <!-\-  Textual Features tagset: -\->
+
+                    <category xml:id="genre">
+                        <!-\- List below is tentatively replaced with the CWRC primary genres. User testing will tell if this is a good alternative for this collection  -\->
+                       <!-\- 
+                        <catDesc xml:id="adaptation">Adaptation</catDesc>
+                        <catDesc xml:id="afterword">Afterword</catDesc>
+                        <catDesc xml:id="allegory">Allegory</catDesc>
+                        <catDesc xml:id="annotation">Annotation</catDesc>
+                        <catDesc xml:id="anthology">Anthology</catDesc>
+                        <catDesc xml:id="aphorism">Aphorism</catDesc>
+                        <catDesc xml:id="autobiography">Autobiography</catDesc>
+                        <catDesc xml:id="ballad">Ballad</catDesc>
+                        <catDesc xml:id="bildungsroman">Bildungsroman</catDesc>
+                        <catDesc xml:id="biography">Biography</catDesc>
+                        <catDesc xml:id="catechism">Catechism</catDesc>
+                        <catDesc xml:id="childrens_literature">Children's Literature</catDesc>
+                        <catDesc xml:id="comedy">Comedy</catDesc>
+                        <catDesc xml:id="comic_book">Comic Book</catDesc>
+                        <catDesc xml:id="detective_fiction">Detective Fiction</catDesc>
+                        <catDesc xml:id="dialogue_or_debate">Dialogue or Debate</catDesc>
+                        <catDesc xml:id="diary">Diary</catDesc>
+                        <catDesc xml:id="didactic">Didactic</catDesc>
+                        <catDesc xml:id="documentary">Documentary</catDesc>
+                        <catDesc xml:id="drama">Drama</catDesc>
+                        <catDesc xml:id="dystopia">Dystopia</catDesc>
+                        <catDesc xml:id="elegy">Elegy</catDesc>
+                        <catDesc xml:id="epic">Epic</catDesc>
+                        <catDesc xml:id="epilogue">Epilogue</catDesc>
+                        <catDesc xml:id="epistolary">Epistolary</catDesc>
+                        <catDesc xml:id="erotica">Erotica</catDesc>
+                        <catDesc xml:id="essay">Essay</catDesc>
+                        <catDesc xml:id="fable">Fable</catDesc>
+                        <catDesc xml:id="fairy_tale">Fairy Tale</catDesc>
+                        <catDesc xml:id="fantasy">Fantasy</catDesc>
+                        <catDesc xml:id="folksong">Folksong</catDesc>
+                        <catDesc xml:id="gothic">Gothic</catDesc>
+                        <catDesc xml:id="government_report">Government Report</catDesc>
+                        <catDesc xml:id="historical">Historical</catDesc>
+                        <catDesc xml:id="introduction">Introduction</catDesc>
+                        <catDesc xml:id="journalism">Journalism</catDesc>
+                        <catDesc xml:id="literary_criticism">Literary Criticism</catDesc>
+                        <catDesc xml:id="liturgy">Liturgy</catDesc>
+                        <catDesc xml:id="magic_realism">Magic Realism</catDesc>
+                        <catDesc xml:id="manifesto">Manifesto</catDesc>
+                        <catDesc xml:id="mixed_media">Mixed Media</catDesc>
+                        <catDesc xml:id="mystery">Mystery</catDesc>
+                        <catDesc xml:id="novel">Novel</catDesc>
+                        <catDesc xml:id="parody">Parody</catDesc>
+                        <catDesc xml:id="philosophy">Philosophy</catDesc>
+                        <catDesc xml:id="poetry">Poetry</catDesc>
+                        <catDesc xml:id="propoganda">Propaganda</catDesc>
+                        <catDesc xml:id="science_fiction">Science Fiction</catDesc>
+                        <catDesc xml:id="short_story">Short Story</catDesc>
+                        <catDesc xml:id="social_science">Social Science</catDesc>
+                        <catDesc xml:id="song">Song</catDesc>
+                        <catDesc xml:id="sonnet">Sonnet</catDesc>
+                        <catDesc xml:id="tragedy">Tragedy</catDesc>
+                        <catDesc xml:id="translation">Translation</catDesc>
+                        <catDesc xml:id="treatise">Treatise</catDesc>
+                        <catDesc xml:id="young_adult_writing">Young Adult Writing</catDesc>-\->
+                    </category>
+                    <category xml:id="genre_drama"><catDesc>Drama</catDesc></category>
+                    <category xml:id="genre_fiction"><catDesc>Fiction</catDesc></category>
+                    <category xml:id="genre_journalism"><catDesc>Journalism</catDesc></category>
+                    <category xml:id="genre_lifeWriting"><catDesc>Life writing</catDesc></category>
+                    <category xml:id="genre_music"><catDesc>Music</catDesc></category>
+                    <category xml:id="genre_novel"><catDesc>Novel</catDesc></category>
+                    <category xml:id="genre_non-ficion"><catDesc>Non-fiction</catDesc></category>
+                    <category xml:id="genre_poetry"><catDesc>Poetry</catDesc></category>
+                    <category xml:id="genre_performance"><catDesc>Performance</catDesc></category>
+                    <category xml:id="genre_short_story"><catDesc>Short story</catDesc></category>
+                    <category xml:id="genre_scholarlyWriting"><catDesc>Scholarly writing </catDesc></category>
+                    <category xml:id="genre_issue">
+                        <catDesc>Encodes discussions of disputable generic allegiance or unusual generic mixtures.</catDesc>
+                    </category>
+                    <category xml:id="voice_or_narration">
+                        <catDesc>Encodes discussion of narrative techniques.</catDesc>
+                    </category>
+                    <category xml:id="textual_strategies">
+                        <catDesc>Rhetorical and discursive effects.</catDesc>
+                    </category>
+                    <category xml:id="characterization">
+                        <catDesc>Encodes discussions of fictional characters.</catDesc>
+                    </category>
+                    <category xml:id="intertextuality">
+                        <catDesc>Encodes discussion of gestures in a text towards other texts. Includes exchange, debate, rivalries, influence of one writer on another.</catDesc>
+                    </category>
+                    <category xml:id="theme_or_topic">
+                        <catDesc>Encodes both theme (concepts central to a particular text) and topic (subjects of less central weight).</catDesc>
+                    </category>
+                    <category xml:id="motif">
+                        <catDesc>Encodes a recurring element that has symbolic significance.</catDesc>
+                    </category>
+                    <!-\-  Reception tagset: -\->
+                    <category xml:id="response_recent">
+                        <catDesc>Encodes time frame of a literary response to a work.</catDesc>
+                    </category>
+                    <category xml:id="response_re-evaluation">
+                        <catDesc>Encodes a response that is a re-evaluation of a literary work.</catDesc>
+                    </category>
+                    <category xml:id="response_formal">
+                        <catDesc>Encodes a formal response to a literary work (e.g. a review).</catDesc>
+                    </category>
+                    <category xml:id="response_informal">
+                        <catDesc>Encodes an informal response to a literary work (e.g. a comment or a letter).</catDesc>
+                    </category>
+                    <category xml:id="response_gendered">
+                        <catDesc>Indicates whether or not a literary response is predicated on the writer's gender.</catDesc>
+                    </category>
+                    <category xml:id="recognitions">
+                        <catDesc>Encodes material about acclaim offered to literary works, usually in the form of awards and prizes.</catDesc>
+                    </category>
+                    <category xml:id="censorship">
+                        <catDesc>Encodes discussion of censorship.</catDesc>
+                    </category>
+                    <!-\-  Critcal Interpretation tagset: -\->
+                    <category xml:id="authority">
+                        <catDesc>Encodes statements about larger issues of cultural authority.</catDesc>
+                    </category>
+                    <category xml:id="economics">
+                        <catDesc>Encodes material related to wealth, power, etc.</catDesc>
+                    </category>
+                    <category xml:id="men_writing">
+                        <catDesc>Discussions of male writing as gendered, or as a tradition (not all discussions of writing by men).</catDesc>
+                    </category>
+                    <category xml:id="women_writing">
+                        <catDesc>Discussions of women's writing as gendered, or as a tradition (not all discussions of writing by women).</catDesc>
+                    </category>
+                    <category xml:id="textual_agency">
+                        <catDesc>Encodes material about the relation between books and social transformation and development (i.e. effects of a certain text on worldly conditions).</catDesc>
+                    </category>
+                    <category xml:id="canon_formation">
+                        <catDesc>Encodes material about the transmission and production of the canon.</catDesc>
+                    </category>
+                    <category xml:id="critique_of_canon">
+                        <catDesc>Encodes critical discussions of the canon.</catDesc>
+                    </category>
+                    <category xml:id="intellectual_history">
+                        <catDesc>Encodes discussion of literary communities and their influences on intellectual history. </catDesc>
+                    </category>
+                    <category xml:id="social_movement">
+                        <catDesc>Encodes discussion of social movements.</catDesc>
+                    </category>
+                    <category xml:id="close_reading">
+                        <catDesc>Encodes passages of close reading.</catDesc>
+                    </category>
+                    <category xml:id="methodology">
+                        <!-\- Should we create subcategories for methodology? Or include these methodological approaches as categories in 'genre'? -\->
+                        <catDesc>Encodes discussion of someone's methodological approach, or that of another critic. Methodological categories include: feminist, Canadianist, new historical, deconstructionist, psychoanalytic, globalism, post-colonialism, sustainability, etc.</catDesc>
+                    </category>
+                    <category xml:id="representation_of_women">
+                        <catDesc>Encodes discussion of the representation of women, literary or other.</catDesc>
+                    </category>
+                    <category xml:id="representation_of_men">
+                        <catDesc>Encodes discussion of the representation of men, literary or other.</catDesc>
+                    </category>
+                    <category xml:id="historical_oppression">
+                        <catDesc>Encodes material on the exclusion of certain groups from the production of history (literary or other).</catDesc>
+                    </category>
+                </taxonomy>-->
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr-CA">French</language>
+                <language ident="en-CA">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline/>
+                <item/>
+                <index>
+                    <term/>
+                </index>
+                <byline/>
+                <index>
+                    <term/>
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        
+        <body>
+            
+            
+            
+            <div type="part">
+                <head xml:lang="en-CA">Women in Movements...</head>
+                <div type="chapter" xml:lang="fr-CA">
+                    <head>
+                        <persName ref="http://viaf.org/viaf/33131412" cert="high">Catherine Mavrikakis</persName>
+                    </head>
+                    <byline>La force de penser (chaque jour)</byline>
+                    <docAuthor>
+                        <persName ref="http://viaf.org/viaf/125077482" cert="high">Maïté Snauwaert</persName>
+                    </docAuthor>
+                    <p xml:id="p926">
+                        <ref target="#recognitions"><ref target="#genre_novel">Depuis le succès public et critique de son roman <title level="m" ref="http://viaf.org/viaf/314361719" cert="high">Le ciel de Bay City</title> <note xml:id="n37" place="end">Le roman a remporté au <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName> le Grand Prix des Libraires, le Prix du livre de <placeName ref="http://www.geonames.org/6077243" cert="high">Montréal</placeName> et le Prix littéraire des collégiens.</note>en <date when="2008">2008</date> (réédité à <placeName ref="http://www.geonames.org/2988507" cert="high">Paris</placeName> en <date when="2009">2009</date> chez <orgName ref="http://viaf.org/viaf/124188151" cert="high">Sabine Wespieser</orgName>), <persName ref="http://viaf.org/viaf/33131412" cert="high">Catherine Mavrikakis</persName> est devenue une figure de proue de la relève littéraire québécoise<note xml:id="n38" place="end">Je fais par là référence à une nouvelle génération de maisons d’édition créées à Montréal depuis les années <date when="2000">2000</date> : Héliotrope, <orgName ref="http://viaf.org/viaf/140017679" cert="high">Les Allusifs</orgName>, <orgName ref="http://viaf.org/viaf/311379569" cert="high">Le Quartanier</orgName>, <orgName>Le Marchand de Feuilles</orgName>, Alto, Le Lézard amoureux, qui s’illustrent, outre par la nouvelle génération d’auteurs qu’elles publient, par un soin particulier apporté au graphisme. Un article du journal étudiant <title level="j">Quartier libre</title> a ainsi titré <title level="a">Nouvelle vague dans l’édition québécoise</title> (<persName ref="http://viaf.org/viaf/311457123" cert="high">Mercier</persName>, <date when="2009" cert="high">2009</date>).</note>.</ref> Son œuvre critique est aussi saluée, notamment avec l’essai <title level="m">Condamner à mort. Les meurtres et la loi à l’écran</title>, récipiendaire du prix de l’Académie des Lettres du Québec <persName ref="http://viaf.org/viaf/100193815" cert="high">Victor-Barbeau</persName> en <date when="2006" cert="high">2006</date>.</ref>
+                        <ref target="#non-book_media">
+                            <ref target="#technology">
+                                <ref target="#genre_issue">Cependant, au croisement de l’œuvre littéraire et de pensée, ne séparant pas l’une de l’autre, son écriture s’est mise à essaimer <hi rend="italic">autrement</hi> avec la création par sa maison d’édition montréalaise, Héliotrope, du <ref target="#theme_or_topic">blogue <ref target="catherinemavrikakis.com">catherinemavrikakis.com</ref></ref>. Les textes qui y sont parus ont été republiés à l’automne <date when="2010" cert="high">2010</date> sous la forme d’un livre désigné comme <q>e-carnet</q> et intitulé <title level="m">L’éternité en accéléré</title>. Enfin, Catherine Mavrikakis a créé pour le site Internet <title level="m">Radio-Spirale</title><note xml:id="n39" place="end">http://radiospirale.org/emission/revez-pour-moi.</note>, émanation du magazine culturel montréalais <title level="j">Spirale</title>, une émission de radio alternative, <title level="m">Rêvez pour moi</title>, produite sous forme de conversations dans lesquelles elle demande à ses invités de lui raconter leurs rêves.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p927">
+                        <ref target="#technology">Je veux faire l’hypothèse que, par ces nouveaux formats, <persName ref="http://viaf.org/viaf/33131412" cert="high">Catherine Mavrikakis</persName> ne s’efforce pas seulement, techniquement, d’emprunter les moyens de son temps, mais propose de façon plus intéressante <ref target="#theme_or_topic">une réflexion sur le contemporain</ref> comme co-énonciation, co-responsabilité et méditation sur le temps d’une vie. <ref target="#close_reading">J’appuierai mon investigation sur trois textes publiés sur le blogue. <ref target="#politics">Le premier, intitulé <title level="a">Nos rêves les plus fous</title>, critique la propagande populiste de <persName ref="http://viaf.org/viaf/27972425" cert="medium">John McCain</persName>, construite sur la figure de <hi rend="italic" xml:lang="en-CA">Joe the plumber</hi> et l’idée d’un rêve partagé par tous.</ref> Le second, <hi xml:lang="en-CA"><title level="a">Back-slide with Michael</title></hi>, met en jeu une défense de <persName ref="http://viaf.org/viaf/27092134" cert="high">Michael Jackson</persName> en tant qu’ex-icône culturelle tombée dans une disgrâce que même sa mort n’a pu racheter. <ref target="#motif">Enfin, je me pencherai sur la réflexion que propose Mavrikakis de la notion de vie, réflexion qui court en filigrane tout au long de ces chroniques et s’incarne dans un texte en particulier, nommé <title level="a">Moments fragiles</title>.</ref></ref></ref>
+                    </p>
+                    <p xml:id="p928">
+                        <ref target="#theory">Commentant la chronique de <persName ref="http://viaf.org/viaf/10365" cert="high">Marguerite Duras</persName> publiée dans le quotidien français <title level="j">Libération</title> au cours de <title level="m" ref="http://viaf.org/viaf/291016508" cert="high">L’'été 80</title>, <persName ref="http://viaf.org/viaf/19993184" cert="high">Arnaud Bernadet</persName> écrit que l’auteure y opère une <q>subjectivation de l’actualité</q> (28). Autrement dit, le caractère contingent du temps chronique, aveugle et indifférent, s’y voit tout à coup personnalisé par l’écriture — non seulement parce que l’auteure choisit tel ou tel événement dans la masse d’informations que lui offre le monde, mais aussi parce que, l’écrivant, elle en fait <ref target="#theme_or_topic">la matière de sa propre vie</ref>. <ref target="#politics">Or la force de ce que Marguerite Duras a ainsi appelé <q>le seul journal de [s]a vie</q> (<title level="m" ref="http://viaf.org/viaf/310928603/" cert="medium">La vie matérielle</title> 11) vient de ce que dans ces <q>papiers d’un jour</q><note xml:id="n40" place="end">C’est le sous-titre de l’un de ses recueils de textes écrits pour les journaux, <title level="m">Outside 1. Papiers d’un jour.</title></note>se nouaient la dimension de l’événement politique à la fois éloigné et poignant qui se déroulait pendant qu’elle écrivait — <listEvent> <event> <label>exemplairement les grèves des ouvriers de <placeName ref="http://www.geonames.org/3099434" cert="high">Gdansk</placeName></label> </event> </listEvent> — et celle quotidienne du spectacle de la plage, où chaque jour s’intensifiait la tendresse d’une monitrice de colonie de vacances pour l’un des jeunes enfants.</ref></ref>
+                    </p>
+                    <p xml:id="p929">
+                        <ref target="#close_reading">Sur le blogue de <persName ref="http://viaf.org/viaf/33131412" cert="high">Catherine Mavrikakis</persName>, catherinemavrikakis.com, il n’en va pas autrement. <ref target="#politics">Un événement auquel nous assistons tous, une <q>actualité</q> à la fois insignifiante dans sa banalité et potentiellement grave dans son contenu politique, mais dont nous sentons que le jour va l’emmener, les semaines l’oublier, tout à coup est retenu par l’auteure pour la résonance qu’il vient produire en elle, écho d’autres événements, ou ranimant en elle des souvenirs. Ainsi, dans un texte intitulé <title level="a">Nos rêves les plus fous</title>, Mavrikakis écrit : <q type="block"> <p xml:id="p930"><q><hi rend="italic" xml:lang="en-CA">We all have the same dream as Joe the plumber</hi></q>. C’est ce que le candidat républicain à la présidence des <placeName ref="http://www.geonames.org/6252001" cert="high">États-Unis</placeName> martèle dans ses grands rassemblements. Nous aurions tous le même rêve, le rêve américain, de Joe, de celui qui ne veut pas payer d’impôts, qui rêve que sa business fonctionne bien et que sa vie s’écoule sans heurt dans sa banlieue blanche. Nous aurions tous ce rêve-là.</p> <p xml:id="p931">Moi, je le confesse, je ne rêve pas de cela. (<title level="a">Nos rêves</title> 135)</p> </q> Contre le rêve de <hi xml:lang="en-CA">Joe the plumber</hi>, contre le rêve de <persName ref="http://viaf.org/viaf/49226219" cert="high">Goebbels</persName> aussi que, dans un élargissement politique de la réflexion, elle rappelle ensuite, Mavrikakis choisit en finale le rêve de <persName ref="http://viaf.org/viaf/100170140" cert="high">Martin Luther King</persName>. Mais ce qu’elle montre surtout, c’est que le rêve ne saurait être rêvé collectivement. C’est seulement ensuite, par le choix de chaque singularité d’épouser la singularité d’un autre, qu’il peut se faire espace commun. Car ce qui réside dans le rêve est, fondamentalement, idiosyncrasique, et c’est ce qui fait du rêve justement le dernier espace de résistance contre les idéologies — du moins faudrait-il le préserver comme tel. Plaqué sur d’autres contre leur gré ou bien à leur insu, le rêve n’est plus que propagande : il se fait rêve de dominer jusqu’aux rêves des autres, alors qu’on ne peut rêver que par soi-même.</ref></ref>
+                    </p>
+                    <p xml:id="p932">
+                        <ref target="#genre">
+                            <ref target="#collaboration">
+                                <ref target="#technology">Le travail du blogue est de cette dimension : se faire le support évanescent — mais qui dure — des pensées d’un instant ou d’un jour, offertes en partage pour que leur singularité rencontre une autre singularité, non pas imposées, mais circulant avec une liberté plus grande que par le livre, que par les journaux. À l’instar du rêve rêvé par chacun, dont on ne devrait jamais oublier ce qu’il a d’intime, la page Internet d’écrivain se présente comme le lieu ultime de résistance au grand ordre imposé du monde, et notamment à l’ordre imposé par <q>l’actualité</q> — qui n’est jamais choisie que par quelques-uns.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p933">
+                        <ref target="#close_reading">
+                            <ref target="#theory">Ainsi l’auteure remarque-t-elle, au sujet d’une perte de foi dans la notion d’ <q>esprit collectif générationnel</q>  que lui inspire la mort de <persName ref="http://viaf.org/viaf/27092134">Michael Jackson</persName>, qu’elle  <q>ne fonde plus [s]es propos sur le mensonge d’une communauté qui a une même époque à consommer</q> (<hi xml:lang="en-CA"><title level="a">Back-slide</title></hi> 25). Pourtant, vieillir et écrire au jour le jour, c’est reconnaître qu’il est <q>arrivé un temps de ma vie où il m’est devenu évident que je ne suis pas beaucoup plus que l’époque qui m’a formée</q>: <q>Je vois combien je suis réduite au moment où j’ai pensé que tout était possible</q> (28), ces années 80 où l’auteure avait vingt ans. Il est alors difficile d’assumer une position de recul vis-à-vis de son époque tout en s’en réclamant en partie dépositaire, de porter sur elle un regard critique sans la renier unilatéralement, de faire corps avec son temps sans nécessairement être solidaire de sa génération. <ref target="#history"><q type="block">Si mes cours portaient sur le Moyen Âge ou encore le <hi rend="small-caps"><date from="1800" to="1900">XIX</date></hi><hi rend="Superscript">e</hi> siècle, je pourrais […] parler, engoncée dans mes propos, au nom d’un temps qui dépasse le temps. Mais alors que je m’attache à travailler sur ce que certains appellent non sans mépris et bêtise <q>l’extrême contemporain</q>, je m’aperçois que ce qui m’excite encore dans ce que j’enseigne, c’est de montrer à des étudiants des textes qui, en quelque sorte, n’appartiennent pas encore tout à fait à l’Histoire, mais qui font plutôt écho à ma petite histoire, à ma <q>vie minuscule</q> qui reste la seule chose que je peux léguer ou encore donner à entendre. (25–26)</q> Ainsi, écrire sur le chaque jour, <hi rend="italic">subjectiver</hi> l’actualité, c’est accepter qu’une icône galvaudée comme Michael Jackson, en mourant, fasse mourir avec lui une partie de ce que nous avons été, en deçà de ou par delà toute pertinence culturelle.</ref> Parce que la vie, pour se continuer, a à ne pas se renier. Parce qu’il a été le contemporain d’un désir qui n’était pas seulement le sien de ne jamais mourir. <q type="block"> <p xml:id="p934">Le temps est immensément cruel pour ceux et celles qui survivent à leur jeunesse. […] Et la cruauté des années réside dans ma propre humiliation, dans la ressemblance que je me découvre aujourd’hui avec <persName ref="http://viaf.org/viaf/27092134">Michael Jackson</persName>.</p> <p xml:id="p935"><ref target="#history">Or, c’est précisément d’humiliation qu’il est question dans l’enseignement de ce qui constitue le contemporain, ou le pas très ancien […] malgré ma volonté de rendre compte le plus objectivement d’une époque, établir une anthologie du présent ou du passé immédiat relève irrémédiablement du goût, du choix intime, de l’exhibition de soi et de son temps comme mortel. </ref>(29)</p> </q> Saisir <hi rend="italic">son temps comme mortel</hi>, c’est aussi saisir sa vie dans son caractère fugitif, au présent, et de ce point de vue l’écriture du blogue constitue une ponctuation du monde. <ref target="#genre">Le discours qu’il propose du chaque-jour ou du chaque-instant opère à la fois une conversion de l’empirique en matière à penser, mais aussi met en évidence le tissage de nos vies.</ref></ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p936">
+                        <ref target="#close_reading">
+                            <ref target="#theory">Dans un texte intitulé <title type="a">Moments fragiles</title>, l’exemple du père du petit Eloi menant son fils à l’école chaque matin, mais qui un jour tout à coup pas comme les autres lui déclare qu’il l’aime, attire notre attention sur le fait que la vie est à reconquérir chaque jour, qu’elle est une conscience à saisir ou ressaisir, non un état naturel ou donné. <q type="block">Tous les matins, j’entends le père d’Éloi dire au revoir à son fils. […] Mais ce matin, le père d’Éloi […] a ajouté ce <q>je t’aime</q> qui m’a fait tressaillir. Il y a, il est vrai, dans tout au revoir à nos proches, une forme de déclaration d’amour secrète, cryptée, que parfois l’intonation révèle un peu. En disant à l’aimé : <q>Au revoir, bonne journée!</q> , nous lui donnons la permission de passer quelques heures sans nous, et nous maîtrisons un peu l’angoisse de la perte possible, de la mort qui se love, comme une traître, même dans les petites séparations.(116–117)</q> Peur de la séparation, peur de la mort qui n’est pas l’apanage des mères, mais de quiconque voit le temps passer dans son enfant. <q>La maternité, la paternité nous rappellent parfois que le temps doit s’arrêter</q> (118). Or, <q>Dans ce <q>je t’aime, Éloi…</q>, le père stoppait un peu la marche folle du temps; il volait un morceau d’enfance aux heures et aux années méchantes à venir et donnait à lui-même et à son fils la permission de s’oublier l’un l’autre, de faire avec la vie</q> (117).</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p937">
+                        <ref target="#genre_lifeWriting">
+                            <ref target="#women_writing">Alors si, selon un vieux mythe féministe, c’est la vie qui se transmet dans ces écrits quasi quotidiens d’une femme en prise sur l’actualité, dans la tradition du journal intime et dans la mythologie de la maternité qui <hi rend="italic">donne le jour</hi>, ici c’est d’une vie comme <hi rend="italic">travail</hi> qu’il s’agit, une vie comme rythme, comme inscription de soi dans le monde, à inventer chaque jour.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p938">
+                        <ref target="#genre">
+                            <ref target="#technology">L’écriture du blogue, la forme de présentation et de diffusion spécifique de la page Internet d’un écrivain, devient alors un mode de pensée spécifique, à même d’intégrer le régime discontinu selon lequel nous vivons nos vies. À même aussi d’y refaire du lien : entre moi et le père de cet enfant, moi et mon voisin, moi et ma famille, moi et les millions de gens qui dans le monde souffrent en même temps que moi et, que sans connaître pourtant, je n’ignore pas.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p939">
+                        <ref target="#genre">À la fois improvisé et né d’une nécessité, le blogue est pour notre présent ce <q>papier d’un jour</q> par lequel <persName ref="http://viaf.org/viaf/10365" cert="high">Marguerite Duras</persName> désignait la chronique d’un temps d’été voué plus encore qu’un autre à disparaître. Il est moins expression d’un moment sauvé brièvement de l’oubli qu’exposition de ce qui fait la matière même d’un jour, ce mélange de tâches et d’omission des sentiments les plus forts au milieu duquel surgit parfois un rêve ou une folie.</ref>
+                    </p>
+                    <p xml:id="p940">
+                        <ref target="#genre">En empruntant la forme subalterne — et éminemment singularisée — d’un billet d’humeur ou d’une histoire exemplaire, <persName ref="http://viaf.org/viaf/33131412" cert="high">Catherine Mavrikakis</persName> opère cette conversion de la matière du temps en matière à penser. Elle tire de ce tissu apparemment anodin, anecdotique, une réflexion de plus grande échelle qui dit quelque chose de l’organisation de valeurs souvent implicite qui sous-tend nos vies. <ref target="#collaboration">Le blogue ne parle pas ainsi de l’actualité, mais <hi rend="italic">donne son actualité au jour</hi>, pour celle qui l’écrit, pour ceux qui la lisent, et qui, la lisant, co-énoncent et co-actualisent un jour qui est peut-être aussi le leur (et pas nécessairement en même temps).</ref></ref>
+                    </p>
+                    <p xml:id="p941">
+                        <ref target="#genre">Le billet-page, la page-jour fabriquent ainsi un format énonciatif, un rythme ayant à voir avec le continu discontinu de nos vies; ils actualisent une rythmique intensive du vivre dont nous prenons rarement conscience. Ultimement donc, l’écriture du blogue, plus que celle du livre, affirme la mise en vivre du monde par sa mise en langage. L’écrit n’a plus seulement le rôle de graver dans la pierre, ou s’il le fait c’est justement <hi rend="italic">en accéléré</hi>. <ref target="#history"><title level="m">Éternité en accéléré</title>, le blogue fusionne la pérennité historique de l’écrit avec la vitesse d’exécution du vivre, rapprochant la possibilité d’être le contemporain de cette vie en action qui a conscience d’être en vie.</ref></ref>
+                    </p>
+                    <p xml:id="p942">
+                        <ref target="#close_reading"><persName ref="http://viaf.org/viaf/10365" cert="high">Marguerite Duras</persName> déplorait de ne pouvoir rejoindre, en tant qu’individu, <q>celle-là, celle qui avait écrit ça</q> (<title level="a">Interview</title> 59)<note xml:id="n41" place="end">L’extrait dit encore : <q>J’étais bouleversée par celle qui avait vu la mer, qui avait vu cet enfant, qui avait couru sur les collines d’argile, le long de la mer. J’étais dans un état de colère, comme ça, de la vie, que la vie vécue ne puisse pas rejoindre ça. J’étais jalouse de moi.</q> (59).</note>, faisant référence au sujet d’écriture de <title type="m" ref="http://viaf.org/viaf/291016508" cert="high">L’été 80</title> et à l’actualité singulière et décalée du présent de l’écriture, qui nous rend <hi rend="italic">après coup</hi> (et, sans doute, sublime) le présent de la vie, toujours inconnu de soi pendant qu’il se vit. <persName ref="http://viaf.org/viaf/33131412" cert="high">Catherine Mavrikakis</persName> écrit au plus vite, au plus près, pour que cette vie qui passe en s’ignorant, cette vie qui se vit en vitesse sans la conscience de mourir, se réfléchisse au double sens du terme, se retourne sur elle-même pour se voir exister. <ref target="#genre_issue">Proche en cela beaucoup plus du <title level="m" ref=" http://viaf.org/viaf/312421416" cert="high">Journal de deuil</title> de <persName ref="http://viaf.org/viaf/44295060" cert="high">Roland Barthes</persName> que du journalisme, son écriture enregistre le vivre comme un mourir, comme un décompte du temps et la prise de conscience de ce peu de durée qui nous reste avant de disparaître. Écriture du présent, elle l’est seulement dans la mesure où elle montre à quel point le présent n’est accessible que rétrospectivement. Son but ultime, à l’instar du mérite d’exemplarité qu’elle prête au genre biographique, c’est de <q>faire de la vie un savoir</q> (<title level="a">Par l’exemple</title> 178). Désir d’autant plus poignant que Mavrikakis déclare : <q>Il y a quelque chose d’épuisant et surtout de terrorisant à ne pas pouvoir, à bientôt cinquante ans, m’appuyer sur l’expérience que j’ai arrachée au temps</q> (<hi rend="italic"><title level="a">Back-slide</title></hi> 25). L’écriture, <hi rend="italic" xml:lang="la-150">a fortiori</hi> celle du blogue, permet peut-être de remédier à cette carence, par l’instauration, en lieu et place du partage d’expériences assurées et certaines, validées par le temps, d’un partage <hi rend="italic">qui va pouvoir devenir</hi> expérience.</ref></ref>
+                    </p>
+                    <p xml:id="p943">
+                        <ref target="#genre">
+                            <ref target="#technology">Le blogue, comme à sa manière la capsule de radio<note xml:id="n42" place="end">On écoutera en particulier pour apercevoir cette <hi rend="italic">saisie de vie</hi> qu’est l’entretien radiophonique l’émission enregistrée avec <persName>Savannah Lou</persName>, la fille de <persName ref="http://viaf.org/viaf/33131412" cert="high">Catherine Mavrikakis</persName>. http://radiospirale.org/emission/revez-pour-moi.</note>, vient mettre de la conscience dans la fuite irraisonnée du temps. Beaucoup plus qu’un moyen technique, ce qu’apporte sa possibilité technologique est cette monstration du fugitif que signale également l’enregistrement des voix de la conversation : bien qu’on puisse les archiver, on ne peut les retenir. Une fois disparus les corps qui les portaient, ils deviennent les supports physiques indispensables d’une <hi rend="italic">conscience du vivre</hi>, aussi bien que des rappels irrémédiablement nostalgiques.</ref>
+                        </ref>
+                    </p>
+                    <div type="section">
+                        <head>Bibliographie</head>
+                        <listBibl>
+                            <bibl><persName ref="http://viaf.org/viaf/44295060" cert="high">Barthes, Roland</persName>.<title level="m" ref=" http://viaf.org/viaf/312421416" cert="high">Journal de deuil</title>. <placeName ref="http://www.geonames.org/2988507" cert="high">Paris</placeName>: Seuil/IMEC, 2009.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/19993184" cert="high">Bernadet, Arnaud</persName>. <title level="a">Le journal de l’invisible : <title level="m" ref="http://viaf.org/viaf/291016508" cert="high">L’été 80</title></title>. <title level="m"><persName ref="http://viaf.org/viaf/10365" cert="high">Marguerite Duras</persName> : L’image critique</title>. Dir. <persName ref="http://viaf.org/viaf/125077482" cert="high">Maïté Snauwaert</persName>. Dossier spéc. de <title level="j"><hi xml:lang="en-CA">Dalhousie French Studies</hi></title> 95 (<date from="2011-06" to="2011-08">été 2011</date>): 27–46.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/10365" cert="high">Duras, Marguerite.</persName> <title level="m" ref="http://viaf.org/viaf/310928603/" cert="medium">La vie matérielle</title>. <placeName>Paris</placeName>: P.O.L., <date when="1987">1987</date>.</bibl>
+                            <bibl>---.<title level="m" ref="http://viaf.org/viaf/291016508" cert="high">L’été 80</title>. <placeName ref="http://www.geonames.org/2988507" cert="high">Paris</placeName>: <orgName ref="http://viaf.org/viaf/149880181" cert="high">Minuit</orgName>, <date when="1980">1980</date>.</bibl>
+                            <bibl>---.<title level="a">Interview du <date when="1981-04-12">12 avril</date> à <placeName ref="http://www.geonames.org/6077243" cert="high">Montréal</placeName> et du <date when="1981-06-18">18 juin</date> 1981 à <placeName ref="http://www.geonames.org/2988507" cert="high">Paris</placeName></title>. <title level="m"><persName ref="http://viaf.org/viaf/10365" cert="high">Marguerite Duras</persName> à <placeName ref="http://www.geonames.org/6077243" cert="high">Montréal</placeName></title>. Dir. <persName ref="http://viaf.org/viaf/68943690" cert="high">Suzanne Lamy</persName> et <persName ref="http://viaf.org/viaf/111197256" cert="high">André Roy</persName>. <placeName ref="http://www.geonames.org/6077243" cert="high">Montréal</placeName>: Éditions Spirale, <date when="1981">1981</date>. 55–71.</bibl>
+                            <bibl>---.<title level="m"><hi xml:lang="en-CA">Outside 1.</hi>Papiers d’un jour.</title> <placeName>Paris</placeName>: P.O.L., <date when="1984" cert="high">1984</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/33131412" cert="high">Mavrikakis, Catherine</persName>. <title level="a"><hi xml:lang="en-CA">Back-slide with Michael</hi></title>. <title level="m">L’éternité en accéléré.</title> 24–30.</bibl>
+                            <bibl>---. <title level="m" ref="http://viaf.org/viaf/314361719" cert="high">Le ciel de Bay City</title>. <placeName ref="http://www.geonames.org/6077243" cert="high">Montréal</placeName>: Héliotrope, <date when="2008" cert="high">2008</date>.</bibl>
+                            <bibl>---. <title level="m">L’éternité en accéléré</title>. <placeName ref="http://www.geonames.org/6077243" cert="high">Montréal</placeName>: Héliotrope, <date when="2010">2010</date>.</bibl>
+                            <bibl>---. <title level="a">Moments fragiles</title>. <title level="m">L’éternité en accéléré</title>. 116–20.</bibl>
+                            <bibl>---. <title level="a">Nos rêves les plus fous</title>. <title level="m">L’éternité en accéléré</title>. 135–39.</bibl>
+                            <bibl>---. <title level="a">Par l’exemple</title>. <title level="m">L’éternité en accéléré</title>. 172–78.</bibl>
+                            <bibl>---. <title level="a">Rêvez pour moi : entretien avec Savannah Lou</title>. <title level="m"><ref target="http://radiospirale.org/" type="external">Radiospirale.org</ref></title>. Web. <date when="2011-06-08">8 juin 2011</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/311457123" cert="high">Mercier, Samuel</persName>.<title level="a">Nouvelle vague dans l’édition québécoise</title>. <title level="j">Quartier libre. Le Journal indépendant des étudiants de l’Université de <placeName ref="http://www.geonames.org/6077243" cert="high">Montréal</placeName></title> 17.3 (<date when="2009-09-23">23 septembre 2009</date>). Web. <date when="2010-06-07">7 juin 2010</date>.</bibl>
+                        </listBibl>
+                    </div>
+                </div>
+                
+            </div>
+        </body>
+        
+
+    </text>
+</TEI>
