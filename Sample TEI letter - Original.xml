@@ -732,8 +732,8 @@
 					<title>Sample Letter - <persName key="Bertrand Russell" ref="http://www.wikidata.org/entity/Q33760" cert="high" type="real">Bertrand Russell</persName> to <persName cert="low" ref="279399399">Patricia Spence</persName> - October 21, 1935</title></head>
 				<opener>
 					<note>
-						<p>eBad writing due to shaky train8</p><p>In train3</p><p>
-							<placeName cert="high" ref="http://www.geonames.org/6453366">Oslo</placeName> to Bergens</p>
+						<p>eBad writing due to shaky train</p><p>In train3</p><p>
+							<placeName cert="high" ref="http://www.geonames.org/6453366">Oslo</placeName> to Bergen</p>
 					</note>
 					<dateline>
 						<date cert="high" when="1935-10-21">21.10.35</date>
