@@ -44,10 +44,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "?person_annotation_20190814164630962",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/nova%20carta.xml?person_annotation_20190814164630962",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:46:30.962Z",
-	"dcterms:modified": "2019-08-14T20:46:30.962Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -59,21 +58,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "?person_annotation_20190814164630962#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/nova%20carta.xml?person_annotation_20190814164630962#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/nova%20carta.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
 			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "0.1.0"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.9.0"
 		},
 		"oa:hasSelector": {
-			"@id": "?person_annotation_20190814164630962#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/nova%20carta.xml?person_annotation_20190814164630962#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/salute/persName"
 		}
@@ -86,9 +85,9 @@
 	"as:generator": {
 		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
-		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "0.1.0"
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.9.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -98,8 +97,7 @@
 		<body>
 			<div type="letter">
 				<head>
-					<title>Sample Letter Title</title>
-				</head>
+					<title>Sample Letter Title 5</title></head>
 				<opener>
 					<note type="setting">
 						<p>Some opening note describing the writing setting</p>
