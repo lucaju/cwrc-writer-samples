@@ -44,9 +44,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/nova%20carta.xml?person_annotation_20190814164630962",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/nova%20carta2.xml?person_annotation_20190814164630962",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:46:30.962Z",
+	"dcterms:modified": "2019-08-14T20:46:30.962Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -58,10 +59,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/nova%20carta.xml?person_annotation_20190814164630962#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/nova%20carta2.xml?person_annotation_20190814164630962#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/nova%20carta.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/nova%20carta2.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -72,7 +73,7 @@
 			"schema:softwareVersion": "1.9.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/nova%20carta.xml?person_annotation_20190814164630962#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/nova%20carta2.xml?person_annotation_20190814164630962#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/salute/persName"
 		}
@@ -97,7 +98,7 @@
 		<body>
 			<div type="letter">
 				<head>
-					<title>Sample Letter Title 5</title></head>
+					<title>Sample Letter Title 5 ui</title></head>
 				<opener>
 					<note type="setting">
 						<p>Some opening note describing the writing setting</p>
