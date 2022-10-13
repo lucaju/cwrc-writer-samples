@@ -729,7 +729,7 @@
 		<body>
 			<div type="letter">
 				<head>
-					<title>Sample Letter - <persName key="Bertrand Russell" ref="http://www.wikidata.org/entity/Q33760" cert="high" type="real">Bertrand Russell</persName> to <persName cert="low" ref="279399399">Patricia Spence</persName> - 1935x</title></head>
+					<title>Sample Letter - <persName key="Bertrand Russell" ref="http://www.wikidata.org/entity/Q33760" cert="high" type="real">Bertrand Russell</persName> to <persName cert="low" ref="279399399">Patricia Spence</persName> - 1935</title></head>
 				<opener>
 					<note>
 						<p>ssBad writing dueds shaky train2 </p><p>ssssIn train</p><p>
