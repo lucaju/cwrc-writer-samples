@@ -45,6 +45,7 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Orlando%20entry%20sample.xml?date_annotation_20221128160121436",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-28T21:01:21.436Z",
+	"dcterms:modified": "2022-11-28T21:01:21.436Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -70,7 +71,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Orlando%20entry%20sample.xml?date_annotation_20221128160121436#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "ENTRY/DIV0/BIOGRAPHY/DIV1[8]/EDUCATION/DIV2/SHORTPROSE/P/DATESTRUCT[2]"
+			"rdf:value": "ENTRY/DIV0/BIOGRAPHY/DIV1[8]/EDUCATION/DIV2/SHORTPROSE/P/DATESTRUCT"
 		}
 	},
 	"oa:hasBody": {
@@ -124,7 +125,7 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Orlando%20entry%20sample.xml?date_annotation_20221128170940628",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-28T22:09:40.628Z",
-	"dcterms:modified": "2022-11-28T22:10:06.073Z",
+	"dcterms:modified": "2022-11-28T22:19:41.172Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -150,7 +151,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Orlando%20entry%20sample.xml?date_annotation_20221128170940628#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "ENTRY/DIV0/BIOGRAPHY/DIV1[8]/EDUCATION/DIV2/SHORTPROSE/P/DATESTRUCT"
+			"rdf:value": "ENTRY/DIV0/BIOGRAPHY/DIV1[8]/EDUCATION/DIV2/SHORTPROSE/P/DATE"
 		}
 	},
 	"oa:hasBody": {
@@ -158,7 +159,7 @@
 			"time:Instant",
 			"time:TemporalEntity"
 		],
-		"xsd:date": "2022-11-10"
+		"xsd:date": "2022-11-01"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.stage.lincsproject.ca",
@@ -590,7 +591,7 @@
             <EDUCATION MODE="INSTITUTIONAL">
                <DIV2>
                   <SHORTPROSE>
-                     <P>Having been unsuccessful in joining the forces, Peggy Wemyss (later <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>) therefore, in <DATESTRUCT VALUE="2022-11-10">1944</DATESTRUCT>, entered <SCHOOL STUDENTBODY="CO-ED" INSTITUTIONLEVEL="POST-SECONDARY" REG="University of Winnipeg">
+                     <P>Having been unsuccessful in joining the forces, Peggy Wemyss (later <NAME STANDARD="Laurence, Margaret" REF="https://dev-02.cwrc.ca/islandora/objectorlando:982e3dd1-b5e0-476e-8b8a-563773aa1183">ML</NAME>) therefore, in <DATE VALUE="2022-11-01">1944</DATE>, entered <SCHOOL STUDENTBODY="CO-ED" INSTITUTIONLEVEL="POST-SECONDARY" REG="University of Winnipeg">
                            <ORGNAME STANDARD="University of Winnipeg" REF="https://dev-02.cwrc.ca/islandora/objectorlando:c89ee3d1-3db6-4eae-ad56-52ef126eec10">United College</ORGNAME>
                         </SCHOOL> (now the University of Winnipeg)<PLACE>
                            <SETTLEMENT REG="Winnipeg"/>
