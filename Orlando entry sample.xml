@@ -45,7 +45,7 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Orlando%20entry%20sample.xml?date_annotation_20221128160121436",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-28T21:01:21.436Z",
-	"dcterms:modified": "2022-11-28T21:01:21.436Z",
+	"dcterms:modified": "2022-11-28T22:20:24.231Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -71,15 +71,15 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Orlando%20entry%20sample.xml?date_annotation_20221128160121436#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "ENTRY/DIV0/BIOGRAPHY/DIV1[8]/EDUCATION/DIV2/SHORTPROSE/P/DATESTRUCT"
+			"rdf:value": "ENTRY/DIV0/BIOGRAPHY/DIV1[8]/EDUCATION/DIV2/SHORTPROSE/P/DATERANGE"
 		}
 	},
 	"oa:hasBody": {
 		"@type": [
-			"time:Instant",
+			"time:Interval",
 			"time:TemporalEntity"
 		],
-		"xsd:date": "2022-11-11"
+		"xsd:date": "2022-11-03/2022-11-30"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.stage.lincsproject.ca",
@@ -160,6 +160,86 @@
 			"time:TemporalEntity"
 		],
 		"xsd:date": "2022-11-01"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Orlando%20entry%20sample.xml?date_annotation_20221128172038454",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-28T22:20:38.454Z",
+	"dcterms:modified": "2022-11-28T22:20:38.454Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Orlando%20entry%20sample.xml?date_annotation_20221128172038454#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Orlando%20entry%20sample.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Orlando%20entry%20sample.xml?date_annotation_20221128172038454#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "ENTRY/DIV0/BIOGRAPHY/DIV1[8]/EDUCATION/DIV2/SHORTPROSE/P/DEGREE/SUBJECT/DATESTRUCT"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"time:Instant",
+			"time:TemporalEntity"
+		],
+		"xsd:date": "2022-11-25"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.stage.lincsproject.ca",
@@ -597,7 +677,7 @@
                            <SETTLEMENT REG="Winnipeg"/>
                            <REGION REG="Manitoba"/>
                            <GEOG REG="Canada"/>
-                        </PLACE> on a <AWARD AWARDTYPE="SCHOLARSHIP">Manitoba Scholarship</AWARD>. Here she extended her literary studies to embrace the Modernists, and again served as assistant editor on a student paper. She graduated in <DATESTRUCT VALUE="2022-11-11" CALENDAR="NEWSTYLE" cert="C">1947</DATESTRUCT> with an <DEGREE>honours BA in <SUBJECT>English</SUBJECT>
+                        </PLACE> on a <AWARD AWARDTYPE="SCHOLARSHIP">Manitoba Scholarship</AWARD>. Here she extended her literary studies to embrace the Modernists, and again served as assistant editor on a student paper. She graduated in <DATERANGE CALENDAR="BC" cert="C" FROM="2022-11-03" TO="2022-11-30">1947</DATERANGE> with an <DEGREE>honours BA in <SUBJECT><DATESTRUCT VALUE="2022-11-25" CALENDAR="NEWSTYLE" cert="ROUGHLYDATED">English</DATESTRUCT></SUBJECT>
                         </DEGREE> and a <AWARD AWARDTYPE="PRIZE">prize for <SUBJECT>poetry</SUBJECT>
                         </AWARD>.<BIBCITS>
                            <BIBCIT PLACEHOLDER="Stovel 34, 46-7, 53" DBREF="61265" REF="https://dev-02.cwrc.ca/islandora/objectorlando:895df14e-cd48-4248-9d55-d18bcf8a933a">34, 46-7, 53</BIBCIT>
