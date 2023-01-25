@@ -30,10 +30,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -45,21 +44,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/head/date"
 		}
@@ -69,11 +68,11 @@
 		"rdf:value": "1579/1580"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -109,10 +108,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -124,21 +122,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/supplied/date"
 		}
@@ -148,11 +146,11 @@
 		"rdf:value": "1579-11-06"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -188,10 +186,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -203,21 +200,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/div/table/row/cell[2]/persName"
 		}
@@ -228,11 +225,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
@@ -269,10 +266,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -284,21 +280,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/div/table/row[2]/cell[2]/persName"
 		}
@@ -309,11 +305,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
@@ -350,10 +346,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -365,21 +360,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[2]/div/ab/persName"
 		}
@@ -390,11 +385,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
@@ -431,10 +426,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -446,21 +440,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[2]/div[2]/ab/persName"
 		}
@@ -471,11 +465,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
@@ -512,10 +506,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -527,21 +520,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[2]/div[2]/ab/date"
 		}
@@ -551,11 +544,11 @@
 		"rdf:value": "1579-12"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -591,10 +584,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -606,21 +598,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[3]/div/ab/persName"
 		}
@@ -631,11 +623,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
@@ -672,10 +664,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -687,21 +678,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[3]/div/ab/date"
 		}
@@ -711,11 +702,11 @@
 		"rdf:value": "1580-02-04"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -751,10 +742,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -766,21 +756,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[3]/div[2]/ab/persName"
 		}
@@ -791,11 +781,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
@@ -832,10 +822,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?organization_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?organization_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -847,21 +836,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?organization_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?organization_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?organization_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?organization_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[3]/div[2]/ab/orgName"
 		}
@@ -872,11 +861,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
@@ -913,10 +902,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -928,21 +916,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[3]/div[2]/ab/date"
 		}
@@ -952,11 +940,11 @@
 		"rdf:value": "1580-02-04"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -992,10 +980,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -1007,21 +994,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[3]/div/ab/date/persName"
 		}
@@ -1032,11 +1019,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
@@ -1073,10 +1060,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -1088,21 +1074,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[3]/div[2]/ab/date/persName"
 		}
@@ -1113,11 +1099,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
@@ -1154,10 +1140,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -1169,21 +1154,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[4]/div/ab/persName"
 		}
@@ -1194,11 +1179,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
@@ -1235,10 +1220,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -1250,21 +1234,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[4]/div/ab/date"
 		}
@@ -1274,11 +1258,11 @@
 		"rdf:value": "1580-02-09"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -1314,10 +1298,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -1329,21 +1312,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?person_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[4]/div[2]/ab/persName"
 		}
@@ -1354,11 +1337,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
@@ -1395,10 +1378,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-01-02T14:50:10.210Z",
-	"dcterms:modified": "2020-01-02T14:50:10.210Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -1410,21 +1392,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@id": "https://localhost",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample.xml?date_annotation_20200102095010210#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?date_annotation_20200102095010210#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[4]/div[2]/ab/date"
 		}
@@ -1434,12 +1416,91 @@
 		"rdf:value": "1580-02-09"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@id": "https://localhost",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader><text type="record"><body><head>test - Lincoln's Inn Black Book 5, <date from="1579" to="1580" cert="definite">1579-80</date></head><div type="record"><head><supplied>(<date when="1579-11-06" cert="definite">6 November</date>) (Christmas wofficers)</supplied></head><pb n="273" type="folio"/><div type="transcription"><gap reason="omitted"/> <table><row><cell>[M<ex>agister</ex> revelor<ex>um</ex></cell><cell><persName ref="https://commons.cwrc.ca/reed:0c6f3b93-0e3b-41c6-8d38-46fa96c0d207" cert="definite" type="real">Mr Blackers</persName></cell></row><row><cell/><cell><persName ref="https://commons.cwrc.ca/reed:db36fa28-1fe6-493d-8ea8-8b28364a459b" cert="definite" type="real">Mr Iames</persName> <note type="foot">columns in MS out of alignment; indicator lines connect heading with the two names</note></cell></row></table> <gap reason="omitted"/></div></div><div type="record"><head><supplied>(Christmas officers' fines)</supplied></head><pb type="folio" n="312v"/><div type="transcription"><gap reason="omitted"/> <ab><note place="margin_left" type="marginal">ffines pro non execuc<ex>i</ex>one officior<ex>um</ex></note>Et de <measure type="currency">iiij li. xviij s.</measure> viij d. rec<ex>eptis</ex> p<ex>er</ex> ip<ex>su</ex>m nunc cumputa<ex>ntem</ex> de <persName ref="https://commons.cwrc.ca/reed:0c6f3b93-0e3b-41c6-8d38-46fa96c0d207" cert="definite" type="real">m<ex>agist</ex>ro Blacker</persName> pro non execuc<ex>ion</ex>e officij Ma<ex>gist</ex>ri Revellor<ex>um</ex> <name type="holiday">tempore natalis d<ex>omi</ex>ni</name> vl<ex>timo</ex> p<ex>re</ex>terit<ex>o</ex>  <lb/>Summa <measure type="currency">xxvj s. viij d.</measure></ab>  <gap reason="omitted"/></div><div type="translation"><gap reason="omitted"/> <ab><note place="margin_left" type="marginal">Fines for non-performance of duties</note>And (the accountant renders account) of <measure type="currency">26s 8d</measure> received by the present accountant himself from <persName ref="https://commons.cwrc.ca/reed:0c6f3b93-0e3b-41c6-8d38-46fa96c0d207" cert="definite" type="real">Mr Blacker</persName>, for the non-performance of the office of master of the revels at <date when="1579-12" cert="definite">Christmas-tide last past</date>. <lb/> Total: <measure type="currency">26s 8d</measure> </ab> <gap reason="omitted"/></div></div><div type="record"><head><supplied>(Treasurer's payments)</supplied></head><pb type="folio" n="313v"/><div type="transcription"><gap reason="omitted"/> <ab><note place="margin_left" type="marginal">Stipend<ex>ia</ex> music<ex>orum</ex></note>Et de <measure type="currency">xxvj s. viij d.</measure> Solut<ex>is</ex> <persName ref="https://commons.cwrc.ca/reed:86f9c25c-ddea-4780-a308-20faffba4c09" cert="definite" type="real">Will<ex>elmo</ex> Perryn</persName> music<ex>o</ex> pro anual<ex>i</ex> stipend<ex>io</ex> ei concess<ex>o</ex> p<ex>er</ex> war<ex>rantum</ex> gubernator<ex>um</ex> hospitij pred<ex>icti</ex> geren<ex>s</ex> dat<ex>um</ex> <date when="1580-02-04" cert="definite">iiij<hi rend="superscript">to</hi> die ffebruarij anno regni d<ex>icte</ex> d<ex>omi</ex>ne <persName ref="https://commons.cwrc.ca/reed:4f8027fb-e9fa-436a-a60c-ae85e41cb6cd" cert="definite" type="real">Regine</persName> xxij<hi rend="superscript">o</hi></date><lb/>Sum<ex>ma</ex> <measure type="currency">xxvj s. viij d.</measure></ab> <gap reason="omitted"/></div><div type="translation"><gap reason="omitted"/> <ab><note place="margin_left" type="marginal">Musicians' stipends</note> And (the accountant seeks to be allowed the sum) of <measure type="currency">26s 8d</measure> paid to <persName ref="https://commons.cwrc.ca/reed:86f9c25c-ddea-4780-a308-20faffba4c09" cert="definite" type="real">William Perryn</persName>, musician, for the annual stipend granted him by a warrant of the governors of <orgName ref="https://commons.cwrc.ca/cwrc:7b8d08b7-0fee-43dd-973c-6355bdd9f39f" cert="definite">the aforesaid Inn</orgName>, dated on <date when="1580-02-04" cert="definite">4 February in twenty-second year of the reign of the said lady, <persName ref="https://commons.cwrc.ca/reed:4f8027fb-e9fa-436a-a60c-ae85e41cb6cd" cert="definite" type="real">Queen (Elizabeth)</persName></date>. <lb/> Total: <measure type="currency">26s 8d</measure></ab> <gap reason="omitted"/></div></div><div type="record"><head><supplied>(Treasurer's stipends and rewards)</supplied></head><pb n="314" type="folio"/><div type="transcription"><gap reason="omitted"/> <ab>...Et de <measure type="currency">iij li. vj s. viij d.</measure> Solutis <persName ref="https://commons.cwrc.ca/reed:53e3629e-b674-4062-b814-72754b480c66" cert="definite" type="real">m<ex>agist</ex>ro fferand</persName> vni capellanor<ex>um</ex> d<ex>omi</ex>ne Regine pro <name type="entertainment">com<ex>me</ex>dia</name> ostens<ex>a</ex> p<ex>er</ex> warr<ex>antum</ex> gubernat<ex>orum</ex> ger<ex>ens</ex> dat<ex>um</ex> nono <del>de</del> <date when="1580-02-09" cert="definite">die ffebruarij 1579</date>...</ab> <gap reason="omitted"/></div><div type="translation"><gap reason="omitted"/> <ab>...And (the accountant seeks to be allowed the sum) of <measure type="currency">£3 6s 8d</measure> paid to <persName ref="https://commons.cwrc.ca/reed:53e3629e-b674-4062-b814-72754b480c66" cert="definite" type="real">Mr Farrant</persName>, one of the lady queen's chaplains, for <name type="entertainment">the comedy</name> shown by a warrant of the governors, dated <date when="1580-02-09" cert="definite">9 February 1579</date>...</ab> <gap reason="omitted"/></div></div><div type="endnote"><note type="editorial">Richard Farrant ('ma<ex>gist</ex>ro fferand) was the deputy master of the children of the Chapel, 1576-80. The 'com<ex>m</ex>edia' is not otherwise known; for the company's repertory, see Chambers, <title>Elizabethan Stage</title>, vol 2, pp 35-6.</note></div></body></text></TEI>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20230125173137675",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-01-25T22:31:37.675Z",
+	"dcterms:modified": "2023-01-25T22:31:37.675Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucaju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20230125173137675#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://localhost",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/REED%20sample%202.xml?person_annotation_20230125173137675#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/head/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/9409163513803811230005/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://localhost",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader><text type="record"><body><head>test - <persName key="Smale, John" ref="http://viaf.org/viaf/9409163513803811230005/" role="baker">Lincoln's</persName> Inn Black Book 5, <date from="1579" to="1580" cert="definite">1579-80</date></head><div type="record"><head><supplied>(<date when="1579-11-06" cert="definite">6 November</date>) (Christmas wofficers)</supplied></head><pb n="273" type="folio"/><div type="transcription"><gap reason="omitted"/> <table><row><cell>[M<ex>agister</ex> revelor<ex>um</ex></cell><cell><persName ref="https://commons.cwrc.ca/reed:0c6f3b93-0e3b-41c6-8d38-46fa96c0d207" cert="definite" type="real">Mr Blackers</persName></cell></row><row><cell/><cell><persName ref="https://commons.cwrc.ca/reed:db36fa28-1fe6-493d-8ea8-8b28364a459b" cert="definite" type="real">Mr Iames</persName> <note type="foot">columns in MS out of alignment; indicator lines connect heading with the two names</note></cell></row></table> <gap reason="omitted"/></div></div><div type="record"><head><supplied>(Christmas officers' fines)</supplied></head><pb type="folio" n="312v"/><div type="transcription"><gap reason="omitted"/> <ab><note place="margin_left" type="marginal">ffines pro non execuc<ex>i</ex>one officior<ex>um</ex></note>Et de <measure type="currency">iiij li. xviij s.</measure> viij d. rec<ex>eptis</ex> p<ex>er</ex> ip<ex>su</ex>m nunc cumputa<ex>ntem</ex> de <persName ref="https://commons.cwrc.ca/reed:0c6f3b93-0e3b-41c6-8d38-46fa96c0d207" cert="definite" type="real">m<ex>agist</ex>ro Blacker</persName> pro non execuc<ex>ion</ex>e officij Ma<ex>gist</ex>ri Revellor<ex>um</ex> <name type="holiday">tempore natalis d<ex>omi</ex>ni</name> vl<ex>timo</ex> p<ex>re</ex>terit<ex>o</ex>  <lb/>Summa <measure type="currency">xxvj s. viij d.</measure></ab>  <gap reason="omitted"/></div><div type="translation"><gap reason="omitted"/> <ab><note place="margin_left" type="marginal">Fines for non-performance of duties</note>And (the accountant renders account) of <measure type="currency">26s 8d</measure> received by the present accountant himself from <persName ref="https://commons.cwrc.ca/reed:0c6f3b93-0e3b-41c6-8d38-46fa96c0d207" cert="definite" type="real">Mr Blacker</persName>, for the non-performance of the office of master of the revels at <date when="1579-12" cert="definite">Christmas-tide last past</date>. <lb/> Total: <measure type="currency">26s 8d</measure> </ab> <gap reason="omitted"/></div></div><div type="record"><head><supplied>(Treasurer's payments)</supplied></head><pb type="folio" n="313v"/><div type="transcription"><gap reason="omitted"/> <ab><note place="margin_left" type="marginal">Stipend<ex>ia</ex> music<ex>orum</ex></note>Et de <measure type="currency">xxvj s. viij d.</measure> Solut<ex>is</ex> <persName ref="https://commons.cwrc.ca/reed:86f9c25c-ddea-4780-a308-20faffba4c09" cert="definite" type="real">Will<ex>elmo</ex> Perryn</persName> music<ex>o</ex> pro anual<ex>i</ex> stipend<ex>io</ex> ei concess<ex>o</ex> p<ex>er</ex> war<ex>rantum</ex> gubernator<ex>um</ex> hospitij pred<ex>icti</ex> geren<ex>s</ex> dat<ex>um</ex> <date when="1580-02-04" cert="definite">iiij<hi rend="superscript">to</hi> die ffebruarij anno regni d<ex>icte</ex> d<ex>omi</ex>ne <persName ref="https://commons.cwrc.ca/reed:4f8027fb-e9fa-436a-a60c-ae85e41cb6cd" cert="definite" type="real">Regine</persName> xxij<hi rend="superscript">o</hi></date><lb/>Sum<ex>ma</ex> <measure type="currency">xxvj s. viij d.</measure></ab> <gap reason="omitted"/></div><div type="translation"><gap reason="omitted"/> <ab><note place="margin_left" type="marginal">Musicians' stipends</note> And (the accountant seeks to be allowed the sum) of <measure type="currency">26s 8d</measure> paid to <persName ref="https://commons.cwrc.ca/reed:86f9c25c-ddea-4780-a308-20faffba4c09" cert="definite" type="real">William Perryn</persName>, musician, for the annual stipend granted him by a warrant of the governors of <orgName ref="https://commons.cwrc.ca/cwrc:7b8d08b7-0fee-43dd-973c-6355bdd9f39f" cert="definite">the aforesaid Inn</orgName>, dated on <date when="1580-02-04" cert="definite">4 February in twenty-second year of the reign of the said lady, <persName ref="https://commons.cwrc.ca/reed:4f8027fb-e9fa-436a-a60c-ae85e41cb6cd" cert="definite" type="real">Queen (Elizabeth)</persName></date>. <lb/> Total: <measure type="currency">26s 8d</measure></ab> <gap reason="omitted"/></div></div><div type="record"><head><supplied>(Treasurer's stipends and rewards)</supplied></head><pb n="314" type="folio"/><div type="transcription"><gap reason="omitted"/> <ab>...Et de <measure type="currency">iij li. vj s. viij d.</measure> Solutis <persName ref="https://commons.cwrc.ca/reed:53e3629e-b674-4062-b814-72754b480c66" cert="definite" type="real">m<ex>agist</ex>ro fferand</persName> vni capellanor<ex>um</ex> d<ex>omi</ex>ne Regine pro <name type="entertainment">com<ex>me</ex>dia</name> ostens<ex>a</ex> p<ex>er</ex> warr<ex>antum</ex> gubernat<ex>orum</ex> ger<ex>ens</ex> dat<ex>um</ex> nono <del>de</del> <date when="1580-02-09" cert="definite">die ffebruarij 1579</date>...</ab> <gap reason="omitted"/></div><div type="translation"><gap reason="omitted"/> <ab>...And (the accountant seeks to be allowed the sum) of <measure type="currency">£3 6s 8d</measure> paid to <persName ref="https://commons.cwrc.ca/reed:53e3629e-b674-4062-b814-72754b480c66" cert="definite" type="real">Mr Farrant</persName>, one of the lady queen's chaplains, for <name type="entertainment">the comedy</name> shown by a warrant of the governors, dated <date when="1580-02-09" cert="definite">9 February 1579</date>...</ab> <gap reason="omitted"/></div></div><div type="endnote"><note type="editorial">Richard Farrant ('ma<ex>gist</ex>ro fferand) was the deputy master of the children of the Chapel, 1576-80. The 'com<ex>m</ex>edia' is not otherwise known; for the company's repertory, see Chambers, <title>Elizabethan Stage</title>, vol 2, pp 35-6.</note></div></body></text></TEI>
