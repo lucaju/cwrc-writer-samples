@@ -1160,6 +1160,27 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230131185914374",
 			"cito:hasCitedEntity": "http://viaf.org/viaf/9999157527386627300007/",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230131185914374#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230131185914374",
+			"cito:hasCitedEntity": "http://viaf.org/viaf/9999157527386627300007/",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230131185914374#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230131185914374",
+			"cito:hasCitedEntity": "http://viaf.org/viaf/9999157527386627300007/",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230131185914374#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230131185914374",
+			"cito:hasCitedEntity": "http://viaf.org/viaf/9999157527386627300007/",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -1185,7 +1206,7 @@
 						<date cert="high" when="1935-10-21">21.10.35</date>
 					</dateline>
 					<salute>Dearest -</salute>
-				</opener><p>I have had no letter from<note type="citation"><bibl><ref target="http://viaf.org/viaf/9999157527386627300007/"/>Citation</bibl></note> you since I left <placeName ref="http://viaf.org/viaf/9787162481027437680007/" key="Börshuset (Stockholm)" cert="high">Stockholm</placeName>, but I had a nice leter from John in a new <rs key="envelope" ref="http://www.wikidata.org/entity/Q170124" type="http://sparql.cwrc.ca/ontology/cwrc#Sexuality">envelope</rs> you had sent him. I had sent him one addressed to Copenhagen but he hadn't used it.</p><p>When I reached <placeName key="Christiania (Norvège)" ref="http://viaf.org/viaf/8698159478084527990004/">Oslo</placeName> yesterday eveninkkg, Brynjulf Bull should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with  about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/> time of my arrival wrong, and 
+				</opener><p>I have had no letter from you since I left <placeName ref="http://viaf.org/viaf/9787162481027437680007/" key="Börshuset (Stockholm)" cert="high">Stockholm</placeName>, but I had a nice leter from John in a new <rs key="envelope" ref="http://www.wikidata.org/entity/Q170124" type="http://sparql.cwrc.ca/ontology/cwrc#Sexuality">envelope</rs> you had sent him. I had sent him one addressed to Copenhagen but he hadn't used it.</p><p>When I reached <placeName key="Christiania (Norvège)" ref="http://viaf.org/viaf/8698159478084527990004/">Oslo</placeName> yesterday eveninkkg, Brynjulf Bull should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with  about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/> time of my arrival wrong, and 
 						<corr>when</corr>
 					he had found he had missed me he <date from="2022-11-02" to="2022-11-25">phoned</date> to every hotel in Oslo till he hit on the right one. He left me at 10, and then I had to do a Sunday Referee article. Today my journey lasts from 9 till 9 - fortunately one of the most beautiful railway journeys in the world. Tomorrow I lecture at <placeName cert="high" ref="http://www.geonames.org/6548528">Bergen</placeName> to the Anglo-Norwegian Society. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for home via Bergen.</p>
 				<pb n="3"/>
