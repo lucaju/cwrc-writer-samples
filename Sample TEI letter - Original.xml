@@ -1041,7 +1041,7 @@
 				<opener>
 					<note><p>Bad writing due shaky train 2</p>
 <p>In train</p>
-<p><placeName cert="high" ref="http://www.geonames.org/6453366">Oslo</placeName> to <placeName key="Bergens blondeveveri" ref="http://viaf.org/viaf/50157467848022320266/">Bergens</placeName></p></note>
+<p><placeName cert="high" ref="http://www.geonames.org/6453366">Oslo</placeName> to1 <placeName key="Bergens blondeveveri" ref="http://viaf.org/viaf/50157467848022320266/">Bergens</placeName></p></note>
 					<dateline>
 						<date cert="high" when="1935-10-21">21.10.35</date>
 					</dateline>
