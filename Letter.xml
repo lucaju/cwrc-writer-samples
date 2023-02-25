@@ -45,9 +45,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?correction_annotation_20190814164101124",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?correction_annotation_20190814164101124",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.124Z",
+	"dcterms:modified": "2019-08-14T20:41:01.124Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -59,21 +60,21 @@
 	},
 	"oa:motivatedBy": "oa:editing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?correction_annotation_20190814164101124#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?correction_annotation_20190814164101124#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.7.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?correction_annotation_20190814164101124#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?correction_annotation_20190814164101124#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[2]/corr"
 		}
@@ -83,11 +84,11 @@
 		"dc:format": "text/xml"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.7.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -123,9 +124,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?date_annotation_20190814164101125",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?date_annotation_20190814164101125",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.125Z",
+	"dcterms:modified": "2019-08-14T20:41:01.125Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -137,21 +139,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?date_annotation_20190814164101125#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?date_annotation_20190814164101125#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.7.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?date_annotation_20190814164101125#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?date_annotation_20190814164101125#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/dateline/date"
 		}
@@ -161,11 +163,11 @@
 		"rdf:value": "1935-10-21"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.7.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -201,9 +203,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?person_annotation_20190814164101126",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?person_annotation_20190814164101126",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.126Z",
+	"dcterms:modified": "2019-08-14T20:41:01.126Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -215,21 +218,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?person_annotation_20190814164101126#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?person_annotation_20190814164101126#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.7.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?person_annotation_20190814164101126#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?person_annotation_20190814164101126#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/title/persName[2]"
 		}
@@ -240,11 +243,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.7.0"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:low"
 }]]>
@@ -281,9 +284,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?person_annotation_20190814164101127",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?person_annotation_20190814164101127",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.127Z",
+	"dcterms:modified": "2019-08-14T20:41:01.127Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -295,21 +299,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?person_annotation_20190814164101127#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?person_annotation_20190814164101127#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.7.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?person_annotation_20190814164101127#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?person_annotation_20190814164101127#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/closer/signed/persName/persName"
 		}
@@ -320,11 +324,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.7.0"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -361,9 +365,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20190814164101129",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20190814164101129",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.129Z",
+	"dcterms:modified": "2019-08-14T20:41:01.129Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -375,21 +380,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20190814164101129#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20190814164101129#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.7.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20190814164101129#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20190814164101129#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/note/p[3]/placeName"
 		}
@@ -400,11 +405,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.7.0"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -441,9 +446,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20190814164101130",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20190814164101130",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.130Z",
+	"dcterms:modified": "2019-08-14T20:41:01.130Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -455,21 +461,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20190814164101130#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20190814164101130#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.7.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20190814164101130#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20190814164101130#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[2]/placeName[2]"
 		}
@@ -480,11 +486,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.7.0"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -521,9 +527,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?person_annotation_20220610183541341",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?person_annotation_20220610183541341",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-06-10T22:35:41.341Z",
+	"dcterms:modified": "2022-06-10T22:35:41.341Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -533,21 +540,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?person_annotation_20220610183541341#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?person_annotation_20220610183541341#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.7.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?person_annotation_20220610183541341#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?person_annotation_20220610183541341#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/title/persName"
 		}
@@ -558,11 +565,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.7.0"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -599,9 +606,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20220912212510318",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20220912212510318",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-09-13T01:25:10.318Z",
+	"dcterms:modified": "2022-09-13T01:25:10.318Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -611,21 +619,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20220912212510318#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20220912212510318#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.7.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20220912212510318#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20220912212510318#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[2]/placeName"
 		}
@@ -636,11 +644,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.7.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -676,9 +684,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20220912212857301",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20220912212857301",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-09-13T01:28:57.301Z",
+	"dcterms:modified": "2022-09-13T01:28:57.301Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -690,21 +699,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20220912212857301#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20220912212857301#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.7.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20220912212857301#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20220912212857301#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
@@ -715,11 +724,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.7.0"
+		"schema:softwareVersion": "2.3.1"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -756,10 +765,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20221014180518950",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20221014180518950",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-14T22:05:18.950Z",
-	"dcterms:modified": "2022-10-14T22:05:18.950Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -769,21 +777,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20221014180518950#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20221014180518950#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.1.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20221014180518950#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?place_annotation_20221014180518950#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/note/p[3]/placeName[2]"
 		}
@@ -794,11 +802,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.1.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -834,10 +842,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?rs_annotation_20221128154229638",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?rs_annotation_20221128154229638",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-28T20:42:29.638Z",
-	"dcterms:modified": "2022-11-28T20:42:29.638Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -847,10 +854,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?rs_annotation_20221128154229638#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?rs_annotation_20221128154229638#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -858,10 +865,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?rs_annotation_20221128154229638#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?rs_annotation_20221128154229638#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/rs"
 		}
@@ -876,7 +883,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -912,10 +919,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?date_annotation_20221128171842197",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?date_annotation_20221128171842197",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-28T22:18:42.197Z",
-	"dcterms:modified": "2022-11-28T22:18:42.197Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -925,10 +931,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?date_annotation_20221128171842197#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?date_annotation_20221128171842197#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -936,10 +942,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?date_annotation_20221128171842197#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?date_annotation_20221128171842197#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[2]/date"
 		}
@@ -953,7 +959,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -989,10 +995,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?date_annotation_20221128172757711",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?date_annotation_20221128172757711",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-28T22:27:57.711Z",
-	"dcterms:modified": "2022-11-28T22:27:57.711Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1002,10 +1007,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?date_annotation_20221128172757711#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?date_annotation_20221128172757711#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1013,10 +1018,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?date_annotation_20221128172757711#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?date_annotation_20221128172757711#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/title/date"
 		}
@@ -1030,7 +1035,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -1066,10 +1071,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?note_annotation_20230125193626583",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?note_annotation_20230125193626583",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-01-26T00:36:26.583Z",
-	"dcterms:modified": "2023-01-26T00:36:26.583Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -1080,21 +1084,21 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?note_annotation_20230125193626583#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?note_annotation_20230125193626583#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?note_annotation_20230125193626583#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?note_annotation_20230125193626583#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/note"
 		}
@@ -1102,10 +1106,10 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "test"
+		"rdf:value": "I am unhappily wondering what you are feeling about me.test"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
@@ -1127,11 +1131,11 @@
 						<date cert="high" when="1935-10-21">21.10.35</date>
 					</dateline>
 					<salute>Dearest -</salute>
-				</opener><p>I have had no letter from you<note type="researchNote">test</note> since I left <placeName ref="http://viaf.org/viaf/9787162481027437680007/" key="Börshuset (Stockholm)" cert="high">Stockholm</placeName>, but I had a nice joneddfrom Johjsn in a new <rs key="envelope" ref="http://www.wikidata.org/entity/Q170124" type="http://sparql.cwrc.ca/ontology/cwrc#Sexuality">envelope</rs> you had sent him. I had sehnt him one addressed to Copenhagen dsdbut he hadn't usedm it.k</p><p>When I reached <placeName key="Christiania (Norvège)" ref="http://viaf.org/viaf/8698159478084527990004/">Oslo</placeName> yesterday evening, Brynjulf Bull should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with <note type="researchNote">no one</note> about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/> time of my arrival wrong, and 
+				</opener><p>I have had no letter from you<note type="researchNote"><p>I am unhappily wondering what you are feeling about me.</p>test</note> since I left <placeName ref="http://viaf.org/viaf/9787162481027437680007/" key="Börshuset (Stockholm)" cert="high">Stockholm</placeName>, but I had a nice joneddfrom Johjsn in a new <rs key="envelope" ref="http://www.wikidata.org/entity/Q170124" type="http://sparql.cwrc.ca/ontology/cwrc#Sexuality">envelope</rs> you had sent him. I had sehnt him one addressed to Copenhagen dsdbut he hadn't usedm it.k</p><p>When I reached <placeName key="Christiania (Norvège)" ref="http://viaf.org/viaf/8698159478084527990004/">Oslo</placeName> yesterday evening, Brynjulf Bull should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with <note type="researchNote">no one</note> about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/> time of my arrival wrong, and 
 						<corr>when</corr>
 					he had found he had missed me he <date from="2022-11-02" to="2022-11-25">phoned</date> to every hotel in Oslo till he hit on the right one. He left me at 10, and then I had to do a Sunday Referee article. Today my journey lasts from 9 till 9 - fortunately one of the most beautiful railway journeys in the world. Tomorrow I lecture at <placeName cert="high" ref="http://www.geonames.org/6548528">Bergen</placeName> to the Anglo-Norwegian Society. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for home via Bergen.</p>
 				<pb n="3"/>
-				<p>Bull is a nice young man but incompetent - can't quite stand the communists, but finds the socialists too mild.</p><p>I am unhappily wondering what you are feeling about me.</p>
+				<p>Bull is a nice young man but incompetent - can't quite stand the communists, but finds the socialists too mild.</p>
 				<closer>
 					<salute>I love you very much -</salute>
 					<signed>
