@@ -1110,6 +1110,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20230303182100621",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-03T23:21:00.621Z",
+	"dcterms:modified": "2023-03-03T23:21:00.621Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucaju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20230303182100621#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://localhost",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20230303182100621#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/opener/note/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Regional_rail",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://localhost",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.5.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1117,7 +1196,7 @@
 				<head>
 					<title>Sample Letter - <persName key="Bertrand Russell" ref="http://www.wikidata.org/entity/Q33760" cert="high" type="real">Bertrand Russell</persName> to <persName cert="low" ref="279399399">Patricia Spence</persName> - <date when="1936" cert="medium">1935.</date></title></head>
 				<opener>
-					<note><p>Bad writing due shaky train</p>
+					<note><p>Bad writing due shaky <placeName key="Regional rail" ref="http://dbpedia.org/resource/Regional_rail">train</placeName></p>
 <p>In train</p>
 <p><placeName cert="high" ref="http://www.geonames.org/6453366">Oslo</placeName> to1 <placeName key="Bergens blondeveveri" ref="http://viaf.org/viaf/50157467848022320266/">Bergens</placeName></p></note>
 					<dateline>
