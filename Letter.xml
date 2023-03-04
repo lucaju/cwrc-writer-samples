@@ -205,6 +205,7 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?person_annotation_20190814164101126",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.126Z",
+	"dcterms:modified": "2019-08-14T20:41:01.126Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -232,7 +233,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Letter.xml?person_annotation_20190814164101126#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/head/persName"
+			"rdf:value": "TEI/text/body/div/head/title/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1119,8 +1120,8 @@
 	<text>
 		<body>
 			<div type="letter">
-				<head><persName cert="low" ref="279399399">Patricia Spence</persName>
-					<title>Sample Letter - <persName key="Bertrand Russell" ref="http://www.wikidata.org/entity/Q33760" cert="high" type="real">Bertrand Russell</persName><date when="1936" cert="medium">1935</date> to  - </title></head>
+				<head>
+					<title>Sample Letter - <persName key="Bertrand Russell" ref="http://www.wikidata.org/entity/Q33760" cert="high" type="real">Bertrand Russell</persName><persName cert="low" ref="279399399">Patricia Spence</persName><date when="1936" cert="medium">1935</date> to  - </title></head>
 				<opener>
 					<note>
 						<p>Bad writing due shaky train</p><p>ssIn train</p><p><placeName cert="high" ref="http://www.geonames.org/6453366">Oslo</placeName> to <placeName key="Bergens blondeveveri" ref="http://viaf.org/viaf/50157467848022320266/">Bergens</placeName></p>
