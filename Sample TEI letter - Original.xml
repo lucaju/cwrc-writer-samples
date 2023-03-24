@@ -653,7 +653,7 @@
       <body>
          <div type="letter">
             <head>
-               <title>Sample Letter - <persName key="Bertrand Russell" ref="http://www.wikidata.org/entity/Q33760">Bertrand Russell</persName> to <persName cert="low" ref="279399399">Patricia Spence</persName> - October 21, 1935</title>
+               <title>Sample Letter - <persName key="Bertrand Russell" ref="http://www.wikidata.org/entity/Q33760">Bertrand Russell</persName><persName cert="low" ref="279399399">Patricia Spence</persName></title>
             </head>
             <opener>
                <note>
