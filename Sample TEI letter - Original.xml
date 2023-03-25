@@ -364,6 +364,7 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20200714121650567",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-07-14T16:16:50.567Z",
+	"dcterms:modified": "2020-07-14T16:16:50.567Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -391,7 +392,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20200714121650567#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/opener/note/p[3]/placeName"
+			"rdf:value": "TEI/text/body/div/opener/note/p[4]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -657,7 +658,7 @@
             </head>
             <opener>
                <note>
-                  <p>Bad writing due to shaky train</p><p>In train</p><p>
+                  <p>Bad writing due to shaky train</p><p/><p>In train</p><p>
                      <placeName cert="high" ref="http://www.geonames.org/6453366">Oslo</placeName>
                      to Bergen</p>
                </note>
