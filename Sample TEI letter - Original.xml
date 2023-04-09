@@ -965,6 +965,261 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?title_annotation_20230409185916250",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-09T22:59:16.250Z",
+	"dcterms:modified": "2023-04-09T22:59:16.250Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucaju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?title_annotation_20230409185916250#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://localhost",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.4"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?title_annotation_20230409185916250#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/9972151051805333530003/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://localhost",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.4"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "http://purl.org/spar/cito/",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185922489",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-09T22:59:22.489Z",
+	"dcterms:modified": "2023-04-09T22:59:22.489Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucaju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera"
+	},
+	"oa:motivatedBy": "cwrc:citing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185922489#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://localhost",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.4"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185922489#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/note[2]"
+		}
+	},
+	"oa:hasBody": [
+		{
+			"@type": "cito:Citation",
+			"dc:format": "text/plain",
+			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185922489#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185922489",
+			"cito:hasCitedEntity": "http://viaf.org/viaf/9340159035183401380005/",
+			"cito:hasCitationEvent": "cito:cites"
+		}
+	],
+	"as:generator": {
+		"@id": "https://localhost",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.4"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "http://purl.org/spar/cito/",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185934818",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-09T22:59:34.818Z",
+	"dcterms:modified": "2023-04-09T22:59:34.818Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucaju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera"
+	},
+	"oa:motivatedBy": "cwrc:citing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185934818#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://localhost",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.4"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185934818#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/note"
+		}
+	},
+	"oa:hasBody": [
+		{
+			"@type": "cito:Citation",
+			"dc:format": "text/plain",
+			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185934818#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185934818",
+			"cito:hasCitedEntity": "http://viaf.org/viaf/9989156133223358430004/",
+			"cito:hasCitationEvent": "cito:cites"
+		}
+	],
+	"as:generator": {
+		"@id": "https://localhost",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.4"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -986,9 +1241,9 @@
             <p>I have had no letter from you since I left <placeName cert="high" ref="http://www.geonames.org/2673722">Stockholm</placeName>, but I had a nice one
                from John in an envelope you had sent him. I had sent him one addressed to Copenhagen
                but he hadn't used it.</p>
-            <p>When I reached Oslo <orgName key="Forum &amp;quot;Space Science: Yesterday, Today and Tomorrow&amp;quot; 2015 Moskau" ref="http://viaf.org/viaf/8683154801923256310004/">yesterday</orgName> evening, Brynjulf <persName key="Bull, Chris" ref="http://viaf.org/viaf/9972158070662808780002/">Bull</persName> should have been there to meet
+            <p>When<note type="citation"><bibl><ref target="http://viaf.org/viaf/9989156133223358430004/"/></bibl></note> I reached Oslo <orgName key="Forum &amp;quot;Space Science: Yesterday, Today and Tomorrow&amp;quot; 2015 Moskau" ref="http://viaf.org/viaf/8683154801923256310004/">yesterday</orgName> evening, Brynjulf <persName key="Bull, Chris" ref="http://viaf.org/viaf/9972158070662808780002/">Bull</persName> should have been there to meet
                me, but wasn't. He is not on the telephone, so I took a taxi to his address, which
-               turned out to be a students' club with no one about on Sundays, so I went to a hotel
+               turned<note type="citation"><bibl><ref target="http://viaf.org/viaf/9340159035183401380005/"/></bibl></note> out to be a <title key="Howell, David C. | Statistical Methods for Psychology" ref="http://viaf.org/viaf/9972151051805333530003/" level="a">students</title>' club with no one about on Sundays, so I went to a hotel
                feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/>
                time of my arrival wrong, and <choice><sic>
                   when
