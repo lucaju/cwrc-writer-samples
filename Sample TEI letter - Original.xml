@@ -1170,6 +1170,20 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185922489",
 			"cito:hasCitedEntity": "http://viaf.org/viaf/9340159035183401380005/",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185922489#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185922489",
+			"cito:hasCitedEntity": "http://viaf.org/viaf/9340159035183401380005/",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185922489#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185922489",
+			"cito:hasCitedEntity": "http://viaf.org/viaf/9340159035183401380005/",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -1307,6 +1321,20 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185934818",
 			"cito:hasCitedEntity": "http://viaf.org/viaf/9989156133223358430004/",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185934818#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185934818",
+			"cito:hasCitedEntity": "http://viaf.org/viaf/9989156133223358430004/",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185934818#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?citation_annotation_20230409185934818",
+			"cito:hasCitedEntity": "http://viaf.org/viaf/9989156133223358430004/",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -1336,12 +1364,12 @@
                </dateline>
                <salute>Dearest -</salute>
             </opener>
-            <p>I have had no letter from you since I left <placeName cert="high" ref="http://www.geonames.org/2673722">Stockholm</placeName>, but I had a nice one
+            <p>I have had no <ref cert="high" evaluate="all" target="https://www.cwrc.ca" xml:space="default">letter</ref> from you since I left <placeName cert="high" ref="http://www.geonames.org/2673722">Stockholm</placeName>, but I had a nice one
                from John in an envelope you had sent him. I had sent him one addressed to Copenhagen
                but he hadn't used it.</p>
-            <p>When<note type="citation"><bibl><ref target="http://viaf.org/viaf/9989156133223358430004/"/><bibl/></bibl></note> I reached Oslo <orgName key="Forum &amp;quot;Space Science: Yesterday, Today and Tomorrow&amp;quot; 2015 Moskau" ref="http://viaf.org/viaf/8683154801923256310004/">yesterday</orgName> evening, Brynjulf <persName key="Bull, Chris" ref="http://viaf.org/viaf/9972158070662808780002/">Bull</persName> should have been there to meet
+            <p>When<note type="citation"><bibl><ref target="http://viaf.org/viaf/9989156133223358430004/"/><bibl><bibl/></bibl></bibl></note> I reached Oslo <orgName key="Forum &amp;quot;Space Science: Yesterday, Today and Tomorrow&amp;quot; 2015 Moskau" ref="http://viaf.org/viaf/8683154801923256310004/">yesterday</orgName> evening, Brynjulf <persName key="Bull, Chris" ref="http://viaf.org/viaf/9972158070662808780002/">Bull</persName> should have been there to meet
                me, but wasn't. He is not on the telephone, so I took a taxi to his address, which
-               turned<note type="citation"><bibl><ref target="http://viaf.org/viaf/9340159035183401380005/"/><bibl/></bibl></note> out to be a <title key="Howell, David C. | Statistical Methods for Psychology" ref="http://viaf.org/viaf/9972151051805333530003/" level="a">students</title>' club with no one about on Sundays, so I went to a hotel
+               turned<note type="citation"><bibl><ref target="http://viaf.org/viaf/9340159035183401380005/"/><bibl><bibl/></bibl></bibl></note> out to be a <title key="Howell, David C. | Statistical Methods for Psychology" ref="http://viaf.org/viaf/9972151051805333530003/" level="a">students</title>' club with no one about on Sundays, so I went to a hotel
                feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/>
                time of my arrival wrong, and <choice><sic>
                   when
