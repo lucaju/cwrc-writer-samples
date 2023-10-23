@@ -45,10 +45,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?correction_annotation_20190814164101124",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?correction_annotation_20190814164101124",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.124Z",
-	"dcterms:modified": "2019-08-14T20:41:01.124Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -60,9 +59,10 @@
 	},
 	"oa:motivatedBy": "oa:editing",
 	"oa:hasTarget": {
-		"@id": "undefined?correction_annotation_20190814164101124#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?correction_annotation_20190814164101124#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -73,7 +73,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?correction_annotation_20190814164101124#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?correction_annotation_20190814164101124#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[2]/choice"
 		}
@@ -124,10 +124,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?date_annotation_20190814164101125",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?date_annotation_20190814164101125",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.125Z",
-	"dcterms:modified": "2019-08-14T20:41:01.125Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -139,9 +138,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?date_annotation_20190814164101125#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?date_annotation_20190814164101125#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -152,7 +152,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?date_annotation_20190814164101125#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?date_annotation_20190814164101125#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/dateline/date"
 		}
@@ -203,10 +203,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?person_annotation_20190814164101126",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?person_annotation_20190814164101126",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.126Z",
-	"dcterms:modified": "2019-08-14T20:41:01.126Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -218,9 +217,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20190814164101126#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?person_annotation_20190814164101126#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -231,7 +231,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20190814164101126#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?person_annotation_20190814164101126#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/title/persName"
 		}
@@ -283,10 +283,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?person_annotation_20190814164101127",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?person_annotation_20190814164101127",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.127Z",
-	"dcterms:modified": "2019-08-14T20:41:01.127Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -298,9 +297,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20190814164101127#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?person_annotation_20190814164101127#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -311,7 +311,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20190814164101127#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?person_annotation_20190814164101127#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/closer/signed/persName/persName"
 		}
@@ -363,10 +363,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?place_annotation_20190814164101129",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?place_annotation_20190814164101129",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.129Z",
-	"dcterms:modified": "2019-08-14T20:41:01.129Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -378,9 +377,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?place_annotation_20190814164101129#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?place_annotation_20190814164101129#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -391,7 +391,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?place_annotation_20190814164101129#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?place_annotation_20190814164101129#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/note/p[3]/placeName"
 		}
@@ -443,10 +443,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?place_annotation_20190814164101130",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?place_annotation_20190814164101130",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.130Z",
-	"dcterms:modified": "2019-08-14T20:41:01.130Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -458,9 +457,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?place_annotation_20190814164101130#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?place_annotation_20190814164101130#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -471,7 +471,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?place_annotation_20190814164101130#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?place_annotation_20190814164101130#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[2]/placeName"
 		}
@@ -523,10 +523,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?place_annotation_20190814164101131",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?place_annotation_20190814164101131",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.131Z",
-	"dcterms:modified": "2019-08-14T20:41:01.131Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -538,9 +537,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?place_annotation_20190814164101131#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?place_annotation_20190814164101131#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -551,7 +551,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?place_annotation_20190814164101131#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/A9%20Sample%20TEI%20letter.xml?place_annotation_20190814164101131#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
@@ -576,7 +576,7 @@
 		<body>
 			<div type="letter">
 				<head>
-					<title>My letter Sample Letter - Bertrand Russell to <persName cert="low" ref="279399399">Patricia Spence</persName> - October 21, 1935</title>
+					<title>My letter 22 Sample Letter - Bertrand Russell to <persName cert="low" ref="279399399">Patricia Spence</persName> - October 21, 1935</title>
 				</head>
 				<opener>
 					<note>
