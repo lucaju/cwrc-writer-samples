@@ -672,7 +672,7 @@
                  </dateline>
                  <salute>Dearest -</salute>
               </opener>
-              <p>I have had no letter from you since I left <placeName cert="high" ref="http://www.geonames.org/2673722">Stockholm</placeName>, but I had a nice one
+              <p>I have <emph cert="high" rend="a" xml:space="default">had</emph> no letter from you since I left <placeName cert="high" ref="http://www.geonames.org/2673722">Stockholm</placeName>, but I had a nice one
                  from John in an envelope you had sent him. I had sent him one addressed to Copenhagen
                  but he hadn't used it.</p>
               <p>When I reached Oslo yesterday evening, Brynjulf Bull should have been there to meet
