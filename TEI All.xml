@@ -206,6 +206,7 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?person_annotation_20200714121650566",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-07-14T16:16:50.566Z",
+	"dcterms:modified": "2020-07-14T16:16:50.566Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -233,7 +234,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?person_annotation_20200714121650566#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/head/title/persName[2]"
+			"rdf:value": "TEI/text/body/div/head/title/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -688,7 +689,6 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?person_annotation_20240123164715227",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-23T21:47:15.227Z",
-	"dcterms:modified": "2024-01-23T21:47:15.227Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -715,7 +715,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?person_annotation_20240123164715227#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/head/title/persName"
+			"rdf:value": "TEI/text/body/div/head/title/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -767,7 +767,6 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?place_annotation_20240123164722126",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-23T21:47:22.126Z",
-	"dcterms:modified": "2024-01-23T21:47:22.126Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -794,7 +793,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?place_annotation_20240123164722126#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/head/title/persName/placeName"
+			"rdf:value": "TEI/text/body/div/head/title/persName[2]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -811,12 +810,89 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?person_annotation_20240123174226666",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-01-23T22:42:26.666Z",
+	"dcterms:modified": "2024-01-23T22:42:26.666Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucaju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?person_annotation_20240123174226666#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?person_annotation_20240123174226666#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
      <text>
         <body>
            <div type="letter">
               <head>
-                 <title>Sample Letter2 - <persName key="Bertrand, Carl" ref="http://viaf.org/viaf/9981159477930727990007/"><placeName key="Theaterbau des Stadttheaters Krefeld (Krefeld)" ref="http://viaf.org/viaf/6596161999108644610008/">Bertrand</placeName></persName> Russell to <persName cert="low" ref="279399399">Patricia Spence</persName> - October 21, 1935</title>
+                 <title><persName>Sample</persName> Letter2 - <persName key="Bertrand, Carl" ref="http://viaf.org/viaf/9981159477930727990007/"><placeName key="Theaterbau des Stadttheaters Krefeld (Krefeld)" ref="http://viaf.org/viaf/6596161999108644610008/">Bertrand</placeName></persName> Russell to <persName cert="low" ref="279399399">Patricia Spence</persName> - October 21, 1935</title>
               </head>
               <opener>
                  <note>
@@ -832,7 +908,7 @@
               <p>I have <emph cert="high" rend="a" xml:space="default">had</emph> no letter from you since I left <placeName cert="high" ref="http://www.geonames.org/2673722">Stockholm</placeName>, but I had a nice one
                  from John in an envelope you had sent him. I had sent him one addressed to Copenhagen
                  but he hadn't used it.</p>
-              <p>When I reached Oslo yesterday evening, Brynjulf Bull should have been there to meet
+              <p>When I reached <persName>Oslo</persName> yesterday evening, Brynjulf Bull should have been there to meet
                  me, but wasn't. He is not on the telephone, so I took a taxi to his address, which
                  turned out to be a students' club with no one about on Sundays, so I went to a hotel
                  feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/>
