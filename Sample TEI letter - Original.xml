@@ -364,87 +364,6 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20200714121650567",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-07-14T16:16:50.567Z",
-	"dcterms:modified": "2020-07-14T16:16:50.567Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/ilovan",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Mihaela Ilovan",
-		"foaf:nick": "ilovan"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20200714121650567#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://localhost",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.6.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20200714121650567#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/opener/note/p[4]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.geonames.org/6453366",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://localhost",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.6.1"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20200714121650567",
-	"type": "oa:Annotation",
-	"dcterms:created": "2020-07-14T16:16:50.567Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -763,7 +682,6 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20230409185848483",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-04-09T22:58:48.483Z",
-	"dcterms:modified": "2023-04-09T22:58:48.483Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -782,15 +700,15 @@
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.4"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?place_annotation_20230409185848483#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/opener/note/p[4]/placeName[2]"
+			"rdf:value": "TEI/text/body/div/opener/note/p[4]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -799,11 +717,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.4"
+		"schema:softwareVersion": "3.4.0"
 	}
 }]]>
         </rdf:Description>
@@ -1368,7 +1286,7 @@
             <opener>
                <note>
                   <p>Bad writing due to shaky <rs key="Clayton, Meg Waite,. | Last train to london : a novel | French | (Perrin : 2022)" ref="http://viaf.org/viaf/9994167931751129520001/">train</rs></p><p/><p>In trainss</p><p>
-                     <placeName cert="high" ref="http://www.geonames.org/6453366">Oslo</placeName>
+                     Oslo
                      to <placeName key="Bergen-Bleckmar" ref="http://viaf.org/viaf/9704147270399135700005/">Bergen</placeName></p>
                </note>
                <dateline>
@@ -1388,7 +1306,7 @@
                   
                </sic><corr>when</corr></choice> he had found he had missed me he phoned to every hotel in Oslo till he hit
                on the right one. He left me at 10, and then I had to do a Sunday Referee article.
-               Today my journey lasts from <time>9 till 9 -</time> fortunately one of the most beautiful railway
+               Today my journey lasts from <time cert="high" evidence="internal" instant="unknown" precision="high" unit="cm" xml:space="default">9 till 9 -</time> fortunately one of the most beautiful railway
                journeys in the world. Tomorrow I lecture at <placeName cert="high" ref="http://www.geonames.org/6548528">Bergen</placeName> to the Anglo-Norwegian
                Society. Next day I go back to <placeName key="Oslo" ref="http://www.wikidata.org/entity/Q585">Oslo</placeName>, lecture there Fri. and Sat. and then start for
                home via Bergen.</p>
