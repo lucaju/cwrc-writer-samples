@@ -1312,10 +1312,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?rs_annotation_20231102213116197",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?rs_annotation_20231102213135870",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-11-03T01:31:16.197Z",
-	"dcterms:modified": "2023-11-03T01:31:35.870Z",
+	"dcterms:created": "2023-11-03T01:31:35.870Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -1326,7 +1325,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?rs_annotation_20231102213116197#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?rs_annotation_20231102213135870#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
@@ -1334,13 +1333,13 @@
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://31283590-review-165-add-su-hxrgdc.leaf-vre.org",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.3.1"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?rs_annotation_20231102213116197#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?rs_annotation_20231102213135870#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/rs"
 		}
@@ -1351,11 +1350,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://31283590-review-165-add-su-hxrgdc.leaf-vre.org",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.3.1"
+		"schema:softwareVersion": "3.4.0"
 	}
 }]]>
         </rdf:Description>
@@ -1368,7 +1367,7 @@
             </head>
             <opener>
                <note>
-                  <p>Bad writing due to shaky <rs key="Clayton, Meg Waite,. | Last train to london : a novel | French | (Perrin : 2022)" ref="http://viaf.org/viaf/9994167931751129520001/">train</rs></p><p/><p>In train</p><p>
+                  <p>Bad writing due to shaky <rs key="Clayton, Meg Waite,. | Last train to london : a novel | French | (Perrin : 2022)" ref="http://viaf.org/viaf/9994167931751129520001/">train</rs></p><p/><p>In trainss</p><p>
                      <placeName cert="high" ref="http://www.geonames.org/6453366">Oslo</placeName>
                      to <placeName key="Bergen-Bleckmar" ref="http://viaf.org/viaf/9704147270399135700005/">Bergen</placeName></p>
                </note>
