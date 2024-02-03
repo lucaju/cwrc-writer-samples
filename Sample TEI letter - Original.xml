@@ -1276,6 +1276,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?note_annotation_20240203174645509",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-03T22:46:45.509Z",
+	"dcterms:modified": "2024-02-03T22:46:45.509Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucaju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?note_annotation_20240203174645509#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/Sample%20TEI%20letter%20-%20Original.xml?note_annotation_20240203174645509#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[3]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "dsa"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1311,7 +1390,7 @@
                Society. Next day I go back to <placeName key="Oslo" ref="http://www.wikidata.org/entity/Q585">Oslo</placeName>, lecture there Fri. and Sat. and then start for
                home via Bergen.</p>
             <pb n="3"/>
-            <p>Bull is a nice young man but incompetent - can't quite stand the communists, but
+            <p>Bull is a nice young man but incompete<note type="scholarNote">dsa</note>nt - can't quite stand the communists, but
                finds the socialists too mild.</p>
             <p>I am unhappily wondering what you are feeling about me.</p>
             <closer>
