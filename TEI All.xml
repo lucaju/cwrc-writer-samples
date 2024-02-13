@@ -449,7 +449,6 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?place_annotation_20200714121650567",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-07-14T16:16:50.567Z",
-	"dcterms:modified": "2020-07-14T16:16:50.567Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -469,15 +468,15 @@
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?place_annotation_20200714121650567#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/placeName"
+			"rdf:value": "TEI/text/body/div/p[2]/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -486,11 +485,11 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
+		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -909,7 +908,7 @@
                  from John in an envelope you had sent him. I had sent him one addressed to Copenhagen
                  but he hadn't used it.</p>
               <p>When I reached <persName>Oslo</persName> yesterday evening, Brynjulf Bull should have been there to meet
-                 me, but wasn't. He is not on the telephone, so I took a taxi to his address, which
+                 me, but wasn't. He is not on the telephone, so I <persName>took</persName> a taxi to his <placeName>address</placeName>, which
                  turned out to be a students' club with no one about on Sundays, so I went to a hotel
                  feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/>
                  time of my arrival wrong, and <choice><sic>
