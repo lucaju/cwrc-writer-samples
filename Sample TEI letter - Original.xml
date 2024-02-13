@@ -1389,7 +1389,7 @@
                journeys in the world. Tomorrow I lecture at <placeName cert="high" ref="http://www.geonames.org/6548528">Bergen</placeName> to the Anglo-Norwegian
                Society. Next day I go back to <placeName key="Oslo" ref="http://www.wikidata.org/entity/Q585">Oslo</placeName>, lecture there Fri. and Sat. and then start for
                home via Bergen.</p>
-            <pb n="3"/>
+            <pb cert="high" n="32" xml:space="default"/>
             <p>Bull is a nice young man but incompete<note type="scholarNote">dsa</note>nt - can't quite stand the communists, but
                finds the socialists too mild.</p>
             <p>I am unhappily wondering what you are feeling about me.</p>
