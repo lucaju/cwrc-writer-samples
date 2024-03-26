@@ -127,7 +127,7 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?date_annotation_20200714121650566",
 	"type": "oa:Annotation",
 	"dcterms:created": "2020-07-14T16:16:50.566Z",
-	"dcterms:modified": "2020-07-14T16:16:50.566Z",
+	"dcterms:modified": "2024-03-26T23:02:52.428Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -147,10 +147,10 @@
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://localhost",
+			"@id": "http://localhost:3000",
 			"@type": "as:Application",
-			"rdfs:label": "Leaf Writer",
-			"schema:softwareVersion": "dev"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?date_annotation_20200714121650566#Selector",
@@ -163,12 +163,24 @@
 		"rdf:value": "1935-10-21"
 	},
 	"as:generator": {
-		"@id": "https://localhost",
+		"@id": "http://localhost:3000",
 		"@type": "as:Application",
-		"rdfs:label": "Leaf Writer",
+		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "dev"
-	}
+		"schema:softwareVersion": "3.4.0"
+	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/lucaju",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "Luciano Frizzera"
+			}
+		}
+	]
 }]]>
         </rdf:Description>
       
