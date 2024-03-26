@@ -124,10 +124,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?date_annotation_20200714121650566",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?date_annotation_20240326190252428",
 	"type": "oa:Annotation",
-	"dcterms:created": "2020-07-14T16:16:50.566Z",
-	"dcterms:modified": "2024-03-26T23:02:52.428Z",
+	"dcterms:created": "2024-03-26T23:02:52.428Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -139,7 +138,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?date_annotation_20200714121650566#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?date_annotation_20240326190252428#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml",
@@ -153,7 +152,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?date_annotation_20200714121650566#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?date_annotation_20240326190252428#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/dateline/date"
 		}
@@ -168,19 +167,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
-	},
-	"dcterms:contributor": [
-		{
-			"dcterms:contributor": {
-				"@id": "https://github.com/lucaju",
-				"@type": [
-					"cwrc:NaturalPerson",
-					"schema:Person"
-				],
-				"cwrc:hasName": "Luciano Frizzera"
-			}
-		}
-	]
+	}
 }]]>
         </rdf:Description>
       
@@ -1167,7 +1154,7 @@
               <p>When I reached <persName>Oslo</persName> yesterday evening, Brynjulf Bull should have been there to meet
                  me, but wasn't. He is not on the telephone, so I <persName>took</persName> a taxi to his <placeName>address</placeName>, which
                  turned out to be a students' club with no one about on Sundays, so I went to a hotel
-                 feeling rather non-plussed. But presently he turned up. He had got the <pb cert="high" xml:space="default" n="2"/>
+                 feeling rather non-plussed. But presently he turned up. He had got the <pb cert="high" xml:space="default" n="22"/>
                  time of my arrival wrong, and <choice><sic>
                     when
                     
