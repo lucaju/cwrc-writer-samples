@@ -835,10 +835,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?place_annotation_20240327215452561",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?place_annotation_20240327215504339",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-28T01:54:52.561Z",
-	"dcterms:modified": "2024-03-28T01:55:04.339Z",
+	"dcterms:created": "2024-03-28T01:55:04.339Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -849,7 +848,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?place_annotation_20240327215452561#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?place_annotation_20240327215504339#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml",
@@ -863,7 +862,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?place_annotation_20240327215452561#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/TEI%20All.xml?place_annotation_20240327215504339#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
@@ -901,7 +900,7 @@
                  <salute>Dearest -</salute>
               </opener>
               
-              <p>When I reached <persName>Oslo</persName> yesterday evening, <orgName key="Brynjulf Bull" ref="http://www.wikidata.org/entity/Q1777745">Brynjulf Bull</orgName> should have been there to <placeName key="Meet Agder Norway" ref="https://geonames.org/9698466">meet</placeName>
+              <p>When I reached <persName>Oslo</persName> yesterday evening, <orgName key="Brynjulf Bull" ref="http://www.wikidata.org/entity/Q1777745">Brynjulf Bull</orgName> should <add>have</add> been there to <placeName key="Meet Agder Norway" ref="https://geonames.org/9698466">meet</placeName>
                  me, but wasn't. He is not on the telephone, so I took a taxi to his address, which
                  turned out to be a students' club with no one about on Sundays, so I went to a hotel
                  feeling rather non-plussed. But presently he turned up. He had got the <pb cert="high" xml:space="default" n="2"/>
