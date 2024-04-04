@@ -897,7 +897,7 @@
                  <dateline>
                     <date cert="high" when="1935-10-21">21.10.35</date>
                  </dateline>
-                 <salute>Dearest -</salute>
+               
               </opener>
               
               <p>When I reached <persName>Oslo</persName> yesterday evening, <orgName key="Brynjulf Bull" ref="http://www.wikidata.org/entity/Q1777745">Brynjulf Bull</orgName> should <add>have</add> been there to <placeName key="Meet Agder Norway" ref="https://geonames.org/9698466">meet</placeName>
