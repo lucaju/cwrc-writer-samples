@@ -528,10 +528,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Sample%20TEI%20letter3.xml?place_annotation_20190814164101131",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Sample%20TEI%20letter3.xml?place_annotation_20240805192141935",
 	"type": "oa:Annotation",
-	"dcterms:created": "2019-08-14T20:41:01.131Z",
-	"dcterms:modified": "2024-08-05T23:21:41.935Z",
+	"dcterms:created": "2024-08-05T23:21:41.935Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -543,7 +542,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Sample%20TEI%20letter3.xml?place_annotation_20190814164101131#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Sample%20TEI%20letter3.xml?place_annotation_20240805192141935#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Sample%20TEI%20letter3.xml",
@@ -557,7 +556,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Sample%20TEI%20letter3.xml?place_annotation_20190814164101131#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Sample%20TEI%20letter3.xml?place_annotation_20240805192141935#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
@@ -574,18 +573,6 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
 	},
-	"dcterms:contributor": [
-		{
-			"dcterms:contributor": {
-				"@id": "https://github.com/lucaju",
-				"@type": [
-					"cwrc:NaturalPerson",
-					"schema:Person"
-				],
-				"cwrc:hasName": "Luciano Frizzera"
-			}
-		}
-	],
 	"cwrc:hasCertainty": "cwrc:high",
 	"cwrc:hasPrecision": "cwrc:mediumCertainty"
 }]]>
@@ -599,7 +586,7 @@
 				</head>
 				<opener>
 					<note>
-						<p>Good writing due to shaky train</p><p>In train</p><p>
+						<p>Good writing due to shaky train </p><p>In train</p><p>
 							<placeName cert="high" ref="http://www.geonames.org/6453366">Oslo</placeName> to Bergen</p>
 					</note>
 					<dateline>
