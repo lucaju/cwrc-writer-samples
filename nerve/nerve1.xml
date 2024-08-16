@@ -99,7 +99,7 @@
             "source": {
                 "id": "http://localhost:3000/draft/y028GlHbMo2",
                 "type": "crm:D1_Digital_Object",
-                "format": "text/xml",
+                "format": "application/xml",
                 "P1_is_identified_by": {
                     "id": "http://localhost:3000//qlRQmoFcktk",
                     "type": "crm:E33_E41_Linguistic_Appellation",
@@ -173,7 +173,7 @@
             "source": {
                 "id": "http://localhost:3000/draft/X5Jj5Rb8Ufv",
                 "type": "crm:D1_Digital_Object",
-                "format": "text/xml",
+                "format": "application/xml",
                 "P1_is_identified_by": {
                     "id": "http://localhost:3000//FErTOtsdSTO",
                     "type": "crm:E33_E41_Linguistic_Appellation",
@@ -247,7 +247,7 @@
             "source": {
                 "id": "http://localhost:3000/draft/leeBqaxNMyp",
                 "type": "crm:D1_Digital_Object",
-                "format": "text/xml",
+                "format": "application/xml",
                 "P1_is_identified_by": {
                     "id": "http://localhost:3000//RPC2i7CJiPJ",
                     "type": "crm:E33_E41_Linguistic_Appellation",
