@@ -30,7 +30,7 @@
         <body>
             <div type="letter">
                 <head>
-                    <title>Sample Letter - Bertrand Russell to <persName cert="low" ref="279399399">Patricia Spence</persName> - October 21, 1935</title>
+                    <title>Sample Letter - <persName xml:id="http://localhost:3000/1o_5iExKFMu" key="Bertrand Russell" ref="http://dbpedia.org/resource/Bertrand_Russell" type="real">Bertrand Russell</persName> to <persName cert="low" ref="279399399">Patricia Spence</persName> - October 21, 1935</title>
                 </head>
                 <opener>
                     <note>
@@ -43,8 +43,8 @@
                     </dateline>
                     <salute>Dearest -</salute>
                 </opener>
-                <p>I have had no letter from you since I left <placeName cert="high" ref="http://www.geonames.org/2673722">Stockholm</placeName>, but I had a nice one from John in an envelope you had sent him. I had sent him one addressed to Copenhagen but he hadn't used it.</p>
-                <p>When I reached Oslo yesterday evening, Brynjulf Bull should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with no one about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/> time of my arrival wrong, and <choice> <sic>when</sic> <corr>when</corr> </choice> he had found he had missed me he phoned to every hotel in Oslo till he hit on the right one. He left me at 10, and then I had to do a Sunday Referee article. Today my journey lasts from 9 till 9 - fortunately one of the most beautiful railway journeys in the world. Tomorrow I lecture at <placeName cert="high" ref="http://www.geonames.org/6548528">Bergen</placeName> to the Anglo-Norwegian Society. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for home via Bergen.</p>
+                <p>I have had no letter from you since I left <placeName cert="high" ref="http://www.geonames.org/2673722"><placeName xml:id="http://localhost:3000/N19iSS-kIA3" key="Stockholm" ref="http://dbpedia.org/resource/Stockholm" precision="medium">Stockholm</placeName></placeName>, but I had a nice one from John in an envelope you had sent him. I had sent him one addressed to Copenhagen but he hadn't used it.</p>
+                <p>When I reached Oslo yesterday evening, Brynjulf Bull should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with no one about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/> time of my arrival wrong, and <choice> <sic>when</sic> <corr>when</corr> </choice> he had found he had missed me he phoned to every hotel in Oslo till he hit on the right one. He left me at 10, and then I had to do a Sunday Referee article. Today my journey lasts from 9 till 9 - fortunately one of the most beautiful railway journeys in the world. Tomorrow I lecture at <placeName cert="high" ref="http://www.geonames.org/6548528">Bergen</placeName> to <orgName xml:id="http://localhost:3000/RynurdX26kF" key="Bristol City F.C." ref="http://dbpedia.org/resource/Bristol_City_F.C." cert="medium">the Anglo-Norwegian Society</orgName>. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for home via Bergen.</p>
                 <pb n="3"/>
                 <p>Bull is a nice young man but incompetent - can't quite stand the communists, but finds the socialists too mild.</p>
                 <p>I am unhappily wondering what you are feeling about me.</p>
@@ -59,4 +59,237 @@
             </div>
         </body>
     </text>
+    <standOff xmlns="" type="annotation">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[[
+    {
+        "@context": [
+            "http://www.w3.org/ns/anno.jsonld",
+            "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+            "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        ],
+        "id": "http://localhost:3000/1o_5iExKFMu",
+        "type": [
+            "Annotation",
+            "crm:E33_Linguistic_Object"
+        ],
+        "motivation": "oa:identifying",
+        "created": "2024-08-27T01:34:49.555Z",
+        "creator": {
+            "id": "https://github.com/lucaju",
+            "type": "crm:E21_Person",
+            "name": "Luciano Frizzera"
+        },
+        "generator": {
+            "id": "http://localhost:3000",
+            "type": [
+                "Software",
+                "crm:E73_Information_Object"
+            ],
+            "P16_used_specific_object": "http://localhost:3000",
+            "name": "NERVE",
+            "softwareVersion": "0.1.0"
+        },
+        "target": {
+            "id": "http://localhost:3000/cTHh1Pcl6ba",
+            "type": [
+                "SpecificResource",
+                "crm:E73_Information_Object"
+            ],
+            "source": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/nerve/nerve2.xml",
+                "type": "crm:D1_Digital_Object",
+                "format": "application/tei+xml",
+                "P1_is_identified_by": {
+                    "id": "http://localhost:3000/6Yw7Ao3e5Gd",
+                    "type": "crm:E33_E41_Linguistic_Appellation",
+                    "title": "Sample Document Title"
+                }
+            },
+            "selector": {
+                "id": "http://localhost:3000/draft/6jiA-Dmyifw",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 20,
+                "end": 36,
+                "refinedBy": {
+                    "id": "http://localhost:3000/draft/1TiyB0Ibqjg",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Bertrand Russell",
+                    "prefix": "    Sample Letter -",
+                    "suffix": "to Patricia Spence - October 21, 1935    Bad writing due to shaky train In train Oslo to Bergen   21"
+                }
+            }
+        },
+        "body": {
+            "id": "http://dbpedia.org/resource/Bertrand_Russell",
+            "type": "crm:E21_Person",
+            "label": "Bertrand Russell",
+            "description": "Bertrand Arthur William Russell, 3rd Earl Russell,  (18 May 1872 – 2 February 1970) was a British philosopher, logician, mathematician, historian, writer, essayist, social critic, political activist, and Nobel laureate. At various points in his life, Russell considered himself a liberal, a socialist and a pacifist, although he also confessed that his sceptical nature had led him to feel that he had \"never been any of these things, in any profound sense.\" Russell was born in Monmouthshire into one of the most prominent aristocratic families in the United Kingdom.",
+            "P2_has_type": [
+                "edit:modeReal"
+            ]
+        },
+        "P2_has_type": [
+            "oa:identifying"
+        ]
+    },
+    {
+        "@context": [
+            "http://www.w3.org/ns/anno.jsonld",
+            "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+            "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        ],
+        "id": "http://localhost:3000/N19iSS-kIA3",
+        "type": [
+            "Annotation",
+            "crm:E33_Linguistic_Object"
+        ],
+        "motivation": "oa:identifying",
+        "created": "2024-08-27T01:35:01.763Z",
+        "creator": {
+            "id": "https://github.com/lucaju",
+            "type": "crm:E21_Person",
+            "name": "Luciano Frizzera"
+        },
+        "generator": {
+            "id": "http://localhost:3000",
+            "type": [
+                "Software",
+                "crm:E73_Information_Object"
+            ],
+            "P16_used_specific_object": "http://localhost:3000",
+            "name": "NERVE",
+            "softwareVersion": "0.1.0"
+        },
+        "target": {
+            "id": "http://localhost:3000/oYb0ML5KjQL",
+            "type": [
+                "SpecificResource",
+                "crm:E73_Information_Object"
+            ],
+            "source": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/nerve/nerve2.xml",
+                "type": "crm:D1_Digital_Object",
+                "format": "application/tei+xml",
+                "P1_is_identified_by": {
+                    "id": "http://localhost:3000/6Yw7Ao3e5Gd",
+                    "type": "crm:E33_E41_Linguistic_Appellation",
+                    "title": "Sample Document Title"
+                }
+            },
+            "selector": {
+                "id": "http://localhost:3000/draft/PFKYSbIIYiT",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 199,
+                "end": 208,
+                "refinedBy": {
+                    "id": "http://localhost:3000/draft/y68bAAaezCZ",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Stockholm",
+                    "prefix": "35  Dearest -  I have had no letter from you since I left",
+                    "suffix": " but I had a nice one from John in an envelope you had sent him"
+                }
+            }
+        },
+        "body": {
+            "id": "http://dbpedia.org/resource/Stockholm",
+            "type": "crm:E53_Place",
+            "label": "Stockholm",
+            "description": "Stockholm (Swedish pronunciation: [ˈstɔ̂kː(h)ɔlm] ()) is the capital and most populous urban area of Sweden. 972,647 people live in the municipality, approximately 1.6 million in the urban area, and 2.4 million in the metropolitan area. The city stretches across fourteen islands where Lake Mälaren flows into the Baltic Sea. Outside the city to the east, and along the coast, is the island chain of the Stockholm archipelago. The area has been settled since the Stone Age, in the 6th millennium BC, and was founded as a city in 1252 by Swedish statesman Birger Jarl. It is also the county seat of Stockholm County."
+        },
+        "P2_has_type": [
+            "oa:identifying",
+            "edit:precisionMedium"
+        ]
+    },
+    {
+        "@context": [
+            "http://www.w3.org/ns/anno.jsonld",
+            "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+            "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        ],
+        "id": "http://localhost:3000/RynurdX26kF",
+        "type": [
+            "Annotation",
+            "crm:E33_Linguistic_Object"
+        ],
+        "motivation": "oa:identifying",
+        "created": "2024-08-27T01:35:12.540Z",
+        "creator": {
+            "id": "https://github.com/lucaju",
+            "type": "crm:E21_Person",
+            "name": "Luciano Frizzera"
+        },
+        "generator": {
+            "id": "http://localhost:3000",
+            "type": [
+                "Software",
+                "crm:E73_Information_Object"
+            ],
+            "P16_used_specific_object": "http://localhost:3000",
+            "name": "NERVE",
+            "softwareVersion": "0.1.0"
+        },
+        "target": {
+            "id": "http://localhost:3000/6EczDy1a_cP",
+            "type": [
+                "SpecificResource",
+                "crm:E73_Information_Object"
+            ],
+            "source": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/nerve/nerve2.xml",
+                "type": "crm:D1_Digital_Object",
+                "format": "application/tei+xml",
+                "P1_is_identified_by": {
+                    "id": "http://localhost:3000/6Yw7Ao3e5Gd",
+                    "type": "crm:E33_E41_Linguistic_Appellation",
+                    "title": "Sample Document Title"
+                }
+            },
+            "selector": {
+                "id": "http://localhost:3000/draft/adKiDCRb_YF",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 1004,
+                "end": 1031,
+                "refinedBy": {
+                    "id": "http://localhost:3000/draft/0HsDzQIWzQL",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "the Anglo-Norwegian Society",
+                    "prefix": " Tomorrow I lecture at Bergen to",
+                    "suffix": " Next day I go back to Oslo, lecture there Fri"
+                }
+            }
+        },
+        "body": {
+            "id": "http://dbpedia.org/resource/Bristol_City_F.C.",
+            "type": "crm:E74_Group",
+            "label": "Bristol City F.C.",
+            "description": "Bristol City Football Club is a professional football club based in Bristol, England. They currently play in the Championship, the second tier of English football. Founded in 1894, they have played their home games at Ashton Gate since 1904. The club's highest-ever league finish was second in the top flight in 1906–07. They were FA Cup runners-up in 1909, and won the Welsh Cup in 1934 despite being an English team. The club have also won the second tier title once, the third tier title four times, the Anglo-Scottish Cup once, and the Football League Trophy a record three times."
+        },
+        "P2_has_type": [
+            "oa:identifying",
+            "edit:certaintyMedium"
+        ]
+    }
+]]]></rdf:Description>
+        </rdf:RDF>
+    </standOff>
 </TEI>
