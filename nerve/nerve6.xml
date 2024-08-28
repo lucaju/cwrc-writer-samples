@@ -30,7 +30,7 @@
         <body>
             <div type="letter">
                 <head>
-                    <title>Sample Letter - <persName xml:id="http://localhost:3000/QjI9mmnsfvN" key="Bertrand Russell" ref="http://dbpedia.org/resource/Bertrand_Russell">Bertrand Russell</persName> to <persName cert="low" ref="279399399">Patricia Spence</persName> - October 21, 1935</title>
+                    <title>Sample Letter - <persName xml:id="http://localhost:3000/QjI9mmnsfvN" key="Bertrand Russell" ref="http://dbpedia.org/resource/Bertrand_Russell">Bertrand Russell</persName> to <persName cert="low" ref="279399399"><persName xml:id="http://localhost:3000/bk03TT31KaL" key="Disappearance of Patricia Spencer and Pamela Hobley" ref="http://dbpedia.org/resource/Disappearance_of_Patricia_Spencer_and_Pamela_Hobley">Patricia Spence</persName></persName> - October 21, 1935</title>
                 </head>
                 <opener>
                     <note>
@@ -121,8 +121,8 @@
                         "crm:E33_Linguistic_Object"
                     ],
                     "exact": "Bertrand Russell",
-                    "prefix": "    Sample Letter -",
-                    "suffix": "to Patricia Spence - October 21, 1935    Bad writing due to shaky trainIn train Oslo to Bergen   21"
+                    "prefix": " Sample Letter -",
+                    "suffix": "to Patricia Spence - October 21, 1935 Bad writing due to shaky trainIn train Oslo to Bergen 21"
                 }
             }
         },
@@ -130,7 +130,7 @@
             "id": "http://dbpedia.org/resource/Bertrand_Russell",
             "type": "crm:E21_Person",
             "label": "Bertrand Russell",
-            "description": "Bertrand Arthur William Russell, 3rd Earl Russell,  (18 May 1872 – 2 February 1970) was a British philosopher, logician, mathematician, historian, writer, essayist, social critic, political activist, and Nobel laureate. At various points in his life, Russell considered himself a liberal, a socialist and a pacifist, although he also confessed that his sceptical nature had led him to feel that he had \"never been any of these things, in any profound sense.\" Russell was born in Monmouthshire into one of the most prominent aristocratic families in the United Kingdom."
+            "description": "Bertrand Arthur William Russell, 3rd Earl Russell, (18 May 1872 – 2 February 1970) was a British philosopher, logician, mathematician, historian, writer, essayist, social critic, political activist, and Nobel laureate. At various points in his life, Russell considered himself a liberal, a socialist and a pacifist, although he also confessed that his sceptical nature had led him to feel that he had \"never been any of these things, in any profound sense.\" Russell was born in Monmouthshire into one of the most prominent aristocratic families in the United Kingdom."
         },
         "P2_has_type": [
             "oa:identifying"
@@ -205,6 +205,80 @@
             "type": "crm:E74_Group",
             "label": "Bristol City F.C.",
             "description": "Bristol City Football Club is a professional football club based in Bristol, England. They currently play in the Championship, the second tier of English football. Founded in 1894, they have played their home games at Ashton Gate since 1904. The club's highest-ever league finish was second in the top flight in 1906–07. They were FA Cup runners-up in 1909, and won the Welsh Cup in 1934 despite being an English team. The club have also won the second tier title once, the third tier title four times, the Anglo-Scottish Cup once, and the Football League Trophy a record three times."
+        },
+        "P2_has_type": [
+            "oa:identifying"
+        ]
+    },
+    {
+        "@context": [
+            "http://www.w3.org/ns/anno.jsonld",
+            "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+            "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        ],
+        "id": "http://localhost:3000/bk03TT31KaL",
+        "type": [
+            "Annotation",
+            "crm:E33_Linguistic_Object"
+        ],
+        "motivation": "oa:identifying",
+        "created": "2024-08-28T01:40:22.694Z",
+        "creator": {
+            "id": "https://github.com/lucaju",
+            "type": "crm:E21_Person",
+            "name": "Luciano Frizzera"
+        },
+        "generator": {
+            "id": "http://localhost:3000",
+            "type": [
+                "Software",
+                "crm:E73_Information_Object"
+            ],
+            "P16_used_specific_object": "http://localhost:3000",
+            "name": "NERVE",
+            "softwareVersion": "0.1.0"
+        },
+        "target": {
+            "id": "http://localhost:3000/CNQtXE1keZl",
+            "type": [
+                "SpecificResource",
+                "crm:E73_Information_Object"
+            ],
+            "source": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/nerve/nerve6.xml",
+                "type": "crm:D1_Digital_Object",
+                "format": "application/tei+xml",
+                "P1_is_identified_by": {
+                    "id": "http://localhost:3000/osIBop5hrlw",
+                    "type": "crm:E33_E41_Linguistic_Appellation",
+                    "title": "Sample Document Title"
+                }
+            },
+            "selector": {
+                "id": "http://localhost:3000/draft/KRG29kmme4r",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 40,
+                "end": 55,
+                "refinedBy": {
+                    "id": "http://localhost:3000/draft/LfeqoavQsFe",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Patricia Spence",
+                    "prefix": "    Sample Letter - Bertrand Russell to",
+                    "suffix": "- October 21, 1935    Bad writing due to shaky train In train Oslo to Bergen   21"
+                }
+            }
+        },
+        "body": {
+            "id": "http://dbpedia.org/resource/Disappearance_of_Patricia_Spencer_and_Pamela_Hobley",
+            "type": "crm:E21_Person",
+            "label": "Disappearance of Patricia Spencer and Pamela Hobley",
+            "description": "Patricia Spencer and Pamela Hobley were two American teenagers who went missing on Halloween, Friday, October 31, 1969 in Oscoda, Iosco County, Michigan after presumably committing truancy together, as they had both been seen walking in each other's company shortly before. The pair were aged 16 and 15, respectively, and \"were not considered friends\" at the time they disappeared. Their bodies were never recovered, yet it is believed by authorities that both of their lives had ended with homicide."
         },
         "P2_has_type": [
             "oa:identifying"
