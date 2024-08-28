@@ -36,7 +36,7 @@
                     <note>
                         <p>Bad writing due to shaky train</p>
                         <p>In train</p>
-                        <p><placeName cert="high" ref="http://www.geonames.org/6453366">Oslo</placeName> to Bergen</p>
+                        <p><placeName cert="high" ref="http://www.geonames.org/6453366"><placeName xml:id="http://localhost:3000/WSvMAhfn0nf" key="Oslo" ref="http://dbpedia.org/resource/Oslo">Oslo</placeName></placeName> to Bergen</p>
                     </note>
                     <dateline>
                         <date cert="high" when="1935-10-21">21.10.35</date>
@@ -195,8 +195,8 @@
                         "crm:E33_Linguistic_Object"
                     ],
                     "exact": "Patricia Spence",
-                    "prefix": "    Sample Letter - Bertrand Russell to",
-                    "suffix": "- October 21, 1935    Bad writing due to shaky train In train Oslo to Bergen   21"
+                    "prefix": " Sample Letter - Bertrand Russell to",
+                    "suffix": "- October 21, 1935 Bad writing due to shaky train In train Oslo to Bergen 21"
                 }
             }
         },
@@ -205,6 +205,80 @@
             "type": "crm:E21_Person",
             "label": "Disappearance of Patricia Spencer and Pamela Hobley",
             "description": "Patricia Spencer and Pamela Hobley were two American teenagers who went missing on Halloween, Friday, October 31, 1969 in Oscoda, Iosco County, Michigan after presumably committing truancy together, as they had both been seen walking in each other's company shortly before. The pair were aged 16 and 15, respectively, and \"were not considered friends\" at the time they disappeared. Their bodies were never recovered, yet it is believed by authorities that both of their lives had ended with homicide."
+        },
+        "P2_has_type": [
+            "oa:identifying"
+        ]
+    },
+    {
+        "@context": [
+            "http://www.w3.org/ns/anno.jsonld",
+            "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+            "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        ],
+        "id": "http://localhost:3000/WSvMAhfn0nf",
+        "type": [
+            "Annotation",
+            "crm:E33_Linguistic_Object"
+        ],
+        "motivation": "oa:identifying",
+        "created": "2024-08-28T01:03:30.585Z",
+        "creator": {
+            "id": "https://github.com/lucaju",
+            "type": "crm:E21_Person",
+            "name": "Luciano Frizzera"
+        },
+        "generator": {
+            "id": "http://localhost:3000",
+            "type": [
+                "Software",
+                "crm:E73_Information_Object"
+            ],
+            "P16_used_specific_object": "http://localhost:3000",
+            "name": "NERVE",
+            "softwareVersion": "0.1.0"
+        },
+        "target": {
+            "id": "http://localhost:3000/uItR_M2sLvo",
+            "type": [
+                "SpecificResource",
+                "crm:E73_Information_Object"
+            ],
+            "source": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/nerve/nerve5_no_tagging.xml",
+                "type": "crm:D1_Digital_Object",
+                "format": "application/tei+xml",
+                "P1_is_identified_by": {
+                    "id": "http://localhost:3000/xxBZXSnUsVR",
+                    "type": "crm:E33_E41_Linguistic_Appellation",
+                    "title": "Sample Document Title"
+                }
+            },
+            "selector": {
+                "id": "http://localhost:3000/draft/MEl-zbcLcxR",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 118,
+                "end": 122,
+                "refinedBy": {
+                    "id": "http://localhost:3000/draft/uhKoRzlV5R6",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Oslo",
+                    "prefix": "    Sample Letter - Bertrand Russell to Patricia Spence - October 21, 1935    Bad writing due to shaky train In train",
+                    "suffix": "to Bergen   21"
+                }
+            }
+        },
+        "body": {
+            "id": "http://dbpedia.org/resource/Oslo",
+            "type": "crm:E53_Place",
+            "label": "Oslo",
+            "description": "Oslo ( OZ-loh, also US:  OSS-loh, Norwegian: [ˈʊ̂ʂlʊ] (), rarely [ˈʊ̂slʊ, ˈʊ̀ʂlʊ]) is the capital and most populous city of Norway. It constitutes both a county and a municipality. During the Viking Age the area was part of Viken, the northernmost Danish province. Oslo was founded as a city at the end of the Viking Age in the year 1040 under the name Ánslo, and established as a kaupstad or trading place in 1048 by Harald Hardrada. The city was elevated to a bishopric in 1070 and a capital under Haakon V of Norway around 1300. Personal unions with Denmark from 1397 to 1523 and again from 1536 to 1814 reduced its influence. After being destroyed by a fire in 1624, during the reign of King Christian IV, a new city was built closer to Akershus Fortress and named Christiania in the king's honou"
         },
         "P2_has_type": [
             "oa:identifying"
