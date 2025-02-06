@@ -362,162 +362,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?date_annotation_20250131151653424",
-	"type": "oa:Annotation",
-	"dcterms:created": "2025-01-31T20:16:53.424Z",
-	"dcterms:modified": "2025-01-31T20:16:53.424Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/lucaju",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Luciano Frizzera"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?date_annotation_20250131151653424#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?date_annotation_20250131151653424#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/date"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "xsd:date",
-		"rdf:value": "2025-01-10/2025-01-10"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?date_annotation_20250131151844619",
-	"type": "oa:Annotation",
-	"dcterms:created": "2025-01-31T20:18:44.619Z",
-	"dcterms:modified": "2025-01-31T20:18:44.619Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/lucaju",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Luciano Frizzera"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?date_annotation_20250131151844619#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?date_annotation_20250131151844619#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/date[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "xsd:date",
-		"rdf:value": "2025-01-09/2025-01-17"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?person_annotation_20250205230624519",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-02-06T04:06:24.519Z",
@@ -584,18 +428,18 @@
                
               </opener>
               
-              <p>When I reached <persName key="Ibsen, Henrik, 1828-1906." ref="http://viaf.org/viaf/71378383" ana="test">Oslo</persName> yesterday <date from="2025-01-10" to="2025-01-10">evening</date>, <eventName>Brynjulf</eventName> Bull should have been <date from="2025-01-09" to="2025-01-17">there</date> to meet
-                 me, but wasn't. He is not on the telephone, so I took a taxi to his <ref cert="high" evaluate="all" generatedBy="bot" xml:space="default">address</ref>, which
-                 <ref ana="test" cert="high" evaluate="all" generatedBy="human" xml:space="default" n="2">turned</ref> out to be a students' club with no one about on Sundays, so I went to a hotel
-                 feeling rather non-plussed. But <ref>presently</ref> he turned up. <ref ana="test" cert="high" evaluate="all" generatedBy="human" xml:space="default">He</ref> had got the<pb cert="high" xml:space="default" n="2"/>
+              <p>When I reached <persName key="Ibsen, Henrik, 1828-1906." ref="http://viaf.org/viaf/71378383" ana="test">Oslo</persName> yesterday evening, <eventName>Brynjulf</eventName> Bull should have been there to meet
+                 me, but wasn't. He is not on the telephone, so I took a taxi to his address, which
+                 turned out to be a students' club with no one about on Sundays, so I went to a hotel
+                 feeling rather non-plussed. But presently he turned up. He had got the<pb cert="high" xml:space="default" n="2"/>
                  time of my arrival wrong, and 
                     when
                     
                   he had found he had missed me he phoned to every hotel in Oslo till he hit
-                 on the right one. He left me at 10, and then I had to do a <ref ana="tes" cert="high" evaluate="all" generatedBy="human" xml:space="default">Sunday</ref> <ref ana="test" cert="high" evaluate="all" generatedBy="human" xml:space="default">Referee</ref> article.
-                 Today my <ref ana="dsa" cert="high" evaluate="all" generatedBy="human" xml:space="default">journey</ref> lasts from 9 till 9 - fortunately one of the most beautiful railway
+                 on the right one. He left me at 10, and then I had to do a Sunday Referee article.
+                 Today my journey lasts from 9 till 9 - fortunately one of the most beautiful railway
                  journeys in the world. Tomorrow I lecture at Bergen to the Anglo-Norwegian
-                 <ref ana="rara" cert="high" evaluate="all" generatedBy="human" xml:space="default">Society</ref>. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for
+                 Society. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for
                  home via Bergen.</p>
               <pb n="3"/>
               <p>Bull is a nice young man but incompetent - can't quite stand the communists, but
