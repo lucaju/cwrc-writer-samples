@@ -508,7 +508,7 @@
               <p>When I reached Oslo yesterday <date from="2025-01-10" to="2025-01-10">evening</date>, <eventName>Brynjulf</eventName> Bull should have been <date from="2025-01-09" to="2025-01-17">there</date> to meet
                  me, but wasn't. He is not on the telephone, so I took a taxi to his <ref cert="high" evaluate="all" generatedBy="bot" xml:space="default">address</ref>, which
                  <ref ana="test" cert="high" evaluate="all" generatedBy="human" xml:space="default" n="2">turned</ref> out to be a students' club with no one about on Sundays, so I went to a hotel
-                 feeling rather non-plussed. But presently he turned up. He had got the<pb cert="high" xml:space="default" n="2"/>
+                 feeling rather non-plussed. But <ref>presently</ref> he turned up. He had got the<pb cert="high" xml:space="default" n="2"/>
                  time of my arrival wrong, and 
                     when
                     
