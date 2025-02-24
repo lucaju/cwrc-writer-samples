@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model  type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main"/>
+                <author>
+                    <persName ref="http://d-nb.info/gnd/">
+                        <surname>Sachsen-Weimar</surname>
+                        <forename>Maria</forename>
+                        <addName>Maria, Sachsen-Weimar, Großherzogin</addName>
+                    </persName>
+                </author>
+                <editor>
+                    <persName>
+                        <surname>Iwanov</surname>
+                        <forename>Iwan</forename>
+                    </persName>
+                </editor>
+                
+                <respStmt>
+                    <orgName>
+                        Friedrich-Schiller-Universität Jena
+                    </orgName>
+                    
+                    <resp>
+                        <note type="remarkResponsibility">Herausgeber</note>
+                        <persName>
+                            <!-- Heraugeberschaft klären -->
+                        </persName>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    ausgewählte Briefe
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="project">
+                        Friedrich-Schiller-Universität Jena
+                    </orgName>
+                    <orgName role="hostingInstitution" xml:lang="deu">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+                </publisher>
+                
+                <pubPlace>Jena</pubPlace>
+                <date type="publication">2023</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        <p>Distributed under the Creative Commons License Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+                    </licence>
+                </availability>
+                <idno>
+                    <idno type="URLWeb"/>
+                    <idno type="URLXML"/>
+                    <idno type="URN"/>
+                </idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl type="MAN"> </bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title level="m" type="main">Brief: 1817 Nov. 17-19, Maria Pavlovna an Maria Fedorovna, Nr. 249</title>
+                        
+                    </titleStmt>
+                    <extent>
+                        <measure type="pages"><!-- Anzahl Seiten --></measure>
+                    </extent>
+                    <publicationStmt>
+                        <publisher/>
+                        <pubPlace>Weimar</pubPlace>
+                        <date type="creation">
+                            <note>start</note>
+                            1817-11-17
+                        </date>
+                        <date type="creation">
+                            <note>end</note>
+                            
+                        </date>
+                    </publicationStmt>
+                    
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Thüringisches Hauptstaatsarchiv Weimar</repository>
+                        <idno>
+                            <idno type="shelfmark">LATh – HStA Weimar, GHA A XXV, Korr. R 162, Bl. 260r-261v</idno>
+                        </idno>
+                        <idno type="URLCatalogue">
+                            https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00118496
+                        </idno>
+                        
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- Maße --></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml?correction_annotation_20250212162444811",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-12T15:24:44.811Z",
+	"dcterms:modified": "2025-02-12T15:24:44.811Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/IIwanov",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Iwan Iwanov"
+	},
+	"oa:motivatedBy": "oa:editing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml?correction_annotation_20250212162444811#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml?correction_annotation_20250212162444811#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[3]/p/persName[5]/choice"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:Correction",
+		"dc:format": "text/xml",
+		"rdf:value": "Unsichere Attribuierung"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml?keyword_annotation_20250212162644264",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-12T15:26:44.264Z",
+	"dcterms:modified": "2025-02-12T15:26:44.264Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/IIwanov",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Iwan Iwanov"
+	},
+	"oa:motivatedBy": "oa:tagging",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml?keyword_annotation_20250212162644264#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml?keyword_annotation_20250212162644264#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p/seg"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:UncontrolledVocabulary",
+		"dc:format": "text/xml",
+		"rdf:value": "Lektüre/Bildungsinteressen"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml?keyword_annotation_20250212162824761",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-12T15:28:24.761Z",
+	"dcterms:modified": "2025-02-12T15:28:24.761Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/IIwanov",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Iwan Iwanov"
+	},
+	"oa:motivatedBy": "oa:tagging",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml?keyword_annotation_20250212162824761#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml?keyword_annotation_20250212162824761#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p/seg"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:UncontrolledVocabulary",
+		"dc:format": "text/xml",
+		"rdf:value": "Lektüre/Bildungsinteressen"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml?keyword_annotation_20250212162851963",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-12T15:28:51.963Z",
+	"dcterms:modified": "2025-02-12T15:28:51.963Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/IIwanov",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Iwan Iwanov"
+	},
+	"oa:motivatedBy": "oa:tagging",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml?keyword_annotation_20250212162851963#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Pawlowna/main/B0009.xml?keyword_annotation_20250212162851963#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[3]/p/seg"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:UncontrolledVocabulary",
+		"dc:format": "text/xml",
+		"rdf:value": "Reformation"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>
+            <editorialDecl>
+                <p>
+                    
+                    &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a href="http://www.deutschestextarchiv.de/doku/basisformat"&amp;gt;DTA-Basisformat&amp;lt;/a&amp;gt; kodiert.&amp;lt;/p&amp;gt;
+                    
+                </p>
+            </editorialDecl>
+            <tagsDecl/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fre">French</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+                <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+			<pb facs="01"/>
+                <lb/>No. 249 [1817 Nov. 17-19]
+<lb/>fol. 260r
+            </p>
+            <div type="letter" n="01">
+            <p>
+<lb/><placeName key="Weimar" ref="https://d-nb.info/gnd/4065105-8">Weymar</placeName>. Le lundi, 5/17 novembre 1817.
+<lb/>
+<lb/>Ma bonne et chère <persName key="Maria, Russland, Zarin" ref="https://d-nb.info/gnd/11933075X">Maman</persName>!
+<lb/>
+<lb/>La poste m’a mise en possession de Votre chère lettre du 9, 10 et 11 octobre, No. 106B_0118,
+<lb/>pour laquelle je me hâte de déposer mes remercimens à Vos pieds, ayant lu avec un
+<lb/>extrême plaisir la description des lieux que Vous aviez parcourus dans <placeName key="Kreml Moskau (Moskau)" ref="https://d-nb.info/gnd/4074990-3">le Kreml</placeName>, et que
+<lb/>jadis j’avois eu le bonheur de voir avec Vous: je me rappelle parfaitement de la bibliothèque
+<lb/>des partriarches, de l’église des 12 Apôtres, de la salle aux huiles, enfin de l’église du
+<lb/>couvent de Wosnésensky; j’aurais donné cher, chère Maman, pour être de la cérémonie
+<lb/>de la fondation de <placeName ref="O_0014">l’église du Sauveur</placeName>, car je crois que c’est le nom qu’il est résolu
+<lb/>qu’elle porte, et Vous concevrez avec quel intéret pour cet édifice, je sens battre <placeName key="Russland" ref="https://d-nb.info/gnd/4076899-5">mon
+<lb/>coeur patriote</placeName>, enfin et amen, sur tout cela: j’attens avec impatience la description
+<lb/>de cette grande et belle cérémonie, qui m’émeut d’ici. Malheureusement la mort
+<lb/>de <persName key="Charlotte Augusta, Großbritannien, Prinzessin" ref="https://d-nb.info/gnd/121701573">la pr[ince]sse d’Angleterre</persName> se confirme de tous cotés, c’est une perte pour <placeName key="England" ref="https://d-nb.info/gnd/4014770-8">sa nation</placeName> qui
+<lb/>paroissoit l’aimer: on dit qu’elle a été mal saignée et qu’ayant pris de l’opium
+<lb/>pendant le travail, il en est résulté de fâcheux incidens; ce n’est pas une consolation
+<lb/>que de se dire que c’est par l’ignorance ou la négligence des préposés qu’une personne
+<lb/>ait péri, il faut admettre que Dieu le vouloit ainsi, et adorer des décrets incompréhensibles.
+<lb/>Je regrette bien chère Maman, <persName ref="P_0031">Votre pauvre Flaissières</persName> qui Vous servoit si fidèlement
+<lb/>et je conçois toute la peine que sa mort Vous cause, puissiez-Vous trouver un bon
+<lb/>
+<pb facs="02"/>
+<lb/>fol. 260v
+<lb/>remplaçant, et j’espère que Vous ne me taxerez pas d’indiscrétion si je desire savoir
+<lb/>qui ce sera, car toute personne autour de Vous m’intéresse à connoitre. Votre portrait
+<lb/>chère Maman passe de mains en mains, et j’entens dire qu’il est fort beau:
+<lb/>même <persName key="Marie, Preußen, Prinzessin, 1808-1877" ref="https://d-nb.info/gnd/123774721"><persName key="Augusta, Deutsches Reich, Kaiserin" ref="https://d-nb.info/gnd/118651102">mes enfans</persName></persName> me l’ont emporté pour le montrer à leur monde là-haut,
+<lb/>ce que j’ai permis de bon coeur. Je Vous baise mille fois les mains
+<lb/>chère et bonne Maman.
+            </p>
+            </div>
+            <div type="letter" n="02">
+            <p>
+<lb/>Mardi, le 6/18 novembre.
+<lb/>
+<lb/>Chère <persName key="Maria, Russland, Zarin" ref="https://d-nb.info/gnd/11933075X">Maman</persName>, voici une datte signifiante, et je crois que je ne pourrai jamais
+<lb/>m’y retrouver sans en être occupée. Les bontés que <persName key="Katharina II., Russland, Zarin" ref="https://d-nb.info/gnd/118560565">l’Imp[ératrice] Catherine</persName> avoit répandues
+<lb/>sur moi m’ont fait fonder une messe en sa mémoire, mais je n’ai pu y assister
+<lb/>aujourd’huy, ne pouvant rester longtems debout. <persName key="Marie, Preußen, Prinzessin, 1808-1877" ref="https://d-nb.info/gnd/123774721"><persName key="Augusta, Deutsches Reich, Kaiserin" ref="https://d-nb.info/gnd/118651102">Mes enfans</persName></persName> se portent bien et
+<lb/>se mettent à Vos pieds chère Maman, ils sont d’une gaieté folle, et je continue
+<lb/>à être contente de <persName key="Marie, Preußen, Prinzessin, 1808-1877" ref="https://d-nb.info/gnd/123774721">Marie</persName>. Vous me demandez ce que je lis<seg><term>Lektüre/Bildungsinteressen</term></seg>, j’achève le 4me vol[ume] de
+<lb/><persName key="Thucydides" ref="https://d-nb.info/gnd/11862234X">Thucydide</persName> le 3[me] de l’ouvrage de <persName key="Storch, Heinrich Friedrich von" ref="https://d-nb.info/gnd/118897756">Storch</persName> sur l’économie politique, et j’ai lu ces jours-
+<lb/>ci un traité sur la littérature <placeName key="Spanien" ref="https://d-nb.info/gnd/4055964-6">espagnole</placeName> qui m’a fait plaisir. Le tems est affreux
+<lb/>et je ne puis sortir qu’en voiture, ce qui est furieusement ennuyeux, mais encore
+<lb/>faut-il faire de l’exercice. Voici chère Maman une lettre que notre bon
+<lb/><persName key="Kurakin, Aleksandr Borisovič" ref="https://d-nb.info/gnd/11755524X">Kourakin</persName> m’envoye pour Vous, il est tout plongé dans <placeName key="Paris" ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>, et prétend être
+<lb/>fatigué des devoirs de société qu’il a à remplir. Je me mets de tout mon
+<lb/>coeur aux pieds de ma bonne et chère Maman.
+<lb/>
+			</p>
+            </div>
+            <pb facs="03"/>
+            <div type="letter" n="03">
+            <p>
+<lb/>fol. 261r
+<lb/>Mécredi, le 7/19 novembre.
+<lb/>
+<lb/>Chère et bonne <persName key="Maria, Russland, Zarin" ref="https://d-nb.info/gnd/11933075X">Maman</persName>, le tems est toujours également mauvais, il pleut
+<lb/>et la crotte est affreuse, de sorte qu’il n’y aura derechef qu’une promenade en voiture.
+<lb/>Je ne sais rien de nouveau, et suis d’une bêtise rare, je n’entens plus parler de
+<lb/><persName key="Luther, Martin" ref="https://d-nb.info/gnd/118575449">Luther</persName> ni de la Réformation<seg type="keyword"><term>Reformation</term></seg>, et j’en suis aise car cela commençoit à devenir
+<lb/>synonime de mes maux de coeur. En attendant <persName key="Hardenberg, Karl August von" ref="https://d-nb.info/gnd/118545906">le pr[ince] Hardenberg</persName> arrive demain,
+<lb/>et <persName key="Heinrich XV, Fürst von Reuss-Greiz" ref="https://d-nb.info/gnd/1089499000">le pr[ince] Reuss</persName> ancien commandant général en <placeName key="Galicien" ref="https://d-nb.info/gnd/4019119-9">Gallicie</placeName> est ici et <persName key="Ida Karoline Luise, Prinzessin zu Waldeck-Pyrmont" ref="P_0037"><choice><sic>la c[om]t[e]sse de
+<lb/>la Lippe-Bückebourg</sic><corr>Unsichere Attribuierung</corr></choice></persName> aussi: <persName key="Heinrich XV, Fürst von Reuss-Greiz" ref="https://d-nb.info/gnd/1089499000">le pr[ince] Reuss</persName> est grand chasseur. J’embrasse
+<lb/>frères et soeurs et <persName key="Lieven, Charlotte Karlowna de" ref="https://d-nb.info/gnd/115603972">notre chère c[om]t[e]sse</persName>, et Vous baise les mains de tout mon
+<lb/>coeur, <persName key="Karl Friedrich, Sachsen-Weimar-Eisenach, Großherzog" ref="https://d-nb.info/gnd/102479844">le pr[ince]</persName> et <persName key="Marie, Preußen, Prinzessin, 1808-1877" ref="https://d-nb.info/gnd/123774721"><persName key="Augusta, Deutsches Reich, Kaiserin" ref="https://d-nb.info/gnd/118651102">les petites</persName></persName> se mettent à Vos pieds chère Maman, et je suis
+<lb/>à jamais avec le plus respectueux et éternel dévouement,
+<lb/>
+<lb/>de ma bonne et chère Maman,
+<lb/>la plus soumise et obéissante
+<lb/>fille, <persName key="Maria, Sachsen-Weimar, Großherzogin" ref="https://d-nb.info/gnd/104304219">Marie</persName>.
+            </p>
+			</div>
+        </body>
+    </text>
+</TEI>
