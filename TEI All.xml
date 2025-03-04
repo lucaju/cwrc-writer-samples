@@ -506,7 +506,7 @@
                
               </opener>
               
-              <p>When I reached <persName key="Ibsen, Henrik, 1828-1906." ref="http://viaf.org/viaf/71378383" ana="test">Oslo</persName> yesterday evening, <eventName><persName>Brynjulf</persName></eventName> Bull should have been there to meet
+              <p xml:id="p1">When I reached <persName key="Ibsen, Henrik, 1828-1906." ref="http://viaf.org/viaf/71378383" ana="test">Oslo</persName> yesterday evening, <eventName><persName>Brynjulf</persName></eventName> Bull should have been there to meet
                  me, but wasn't. He is not on the telephone, so I took a taxi to his address, which
                  turned out to be a students' club with no one about on Sundays, so I went to a hotel
                  feeling rather non-plussed. But presently he turned up. He had got the<pb cert="high" xml:space="default" n="2"/>
@@ -520,9 +520,9 @@
                  Society. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for
                  home via Bergen.</p>
               <pb n="3"/>
-              <p>Bull is a nice young man but incompetent - can't quite stand the communists, but
+              <p xml:id="p2">Bull is a nice young man but incompetent - can't quite stand the communists, but
                  finds the socialists too mild.</p>
-              <p>I am unhappily wondering what you are feeling about me.</p>
+              <p xml:id="p2">I am unhappily wondering what you are feeling about me.</p>
               <closer>
                  <salute>I love you very much --</salute>
                  <signed>
