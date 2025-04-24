@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/master/tei_jtei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">L’architecture sous le rapport des mœurs</title>
-            <title type="sub"
-               >Conception artistique et science des mœurs chez Claude-Nicolas Ledoux</title>
+            <title type="sub">Conception artistique et science des mœurs chez Claude-Nicolas Ledoux</title>
             <author>
                <forename>Fabrice</forename>
                <surname>Moulin</surname>
@@ -30,7 +27,7 @@
             </author>
          </titleStmt>
          <publicationStmt>
-            <publisher />
+            <publisher/>
             <date when="2021">2021</date>
             <idno type="DOI">10.400/revuehn2355/article01</idno>
             <availability>
@@ -47,7 +44,86 @@
             <p>Fichier nativement numérique</p>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/article01.xml?person_annotation_20250424142948484",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-04-24T18:29:48.484Z",
+	"dcterms:modified": "2025-04-24T18:29:48.484Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucaju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/article01.xml?person_annotation_20250424142948484#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/article01.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://31283590-review-262-add-cu-yq6u1s.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/article01.xml?person_annotation_20250424142948484#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/div/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://raw.githubusercontent.com/LEAF-VRE/CatCor/refs/heads/main/CatCor_People.xml#ale12",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://31283590-review-262-add-cu-yq6u1s.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><profileDesc>
          <langUsage>
             <language ident="fr"/>
          </langUsage>
@@ -62,7 +138,7 @@
    <text>
       <front>
          <div type="abstract">
-            <p>Le titre de l’ouvrage que Ledoux publie en 1804, deux ans avant sa mort, justifie à lui seul l’intérêt qu’on pourrait lui porter dans le cadre d’un volume sur la science des mœurs. Il annonce un vaste programme, qui devait à l’origine se déployer en cinq volumes dont seul le premier fut achevé, et réunir l’ensemble de l’œuvre construit et gravé de Ledoux enveloppé d’un texte au souffle étonnant. Assumé par un artiste total surplombant les hommes et les temps, et adressé aux générations à venir, le propos est porté par un « style figuré », presque entièrement métaphorique et allégorique, qui traduit avant tout la haute idée que l’auteur se fait des pouvoirs de l’architecte en matière de réforme sociale et morale.</p>
+            <p>Le titre de l’ouvrage que <persName key="Alexeyef" ref="https://raw.githubusercontent.com/LEAF-VRE/CatCor/refs/heads/main/CatCor_People.xml#ale12">Ledoux</persName> publie en 1804, deux ans avant sa mort, justifie à lui seul l’intérêt qu’on pourrait lui porter dans le cadre d’un volume sur la science des mœurs. Il annonce un vaste programme, qui devait à l’origine se déployer en cinq volumes dont seul le premier fut achevé, et réunir l’ensemble de l’œuvre construit et gravé de Ledoux enveloppé d’un texte au souffle étonnant. Assumé par un artiste total surplombant les hommes et les temps, et adressé aux générations à venir, le propos est porté par un « style figuré », presque entièrement métaphorique et allégorique, qui traduit avant tout la haute idée que l’auteur se fait des pouvoirs de l’architecte en matière de réforme sociale et morale.</p>
          </div>
          <div type="acknowledgements"><p>L’auteur tient à remercier...</p></div>
       </front>
