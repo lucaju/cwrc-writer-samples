@@ -521,7 +521,7 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?person_annotation_20250625194032617",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-06-25T23:40:32.617Z",
-	"dcterms:modified": "2025-06-25T23:40:32.617Z",
+	"dcterms:modified": "2025-06-25T23:48:56.663Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -552,10 +552,7 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": [
-			"schema:Person",
-			"cwrc:FictionalPerson"
-		],
+		"@type": "cwrc:NaturalPerson",
 		"@id": "http://www.wikidata.org/entity/Q188770",
 		"dc:format": "text/plain"
 	},
@@ -567,6 +564,171 @@
 		"schema:softwareVersion": "3.7.1"
 	},
 	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?person_annotation_20250625194904101",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-06-25T23:49:04.101Z",
+	"dcterms:modified": "2025-06-25T23:49:04.101Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucaju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?person_annotation_20250625194904101#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "http://localhost:3000",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.7.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?person_annotation_20250625194904101#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q42764850",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "http://localhost:3000",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.7.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?person_annotation_20250625194914217",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-06-25T23:49:14.217Z",
+	"dcterms:modified": "2025-06-25T23:49:14.217Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucaju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?person_annotation_20250625194914217#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "http://localhost:3000",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.7.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/TEI%20All.xml?person_annotation_20250625194914217#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q1289489",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "http://localhost:3000",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.7.1"
+	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
@@ -589,9 +751,9 @@
               </opener>
               
               <p xml:id="p1">When I <persName key="Reached" ref="http://www.wikidata.org/entity/Q7300209" type="fictional">reached</persName> <persName key="Ibsen, Henrik, 1828-1906." ref="http://viaf.org/viaf/71378383" ana="test">Oslo</persName> yesterday <persName key="evening" ref="http://www.wikidata.org/entity/Q7725" cert="medium" role="adp" type="bibliocal">evening</persName>, <eventName><persName>Brynjulf</persName></eventName> Bull should have been there to meet
-                 me, but wasn't. He is not on the <persName key="Telephone" ref="http://www.wikidata.org/entity/Q188770" cert="medium" role="abr" type="fictional">telephone</persName>, so I took a taxi to his address, which
-                 turned out to be a students' club with no one about on Sundays, so I went to a hotel
-                 feeling rather non-plussed. But presently he turned up. He had got the<pb cert="high" xml:space="default" n="2"/>
+                 me, but wasn't. He is not on the <persName key="Telephone" ref="http://www.wikidata.org/entity/Q188770" cert="medium" type="real">telephone</persName>, so I took a taxi to his address, which
+                 turned out to be a <persName key="Ravi Gupta" ref="http://www.wikidata.org/entity/Q42764850" type="fictional">students</persName>' club with no one about on Sundays, so I went to a hotel
+                 <persName key="haptic perception" ref="http://www.wikidata.org/entity/Q1289489" type="both">feeling</persName> rather non-plussed. But presently he turned up. He had got the<pb cert="high" xml:space="default" n="2"/>
                  time of my arrival wrong, and 
                     when
                     
