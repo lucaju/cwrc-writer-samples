@@ -492,7 +492,7 @@
         <body>
            <div type="letter">
               <head>
-                 <title><persName><persName key="sample" ref="http://www.wikidata.org/entity/Q12334450">Sample</persName></persName> Letter - <persName key="Bertrand, Carl" ref="http://viaf.org/viaf/9981159477930727990007/">Bertrand</persName> <persName key="Russell, Bertrand, 1872-1970." ref="http://viaf.org/viaf/36924137">Russell</persName> to Patricia Spence - <persName key="Matthews, David 1938 October 31-" ref="http://viaf.org/viaf/9884162669591855500005/" role="ard">October</persName> 21, 1935</title>
+                 <title><persName><persName key="sample" ref="http://www.wikidata.org/entity/Q12334450"><persName type="real">Sample</persName></persName></persName> Letter - <persName key="Bertrand, Carl" ref="http://viaf.org/viaf/9981159477930727990007/">Bertrand</persName> <persName key="Russell, Bertrand, 1872-1970." ref="http://viaf.org/viaf/36924137">Russell</persName> to Patricia Spence - <persName key="Matthews, David 1938 October 31-" ref="http://viaf.org/viaf/9884162669591855500005/" role="ard">October</persName> 21, 1935</title>
               </head>
               <opener>
                  <note>
