@@ -205,7 +205,6 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Letter.xml?person_annotation_20190814164101126",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.126Z",
-	"dcterms:modified": "2019-08-14T20:41:01.126Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -228,12 +227,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
+			"schema:softwareVersion": "3.7.1"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Letter.xml?person_annotation_20190814164101126#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/head/title/persName[3]"
+			"rdf:value": "TEI/text/body/div/head/title/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -246,7 +245,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
+		"schema:softwareVersion": "3.7.1"
 	},
 	"cwrc:hasCertainty": "cwrc:low"
 }]]>
@@ -527,7 +526,6 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Letter.xml?person_annotation_20220610183541341",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-06-10T22:35:41.341Z",
-	"dcterms:modified": "2022-06-10T22:35:41.341Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -548,12 +546,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
+			"schema:softwareVersion": "3.7.1"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Letter.xml?person_annotation_20220610183541341#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/head/title/persName[2]"
+			"rdf:value": "TEI/text/body/div/head/title/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -566,7 +564,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
+		"schema:softwareVersion": "3.7.1"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -1151,7 +1149,6 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Letter.xml?person_annotation_20250509175438710",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-05-09T21:54:38.710Z",
-	"dcterms:modified": "2025-05-09T21:54:38.710Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -1173,12 +1170,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
+			"schema:softwareVersion": "3.7.1"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Letter.xml?person_annotation_20250509175438710#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/head/title/persName"
+			"rdf:value": "TEI/text/body/div/head/title/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1191,7 +1188,90 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
+		"schema:softwareVersion": "3.7.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Letter.xml?person_annotation_20250626094205470",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-06-26T13:42:05.470Z",
+	"dcterms:modified": "2025-06-26T13:42:05.470Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucaju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Letter.xml?person_annotation_20250626094205470#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Letter.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.7.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Letter.xml?person_annotation_20250626094205470#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/title/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q111072551",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.7.1"
 	}
 }]]>
         </rdf:Description>
@@ -1200,7 +1280,7 @@
 		<body>
 			<div type="letter">
 				<head>
-					<title>Sample <persName key="Mankiewicz, Joseph Leo, 1909-1993" ref="http://viaf.org/viaf/102369298" ana="test">Letter</persName> 2 - <persName key="Bertrand Russell" ref="http://www.wikidata.org/entity/Q33760" cert="high" type="real">Bertrand Russell</persName><persName cert="low" ref="279399399">Patricia Spence</persName><date when="1936" cert="medium">1935</date> to  - </title></head>
+					<title><persName key="Sample" ref="http://www.wikidata.org/entity/Q111072551" type="both">Sample</persName> <persName key="Mankiewicz, Joseph Leo, 1909-1993" ref="http://viaf.org/viaf/102369298" ana="test">Letter</persName> 2 - <persName key="Bertrand Russell" ref="http://www.wikidata.org/entity/Q33760" cert="high" type="real">Bertrand Russell</persName><persName cert="low" ref="279399399">Patricia Spence</persName><date when="1936" cert="medium">1935</date> to  - </title></head>
 				<opener>
 					<note>
 						<p>Bad writing due shaky <abbr>train</abbr> </p><p>ssIn train</p><p><placeName cert="high" ref="http://www.geonames.org/6453366">Oslo</placeName> to <placeName key="Bergens blondeveveri" ref="http://viaf.org/viaf/50157467848022320266/">Bergens</placeName></p>
