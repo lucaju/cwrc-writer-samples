@@ -94,7 +94,7 @@
 		<body>
 			<div type="letter">
 				<head>
-					<title><persName key="Russell, Bertrand, 1872-1970." ref="http://viaf.org/viaf/36924137" type="real">Bertrand Russell</persName> to Patricia Spence - October 21, 1935</title>
+					<title><persName key="Russell, Bertrand, 1872-1970." ref="http://viaf.org/viaf/36924137" type="real">Bertrand Russell</persName> to  - October 21, 1935</title>
 				</head>
 				<opener>
 					<note>
@@ -119,4 +119,87 @@
 			</div>
 		</body>
 	</text>
-</TEI>
+<standOff type="annotation"><xenoData><rdf:RDF><rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/IaHzAIiHrQ5"><![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/IaHzAIiHrQ5",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-09T21:27:53.340Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/2EP3jQQplkU",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Bertrand%20Russell%20to%20Patricia%20Spence%20(letter)_LW-NV-LW.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Bertrand%20Russell%20to%20Patricia%20Spence%20(letter)_LW-NV-LW.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Sample Document Title"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/2EP3jQQplkU/selector/textPosition/uGmLEJiBd6l",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 38,
+                "end": 53,
+                "refinedBy": {
+                    "id": "/target/2EP3jQQplkU/selector/textQuote/w4O4yR1IDfy",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Patricia Spence",
+                    "prefix": "\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tBertrand Russell to",
+                    "suffix": "- October 21, 1935\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tBad writing due to shaky trainIn train\n\t\t\t\t\t\t\tOslo to Bergen\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t21"
+                }
+            },
+            {
+                "id": "/target/2EP3jQQplkU/selector/css/aRnYsjLMfI2",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/IaHzAIiHrQ5]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/94200072",
+        "type": "crm:E21_Person",
+        "label": "Spence, Patricia, 1961-....",
+        "description": "Spence, Patricia"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]></rdf:Description></rdf:RDF></xenoData></standOff></TEI>
