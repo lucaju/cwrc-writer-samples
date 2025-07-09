@@ -94,7 +94,7 @@
 		<body>
 			<div type="letter">
 				<head>
-					<title><persName key="Russell, Bertrand, 1872-1970." ref="http://viaf.org/viaf/36924137" type="real">wBertrand Russel</persName>l to <persName key="Spence, Patricia, 1961-...." ref="http://viaf.org/viaf/94200072" ana="webannotation:http://temp.lincsproject.ca/pXDgJUjhk60" cert="high">Patricia Spence</persName> - October 21, 1935</title>
+					<title><persName key="Russell, Bertrand, 1872-1970." ref="http://viaf.org/viaf/36924137" type="real">Bertrand Russell</persName> to Patricia Spence - October 21, 1935</title>
 				</head>
 				<opener>
 					<note>
@@ -119,4 +119,4 @@
 			</div>
 		</body>
 	</text>
-<standOff type="annotation"><xenoData><rdf:RDF><rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/pXDgJUjhk60"/></rdf:RDF></xenoData></standOff></TEI>
+</TEI>
