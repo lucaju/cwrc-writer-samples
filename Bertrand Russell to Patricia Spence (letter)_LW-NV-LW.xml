@@ -43,10 +43,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?person_annotation_20250709110813737",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Bertrand%20Russell%20to%20Patricia%20Spence%20(letter)_LW-NV-LW.xml?person_annotation_20250709110813737",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-07-09T15:08:13.737Z",
-	"dcterms:modified": "2025-07-09T15:08:13.737Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -57,20 +56,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20250709110813737#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Bertrand%20Russell%20to%20Patricia%20Spence%20(letter)_LW-NV-LW.xml?person_annotation_20250709110813737#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Bertrand%20Russell%20to%20Patricia%20Spence%20(letter)_LW-NV-LW.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
+			"@id": "http://localhost:3000",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
 			"schema:softwareVersion": "3.9.0"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20250709110813737#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Bertrand%20Russell%20to%20Patricia%20Spence%20(letter)_LW-NV-LW.xml?person_annotation_20250709110813737#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/title/persName"
 		}
@@ -81,7 +81,7 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
+		"@id": "http://localhost:3000",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
@@ -94,7 +94,7 @@
 		<body>
 			<div type="letter">
 				<head>
-					<title><persName key="Russell, Bertrand, 1872-1970." ref="http://viaf.org/viaf/36924137" type="real">Bertrand Russel</persName>l to <persName key="Spence, Patricia, 1961-...." ref="http://viaf.org/viaf/94200072" ana="webannotation:http://temp.lincsproject.ca/pXDgJUjhk60" cert="high">Patricia Spence</persName> - October 21, 1935</title>
+					<title><persName key="Russell, Bertrand, 1872-1970." ref="http://viaf.org/viaf/36924137" type="real">wBertrand Russel</persName>l to <persName key="Spence, Patricia, 1961-...." ref="http://viaf.org/viaf/94200072" ana="webannotation:http://temp.lincsproject.ca/pXDgJUjhk60" cert="high">Patricia Spence</persName> - October 21, 1935</title>
 				</head>
 				<opener>
 					<note>
@@ -119,88 +119,4 @@
 			</div>
 		</body>
 	</text>
-<standOff type="annotation"><xenoData><rdf:RDF><rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/pXDgJUjhk60"><![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/pXDgJUjhk60",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
-    "created": "2025-07-09T15:10:01.835Z",
-    "creator": {
-        "id": "https://github.com/lucaju",
-        "type": "crm:E21_Person",
-        "name": "Luciano Frizzera"
-    },
-    "generator": {
-        "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
-        "name": "NERVE",
-        "softwareVersion": "0.1.0"
-    },
-    "target": {
-        "id": "/target/KoI8lJRdKUu",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Bertrand%20Russell%20to%20Patricia%20Spence%20(letter)_LW-NV-LW.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Bertrand%20Russell%20to%20Patricia%20Spence%20(letter)_LW-NV-LW.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Sample Document Title"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/KoI8lJRdKUu/selector/textPosition/yK051MTQg5h",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 38,
-                "end": 53,
-                "refinedBy": {
-                    "id": "/target/KoI8lJRdKUu/selector/textQuote/w5xdrq6USPV",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Patricia Spence",
-                    "prefix": "\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tBertrand Russell to",
-                    "suffix": "- October 21, 1935\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tBad writing due to shaky trainIn train\n\t\t\t\t\t\t\tOslo to Bergen\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t21"
-                }
-            },
-            {
-                "id": "/target/KoI8lJRdKUu/selector/css/3lZu7H4wDM2",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/pXDgJUjhk60]"
-            }
-        ]
-    },
-    "body": {
-        "id": "http://viaf.org/viaf/94200072",
-        "type": "crm:E21_Person",
-        "label": "Spence, Patricia, 1961-....",
-        "description": "Spence, Patricia"
-    },
-    "P2_has_type": [
-        "oa:identifying",
-        "edit:certaintyHigh"
-    ]
-}]]></rdf:Description></rdf:RDF></xenoData></standOff></TEI>
+<standOff type="annotation"><xenoData><rdf:RDF><rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/pXDgJUjhk60"/></rdf:RDF></xenoData></standOff></TEI>
