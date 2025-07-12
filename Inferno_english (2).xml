@@ -113,7 +113,7 @@
             </lg>
 
             <lg n="13" xml:id="lg013">
-               <l n="37">And if they were before Christianity,</l>
+               <l n="37">And if they were before <orgName key="Unification Church" ref="http://viaf.org/viaf/157132622" ana="webannotation:http://temp.lincsproject.ca/GOSVBrnKLYI" cert="medium">Christianity</orgName>,</l>
                <l n="38">In the right manner they adored not God;</l>
                <l n="39">And among such as these am I myself.</l>
             </lg>
@@ -432,5 +432,177 @@
     },
     "P2_has_type": [
         "oa:identifying"
+    ]
+}]]></rdf:Description><rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/kpYAylBYzAY"><![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/kpYAylBYzAY",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-12T02:56:15.877Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "http://localhost:3000",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "http://localhost:3000",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/QU7iKbQuHkB",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english (2).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english (2).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/QU7iKbQuHkB/selector/textPosition/AIRs4sVtoB1",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 43,
+                "end": 54,
+                "refinedBy": {
+                    "id": "/target/QU7iKbQuHkB/selector/textQuote/s6mXVWhJMhs",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "The Inferno",
+                    "prefix": "\n      \n         \n            \n           ",
+                    "suffix": " Canto IV\n            Dante Alighieri\n            \n               Broke the deep lethargy within my head\n               A heavy thunder, so that I upstarted,\n               Like to a person who by force is wakened;\n            \n\n            \n               And round about I moved my rested eyes,\n               Uprisen erect, and steadfastly I gazed,\n               To recognise the place wherein I was"
+                }
+            },
+            {
+                "id": "/target/QU7iKbQuHkB/selector/css/26CGAlC1KyT",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/kpYAylBYzAY]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/36913662",
+        "type": "frbroo:F1",
+        "label": "Amis, Martin, 1949-2023.",
+        "description": "Amis, Martin",
+        "P2_has_type": [
+            "edit:modeReal"
+        ]
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]></rdf:Description><rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/GOSVBrnKLYI"><![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/GOSVBrnKLYI",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-12T03:06:54.718Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "http://localhost:3000",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "http://localhost:3000",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/ptN0YZkF1iP",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english (2).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english (2).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ptN0YZkF1iP/selector/textPosition/5z8bnZ0K96f",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 2507,
+                "end": 2519,
+                "refinedBy": {
+                    "id": "/target/ptN0YZkF1iP/selector/textQuote/ADK4mik0ofF",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Christianity",
+                    "prefix": "\n            \n\n            \n               To me the Master good: “Thou dost not ask\n               What spirits these, which thou beholdest, are?\n               Now will I have thee know, ere thou go farther,\n            \n\n            \n               That they sinned not; and if they merit had,\n               ’Tis not enough, because they had not baptism\n               Which is the portal of the Faith thou holdest;\n            \n\n            \n               And if they were before",
+                    "suffix": "\n               In the right manner they adored not God;\n               And among such as these am I myself"
+                }
+            },
+            {
+                "id": "/target/ptN0YZkF1iP/selector/css/11l8BgkzAXm",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/GOSVBrnKLYI]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/157132622",
+        "type": "crm:E74_Group",
+        "label": "Unification Church",
+        "description": "Association pour l'unification du christianisme mondial"
+    },
+    "P2_has_type": [
+        "oa:identifying",
+        "edit:certaintyMedium"
     ]
 }]]></rdf:Description></rdf:RDF></xenoData></standOff></TEI>
