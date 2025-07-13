@@ -150,7 +150,7 @@
 
             <lg n="19" xml:id="lg019">
                <l n="55">Hence he drew forth the shade of the First Parent,</l>
-               <l n="56">And that of his son Abel, and of Noah,</l>
+               <l n="56">And that of his son Abel, and of <persName key="Eisenstadt, Shmuel Noah, 1923-2010." ref="http://viaf.org/viaf/27081048" ana="webannotation:http://temp.lincsproject.ca/Nswi264ui1m">Noah</persName>,</l>
                <l n="57">Of Moses the lawgiver, and the obedient</l>
             </lg>
 
@@ -430,6 +430,93 @@
         "type": "frbroo:F1",
         "label": "Amis, Martin, 1949-2023.",
         "description": "Amis, Martin"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Nswi264ui1m">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Nswi264ui1m",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-13T21:36:05.648Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "http://localhost:3000",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "http://localhost:3000",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/ruOyKT3ZAU2",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english (3).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english (3).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ruOyKT3ZAU2/selector/textPosition/mCe75NA314Z",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 3749,
+                "end": 3753,
+                "refinedBy": {
+                    "id": "/target/ruOyKT3ZAU2/selector/textQuote/bCmcYIYTz3G",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Noah",
+                    "prefix": "\n            \n\n            \n               Hence he drew forth the shade of the First Parent,\n               And that of his son Abel, and of",
+                    "suffix": "\n               Of Moses the lawgiver, and the obedient\n            \n\n            \n               Abraham, patriarch, and David, king,\n               Israel with his father and his children,\n               And Rachel, for whose sake he did so much,\n            \n\n            \n               And others many, and he made them blessed;\n               And thou must know, that earlier than these\n               Never were any human spirits saved"
+                }
+            },
+            {
+                "id": "/target/ruOyKT3ZAU2/selector/css/OsQdIfOsaSq",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Nswi264ui1m]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/27081048",
+        "type": "crm:E21_Person",
+        "label": "Eisenstadt, Shmuel Noah, 1923-2010.",
+        "description": "Eisenstadt, S. N. (Shmuel Noah), 1923-2010"
     },
     "P2_has_type": [
         "oa:identifying"
