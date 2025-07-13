@@ -157,7 +157,7 @@
             <lg n="20" xml:id="lg020">
                <l n="58">Abraham, patriarch, and David, king,</l>
                <l n="59">Israel with his father and his children,</l>
-               <l n="60">And <persName key="Godard, Jean-Luc, 1930-2022." ref="http://viaf.org/viaf/108762210" ana="webannotation:http://temp.lincsproject.ca/c0T13OFjVJ6">Rachel</persName>, for whose sake he did so much,</l>
+               <l n="60">And Rachel, for whose sake he did so much,</l>
             </lg>
 
             <lg n="21" xml:id="lg021">
@@ -430,93 +430,6 @@
         "type": "frbroo:F1",
         "label": "Amis, Martin, 1949-2023.",
         "description": "Amis, Martin"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
-}]]>
-				</rdf:Description>
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/c0T13OFjVJ6">
-<![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/c0T13OFjVJ6",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
-    "created": "2025-07-13T21:38:33.233Z",
-    "creator": {
-        "id": "https://github.com/lucaju",
-        "type": "crm:E21_Person",
-        "name": "Luciano Frizzera"
-    },
-    "generator": {
-        "id": "http://localhost:3000",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "http://localhost:3000",
-        "name": "NERVE",
-        "softwareVersion": "0.1.0"
-    },
-    "target": {
-        "id": "/target/CYhjV4EyItz",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english (3).xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english (3).xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "The Inferno"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/CYhjV4EyItz/selector/textPosition/bpc6Len3ELZ",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 3964,
-                "end": 3970,
-                "refinedBy": {
-                    "id": "/target/CYhjV4EyItz/selector/textQuote/n0MBlG9fSxm",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Rachel",
-                    "prefix": "\n            \n\n            \n               Hence he drew forth the shade of the First Parent,\n               And that of his son Abel, and of Noah,\n               Of Moses the lawgiver, and the obedient\n            \n\n            \n               Abraham, patriarch, and David, king,\n               Israel with his father and his children,\n               And",
-                    "suffix": " for whose sake he did so much,\n            \n\n            \n               And others many, and he made them blessed;\n               And thou must know, that earlier than these\n               Never were any human spirits saved"
-                }
-            },
-            {
-                "id": "/target/CYhjV4EyItz/selector/css/Mg2ZR0eHikJ",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/c0T13OFjVJ6]"
-            }
-        ]
-    },
-    "body": {
-        "id": "http://viaf.org/viaf/108762210",
-        "type": "crm:E21_Person",
-        "label": "Godard, Jean-Luc, 1930-2022.",
-        "description": "Godard, Jean-Luc"
     },
     "P2_has_type": [
         "oa:identifying"
