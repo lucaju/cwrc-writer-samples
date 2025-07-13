@@ -38,7 +38,7 @@
       <body>
          <div type="canto">
             <pb facs="https://upload.wikimedia.org/wikipedia/commons/3/38/Inferno_Canto_4_four_bards.jpg"/>
-            <head><title key="Amis, Martin, 1949-2023." ref="http://viaf.org/viaf/36913662" ana="webannotation:http://temp.lincsproject.ca/61xy82rKYRy">The Inferno</title>: Canto IV</head>
+            <head><title key="Amis, Martin, 1949-2023." ref="http://viaf.org/viaf/36913662" ana="webannotation:http://temp.lincsproject.ca/61xy82rKYRy" type="fictional">The Inferno</title>: Canto IV</head>
             <byline>Dante Alighieri</byline>
             <lg n="1" xml:id="lg001">
                <l n="1">Broke the deep lethargy within my head</l>
@@ -423,9 +423,15 @@
     },
     "body": {
         "id": "http://viaf.org/viaf/36913662",
-        "type": "frbroo:F1",
+        "type": [
+            "frbroo:F1",
+            "wikidata:Q15306849"
+        ],
         "label": "Amis, Martin, 1949-2023.",
-        "description": "Amis, Martin"
+        "description": "Amis, Martin",
+        "P2_has_type": [
+            "edit:modeFictional"
+        ]
     },
     "P2_has_type": [
         "oa:identifying"
