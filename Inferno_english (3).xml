@@ -38,7 +38,7 @@
       <body>
          <div type="canto">
             <pb facs="https://upload.wikimedia.org/wikipedia/commons/3/38/Inferno_Canto_4_four_bards.jpg"/>
-            <head>The Inferno: Canto IV</head>
+            <head><title key="Amis, Martin, 1949-2023." ref="http://viaf.org/viaf/36913662" ana="webannotation:http://temp.lincsproject.ca/bIizF4D85ok">The Inferno</title>: Canto IV</head>
             <byline>Dante Alighieri</byline>
             <lg n="1" xml:id="lg001">
                <l n="1">Broke the deep lethargy within my head</l>
@@ -346,4 +346,97 @@
          </div>
       </body>
    </text>
+	<standOff type="annotation">
+		<xenoData>
+			<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/bIizF4D85ok">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/bIizF4D85ok",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-13T21:34:44.903Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "http://localhost:3000",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "http://localhost:3000",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/Ab08AiU8zig",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english (3).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english (3).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Ab08AiU8zig/selector/textPosition/6B83lhLL20L",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 43,
+                "end": 54,
+                "refinedBy": {
+                    "id": "/target/Ab08AiU8zig/selector/textQuote/as7YC0137Q6",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "The Inferno",
+                    "prefix": "\n      \n         \n            \n           ",
+                    "suffix": " Canto IV\n            Dante Alighieri\n            \n               Broke the deep lethargy within my head\n               A heavy thunder, so that I upstarted,\n               Like to a person who by force is wakened;\n            \n\n            \n               And round about I moved my rested eyes,\n               Uprisen erect, and steadfastly I gazed,\n               To recognise the place wherein I was"
+                }
+            },
+            {
+                "id": "/target/Ab08AiU8zig/selector/css/CivBYAzwNeJ",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/bIizF4D85ok]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/36913662",
+        "type": "frbroo:F1",
+        "label": "Amis, Martin, 1949-2023.",
+        "description": "Amis, Martin"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				</rdf:Description>
+			</rdf:RDF>
+		</xenoData>
+	</standOff>
 </TEI>
