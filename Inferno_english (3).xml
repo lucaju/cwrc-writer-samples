@@ -113,7 +113,7 @@
             </lg>
 
             <lg n="13" xml:id="lg013">
-               <l n="37">And if they were before Christianity,</l>
+               <l n="37">And if they were before <orgName key="Unification Church" ref="http://viaf.org/viaf/157132622" ana="webannotation:http://temp.lincsproject.ca/2MK5bqX9S8f">Christianity</orgName>,</l>
                <l n="38">In the right manner they adored not God;</l>
                <l n="39">And among such as these am I myself.</l>
             </lg>
@@ -523,10 +523,100 @@
     ]
 }]]>
 				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/2MK5bqX9S8f">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/2MK5bqX9S8f",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-13T23:14:57.672Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://nerve.stage.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.stage.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/eKNPYP6HErR",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english%20(3).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english%20(3).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/eKNPYP6HErR/selector/textPosition/00A0IArdSjL",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 2507,
+                "end": 2519,
+                "refinedBy": {
+                    "id": "/target/eKNPYP6HErR/selector/textQuote/WeXySNvT18I",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Christianity",
+                    "prefix": "\n            \n\n            \n               To me the Master good: “Thou dost not ask\n               What spirits these, which thou beholdest, are?\n               Now will I have thee know, ere thou go farther,\n            \n\n            \n               That they sinned not; and if they merit had,\n               ’Tis not enough, because they had not baptism\n               Which is the portal of the Faith thou holdest;\n            \n\n            \n               And if they were before",
+                    "suffix": "\n               In the right manner they adored not God;\n               And among such as these am I myself"
+                }
+            },
+            {
+                "id": "/target/eKNPYP6HErR/selector/css/gJsAxdcLXmz",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/2MK5bqX9S8f]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/157132622",
+        "type": "crm:E74_Group",
+        "label": "Unification Church",
+        "description": "Association pour l'unification du christianisme mondial"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				</rdf:Description>
 			</rdf:RDF>
+		
 		
 		</xenoData>
 	
+	
 	</standOff>
+
 
 </TEI>
