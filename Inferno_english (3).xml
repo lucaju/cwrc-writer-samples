@@ -113,7 +113,7 @@
             </lg>
 
             <lg n="13" xml:id="lg013">
-               <l n="37">And if they were before <orgName key="Unification Church" ref="http://viaf.org/viaf/157132622" ana="webannotation:http://temp.lincsproject.ca/Qtrx1vuDjiK">Christianity</orgName>,</l>
+               <l n="37">And if they were before <orgName key="Unification Church" ref="http://viaf.org/viaf/157132622" ana="webannotation:http://temp.lincsproject.ca/Qtrx1vuDjiK" cert="medium">Christianity</orgName>,</l>
                <l n="38">In the right manner they adored not God;</l>
                <l n="39">And among such as these am I myself.</l>
             </lg>
@@ -518,6 +518,7 @@
         "description": "Association pour l'unification du christianisme mondial"
     },
     "P2_has_type": [
-        "oa:identifying"
+        "oa:identifying",
+        "edit:certaintyMedium"
     ]
 }]]></rdf:Description></rdf:RDF></xenoData></standOff></TEI>
