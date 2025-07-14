@@ -282,7 +282,7 @@
 
             <lg n="41" xml:id="lg041">
                <l n="121">I saw Electra with companions many,</l>
-               <l n="122">’Mongst whom I knew both Hector and Aeneas,</l>
+               <l n="122">’Mongst whom I knew both <persName key="Catherine de Médicis, 1519-1589, reine de France" ref="http://viaf.org/viaf/22213267" ana="webannotation:http://temp.lincsproject.ca/BUXnFEV45nD">Hector</persName> and Aeneas,</l>
                <l n="123">Caesar in armour with gerfalcon eyes;</l>
             </lg>
 
@@ -610,13 +610,103 @@
     ]
 }]]>
 				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/BUXnFEV45nD">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/BUXnFEV45nD",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-14T00:27:23.202Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/5obzEfct4OL",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english%20(3).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english%20(3).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/5obzEfct4OL/selector/textPosition/K6AilWed846",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 8082,
+                "end": 8088,
+                "refinedBy": {
+                    "id": "/target/5obzEfct4OL/selector/textQuote/1zAkA22wcwB",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Hector",
+                    "prefix": "\n            \n\n            \n               I saw Electra with companions many,\n               ’Mongst whom I knew both",
+                    "suffix": "and Aeneas,\n               Caesar in armour with gerfalcon eyes;\n            \n\n            \n               I saw Camilla and Penthesilea\n               On the other side, and saw the King Latinus,\n               Who with Lavinia his daughter sat;\n            \n\n            \n               I saw that Brutus who drove Tarquin forth,\n               Lucretia, Julia, Marcia, and Cornelia,\n               And saw alone, apart, the Saladin"
+                }
+            },
+            {
+                "id": "/target/5obzEfct4OL/selector/css/HBYClqyRQJX",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/BUXnFEV45nD]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/22213267",
+        "type": "crm:E21_Person",
+        "label": "Catherine de Médicis, 1519-1589, reine de France",
+        "description": "Catherine de Médicis, Queen, consort of Henry II, King of France, 1519-1589"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				</rdf:Description>
 			</rdf:RDF>
+		
 		
 		
 		</xenoData>
 	
 	
+	
 	</standOff>
+
 
 
 </TEI>
