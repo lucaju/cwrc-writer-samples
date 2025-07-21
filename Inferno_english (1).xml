@@ -134,7 +134,7 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english%20(1).xml?person_annotation_20250721183646434",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-07-21T22:36:46.434Z",
-	"dcterms:modified": "2025-07-21T22:38:55.370Z",
+	"dcterms:modified": "2025-07-21T22:39:27.533Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -196,7 +196,7 @@
          <div type="canto">
             <pb facs="https://upload.wikimedia.org/wikipedia/commons/3/38/Inferno_Canto_4_four_bards.jpg"/>
             <head><title key="Amis, Martin, 1949-2023." ref="http://viaf.org/viaf/36913662" ana="webannotation:http://temp.lincsproject.ca/61xy82rKYRy" type="fictional">The Inferno</title>: Canto IV</head>
-            <byline><persName key="Dante Alighieri, 1265-1321." ref="http://viaf.org/viaf/97105654">Dante</persName> <persName key="Dante Alighieri, 1265-1321." ref="http://viaf.org/viaf/97105654" role="http://www.uo.com" otherRole="http://www.uo.com">Alighieri</persName></byline>
+            <byline><persName key="Dante Alighieri, 1265-1321." ref="http://viaf.org/viaf/97105654">Dante</persName> <persName key="Dante Alighieri, 1265-1321." ref="http://viaf.org/viaf/97105654" role="http://www.test.com" otherRole="http://www.test.com">Alighieri</persName></byline>
             <lg n="1" xml:id="lg001">
                <l n="1">Broke the deep lethargy within my head</l>
                <l n="2">A heavy thunder, so that I upstarted,</l>
