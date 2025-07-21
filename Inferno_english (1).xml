@@ -134,7 +134,7 @@
 	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Inferno_english%20(1).xml?person_annotation_20250721183646434",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-07-21T22:36:46.434Z",
-	"dcterms:modified": "2025-07-21T22:36:46.434Z",
+	"dcterms:modified": "2025-07-21T22:38:09.967Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
