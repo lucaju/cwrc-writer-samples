@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href='https://cwrc.ca/schemas/orlando_entry.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><?xml-stylesheet type='text/css' href='https://cwrc.ca/templates/css/orlando.css'?>
-<ENTRY xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ID="laurma" PERSON="IBRWRITER">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://cwrc.ca/schemas/orlando_entry.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/orlando.css"?><ENTRY xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ID="laurma" PERSON="IBRWRITER">
 	<ORLANDOHEADER>
 		<FILEDESC>
 			<TITLESTMT>
@@ -11,19 +10,10 @@
 			<SOURCEDESC>Created from original research by members of the Orlando
                         Project</SOURCEDESC>
 		</FILEDESC>
-		<XENODATA>
-			<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-				xmlns:as="http://www.w3.org/ns/activitystreams#"
-				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-				xmlns:dc="http://purl.org/dc/elements/1.1/"
-				xmlns:dcterms="http://purl.org/dc/terms/"
-				xmlns:foaf="http://xmlns.com/foaf/0.1/"
-				xmlns:geo="http://www.geonames.org/ontology#"
-				xmlns:oa="http://www.w3.org/ns/oa#"
-				xmlns:schema="http://schema.org/"
-				xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-{
+		
+		<XENODATA><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -47,12 +37,16 @@
 		"geo": "http://www.geonames.org/ontology#",
 		"oa": "http://www.w3.org/ns/oa#",
 		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#"
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
 	},
-	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20210203201415357",
-	"@type": "oa:Annotation",
+	"id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/orlando_laurma_tests.xml?person_annotation_20210203221415357",
+	"type": "oa:Annotation",
 	"dcterms:created": "2021-02-04T03:14:15.357Z",
-	"dcterms:issued": "2021-02-04T03:18:20.488Z",
+	"dcterms:modified": "2021-02-04T03:14:15.357Z",
 	"dcterms:creator": {
 		"@id": "http://id.cwrc.ca/user/placeholder",
 		"@type": [
@@ -64,42 +58,40 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20210203201415357#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/orlando_laurma_tests.xml?person_annotation_20210203221415357#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/orlando_laurma_tests.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
-			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20210203201415357#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/orlando_laurma_tests.xml?person_annotation_20210203221415357#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "ENTRY/DIV0/WRITING/DIV1[5]/DIV2[4]/PRODUCTION/SHORTPROSE/P/NAME"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "foaf:Person",
-		"@id": "https://commons.cwrc.ca/orlando:6d0ea8b4-ec09-4720-bfe5-0c416bbd25d5",
+		"@id": "https://commons.cwrc.ca/orlando:becce357-e8bf-4ba1-af56-fa041bb69cf7",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
-		"rdfs:label": "CWRC Writer",
-		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
 	}
-}
-				</rdf:Description>
-			</rdf:RDF>
-		</XENODATA>
-		<REVISIONDESC TYPE="LEGACY">
+}]]>
+        </rdf:Description>
+      </rdf:RDF></XENODATA><REVISIONDESC TYPE="LEGACY">
 			<RESPONSIBILITY TARGET="BIOGRAPHY" RESP="JEB" WORKSTATUS="RWT" WORKVALUE="I">
 				<DATE VALUE="1998-01-09">9 January 1998</DATE>
 				<ITEM>Initial document given to tagger.</ITEM>
@@ -383,7 +375,7 @@
 					</DATASTRUCT>
 				</DIV2>
 			</PERSONNAME>
-		</DIV1>
+		</DIV1><DIV1>ddd</DIV1>
 		<DIV1>
 			<HEADING>Birth and Background</HEADING>
 			<BIRTH>
