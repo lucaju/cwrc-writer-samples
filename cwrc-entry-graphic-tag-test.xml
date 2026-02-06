@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://cwrc.ca/schemas/cwrc_entry.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/css_managed_within_cwrc/ceww.css"?><CWRC xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <CWRCHEADER>
+    <FILEDESC>
+      <TITLESTMT>
+        <DOCTITLE>Nell Shipman</DOCTITLE>
+        <DOCAUTHOR>Canada's Early Women Writers</DOCAUTHOR>
+        <DOCAUTHOR>Daryn Wright</DOCAUTHOR>
+        <DOCAUTHOR>Karyn Huenemann</DOCAUTHOR>
+      </TITLESTMT>
+      <PUBLICATIONSTMT>
+        <AUTHORITY>Canada's Early Women Writers</AUTHORITY>
+        <AUTHORITY>Canadian Writing Research Collaboratory</AUTHORITY>
+      </PUBLICATIONSTMT>
+      <SOURCEDESC>Born digital</SOURCEDESC>
+    </FILEDESC>
+    <PROFILEDESC>
+      <LANGUSAGE>
+        <LANG IDENT="eng">English</LANG>
+      </LANGUSAGE>
+      <TEXTCLASS>
+        <KEYWORDS>
+          <TERM>Born digital</TERM>
+          <TERM>Life writing</TERM>
+          <TERM>Biography</TERM>
+          <TERM>Bibliography</TERM>
+        </KEYWORDS>
+      </TEXTCLASS>
+    </PROFILEDESC>
+    <REVISIONDESC>
+      <WORKFLOW RESP="MRB" WORKCATEGORY="created" WORKSTATUS="C">
+        <DATE/>
+        <ITEM/>
+      </WORKFLOW>
+    </REVISIONDESC>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></CWRCHEADER>
+  <ENTRY>
+    <FRONT>
+      <HEADING SUBTYPE="1">
+        <NAME STANDARD="NELL SHIPMAN" REF="http://commons.cwrc.ca/cwrc:cf3decec-2a10-4fb0-a4bb-763c1515898e">Nell Shipman</NAME> (1892-1970)</HEADING>
+      <DATASTRUCT>
+        <DATAITEM>
+          <FIGURE>
+            <GRAPHIC URL="https://cwrc.ca/sites/default/files/2026-01/cwrc59d563cd-c5f9-482c-884a-c3ea44bc02fe_obj.jpeg"/>
+          </FIGURE>
+        </DATAITEM>
+        <DATAITEM>This image is in the public domain; posted on CelebsLists.</DATAITEM>
+      </DATASTRUCT>
+    </FRONT>
+    <AUTHORSUMMARY>
+      <P>Best known as an actress, Nell Shipman was also an adept  writer in many genres, including fiction, journalism, and film scripts.</P>
+    </AUTHORSUMMARY>
+    <BIRTH>
+      <CHRONSTRUCT>
+        <DATE VALUE="1892-10-25">25 October 1892, </DATE>
+        <CHRONPROSE>
+          <PLACE REF="http://www.geonames.org/6174041">Victoria, BC</PLACE>
+        </CHRONPROSE>
+      </CHRONSTRUCT>
+    </BIRTH>
+    <DEATH>
+      <CHRONSTRUCT>
+        <DATE VALUE="1970-01-23">23 January 1970, </DATE>
+        <CHRONPROSE>
+          <PLACE REF="http://www.geonames.org/5332374">Cabazon, CA</PLACE>
+        </CHRONPROSE>
+      </CHRONSTRUCT>
+    </DEATH>
+    <PERSONNAME>
+      <HEADING SUBTYPE="5">Name at birth: </HEADING>
+      <DATASTRUCT>
+        <DATAITEM>
+          <BIRTHNAME>
+            <GIVEN>Helen</GIVEN>
+            <SURNAME>Foster Barham</SURNAME>
+          </BIRTHNAME>
+        </DATAITEM>
+      </DATASTRUCT>
+    </PERSONNAME>
+    <PERSONNAME>
+      <HEADING SUBTYPE="5">Alternate names: </HEADING>
+      <DATASTRUCT>
+        <DATAITEM/>
+        <DATAITEM>
+          <NAME STANDARD="NELL SHIPMAN">Nell Foster Barham</NAME>
+        </DATAITEM>
+        <DATAITEM>
+          <NAME STANDARD="NELL SHIPMAN">Mrs. Ernest Shipman</NAME>
+        </DATAITEM>
+        <DATAITEM>
+          <NAME STANDARD="NELL SHIPMAN">Mrs. Charles Ayers</NAME>
+        </DATAITEM>
+      </DATASTRUCT>
+    </PERSONNAME>
+    <FRONT>
+      <P/>
+      <P>Entry written by Daryn Wright and Karyn Huenemann</P>
+    </FRONT>
+    <AUTHORSUMMARY>
+      <HEADING SUBTYPE="2">
+        <NAME STANDARD="NELL SHIPMAN">Nell Shipman</NAME> (1892-1970)</HEADING>
+      <P>Born in Victoria, BC, on 25 October 1892, Helen Foster Barham was an actress, producer, director, and author. Her parents, Arnold Foster Barham (1855-1919) and Rose Clinton Winterbotham (1864-1918) were English immigrants. When Nell was thirteen, the family moved to Seattle, WA, where Nell landed a role in a stage production of <TITLE LEVEL="MONOGRAPHIC">At Yale</TITLE> with Paul Gilmore’s travelling theatre company.</P>
+      <P>By the age of twenty-two, Nell was a well-known and successful actress. In 1910, when she was only eighteen, Nell married producer Ernest Shipman (1871-1931). They had one son, Barry Shipman (1912-1994). Shortly after their marriage, Nell and Ernest moved to Hollywood, CA, where they worked on films together. Their first, <TITLE LEVEL="MONOGRAPHIC" REF="http://commons.cwrc.ca/islandora:045f5f6a-1fab-40eb-b170-5fbae0b069f6">God’s Country and the Woman</TITLE> (1916) was a huge success.</P>
+      <P>Nell starred in several other films, including <TITLE LEVEL="MONOGRAPHIC" REF="http://commons.cwrc.ca/islandora:4c82d83f-2e8b-4646-b7d3-1bc6d808b328">Back to God’s Country</TITLE> (1919), which was adapted by Nell from a short story called <TITLE LEVEL="ANALYTIC">Wapi the Walrus</TITLE> by <NAME>James Oliver Curwood</NAME>; the film was produced by her and Ernest’s own production company. In addition to being one of the most successful Canadian silent films of the era, the film portrayed Nell as a heroine who rescues a man in distress. It also contained the first nude scene by a well-known actress.</P>
+      <P>Nell spent the 1920s working as a director, producer, and writer on several films, often focusing on wilderness and adventure. An advocate for fair treatment of animals, she also owned and cared for approximately one hundred animals, some of which were featured in her films. In 1920, Nell established <ORGNAME ORGTYPE="artistic">Nell Shipman Productions</ORGNAME>, which was nominally successful but went bankrupt in 1924 and was dissolved as a corporation in 1925.</P>
+      <P>Having been separated for a number of years, in 1920, Ernest and Nell divorced; in 1925, Nell married painter Charles Ayers (1889-1964), with whom she had two children: twins Daphne (b. 1926) and Charles Ayers (1926-2011). During the late 1920s and early 1930s, Nell and Charles were so financially strained that she supported them by writing articles for various magazines, including <TITLE LEVEL="JOURNAL">Atlantic Monthly</TITLE>,        <TITLE LEVEL="JOURNAL">Field and Stream</TITLE>, and <TITLE LEVEL="JOURNAL">The Humanist</TITLE>. Nell and Charles separated by 1934.</P>
+      <P>In addition to her work in film, Nell was an avid writer. Her first work, a romantic thriller titled <TITLE LEVEL="MONOGRAPHIC" REF="http://commons.cwrc.ca/islandora:9fbe29b2-50bb-4d8d-b8a1-9b44a766cf97">Under the Crescent</TITLE>, was published by <ORGNAME ORGTYPE="publishing" REF="http://viaf.org/viaf/138346665">Grosset and Dunlap</ORGNAME> in 1915 and produced as a film by <ORGNAME ORGTYPE="artistic">Universal Studios</ORGNAME> in the same year. After the bankruptcy of her production company in 1924, Nell spent the rest of her life writing and sending film scripts to production companies. In 1930, <TITLE LEVEL="JOURNAL">McCall’s Magazine</TITLE> published the serialized story <TITLE LEVEL="MONOGRAPHIC" REF="http://commons.cwrc.ca/islandora:424801b3-4817-46ce-8f90-da440014b2e8">Get the Woman ("Mśieu Sweetheart")</TITLE> and Nell's children’s book <TITLE LEVEL="MONOGRAPHIC" REF="http://commons.cwrc.ca/islandora:70d96ebf-4052-4f54-a335-97aa66a32a2a">Kurly Kew and the Tree Princess</TITLE> was published by Dial in New York. Shortly thereafter, she published two works of fiction for adults: <TITLE LEVEL="MONOGRAPHIC" REF="http://commons.cwrc.ca/islandora:62eae226-d056-4c5b-b925-a218215cabdd">Neeka of the North</TITLE> (1931) and <TITLE LEVEL="MONOGRAPHIC" REF="http://commons.cwrc.ca/islandora:5b83d194-1424-46ed-84ca-15fe51de96de">Abandoned Trails</TITLE> (1932).</P>
+      <P>During the final years of her life, Nell worked on a memoir titled <TITLE LEVEL="MONOGRAPHIC" REF="http://commons.cwrc.ca/islandora:ef7bc031-8e0b-4e95-80b0-a8b0dd238f21">The Silent Screen and My Talking Heart: an Autobiography</TITLE>; the book was published posthumously by <ORGNAME ORGTYPE="academic" REF="http://viaf.org/viaf/146567369">Boise State University</ORGNAME> in 1988. A selection of her writings and correspondence was published in 2003 as <TITLE LEVEL="MONOGRAPHIC" REF="http://commons.cwrc.ca/islandora:ce8e7c0f-3475-4f94-a35f-cd00f481e11e">Letters from God's Country: Nell Shipman, Selected Correspondence &amp; Writings, 1912-1970</TITLE>. Nell died in Cabazon, CA, on 23 January 1970.</P>
+    </AUTHORSUMMARY>
+    <HEADING SUBTYPE="2">Published Texts</HEADING>
+    <HEADING SUBTYPE="3">Fiction</HEADING>
+    <LISTBIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:9fbe29b2-50bb-4d8d-b8a1-9b44a766cf97">
+        <TITLE LEVEL="MONOGRAPHIC">Under the Crescent</TITLE> (New York: Grosset, 1915)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:424801b3-4817-46ce-8f90-da440014b2e8">
+        <TITLE LEVEL="MONOGRAPHIC">Get the Woman ("Mśieu Sweetheart")</TITLE> (New York: Dial; Toronto: Longmans, Green, 1930)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:70d96ebf-4052-4f54-a335-97aa66a32a2a">
+        <TITLE LEVEL="MONOGRAPHIC">Kurly Kew and the Tree Princess: A Story of the Forest People, Told for Other People</TITLE> (New York: Dial; Toronto: Longman, Green, 1930)—illustrated by Elizabeth Ellender</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:62eae226-d056-4c5b-b925-a218215cabdd">
+        <TITLE LEVEL="MONOGRAPHIC">Neeka of the North</TITLE> (London: Collins, 1931)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:5b83d194-1424-46ed-84ca-15fe51de96de">
+        <TITLE LEVEL="MONOGRAPHIC">Abandoned Trails</TITLE> (New York: Dial; Toronto: Longmans, 1932)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:e61f8103-3493-4357-a7eb-691eeb2a49ff">
+        <TITLE LEVEL="MONOGRAPHIC">Hot Oil</TITLE> (New York: Greenberg, 1935)—with George Palmer Putnam</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:db5b157d-573c-4129-9ca5-ed5d155e57c2">
+        <TITLE LEVEL="MONOGRAPHIC">Milestone Zero</TITLE> (Washington, DC: Kaufmann, 1952)</BIBCIT>
+    </LISTBIBCIT>
+    <HEADING SUBTYPE="3">Non-fiction</HEADING>
+    <LISTBIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:203cce89-dd60-4706-8b93-0e875ab59ec0">
+        <TITLE LEVEL="MONOGRAPHIC">Mother Liberty: The Gift They Gave Us</TITLE> (s.l.: s.n., 1939)⁸with Elmore Leffingwell</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:21868a09-5692-44cb-8e03-581d7b662991">
+        <TITLE LEVEL="MONOGRAPHIC">Tomorrow for Sale</TITLE> (New York: Appellate Law Printers, 1941)</BIBCIT>
+    </LISTBIBCIT>
+    <HEADING SUBTYPE="3">Life writing</HEADING>
+    <LISTBIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:ef7bc031-8e0b-4e95-80b0-a8b0dd238f21">
+        <TITLE LEVEL="MONOGRAPHIC">The Silent Screen and My Talking Heart: An Autobiography</TITLE> (Boise, ID: Hemingway Western Studies Series, Boise State UP, 1988)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:ce8e7c0f-3475-4f94-a35f-cd00f481e11e">
+        <TITLE LEVEL="MONOGRAPHIC">Letters from God's Country: Nell Shipman, Selected Correspondence &amp; Writings, 1912-1970</TITLE> (Boise, ID: Hemingway Western Studies Series, Boise State UP, 2003)</BIBCIT>
+    </LISTBIBCIT>
+    <HEADING SUBTYPE="3">Serialized fiction</HEADING>
+    <LISTBIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:a6ad7ca8-ae92-484f-8e88-8297f34fa2e1">
+        <TITLE LEVEL="SERIES">The Tamiami Trail</TITLE>, various Florida newspapers</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:ef1660b5-64ff-4751-a760-508047d1edb8">
+        <TITLE LEVEL="SERIES">This Little Bear Went to Hollywood</TITLE> in <TITLE LEVEL="JOURNAL">Good Housekeeping</TITLE> (1931)</BIBCIT>
+    </LISTBIBCIT>
+    <HEADING SUBTYPE="3">Plays</HEADING>
+    <LISTBIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:b90371e3-a392-45d0-8a75-c0c2ced1c68b">
+        <TITLE LEVEL="MONOGRAPHIC">Are Screen Stars Dumb</TITLE> (1928)</BIBCIT>
+    </LISTBIBCIT>
+    <HEADING SUBTYPE="2">Periodical Contributions</HEADING>
+    <LISTBIBCIT>
+      <BIBCIT REF="">
+        <TITLE LEVEL="JOURNAL">Atlantic Monthly</TITLE> (Boston, MA)</BIBCIT>
+      <BIBCIT REF="">
+        <TITLE LEVEL="JOURNAL">The Bioscope</TITLE> (London)</BIBCIT>
+      <BIBCIT REF="">
+        <TITLE LEVEL="JOURNAL">Field and Stream</TITLE> (New York)</BIBCIT>
+      <BIBCIT REF="">
+        <TITLE LEVEL="JOURNAL">Good Housekeeping</TITLE> (New York)</BIBCIT>
+      <BIBCIT REF="">
+        <TITLE LEVEL="JOURNAL">The Humanist</TITLE> (Washington, DC)</BIBCIT>
+      <BIBCIT REF="">
+        <TITLE LEVEL="JOURNAL">McCall’s Magazine</TITLE> (New York)</BIBCIT>
+      <BIBCIT REF="">
+        <TITLE LEVEL="JOURNAL">West Coast Magazine</TITLE> (Vancouver, BC)</BIBCIT>
+    </LISTBIBCIT>
+    <HEADING SUBTYPE="2">Other Artistic Productions</HEADING>
+    <HEADING SUBTYPE="3">Screenplays</HEADING>
+    <LISTBIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:5eaa89ce-49a2-48ba-8722-c19b5d690cc3">Writer, <TITLE LEVEL="MONOGRAPHIC">Outwitted by Billy</TITLE>, produced by William Nicholas Selig (1913)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:ffbf27e8-4c6b-4146-bcbe-069c6881a1cf">Writer, Actor, <TITLE LEVEL="MONOGRAPHIC">The Ball of Yarn</TITLE>, d. by Norval MacGregor (1912)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:c4c5f06c-02a6-40d8-ac90-8d0362b25a1b">Writer,<TITLE LEVEL="MONOGRAPHIC"> One Hundred Years of Mormonism </TITLE>(1912)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:99e4ded1-e09e-41e9-b5b9-5880d9c45fb4">Writer,<TITLE LEVEL="MONOGRAPHIC"> The Shepherd of the Southern Cross</TITLE> (1914)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:09479759-4940-42de-949b-3a636c5c6dd3">Writer, <TITLE LEVEL="MONOGRAPHIC">The Widow’s Secret</TITLE> (1915)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:a2e4ad71-6ecc-4d81-8a86-c97621bd51cc">Writer, <TITLE LEVEL="MONOGRAPHIC">The Pine’s Revenge</TITLE> (1915)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:9fbe29b2-50bb-4d8d-b8a1-9b44a766cf97">Writer, <TITLE LEVEL="MONOGRAPHIC">Under the Crescent</TITLE>, Universal Studios (1915)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:045f5f6a-1fab-40eb-b170-5fbae0b069f6">Actor, <TITLE LEVEL="MONOGRAPHIC">God’s Country and the Woman</TITLE> (1916)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:6ec40f2f-7d2f-45b4-887b-f3e9ca6f5eca">Actor, <TITLE LEVEL="MONOGRAPHIC">The Fires of Conscience</TITLE> (1916)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:5d85f9cb-8b23-4194-ad68-3cdb84d4479b">Actor, <TITLE LEVEL="MONOGRAPHIC">Through the Wall</TITLE> (1916)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:51889ba8-1f41-48cf-96e8-66ccff8e8fa4">Writer, Actor, <TITLE LEVEL="MONOGRAPHIC">The Melody of Love</TITLE> (1916)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:a4d2eeff-22fc-403c-802d-dbea09a6b606">Writer, <TITLE LEVEL="MONOGRAPHIC">Son ‘o the Stars</TITLE> (1916)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:22cc737c-d02b-49ff-b91d-c7646e30d2bb">Actor, <TITLE LEVEL="MONOGRAPHIC">The Black Wolf</TITLE> (1917)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:15b8fe09-8886-4a09-807b-53179b257295">Writer, <TITLE LEVEL="MONOGRAPHIC">My Fighting Gentleman</TITLE> (1917)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:44317fdf-50c6-4084-81b7-5a33131cc31f">Actor, <TITLE LEVEL="MONOGRAPHIC">The Wild Strain</TITLE> (1918)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:556a1e35-36e6-4eff-9978-0168155b79ab">Actor, <TITLE LEVEL="MONOGRAPHIC">Baree, the Son of Kazan</TITLE> (1918)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:166b18f6-e432-4d49-aa21-0159f4826b02">Actor, <TITLE LEVEL="MONOGRAPHIC">A Gentleman’s Agreement</TITLE> (1918)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:e5562b92-3143-4914-82d0-0274cb70a0a0">Actor, <TITLE LEVEL="MONOGRAPHIC">The Girl from Beyond</TITLE> (1918)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:42785476-959d-4e4f-bef4-ca37d8b0b24f">Actor, <TITLE LEVEL="MONOGRAPHIC">The Home Trail</TITLE> (1918)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:16837085-b4c4-4364-bea9-43362d736eec">Actor, <TITLE LEVEL="MONOGRAPHIC">Cavanaugh of the Forest Rangers</TITLE> (1918)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:4c82d83f-2e8b-4646-b7d3-1bc6d808b328">Writes Adaptation, Actor, <TITLE LEVEL="MONOGRAPHIC">Back to God’s Country </TITLE>(1919)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:52f2686f-c3d7-449f-bac0-1e7ed85ddd28">Writer, Actor, Director, <TITLE LEVEL="MONOGRAPHIC">Trail of the Arrow</TITLE> (1920)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:a4202392-96ba-4b8f-9bff-d7ef643f19c9">Writer, Actor, Director, <TITLE LEVEL="MONOGRAPHIC">Something New </TITLE>(1920)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:524b496e-fdc1-4995-a49a-3a3f70ad706d">Writer, Actor, Director, Producer, <TITLE LEVEL="MONOGRAPHIC">The Girl from God’s Country</TITLE> (1921)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:5a2985a4-9e4d-45cb-a67c-5631a7188b2b">Writer, Actor, Director, Producer, <TITLE LEVEL="MONOGRAPHIC">The Grub-Stake</TITLE> (1923)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:c601c238-0a2c-4c16-8e90-923e066d6a93">Writer, Actor, Director, Producer, short film series <TITLE LEVEL="MONOGRAPHIC">Little Dramas of the Big Places</TITLE> (1923)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:987186c8-5a4c-45a7-ac0d-786147754f8b">Writer, Actor, Director, Producer, <TITLE LEVEL="MONOGRAPHIC">White Water</TITLE> (1924)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:b44739cc-3374-4065-a6e5-48790b9843ce">Writer (uncredited), <TITLE LEVEL="MONOGRAPHIC">Wings in the Dark</TITLE> (1935)</BIBCIT>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:ef2a3a18-bdbf-43bb-8736-712d6c65e96c">Writer, Director, Producer, <TITLE LEVEL="MONOGRAPHIC">The Clam Digger’s Daughter / The Story of Mr. Hobbs</TITLE> (1947)</BIBCIT>
+    </LISTBIBCIT>
+    <HEADING SUBTYPE="2">Family and Relationships</HEADING>
+    <FAMILY>
+      <FAMILYMEMBER RELATION="FATHER">
+        <CHRONSTRUCT>
+          <CHRONPROSE>Father: <NAME>Arnold Foster Barham</NAME>
+          </CHRONPROSE>
+          <DATERANGE FROM="1855-08-11" TO="1919-03-25">(11 August 1855 – 25 March 1919)</DATERANGE>
+        </CHRONSTRUCT>
+        <P>Arnold Foster Barham was born in Bridgewater, Somerset, England, on 11 August 1855. He married Rose Clinton Winterbotham (1864-1918) in 1887 and they had two children together: Maurice Foster Barham (1888-1955) and Helen Foster Barham (1892-1970).</P>
+        <P>Shortly after their marriage, Arnold and Rose immigrated to Canada. When their daughter Helen was thirteen, they relocated to Seattle, WA. Arnold died on 25 March 1919 in Los Angeles, CA.<BIBCITS>
+          <BIBCIT REF="http://commons.cwrc.ca/islandora:979dd7af-7186-4175-8d1c-1c31a8074156"/>
+        </BIBCITS>
+      </P>
+    </FAMILYMEMBER>
+    <FAMILYMEMBER RELATION="MOTHER">
+      <CHRONSTRUCT>
+        <CHRONPROSE>Mother: <NAME>Rose Clinton Winterbotham</NAME>
+        </CHRONPROSE>
+        <DATERANGE FROM="1864-08-24" TO="1918-12-07">(24 August 1864 – 7 December 1918)</DATERANGE>
+      </CHRONSTRUCT>
+      <P>Rose Clinton Winterbotham was born on 24 August 1864 in Bridgewater, Somerset, England. She married Arnold Foster Barham (1855-1919) in 1887 and shortly after immigrated to Canada. They had two children together: Maurice Foster Barham (1888-1955) and Helen Foster Barham (1892-1970). Rose died on 7 December 1918 in Los Angeles, CA.<BIBCITS>
+        <BIBCIT REF="http://commons.cwrc.ca/islandora:61cc1681-f2e5-4e01-a1c1-c438841437f0"/>
+        <BIBCIT REF="http://commons.cwrc.ca/islandora:979dd7af-7186-4175-8d1c-1c31a8074156"/>
+      </BIBCITS>
+    </P>
+  </FAMILYMEMBER>
+  <HEADING SUBTYPE="4">Siblings</HEADING>
+  <FAMILYMEMBER RELATION="BROTHER">
+    <CHRONSTRUCT>
+      <CHRONPROSE>
+        <NAME>Maurice Foster Barham </NAME>
+      </CHRONPROSE>
+      <DATERANGE FROM="1888-05-23" TO="1955-12-29">(23 May 1888 – 29 December 1955)</DATERANGE>
+    </CHRONSTRUCT>
+  </FAMILYMEMBER>
+  <FAMILYMEMBER RELATION="HUSBAND">
+    <CHRONSTRUCT>
+      <CHRONPROSE>Spouse: <NAME>Ernest George Montague Shipman</NAME>
+      </CHRONPROSE>
+      <DATERANGE FROM="1871-12-16" TO="1931-08-07">(16 December 1871 – 7 August 1931)</DATERANGE>
+    </CHRONSTRUCT>
+    <HEADING SUBTYPE="5">Marriage:</HEADING>
+    <CHRONSTRUCT>
+      <DATE VALUE="1910-08-25">25 August 1910, </DATE>
+      <CHRONPROSE>
+        <PLACE>unknown place</PLACE>
+      </CHRONPROSE>
+    </CHRONSTRUCT>
+    <P>Film producer Ernest George Montague Shipman was born on 16 December 1871 at either Ottawa, ON, or Hull, QC. He was married three times before he married Helen "Nell" Foster Barham (1892-1970) on 25 August 1910: first to Adaline Bella Campbell (1872-1893) in 1892; to Effie Elaine Hext (1863-1958) in 1895; and to Agnes Roselle Knott (1865-1948) in 1907. After he and Nell divorced in 1920, he married Sarah McIntosh in 1921.</P>
+
+    <P>Following his marriage to Nell in 1910, the two moved to Hollywood, CA, in 1912, where Ernest established himself as a producer, publicist, agent, and promoter. His film, created with his wife as the lead, <TITLE LEVEL="MONOGRAPHIC" REF="http://commons.cwrc.ca/islandora:045f5f6a-1fab-40eb-b170-5fbae0b069f6">God’s Country and the Woman</TITLE> (1916), was one of the most successful Canadian films ever made.</P>
+
+    <P>Following the success of <TITLE LEVEL="MONOGRAPHIC" REF="http://commons.cwrc.ca/islandora:4c82d83f-2e8b-4646-b7d3-1bc6d808b328">Back to God’s Country</TITLE>, Ernest created production companies in Ottawa, Winnipeg, Sault Ste. Marie, and Saint John, to some success. He moved to New York in 1931, where he died that year on 7 August.<BIBCITS>
+      <BIBCIT REF="http://commons.cwrc.ca/slandora:0771b740-6ec0-47dc-a196-1a4ffebe0941"/>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:af8712b4-91e4-4aaf-bcd7-530d0f9fdee2"/>
+      <BIBCIT REF="http://commons.cwrc.ca/islandora:b3c7778c-4ebc-4966-a4ad-782e98a10239"/>
+    </BIBCITS>
+  </P>
+</FAMILYMEMBER>
+<FAMILYMEMBER RELATION="SON">
+  <HEADING SUBTYPE="4">Children</HEADING>
+  <CHRONSTRUCT>
+    <CHRONPROSE>
+      <NAME>Barry Shipman</NAME> (son) </CHRONPROSE>
+    <DATERANGE FROM="1912-02-24" TO="1994-08-12">(24 February 1912 – 12 August 1994): m. Beulah McDonald (1909-2005)</DATERANGE>
+  </CHRONSTRUCT>
+</FAMILYMEMBER>
+<FAMILYMEMBER RELATION="STEPSON">
+  <HEADING SUBTYPE="4">Other children</HEADING>
+  <CHRONSTRUCT>
+    <CHRONPROSE>
+      <NAME>Elmore Shipman</NAME> (step-son) </CHRONPROSE>
+    <DATERANGE FROM="1907-07-23" TO="1978-05-11">(23 July 1907 – 11 May 1978)</DATERANGE>
+  </CHRONSTRUCT>
+</FAMILYMEMBER>
+<FAMILYMEMBER RELATION="HUSBAND">
+  <CHRONSTRUCT>
+    <CHRONPROSE>Spouse: <NAME>Charles Haines Austin Ayers</NAME>
+    </CHRONPROSE>
+    <DATERANGE FROM="1889-04-24" TO="1964-12-29">(24 April 1889 – 29 December 1964)</DATERANGE>
+  </CHRONSTRUCT>
+  <HEADING SUBTYPE="5">Marriage:</HEADING>
+  <CHRONSTRUCT>
+    <DATE VALUE="1925">1925, </DATE>
+    <CHRONPROSE>
+      <PLACE>unknown place</PLACE>
+    </CHRONPROSE>
+  </CHRONSTRUCT>
+  <P>American painter Charles Haines Austin Ayers was born on 24 April 1889 in Canterbury, New Hampshire. He married Nell Shipman (1892-1970) in 1925 and shortly after they had twins, Daphne Ayers (b. 1926) and Charles Ayers (1926-2011).</P>
+  <P>Charles and Nell spent some time living in Spain before returning to the United States, where they lived in the New England area. The two were in a state of constant financial difficulty, and Nell often wrote newspaper articles to support them while Charles struggled to make a living as a painter. They divorced in 1934 after being married for ten years.</P>
+  <P>Charles died on 29 December 1964.<BIBCITS>
+    <BIBCIT REF="http://commons.cwrc.ca/islandora:891a8f92-25d3-4b68-b697-702e1208747b"/>
+  </BIBCITS>
+</P>
+</FAMILYMEMBER>
+<FAMILYMEMBER RELATION="DAUGHTER">
+<HEADING SUBTYPE="4">Children</HEADING>
+<CHRONSTRUCT>
+  <CHRONPROSE>
+    <NAME>Daphne Ann Ayers</NAME> (twin daughter) </CHRONPROSE>
+  <DATE VALUE="1926-05-03">(b. 3 May 1926)</DATE>
+</CHRONSTRUCT>
+</FAMILYMEMBER>
+<FAMILYMEMBER RELATION="SON">
+<CHRONSTRUCT>
+  <CHRONPROSE>
+    <NAME>Charles Douglas Ayers </NAME> (twin son) </CHRONPROSE>
+  <DATERANGE FROM="1926-05-03" TO="2011-04-24">(3 May 1926 – 24 April 2011)</DATERANGE>
+</CHRONSTRUCT>
+</FAMILYMEMBER>
+</FAMILY>
+<HEADING SUBTYPE="2">Religion</HEADING>
+<HEADING SUBTYPE="2">Residences</HEADING>
+<RESIDENCEANDMOBILITY RELATIONTO="LIVED">
+<P>
+<PLACE>Cabazon, CA</PLACE>
+<DATERANGE FROM="1967" TO="1970">(1967-1970)</DATERANGE>
+</P>
+<P>
+<PLACE>Los Angeles, CA</PLACE>
+</P>
+<P>
+<PLACE>New York, NY</PLACE>
+</P>
+<P>
+<PLACE>Old Lyne, CT</PLACE>
+</P>
+<P>
+<PLACE>Priest Lake, ID</PLACE>
+</P>
+<P>
+<PLACE>Seattle, WA</PLACE>
+<DATERANGE FROM="1904" TO="1910">(1904-1910)</DATERANGE>
+</P>
+<P>
+<PLACE>Spain</PLACE>
+</P>
+<P>
+<PLACE>Spokane, WA</PLACE>
+</P>
+<P>
+<PLACE>Victoria, BC</PLACE>
+<DATERANGE FROM="1892" TO="1904">(1892-1904)</DATERANGE>
+</P>
+</RESIDENCEANDMOBILITY>
+<HEADING SUBTYPE="2">Education</HEADING>
+<EDUCATION MODE="INSTITUTIONAL">
+<P>Drama School</P>
+</EDUCATION>
+<HEADING SUBTYPE="2">Awards</HEADING>
+<HEADING SUBTYPE="2">Employment and Volunteer Activities</HEADING>
+<OCCUPATION>
+<HEADING SUBTYPE="3">Employment</HEADING>
+<P>Actress</P>
+<P>Director</P>
+<P>Producer</P>
+<P>Writer</P>
+</OCCUPATION>
+<OTHERLIFEEVENT>
+<HEADING SUBTYPE="2">Tangential Information</HEADING>
+<P>A play about Nell’s life was written by Sharon Pollock, directed by Brian Richmond, and performed by the<ORGNAME ORGTYPE="artistic"> Theatre Junction Resident Company of Artists </ORGNAME>in Calgary in <DATE VALUE="1999">1999</DATE>.
+</P>
+</OTHERLIFEEVENT>
+<HEADING SUBTYPE="2">Archival Holdings</HEADING>
+<LISTBIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:0fa30280-808f-400c-8165-27d338daf4bb">Nell Shipman Papers (MSS 81), Special Collections and Archives, Albertsons Library, Boise State University, Boise, ID</BIBCIT>
+</LISTBIBCIT>
+<HEADING SUBTYPE="2">Published Resources</HEADING>
+<LISTBIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:61cc1681-f2e5-4e01-a1c1-c438841437f0">1871 England Census.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:fd2747a8-e654-46fd-abe0-e3f5c10dede6">1901 Census of Canada.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:20b21a9f-eb52-46e6-8adf-71abb0fca883">Arizona, Naturalization Records, 1912-1991.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:891a8f92-25d3-4b68-b697-702e1208747b">Armatage, Kay. <TITLE LEVEL="MONOGRAPHIC">The Girl From God’s Country: Nell Shipman and the Silent Cinema</TITLE> (Toronto: U of Toronto P, 2003).</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:979dd7af-7186-4175-8d1c-1c31a8074156">California, Death Index, 1905-1939.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:2af3e9f7-02c7-44a5-b512-bc88c85f9feb">Connecticut Death Index, 1949-2012.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:cfc2c500-6d2e-453d-ac4f-cd0ac1f302b5">England &amp; Wales, FreeBMD Birth Index, 1837-1915.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:235fd9c3-6dbb-4c08-a301-8ae50ee59eb1">England &amp; Wales, FreeBMD Marriage Index, 1837-1915.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:304983cd-5b37-408d-85b8-ac80bb4e9204">England &amp; Wales, National Probate Calendar (Index of Wills and Administrations), 1858-1966.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/slandora:0771b740-6ec0-47dc-a196-1a4ffebe0941">
+<TITLE LEVEL="ANALYTIC">
+  <XREF URL="http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&amp;GRid=109915268" RESP="DJW">Ernest George Montague Shipman.</XREF>
+</TITLE>
+<TITLE LEVEL="MONOGRAPHIC">Find a Grave</TITLE>. Web. 15 June 2015.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:697e243c-e869-4ad1-858f-c733b4a53670">Kormylo, Susan and Alan Virta. <TITLE LEVEL="ANALYTIC">
+<XREF URL="http://nwda.orbiscascade.org/ark:/80444/xv03213" RESP="DJW">Guide to the Nell Shipman Papers 1912-1970.</XREF>
+</TITLE> Web. 17 June 2015.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:af8712b4-91e4-4aaf-bcd7-530d0f9fdee2">Johnson, Katherine. <TITLE LEVEL="ANALYTIC">
+<XREF URL="http://www.thecanadianencyclopedia.ca/en/article/nell-shipman/" RESP="DJW">Nell Shipman.</XREF>
+</TITLE>
+<TITLE LEVEL="MONOGRAPHIC"> The Canadian Encyclopedia</TITLE>. Web. 16 June 2015.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:af8712b4-91e4-4aaf-bcd7-530d0f9fdee2">Morris, Peter. <TITLE LEVEL="ANALYTIC">
+<XREF URL="http://www.thecanadianencyclopedia.ca/en/article/ernest-g-shipman/" RESP="DJW">Ernest G. Shipman.</XREF>
+</TITLE>
+<TITLE LEVEL="MONOGRAPHIC">The Canadian Encyclopedia</TITLE>. Web. 16 June 2015.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:577a57f7-bad2-4672-b444-9afd495d96b6">
+<TITLE LEVEL="ANALYTIC">
+<XREF URL="https://www.collectionscanada.gc.ca/women/030001-1265-e.html" RESP="DJW">Nell Shipman.</XREF>
+</TITLE>
+<TITLE LEVEL="MONOGRAPHIC">Celebrating Women’s Achievements, Library and Archives Canada</TITLE>. Web. 17 June 2015.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/slandora:0771b740-6ec0-47dc-a196-1a4ffebe0941">
+<TITLE LEVEL="ANALYTIC">
+<XREF URL="http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&amp;GRid=11318178&amp;ref=acom" RESP="DJW">Nell Shipman.</XREF>
+</TITLE>
+<TITLE LEVEL="MONOGRAPHIC">Find a Grave</TITLE>. Web. 15 June 2015.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:33337bb6-eae5-4b13-8cf0-6bf81531f7b5">New Hampshire, Births and Christenings Index, 1714-1904.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:11c5025a-1613-48c6-87b5-48f55ac760a4">Ontario, Canada, Deaths, 1869-1938 and Deaths Overseas, 1939-1947.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:b3c7778c-4ebc-4966-a4ad-782e98a10239">Ontario, Canada, Marriages, 1801-1928.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/slandora:0771b740-6ec0-47dc-a196-1a4ffebe0941">
+<TITLE LEVEL="ANALYTIC">
+<XREF URL="http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&amp;GRid=144187536&amp;ref=acom" RESP="DJW">Rose Barham.</XREF>
+</TITLE>
+<TITLE LEVEL="MONOGRAPHIC">Find a Grave</TITLE>. Web. 15 June 2015.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:03492bc4-518c-419f-82e1-5b479b068b7c">U.S., Social Security Death Index, 1935-2014.</BIBCIT>
+<BIBCIT REF="http://commons.cwrc.ca/islandora:93225bf5-2f0f-4ba1-a61b-08934013bce1">Worrell, Joseph. <TITLE LEVEL="ANALYTIC">
+<XREF URL="http://www.silentera.com/people/actresses/Shipman-Nell.html" RESP="KME">Nell Shipman.</XREF>
+</TITLE>
+<TITLE LEVEL="MONOGRAPHIC">Silent Era People</TITLE>. Web. 15 September 2016.</BIBCIT>
+</LISTBIBCIT>
+</ENTRY>
+</CWRC>
