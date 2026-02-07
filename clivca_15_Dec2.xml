@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://cwrc.ca/schemas/orlando_entry.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/orlando_v2_cwrc-writer.css"?><ENTRY xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ID="SixLetterCode" PERSON="BRWWRITER">
+    <ORLANDOHEADER>
+        <FILEDESC>
+            <TITLESTMT>
+                <DOCTITLE>[Insert Author Name]</DOCTITLE>
+            </TITLESTMT>
+            <PUBLICATIONSTMT>
+                <AUTHORITY>Orlando Project</AUTHORITY>
+            </PUBLICATIONSTMT>
+            <SOURCEDESC>Created from original research by members of the Orlando
+                Project</SOURCEDESC>
+        </FILEDESC>
+        
+    <XENODATA><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></XENODATA><XENODATA><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></XENODATA></ORLANDOHEADER>
+    <DIV0>
+        <STANDARD REF="https://cwrc.ca/islandora/object/orlando%3A0643b53b-8b11-4957-9da4-ecdba4f5ed10">Clive, Catherine</STANDARD>
+        <AUTHORSUMMARY>
+            <P>Best known as a popular singer and actor in
+                        <PLACE><SETTLEMENT>London</SETTLEMENT><REGION REG="Middlesex"/><GEOG REG="England"/></PLACE> from <DATERANGE FROM="1728" TO="1769">1728 to
+                    1769</DATERANGE>, <EXTENTOFOEUVRE><NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">Catherine “Kitty” Clive</NAME> (née Raftor) was also the author of four
+                        <TGENRE GENRENAME="DRAMA">plays</TGENRE>, all <TGENRE GENRENAME="COMEDY">comedic</TGENRE>
+                    <TGENRE GENRENAME="AFTERPIECE">afterpieces</TGENRE> that she starred in for her
+                    benefit performances. Throughout her career, she also directly addressed her
+                    fanbase in the London press and in a published <TGENRE GENRENAME="TRACTPAMPHLET">pamphlet</TGENRE>.</EXTENTOFOEUVRE></P>
+        </AUTHORSUMMARY>
+        <BIOGRAPHY>
+            <HEADING>Biography</HEADING>
+            <DIV1>
+                <PERSONNAME>
+                    <DIV2>
+                        <DATASTRUCT>
+                            <DATAITEM>
+                                <BIRTHNAME>
+                                    <GIVEN>Catherine</GIVEN>
+                                    <SURNAME>Raftor</SURNAME>
+                                </BIRTHNAME>
+                            </DATAITEM>
+                            <DATAITEM>
+                                <NICKNAME NAMETYPE="FAMILIAR">Kitty</NICKNAME>
+                            </DATAITEM>
+                            <DATAITEM>
+                                <MARRIED>Clive</MARRIED>
+                            </DATAITEM>
+                        </DATASTRUCT>
+                    </DIV2>
+                </PERSONNAME>
+            </DIV1>
+            <DIV1>
+                <HEADING>Birth and Family</HEADING>
+                <BIRTH>
+                    <DIV2>
+                        <CHRONSTRUCT RESP="SYS" RELEVANCE="SELECTIVE" CHRONCOLUMN="BRITISHWOMENWRITERS"><DATE CERTAINTY="BY" VALUE="1708-11-15">15 November, either 1708 or
+                                1709</DATE>
+                            <CHRONPROSE>Recently uncovered archival evidence suggests that <NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME> was born on 15 November in either 1708 or 1709, and
+                                that her parents were away from London at the time of her
+                                birth. Scholars have differed on CC's birthdate with some placing her birth on 5 November, and others indicating 15 November.</CHRONPROSE><BIBCITS>
+<BIBCIT PLACEHOLDER="ODNB under Clive" REF="https://commons.cwrc.ca/orlando:13d11df6-4f37-4f3d-8fba-12ff683f3f7e"/>                                <BIBCIT PLACEHOLDER="Baldwin and Wilson 2-3" REF="https://commons.cwrc.ca/orlando:f5162f96-54a1-467a-a9e8-a0094f3f430a">2-3</BIBCIT>
+                            <BIBCIT PLACEHOLDER="Joncus 1" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">1</BIBCIT></BIBCITS><SCHOLARNOTE><P><NAME REF="https://commons.cwrc.ca/orlando:a47024d3-ccf8-4d6e-a8f5-1086b96fead8" STANDARD="Chetwood, William Rufus">William Chetwood</NAME>, Clive's first biographer, in his
+                                        <TITLE TITLETYPE="MONOGRAPHIC">General History of the
+                                        Stage</TITLE>, placed her birth in London on 5 November
+                                    1711.</P>
+                            </SCHOLARNOTE>
+                        </CHRONSTRUCT>
+                    </DIV2>
+                </BIRTH>
+            </DIV1>
+            <DIV1>
+                <RESEARCHNOTE/>
+                <CULTURALFORMATION>
+                    <DIV2>
+                        <SHORTPROSE>
+                            <P><GENDER GENDERIDENTITY="WOMAN"/><NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME> was born to parents from presumably
+                                    <RACECOLOUR>white</RACECOLOUR>, <CLASS SOCIALRANK="PROFESSIONAL">upper-middle-class</CLASS> families: her mother was the
+                                daughter of an eminent London leather merchant, and her father was
+                                the son of Irish <DENOMINATION><ORGNAME REG="Roman Catholic Church" STANDARD="Roman Catholic Church" REF="https://commons.cwrc.ca/orlando:b07fb274-d35b-49ec-b79c-ade8a6545ab1">Catholic</ORGNAME></DENOMINATION>
+                                <CLASS SELF-DEFINED="SELFUNKNOWN" SOCIALRANK="GENTRY">landowners</CLASS>. The influence of her <NATIONALHERITAGE SELF-DEFINED="SELFYES" FOREBEAR="FATHER">Irish</NATIONALHERITAGE>-<NATIONALITY>English</NATIONALITY>
+                                identity can be observed in her work.<RESEARCHNOTE>AF: CC allegedly
+                                    worked as a servant before starting at Drury Lane. I'm not sure
+                                    if this is worth a classissue tag. img: if the source covers it
+                                    I think it would be worth adding: "Despite these origins, she
+                                    was said to have worked as a servant when very young." (to
+                                    convey fluidity of class at this date). And n.b. I've reworded
+                                    father's Jacobitism. KLH to ST: We'll add this sentence after the current round of checking.<BIBCITS> <BIBCIT REF="https://commons.cwrc.ca/orlando:13d11df6-4f37-4f3d-8fba-12ff683f3f7e" PLACEHOLDER="ODNB">ODNB</BIBCIT>
+                                        <BIBCIT PLACEHOLDER="Joncus 2" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">Joncus 2</BIBCIT>
+                                    </BIBCITS></RESEARCHNOTE></P>
+                        </SHORTPROSE>
+                    </DIV2>
+                    <RELIGION>
+                        <DIV2>
+                            <SHORTPROSE>
+                                <P><RESEARCHNOTE/></P>
+                            </SHORTPROSE>
+                        </DIV2>
+                    </RELIGION>
+                    <DIV2>
+                        <SHORTPROSE>
+                            
+                        </SHORTPROSE>
+                    </DIV2>
+                </CULTURALFORMATION>
+            </DIV1>
+            <DIV1>
+                <FAMILY>
+                    <MEMBER RELATION="MOTHER">
+                        <DIV2>
+                            <HEADING>Mother</HEADING>
+                            <SHORTPROSE>
+                                <P><NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME>’s mother was <NAME REF="https://commons.cwrc.ca/orlando:4a3891ff-d8c8-45d0-8512-f571bc17f744" STANDARD="Daniell, Elizabeth">Elizabeth Daniell</NAME> of <PLACE><RESEARCHNOTE/><ADDRESS>
+                                            <ADDRLINE>Fish Street Hill</ADDRLINE>
+                                        </ADDRESS><SETTLEMENT>London</SETTLEMENT><REGION REG="Middlesex"/><GEOG REG="England"/></PLACE>, whose
+                                    father, with a business there, was said to be wealthy.<BIBCITS>
+                                        <BIBCIT PLACEHOLDER="Joncus 1-2" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">1-2</BIBCIT>
+                                        <BIBCIT PLACEHOLDER="Chetwood 126" REF="https://commons.cwrc.ca/orlando:5388023b-a0c3-4f97-8fc5-5b3bec623c07">126</BIBCIT>
+                                    </BIBCITS></P>
+                            </SHORTPROSE>
+                        </DIV2>
+                    </MEMBER>
+                    <MEMBER RELATION="FATHER">
+                        <DIV2>
+                            <HEADING>Father</HEADING>
+                            <SHORTPROSE>
+                                <P>CC’s father was <NAME REF="https://commons.cwrc.ca/orlando:d9a21131-3c16-4acd-98ef-f0afb4a7682c" STANDARD="Raftor, William">William Raftor</NAME>, an Irish Catholic <JOB>lawyer</JOB>
+                                    who lost his lands in <PLACE><GEOG>Ireland</GEOG></PLACE> when
+                                    he fought for due Jacobite side after James II relinquished the
+                                    throne. He later relocated to
+                                            <PLACE><SETTLEMENT>London</SETTLEMENT><REGION REG="Middlesex"/><GEOG REG="England"/></PLACE>.<BIBCITS><BIBCIT PLACEHOLDER="Joncus 2" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">2</BIBCIT></BIBCITS></P>
+                            </SHORTPROSE>
+                        </DIV2>
+                    </MEMBER>
+                    <MEMBER RELATION="BROTHER">
+                        <DIV2>
+                            <SHORTPROSE>
+                                <P>CC had an elder brother, <NAME REF="https://commons.cwrc.ca/orlando:9149bd7c-8219-4fa4-99ea-9c2ff3887473" STANDARD="Raftor, James">James Raftor</NAME>, who also became an <JOB>actor</JOB>.
+                                    One sister survived and married; at least one younger sister died in
+                                    infancy; there may have been other siblings who did the
+                                        same.<BIBCITS><BIBCIT PLACEHOLDER="ODNB under Clive"/>
+<BIBCIT PLACEHOLDER="Baldwin and Wilson 3" REF="https://commons.cwrc.ca/orlando:f5162f96-54a1-467a-a9e8-a0094f3f430a">3</BIBCIT> <BIBCIT PLACEHOLDER="Highfill et al. 248" REF="https://commons.cwrc.ca/orlando:a18d8615-13aa-43ca-ac84-10094576b361">248</BIBCIT></BIBCITS></P>
+                            </SHORTPROSE>
+                        </DIV2>
+                    </MEMBER>
+                </FAMILY>
+            </DIV1>
+            <DIV1>
+                <HEADING>Marriage</HEADING>
+                <FAMILY>
+                    <MEMBER RELATION="HUSBAND">
+                        <MARRIAGE>
+                            <DIV2>
+                                <CHRONSTRUCT CHRONCOLUMN="BRITISHWOMENWRITERS" RELEVANCE="SELECTIVE" RESP="IMG"><DATE CERTAINTY="C" VALUE="1731-03-29">Late March 1731</DATE>
+                                    <CHRONPROSE>While it has been widely accepted that <NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">Catherine Raftor</NAME> and <NAME REF="https://commons.cwrc.ca/orlando:b7ed1a6f-2332-4685-8a97-e38fa4c9b60a" STANDARD="Clive, George">George Clive</NAME>, a
+                                        nonpractising barrister, married in early October 1733, a
+                                        recently recovered marriage licence places their union at
+                                        the <PLACE><PLACENAME>Savoy Chapel</PLACENAME><SETTLEMENT REG="London"/><REGION REG="Middlesex"/><GEOG REG="England"/></PLACE> on
+                                        this date.</CHRONPROSE>
+                                    <BIBCITS><BIBCIT PLACEHOLDER="Joncus 153" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">153</BIBCIT> <BIBCIT PLACEHOLDER="Highfill et al. 345" REF="https://commons.cwrc.ca/orlando:a18d8615-13aa-43ca-ac84-10094576b361">345</BIBCIT>
+<BIBCIT PLACEHOLDER="Baldwin and Wilson 4-5" REF="https://commons.cwrc.ca/orlando:f5162f96-54a1-467a-a9e8-a0094f3f430a">4-5</BIBCIT></BIBCITS>
+                                </CHRONSTRUCT>
+                                <SHORTPROSE><P>The Savoy Chapel was known for solemnising marriages without banns being called (that is, public
+                                        notice being given), and also for marriages of actors.</P>                                  <P><SEPARATION>The couple were estranged within years of their
+                                            marriage.</SEPARATION> However, the arrangement allowed
+                                        CC to claim the respectability of a married woman while
+                                        working in a somewhat disreputable industry. It appears that
+                                        her husband did not interfere in her professional life or
+                                        financial matters.<BIBCITS>
+                                            <BIBCIT PLACEHOLDER="Joncus 153-54" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">153-54</BIBCIT>
+                                        </BIBCITS></P>
+                                </SHORTPROSE>
+                            </DIV2>
+                        </MARRIAGE>
+                    </MEMBER>
+                </FAMILY>
+            </DIV1>
+            <DIV1>
+                <CULTURALFORMATION>
+                    <SEXUALITY>
+                 <DIV2>
+                        <SHORTPROSE>
+                            <P><SCHOLARNOTE><P>img; Sorted out structure od sexuality and sexualidentity.</P>
+                                <P/>
+                            </SCHOLARNOTE><NAME REF="https://commons.cwrc.ca/orlando:397fe413-9bce-4cae-a083-42586f11973d" STANDARD="Joncus, Berta ">Berta Joncus</NAME> has argued that the union was likely a
+                                    marriage of convenience for both parties, obscuring both
+                                    Catherine’s and George’s homosexuality. Later in her life,
+                                    rumours circulated about <NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME>’s <SEXUALIDENTITY REG="lesbian">sapphis</SEXUALIDENTITY> tastes, and some of her correspondence
+                                    to other women is highly suggestive, but early in her career she
+                                    made a great effort to portray herself as an irreproachable
+                                    young wife.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Joncus 15-16, 153-55, 348-53" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">15-16,
+                                        153-55, 348-53</BIBCIT></BIBCITS></P></SHORTPROSE>
+                    </DIV2></SEXUALITY>
+                </CULTURALFORMATION>
+            </DIV1>
+            <DIV1>
+                <INTIMATERELATIONSHIPS EROTIC="EROTICPOSSIBLY">
+                    <DIV2>
+                        <SHORTPROSE>
+                            <P>There is evidence in letters of <NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME>'s sexual relationships with women. She wrote to her
+                                friend and protégée <NAME REF="https://commons.cwrc.ca/orlando:99c792dd-1f78-4f3e-8228-494ad93e9cbd" STANDARD="Pope, Jane">Jane Pope</NAME>: <QUOTE>I am in mind to thank you for the
+                                    oysters which were excellent; but why wou’d you give the bread
+                                    out of your own mouth, particularly as I know you are remarkably
+                                    fond of them, that certainly is an instance that looks kinder
+                                    than if you had bought them, and accordingly they taste to me so
+                                    much the sweeter; for I love every morsel of your affection sent
+                                    me and always eat it up myself.</QUOTE><BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Joncus 353" QTDIN="QTDINYES" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">353</BIBCIT>
+</BIBCITS> Not only were oysters considered a powerful aphrodisiac,
+                                but Pope is described feeding them to CC by mouth in a highly erotic manner.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Joncus 353" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">353</BIBCIT>
+                                </BIBCITS></P>
+                            <RESEARCHNOTE>AF: Also, I'm debating about moving the marriage, sexual
+                                identitiy, and intimate relationship sections after the occupation
+                                section. I feel like education might be a better transition from
+                                family to occupation and that the information in occupation might
+                                provide useful context for understanding these relationships. At the
+                                same time, it works just fine here chronologically, so it might be
+                                best to leave it. img: I think moving it is great idea. Education is a chron jolt here, and career is more significant than marriage, KLH to ST: We'll work on this soon, as well.</RESEARCHNOTE>
+                        </SHORTPROSE>
+                    </DIV2>
+                </INTIMATERELATIONSHIPS>
+            </DIV1>
+            <DIV1>
+                <HEADING>Education</HEADING>
+                <EDUCATION>
+                    <DIV2>
+                        <SHORTPROSE>
+                            <P>Little is known about <NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME>’s childhood or education before she began acting on
+                                the London stages in <DATE>1728</DATE>. In some cases, the spelling and syntax of
+                                her letters has been taken as evidence of a neglected early
+                                education. However, the vast knowledge base demonstrated in her
+                                writing and singing contradicts these speculations.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Joncus 1-2, 13-14" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">1-2, 13-14</BIBCIT>
+                                    <BIBCIT PLACEHOLDER="Highfill et al. 341-42" REF="https://commons.cwrc.ca/orlando:a18d8615-13aa-43ca-ac84-10094576b361">341-42</BIBCIT>
+                                </BIBCITS></P>
+                        </SHORTPROSE>
+                    </DIV2>
+                </EDUCATION>
+            </DIV1>
+            <DIV1>
+                <HEADING>Acting and Singing Career</HEADING>
+                <OCCUPATION>
+                    <DIV2>
+                        <CHRONSTRUCT CHRONCOLUMN="BRITISHWOMENWRITERS" RELEVANCE="COMPREHENSIVE" RESP="SEV">
+                            <DATE>12 October 1728</DATE>
+                            <CHRONPROSE>As a teenager, <NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME> started <JOB REG="acting">acting</JOB> in
+                                        <PLACE><SETTLEMENT>London</SETTLEMENT><REGION REG="Middlesex"/><GEOG REG="England"/></PLACE> in supporting
+                                roles at <EMPLOYER><ORGNAME REG="Theatre Royal,, Drury Lane" STANDARD="Theatre Royal,, Drury Lane" REF="https://commons.cwrc.ca/orlando:fe0ee572-d7a2-4e96-a1cb-0497fbd683de">Drury Lane</ORGNAME></EMPLOYER>. Her debut performance was
+                                as <TCHARACTERNAME>Bianca</TCHARACTERNAME> in <TITLE TITLETYPE="MONOGRAPHIC">Othello</TITLE>.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Highfill et al. 342" REF="https://commons.cwrc.ca/orlando:a18d8615-13aa-43ca-ac84-10094576b361">342</BIBCIT></BIBCITS></CHRONPROSE> </CHRONSTRUCT>
+                        <SHORTPROSE>
+                            <P>The young actress <QUOTE>had a facetious Turn of Humour, and infinite
+                                    Spirits, with a Voice and Manner in singing Songs of Pleasantry
+                                    peculiar to herself,</QUOTE> according to <NAME REF="https://commons.cwrc.ca/orlando:a47024d3-ccf8-4d6e-a8f5-1086b96fead8" STANDARD="Chetwood, William Rufus">William Chetwood</NAME>, the prompter at the time of CC's debut.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Chetwood 127" REF="https://commons.cwrc.ca/orlando:5388023b-a0c3-4f97-8fc5-5b3bec623c07">127</BIBCIT>
+</BIBCITS> By <DATE CERTAINTY="BY">1732</DATE>, <NAME REF="https://commons.cwrc.ca/orlando:3c72b3d1-cda1-4e74-8a1f-76a52cac7d39" STANDARD="Fielding, Henry">Henry Fielding</NAME> started writing characters expressly for
+                                her, such as <TCHARACTERNAME>Isabel</TCHARACTERNAME> in <TITLE TITLETYPE="MONOGRAPHIC">The Old Debauchees</TITLE>,
+                                    <TCHARACTERNAME>Kissinda</TCHARACTERNAME> in <TITLE TITLETYPE="MONOGRAPHIC">The <ORGNAME STANDARD="Royal Opera House,, Covent Garden" REG="Theatre Royal,, Covent Garden" REF="https://commons.cwrc.ca/orlando:042975fe-0501-4d7f-b80c-7e7b9dacb931">Covent Garden</ORGNAME> Tragedy</TITLE>, and
+                                    <TCHARACTERNAME>Lappet</TCHARACTERNAME> in <TITLE TITLETYPE="MONOGRAPHIC">The Miser</TITLE>.<BIBCITS><BIBCIT PLACEHOLDER="Highfill et al. 344" REF="https://commons.cwrc.ca/orlando:a18d8615-13aa-43ca-ac84-10094576b361">344</BIBCIT></BIBCITS></P>
+                            <P><REMUNERATION>Over time, CC became one of the highest-paid and most
+                                    popular performers in
+                                            <PLACE><SETTLEMENT>London</SETTLEMENT><REGION REG="Middlesex"/><GEOG REG="England"/></PLACE> in her
+                                    generation. She was particularly celebrated for her comic
+                                    performance and singing, earning about £300 per year depending
+                                    on the success of her benefit performances.</REMUNERATION><BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Clive, Case 7, 18-19" REF="https://commons.cwrc.ca/orlando:6cf2f7d2-4b51-4443-bc3d-7fe20b05aee3">7, 18-19</BIBCIT>
+                                </BIBCITS></P>
+                            <P>Throughout her career, CC was a fervent supporter of other women
+                                writers and performers. She mentored <NAME REF="https://commons.cwrc.ca/orlando:99c792dd-1f78-4f3e-8228-494ad93e9cbd" STANDARD="Pope, Jane">Jane Pope</NAME> and <NAME REF="https://commons.cwrc.ca/orlando:8a8eb01a-a638-4c67-93b7-37b65ad1269b" STANDARD="Mozeen, Mary">Mary Mozeen (née Edwards)</NAME>, and she performed the
+                                <TGENRE GENRENAME="ECLOGUE">epilogues</TGENRE> for plays by contemporary women playwrights <NAME STANDARD="Griffith, Elizabeth" REF="https://commons.cwrc.ca/orlando:faab9ea9-4560-448f-b316-fbba5f942d84">Elizabeth Griffith</NAME> and <NAME REF="https://commons.cwrc.ca/orlando:e4d73e82-91f2-44d8-9c47-e55ad9cb39c6" STANDARD="Sheridan, Frances">Frances Sheridan</NAME>.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Joncus 13" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">13</BIBCIT>
+                                    <BIBCIT PLACEHOLDER="White 63-64" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">63-64</BIBCIT>
+                                    <BIBCIT PLACEHOLDER="Griffith 98" REF="https://commons.cwrc.ca/orlando:3fddec0b-4e44-4f84-a395-f8afae9f6176">98</BIBCIT>
+                                    <BIBCIT PLACEHOLDER="Sheridan 69-70" REF="https://commons.cwrc.ca/orlando:d3e2c0f5-c0cc-4b97-8b2a-97f9a6f8fd26">69-70</BIBCIT>
+                                </BIBCITS></P>
+                        </SHORTPROSE>
+                        <CHRONSTRUCT RESP="" CHRONCOLUMN="BRITISHWOMENWRITERS" RELEVANCE="COMPREHENSIVE"><DATE>1 August 1732</DATE>
+                            <CHRONPROSE><NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME>’s big break came when she performed the role of
+                                    <TCHARACTERNAME>Polly</TCHARACTERNAME> in <NAME STANDARD="Gay, John" REF="https://commons.cwrc.ca/orlando:16e277aa-a928-4991-bd38-9956dc435da4">John Gay</NAME>’s sensationally popular musical, <TITLE TITLETYPE="MONOGRAPHIC">The Beggar’s Opera</TITLE>.<RESEARCHNOTE>ST: Here, should the bibcits be between chronsprose closing tag and chronstruct closing tag? Or is this okay? Just wondering if it matters in terms of consistency, becuase in some cases, the bibcits are between chronprose closing tag and chronstruct closing tag, and sometimes, like in this case, they are before both chronpose and chronstruct closing tags. KLH: Our practice is to always include the BibCit tagging between ChronProse and ChronStruct but sometimes LEAF-Writer won't allow that, so we can edit them as needed in raw XML.</RESEARCHNOTE><BIBCITS>
+                                    <BIBCIT PLACEHOLDER="White 35-37" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">35-37</BIBCIT>
+                                    </BIBCITS></CHRONPROSE></CHRONSTRUCT>
+                        <SHORTPROSE>
+                            <P>When <TITLE TITLETYPE="MONOGRAPHIC">The Beggar’s Opera</TITLE>
+                                debuted on <DATE>29 January 1728</DATE>, the part
+                                of Polly, a young ingénue, was initially performed by
+                                seventeen-year-old actress <NAME STANDARD="Bolton, Lavinia Powlett,,, Duchess of" REF="https://commons.cwrc.ca/orlando:049ccc9a-e4c5-4c39-bd88-bbe332c85fa7">Lavinia Fenton</NAME>, who stirred much public sensation due to
+                                her voice and relationship off-stage with the <NAME REF="https://commons.cwrc.ca/orlando:2d77359c-f1ef-46f2-8fcb-a7fbc1eb35db" STANDARD="Bolton, Charles Powlett,,, third Duke of ">Duke of
+                                    Bolton</NAME>. When Fenton left the stage to be with Bolton, CC
+                                took over the role of Polly; it was the convention of the
+                                eighteenth-century stage for performers to own parts until they
+                                retired or agreed to pass it on to someone else. But in
+                                    <DATE>1736</DATE>, <NAME STANDARD="Cibber, Theophilus" REF="https://commons.cwrc.ca/orlando:a929ce0a-44d8-46ce-a743-6cd4cbcfcb1d">Theophilus Cibber</NAME>, then manager of <ORGNAME REG="Theatre Royal,, Drury Lane" STANDARD="Theatre Royal,, Drury Lane" REF="https://commons.cwrc.ca/orlando:fe0ee572-d7a2-4e96-a1cb-0497fbd683de">Drury Lane</ORGNAME>, attempted to give his wife, actress <NAME STANDARD="Cibber, Susannah Maria" REF="https://commons.cwrc.ca/orlando:fe982a0d-e140-4b59-9d9b-cd0ad5774c57">Susannah Cibber</NAME>, the role of
+                                    <TCHARACTERNAME>Polly</TCHARACTERNAME> and downgrade Clive to
+                                the more minor role of <TCHARACTERNAME>Lucy</TCHARACTERNAME>.
+                                Angered, CC launched a public campaign against the Cibbers in the
+                                press, advocating for actors’ rights.<RESEARCHNOTE>ST: Here, the bibcits tag is between two &amp;lt;p&amp;gt; tags. I think that maybe LEAFwriter didn't initially allow for the bibcits to go after the text?</RESEARCHNOTE>
+                                    </P><P><BIBCITS><BIBCIT PLACEHOLDER="Clive, To the Author" REF="https://commons.cwrc.ca/orlando:bibliographic-17-to_the_author_of_the_london_daily_post"/> <BIBCIT PLACEHOLDER="Joncus 29, 34-38, 41" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">29, 34-8, 41</BIBCIT></BIBCITS></P>
+                        </SHORTPROSE>
+                        <CHRONSTRUCT RESP="" CHRONCOLUMN="" RELEVANCE="">
+                            <DATE>31 December 1736</DATE>
+                            <CHRONPROSE>In a dramatic turn of events, <NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME> was again allowed to perform Polly in Gay’s <TITLE TITLETYPE="MONOGRAPHIC">The Beggar’s Opera</TITLE> at <ORGNAME REG="Theatre Royal,, Drury Lane" STANDARD="Theatre Royal,, Drury Lane" REF="https://commons.cwrc.ca/orlando:fe0ee572-d7a2-4e96-a1cb-0497fbd683de">Drury Lane</ORGNAME> (which <NAME STANDARD="Cibber, Theophilus" REF="https://commons.cwrc.ca/orlando:a929ce0a-44d8-46ce-a743-6cd4cbcfcb1d">Theophilus Cibber</NAME> had taken from her for his wife <NAME STANDARD="Cibber, Susannah Maria" REF="https://commons.cwrc.ca/orlando:fe982a0d-e140-4b59-9d9b-cd0ad5774c57">Susannah</NAME>), and the audience was permitted to make a
+                                final decision on who should play the part. According to a review in
+                                the <TITLE TITLETYPE="JOURNAL">London Evening Post</TITLE> on <DATE>1 January 1737</DATE>, <NAME REF="https://cwrc.ca/islandora/object/orlando%3A0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine"/>CC won the audience over with an
+                                impassioned speech to her fans and an astounding performance.<RESEARCHNOTE>ST: Shouldn't CC be inside the name tag in this last sentence?  kLH: Yes but LEAF-Writer is being glitchy so we'll have to use raw XML. </RESEARCHNOTE><BIBCITS><BIBCIT PLACEHOLDER="White 38-39" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">38-39</BIBCIT>
+                                </BIBCITS></CHRONPROSE>
+                        </CHRONSTRUCT>
+                        <CHRONSTRUCT RESP="" CHRONCOLUMN="BRITISHWOMENWRITERS" RELEVANCE="COMPREHENSIVE">
+                            <DATE>24 April 1769</DATE>
+                            <CHRONPROSE><NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME> gave her final performance on the
+                                        <PLACE><SETTLEMENT>London</SETTLEMENT><REGION REG="Middlesex"/><GEOG REG="England"/></PLACE> stage. That
+                                evening, she played <TCHARACTERNAME>Flora</TCHARACTERNAME> in <NAME STANDARD="Centlivre, Susanna" REF="https://commons.cwrc.ca/orlando:d37767fd-e316-4d91-a771-d00ca5ad56ef">Susanna Centlivre</NAME>'s comedy <TITLE TITLETYPE="MONOGRAPHIC">The Wonder, A Woman Keeps a
+                                    Secret</TITLE> (1714) and the <TCHARACTERNAME>Fine
+                                    Lady</TCHARACTERNAME> in <NAME STANDARD="Garrick, David" REF="https://commons.cwrc.ca/orlando:df0260ac-a635-481e-8155-f6d08d87efa7">David Garrick</NAME>'s <TITLE TITLETYPE="MONOGRAPHIC">Lethe</TITLE> (1740).<BIBCITS> <BIBCIT PLACEHOLDER="Highfill et al. 353-54" REF="https://commons.cwrc.ca/orlando:a18d8615-13aa-43ca-ac84-10094576b361">353-54</BIBCIT> <BIBCIT PLACEHOLDER="ODNB under Clive" REF="https://commons.cwrc.ca/orlando:13d11df6-4f37-4f3d-8fba-12ff683f3f7e"/></BIBCITS></CHRONPROSE></CHRONSTRUCT>
+                    </DIV2>
+                </OCCUPATION>
+            </DIV1>
+            <DIV1>
+                <FRIENDSASSOCIATES>
+                    <DIV2>
+                        <SHORTPROSE>
+                            <RESEARCHNOTE>img: I'd like to add new para reading
+                                    something like: Her gift for friendship extended beyond the
+                                    theatre world in perhaps surprising directions: to Horace
+                                    Walpole, and to Samuel Johnson, who would seek her out when
+                                    visiting the green room for conversations which both enjoyed.
+                                    Cite Boswell, Life ed. Hill and Powell, 4: 7. Then new heading:
+                                    Retirement. KLH to ST: We'll make these edits. </RESEARCHNOTE>
+                        </SHORTPROSE>
+                    </DIV2>
+                </FRIENDSASSOCIATES>
+            </DIV1>
+            <DIV1>
+                <LOCATION RELATIONTO="MOVED">
+                    <DIV2>
+                        <SHORTPROSE>
+                            <P>Following her retirement from the stage in 1769, <NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME> moved permanently to the <PLACE><SETTLEMENT CURRENT="London">Twickenham</SETTLEMENT><REGION REG="Middlesex"/><GEOG REG="England"/></PLACE> countryside
+                                in a house on writer <NAME STANDARD="Walpole, Horace" REF="https://commons.cwrc.ca/orlando:d61b8894-41f9-47f6-8871-09085462cc12">Horace Walpole</NAME>’s estate; the two had been friends since
+                                the 1740s. <RESEARCHNOTE>ST: In the Twickenham settlement tag, the current attribute mentions London, which I think is correct, but the REG attribute is empty. I think according to the tag glossary, both reg and current should be filled because Twickenham is a district of London, but I'm not sure. Should I add Twickenham in reg attribute or not, since it is already in the prose? KLH: Actually, there should be an empty Settlement tag immediately after the one for Twickenham, with London entered in the REG attribute for it. ST: I cannot add another settlement tag after the one for Twickenham. LEAF-writer doesn't allow it.</RESEARCHNOTE>In a 1771 study of Twickenham country homes, playwright
+                                    <NAME REF="https://commons.cwrc.ca/orlando:e9776846-00f3-4e2e-a1f3-d66d8a7f168b" STANDARD="Pye, Jael Henrietta">Jael-Henrietta Pye</NAME>
+                                described her house as <QUOTE>a little Cottage of plain Appearance</QUOTE> with gardens <QUOTE>laid out in excellent Taste [culminating in] a charming Retirement.</QUOTE><BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Pye 15-16" REF="https://commons.cwrc.ca/orlando:d73645b3-0d81-4d43-9726-32de1b59b21a">15-16</BIBCIT>
+                                </BIBCITS> CC wrote to her friend <NAME REF="https://commons.cwrc.ca/orlando:99c792dd-1f78-4f3e-8228-494ad93e9cbd" STANDARD="Pope, Jane">Jane Pope</NAME> describing her contented life there: <QUOTE>I
+                                    have ten times more business now than I had when I playd the
+                                    Fool as you do, I have engagements every day of my life. Routs
+                                    either at home or abroad every night all the nonsense of having
+                                    my hair not done time enough for my parties as I used to do for
+                                    my parts with the difference that I am losing money instead of
+                                    getting some but I dont mind that for I am in such good health,
+                                    and such fine spirits that it is impossible for any one to be
+                                    happyer.</QUOTE><BIBCITS> <BIBCIT PLACEHOLDER="White 65-66" QTDIN="QTDINYES" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">65-66</BIBCIT>
+                                <BIBCIT PLACEHOLDER="ODNB under Clive" REF="https://legacy.cwrc.ca/islandora/object/orlando:13d11df6-4f37-4f3d-8fba-12ff683f3f7e"/></BIBCITS></P>
+                        </SHORTPROSE>
+                    </DIV2>
+                </LOCATION>
+            </DIV1>
+            <DIV1>
+                <HEADING>Death</HEADING>
+                <DEATH>
+                    <DIV2>
+                        <CHRONSTRUCT RESP="SYS" RELEVANCE="SELECTIVE" CHRONCOLUMN="WRITINGCLIMATE">
+                            <DATE>6 December 1785</DATE>
+                            <CHRONPROSE><NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME> died in her seventy-fourth year.</CHRONPROSE>
+                            <BIBCITS>
+                                <BIBCIT PLACEHOLDER="White 66" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">66</BIBCIT>
+                            </BIBCITS>
+                        </CHRONSTRUCT>
+                        <SHORTPROSE>
+                            <P>In her correspondence prior to her death, she describes herself as
+                                intermittently ill. She passed away from <CAUSE>illness which she
+                                    had called jaundice</CAUSE> and was buried on 14 December in <PLACE><PLACENAME/> <SETTLEMENT CURRENT="London">Twickenham</SETTLEMENT><REGION REG="Middlesex"/><GEOG REG="England"/></PLACE>. <NAME STANDARD="Walpole, Horace" REF="https://commons.cwrc.ca/orlando:d61b8894-41f9-47f6-8871-09085462cc12">Horace Walpole</NAME> was the executor of her will.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="ODNB under Clive" REF="https://commons.cwrc.ca/orlando:13d11df6-4f37-4f3d-8fba-12ff683f3f7e"/></BIBCITS></P>
+                        <RESEARCHNOTE>ST: ODNB confirms everything except for the name of the church. It just says a Twickenham churchyard. KLH to ST: Hmmm, quickly skim sources to see if St Mary's Church is mentioned anywhere? If not, please delete the PlaceName tag and its content, leaving the rest from Twickenham onward. ST: I deleted the placename tag content, but I'm unable to remove the tag itself. KLH: No problem, just leave this note here.</RESEARCHNOTE></SHORTPROSE>
+                    </DIV2>
+                </DEATH>
+            </DIV1>
+        </BIOGRAPHY>
+        <WRITING>
+            <HEADING>Writing</HEADING>
+            <DIV1>
+                <HEADING>Newspapers</HEADING>
+                <DIV2>
+                    <TEXTSCOPE PLACEHOLDER="CC, The Case of Mrs. Clive, Submitted to the Oublick, 1744"/>
+                    <PRODUCTION>
+                        <SHORTPROSE>
+                            <P><PPERIODICALPUBLICATION>Throughout her career, <NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME> harnessed her celebrity as an actress and singer
+                                    by writing to her fans in the
+                                            <PLACE><SETTLEMENT>London</SETTLEMENT><REGION REG="Middlesex"/><GEOG REG="England"/></PLACE>
+                                    periodicals. She often turned to the public when engaging in
+                                    labour disputes with the all-powerful London theatrical
+                                    managers, as she did when she wrote to the <TITLE TITLETYPE="JOURNAL">London Daily Post and General
+                                        Advertiser</TITLE> during the Polly Row of 1736-37 and
+                                    during the Drury Lane Rebellion of 1743-44 when she published a
+                                    pamphlet</PPERIODICALPUBLICATION>.<BIBCITS> <BIBCIT PLACEHOLDER="Kinservik, Unpublished Epilogue, 324-25" REF="https://commons.cwrc.ca/orlando:00d4854c-6ae0-4ef8-94a3-23e523df9267">324-25</BIBCIT></BIBCITS></P>
+                        </SHORTPROSE>
+                    </PRODUCTION>
+                    <PRODUCTION>
+                        <CHRONSTRUCT CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="SELECTIVE" RESP="SYS"><DATE>12 October 1744</DATE>
+                            <CHRONPROSE><NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME> published a short <TGENRE GENRENAME="TRACTPAMPHLET">pamphlet</TGENRE> titled <TITLE TITLETYPE="MONOGRAPHIC">The
+                                    Case of Mrs. Clive, Submitted to the Publick</TITLE> to express
+                                her frustration with recent theatre mismanagement.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Clive, Case, prelims" REF="https://commons.cwrc.ca/orlando:6cf2f7d2-4b51-4443-bc3d-7fe20b05aee3">prelims</BIBCIT> <BIBCIT PLACEHOLDER="Highfill et al. 349" REF="https://commons.cwrc.ca/orlando:a18d8615-13aa-43ca-ac84-10094576b361">349</BIBCIT></BIBCITS></CHRONPROSE></CHRONSTRUCT>
+                        <SHORTPROSE>
+                            <P><PMOTIVES>When manager Charles Fleetwood was mistreating the actors
+                                    at <ORGNAME REG="Theatre Royal,, Drury Lane" STANDARD="Theatre Royal,, Drury Lane" REF="https://commons.cwrc.ca/orlando:fe0ee572-d7a2-4e96-a1cb-0497fbd683de">Drury Lane</ORGNAME> in the 1740s (a crisis in labour
+                                    relations following an attempt to break the monopoly of Drury
+                                    Lane and Covent Garden by adding a third licensed
+                                        theatre), CC expressed her frustration
+                                    directly to her fans in the form of a short
+                                pamphlet.<BIBCITS><BIBCIT PLACEHOLDER="Nussbaum 163-64" REF="https://commons.cwrc.ca/orlando:0dfb35b9-4f5f-4f1d-b0ff-387fff4df233">163-64</BIBCIT></BIBCITS></PMOTIVES></P>
+                        </SHORTPROSE>
+                    </PRODUCTION>
+                    <TEXTUALFEATURES>
+                        <SHORTPROSE>
+                            <P>She accused <NAME STANDARD="Fleetwood, Charles" REF="https://commons.cwrc.ca/orlando:44a12b56-b651-4a77-8ac9-beaa77bc273e">Fleetwood</NAME> of stealing from her and other actors,
+                                defended the salary she received for her work, and chastised
+                                    <ORGNAME REF="https://commons.cwrc.ca/orlando:042975fe-0501-4d7f-b80c-7e7b9dacb931" REG="Theatre Royal,, Covent Garden" STANDARD="Royal Opera House,, Covent Garden">Covent Garden</ORGNAME> manager <NAME STANDARD="Rich, John" REF="https://commons.cwrc.ca/orlando:3fe811c3-c7fe-4e7e-8d72-1a07aaecc617">John Rich</NAME> for firing her without notice: <QUOTE>I am
+                                    sorry I am reduced to say any thing in favour of myself; but, as
+                                    I think I merit as much as another Performer, and the Managers
+                                    are so desirous to convince me of the contrary, I hope I shall
+                                    be excused; especially when I declare, that at this time, I am
+                                    not in the least vain of my Profession.</QUOTE><RESEARCHNOTE>AF:
+                                    Would &amp;lt;relations with publisher&amp;gt; work in this section? img: I
+                                    don't think that's quite it. How about a ThemeTopic tag on
+                                    "labour relations" above? (though I don't know if Willow will
+                                    accept my addition). And pEarnings on the phrase about defending her salary. KLH to ST: We'll edit in week of Oct 27.</RESEARCHNOTE><BIBCITS><BIBCIT PLACEHOLDER="Clive, Case, 18-19" REF="https://commons.cwrc.ca/orlando:6cf2f7d2-4b51-4443-bc3d-7fe20b05aee3">18-19</BIBCIT>
+<BIBCIT PLACEHOLDER="Highfill et al. 349" REF="https://commons.cwrc.ca/orlando:a18d8615-13aa-43ca-ac84-10094576b361">349</BIBCIT>                                </BIBCITS></P>
+                        </SHORTPROSE>
+                    </TEXTUALFEATURES>
+                    <RECEPTION>
+                        <SHORTPROSE>
+                            <P>Her pamphlet provoked much sympathy from the public, including the
+                                    <NAME STANDARD="Frederick Lewis,, Prince of Wales" REF="https://commons.cwrc.ca/orlando:a2bce165-b8e8-4ef0-8522-73880c146e3f">Prince</NAME> and <NAME STANDARD="Augusta of Saxe Gotha, Princess" REF="https://commons.cwrc.ca/orlando:9f8854b3-aa90-4762-96ce-0e5e78c20985">Princess of Wales</NAME>, who attended an impromptu benefit
+                                concert that resulted in Rich re-hiring her for the 1744-45 season
+                                at <ORGNAME STANDARD="Royal Opera House,, Covent Garden" REG="Theatre Royal,, Covent Garden" REF="https://commons.cwrc.ca/orlando:042975fe-0501-4d7f-b80c-7e7b9dacb931">Covent Garden</ORGNAME>.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Highfill et al. 349" REF="https://commons.cwrc.ca/orlando:a18d8615-13aa-43ca-ac84-10094576b361">349</BIBCIT>
+                                <BIBCIT PLACEHOLDER="White 42" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">42</BIBCIT></BIBCITS>
+                                    </P>
+                        </SHORTPROSE>
+                    </RECEPTION>
+                </DIV2>
+            </DIV1>
+            <DIV1>
+                <HEADING>Plays</HEADING>
+                <DIV2>
+                    <PRODUCTION>
+                        <SHORTPROSE>
+                            <P>Between 1750 and 1765, <NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME> wrote and staged four <TGENRE GENRENAME="COMEDY">comic</TGENRE>
+                                <TGENRE GENRENAME="AFTERPIECE">afterpieces</TGENRE> at Drury Lane:
+                                    <TITLE TITLETYPE="MONOGRAPHIC">The Rehearsal; or, Bayes in
+                                    Petticoats</TITLE> (1750), <TITLE TITLETYPE="UNPUBLISHED">Every
+                                    Woman in Her Humour</TITLE> (1760), <TITLE TITLETYPE="UNPUBLISHED">The Sketch of a Fine Lady’s Return from
+                                    a Rout</TITLE> (1763), and <TITLE TITLETYPE="UNPUBLISHED">The
+                                    Faithful Irish Woman</TITLE> (1765). All four <TGENRE GENRENAME="DRAMA">plays</TGENRE> were written and produced for
+                                <PEARNINGS>her benefit performances, a convention of the eighteenth-century
+                                theatrical contract in which an actor was allocated the proceeds
+                                from one evening’s performances after house expenses.</PEARNINGS></P>
+                            <P>Only her first play, <TITLE TITLETYPE="MONOGRAPHIC">Bayes in
+                                    Petticoats</TITLE>, was published. <PARCHIVALLOCATION>All of her
+                                    plays survive in manuscript at the <ORGNAME STANDARD="Huntington Library" REF="https://commons.cwrc.ca/orlando:28074ac8-ddfd-4f0d-b515-299809d004a2">Huntington Library</ORGNAME> in the John Larpent
+                                    Collection.</PARCHIVALLOCATION>
+                                <PAUTHORSHIP AUTHORSHIPCONTROVERSY="DOUBTFUL" CONTROVERSYDATE="ONGOING">Two additional farces are sometimes
+                                    attributed to CC: <TITLE TITLETYPE="UNPUBLISHED">The Island of
+                                        Slaves </TITLE>(1761) and a lost play titled <TITLE TITLETYPE="UNPUBLISHED">The London ’Prentice</TITLE> (1754),
+                                    but the authorship of these two pieces remains
+                                    unconfirmed.</PAUTHORSHIP><BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Joncus n378-79" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">n378-79</BIBCIT>
+                                </BIBCITS></P>
+                        </SHORTPROSE>
+                    </PRODUCTION>
+                </DIV2>
+                <DIV2>
+                    <HEADING><TITLE TITLETYPE="MONOGRAPHIC" REG="Bayes in Petticoata">The Rehearsal; or, Bayes in
+                            Petticoats</TITLE></HEADING>
+                    <TEXTSCOPE PLACEHOLDER="CC, The ayes in Petticoats, 1750"/>
+                    <PRODUCTION>
+                        <CHRONSTRUCT CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="SELECTIVE" RESP="SYS">
+                            <DATE>15 March 1750</DATE>
+                            <CHRONPROSE><PPERFORMANCE><NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME>’s first work for the stage, <TITLE TITLETYPE="MONOGRAPHIC">The Rehearsal; or, Bayes in Petticoats</TITLE>, had its
+                                    debut at <ORGNAME STANDARD="Theatre Royal,, Drury Lane" REG="Theatre Royal,, Drury Lane" REF="https://commons.cwrc.ca/orlando:fe0ee572-d7a2-4e96-a1cb-0497fbd683de">Drury Lane</ORGNAME>.</PPERFORMANCE></CHRONPROSE>
+                            <BIBCITS>
+                                <BIBCIT PLACEHOLDER="White 44" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">44</BIBCIT>
+                            </BIBCITS>
+                        </CHRONSTRUCT>
+                        <SHORTPROSE>
+                            <P><PEARNINGS>The first performance was a success and earned £240 for
+                                    Clive's benefit night that year, £34 more than the year
+                                    before.</PEARNINGS><BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Kinservik, Benefit, 18" REF="https://commons.cwrc.ca/orlando:c3d38367-11f1-4d5b-bd0c-0233f0afda8d">18</BIBCIT>
+                                </BIBCITS>
+                                <PPERFORMANCE>She revived the piece more than a dozen times after
+                                    its debut through 1762, both for her own benefit and for that of
+                                    other minor actors.</PPERFORMANCE> She made revisions to it in
+                                1751, 1753, and 1762. <PARCHIVALLOCATION>An epilogue by <NAME STANDARD="Garrick, David" REF="https://commons.cwrc.ca/orlando:df0260ac-a635-481e-8155-f6d08d87efa7">David Garrick</NAME> written for a performance in 1751 is
+                                    preserved in the <ORGNAME REF="https://commons.cwrc.ca/orlando:9d7ed7fe-abce-4849-9887-63296f885602 ">Folger Shakespeare Library</ORGNAME>.<RESEARCHNOTE>ST: the orgname tag here does not have any attributes and no link to CWRC. KLH: That's surprising. Let's leave this note here for future orgname sleuthing. ST: I added the REF but does it need a REG and STANDARD attributes too? Alao, after validating, it shows up as an error that the REF value is invalid. Also here, Bibcits follows pArchivalLocation tag. Is this okay?</RESEARCHNOTE></PARCHIVALLOCATION><PARCHIVALLOCATION><BIBCITS> <BIBCIT PLACEHOLDER="Kinservik, Unpublished Epilogue, 322-24" REF="https://commons.cwrc.ca/orlando:00d4854c-6ae0-4ef8-94a3-23e523df9267">322-24</BIBCIT>
+                                    <BIBCIT PLACEHOLDER="Joncus 399" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">399</BIBCIT></BIBCITS></PARCHIVALLOCATION>
+                                <PCIRCULATION>Audiences of the 1750s would have been familiar with
+                                        <TITLE TITLETYPE="MONOGRAPHIC">Bayes in Petticoats</TITLE>,
+                                    revived year after year, and from 1753 they could purchase
+                                    a copy after <PPLACEOFPUBLICATION>it was published in
+                                                <PLACE><SETTLEMENT>London</SETTLEMENT><REGION REG="Middlesex"/><GEOG REG="England"/></PLACE> and
+                                                <PLACE><SETTLEMENT>Dublin</SETTLEMENT><REGION REG="Leinster"/><GEOG REG="Ireland"/></PLACE></PPLACEOFPUBLICATION>.</PCIRCULATION>
+                                <BIBCITS>
+                                    <BIBCIT PLACEHOLDER="White 33" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">33</BIBCIT>
+                                    <BIBCIT PLACEHOLDER="Kinservik, Benefit, 25" REF="https://commons.cwrc.ca/orlando:c3d38367-11f1-4d5b-bd0c-0233f0afda8d">25</BIBCIT>
+                                    <BIBCIT PLACEHOLDER="Joncus 399-400" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">399-400</BIBCIT>
+                                </BIBCITS></P>
+                        </SHORTPROSE>
+                    </PRODUCTION>
+                    <RECEPTION>
+                        <SHORTPROSE>
+                            <P><RBESTKNOWNWORK><TITLE TITLETYPE="MONOGRAPHIC">Bayes in
+                                        Petticoats</TITLE> is CC's best-known and only published
+                                    play.</RBESTKNOWNWORK></P>
+                        </SHORTPROSE>
+                    </RECEPTION>
+                    <TEXTUALFEATURES>
+                        <SHORTPROSE>
+                            <P>In this <TGENRE GENRENAME="SATIRE">satirical</TGENRE> and
+                                self-referential <TGENRE GENRENAME="COMEDY">comedy</TGENRE><TGENRE GENRENAME="AFTERPIECE"/>, <TCHARACTERTYPEROLE PROTAGONIST="FEMALE"><NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME> starred as a <TCHARACTERTYPEROLE PROTAGONIST="FEMALE">wealthy widoe</TCHARACTERTYPEROLE>,
+                                        <TCHARACTERNAME>Mrs Hazard</TCHARACTERNAME>, who is
+                                    directing her first play</TCHARACTERTYPEROLE>. <TINTERTEXTUALITY INTERTEXTTYPE="PARODY" GENDEROFAUTHOR="MAN">As indicated by the
+                                    title, Clive casts herself as a female
+                                        <TCHARACTERNAME>Bayes</TCHARACTERNAME>, a
+                                        <TCHARACTERTYPEROLE>self-important
+                                        author</TCHARACTERTYPEROLE> from <TITLE TITLETYPE="MONOGRAPHIC">The Rehearsal</TITLE> (1671) by
+                                        <NAME REF="https://commons.cwrc.ca/orlando:2c9caa95-ce31-4ac9-b09d-57ef73d021b1" STANDARD="Buckingham, George Villiers,,, second Duke of">George Villiers, 2nd Duke of Buckingham</NAME>, presenting
+                                    a feminist parody of Buckingham’s famous comedy and the misogyny
+                                    in the broader rehearsal play tradition.<BIBCITS>
+                                        <BIBCIT PLACEHOLDER="White 47-53" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">47-53</BIBCIT>
+                                    </BIBCITS>
+                                </TINTERTEXTUALITY><TPLOT>The plot revolves around meta-theatrical
+                                    self-parody, with Hazard deciding to cast <SOCALLED>Mrs.
+                                        Clive</SOCALLED> in the lead role of her upcoming <TGENRE GENRENAME="BURLETTA">burletta</TGENRE> at <ORGNAME STANDARD="Theatre Royal,, Drury Lane" REG="Theatre Royal,, Drury Lane" REF="https://commons.cwrc.ca/orlando:fe0ee572-d7a2-4e96-a1cb-0497fbd683de">Drury Lane</ORGNAME>. When <SOCALLED>Mrs. Clive</SOCALLED>
+                                    sends word that she will not be able to participate,
+                                        <TINTERTEXTUALITY INTERTEXTTYPE="IMITATION">Hazard is
+                                        persuaded to put on Clive’s shepherdess costume and perform
+                                        as <TCHARACTERNAME>Marcella</TCHARACTERNAME> in an
+                                        adaptation of <NAME STANDARD="Boyce, William" REF="https://commons.cwrc.ca/orlando:c9188f5a-3fe9-4683-bda9-22f129a0c751">William Boyce</NAME>’s <TITLE TITLETYPE="MONOGRAPHIC">Corydon and Miranda</TITLE> (1740) instead of a
+                                        burletta.</TINTERTEXTUALITY></TPLOT>
+                                <TINTERTEXTUALITY INTERTEXTTYPE="ALLUSIONUNACKNOWLEDGED" GENDEROFAUTHOR="TRANS">Numerous other characters and their
+                                    players in the piece were borrowed from Clive's recent hits,
+                                    such as <TITLE TITLETYPE="MONOGRAPHIC">Lethe</TITLE> and <TITLE TITLETYPE="MONOGRAPHIC">The Chaplet </TITLE><BIBCITS>
+                                        <BIBCIT PLACEHOLDER="Joncus 380-81" REF="https://commons.cwrc.ca/orlando:abd8aa09-5df6-4aff-bb1a-2ec868d6e339">380-81</BIBCIT>
+                                    </BIBCITS></TINTERTEXTUALITY></P>
+                        </SHORTPROSE>
+<RESEARCHNOTE>ST: I'm unable to put a period between the closing title tag and the opening bibcits tag. KLH: No problem, we'll leave this note and catch it later.</RESEARCHNOTE>                    </TEXTUALFEATURES>
+                </DIV2>
+                <DIV2>
+                    <HEADING><TITLE TITLETYPE="UNPUBLISHED">Every Woman in Her
+                        Humour</TITLE></HEADING>
+                    <TEXTSCOPE PLACEHOLDER="CC, Every Woman in Her Humour, 1760"/>
+                    <PRODUCTION>
+                        <CHRONSTRUCT CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="DECADE" RESP="SYS">
+                            <DATE>20 March 1760</DATE>
+                            <CHRONPROSE><PPERFORMANCE>Ten years after her first play was written, <NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME>’s next <TGENRE GENRENAME="AFTERPIECE">afterpiece</TGENRE>
+                                <TITLE TITLETYPE="UNPUBLISHED">Every Woman in Her Humour</TITLE> had
+                                its single performance at her benefit.</PPERFORMANCE></CHRONPROSE>
+                            <BIBCITS>
+                                <BIBCIT PLACEHOLDER="Clive, Every Woman, prelims" REF="https://commons.cwrc.ca/orlando:bibliographic-18-every_woman_in_her_humour">prelims</BIBCIT> <BIBCIT PLACEHOLDER="Kinservik, Benefit 28" REF="https://commons.cwrc.ca/orlando:c3d38367-11f1-4d5b-bd0c-0233f0afda8d">28</BIBCIT></BIBCITS>  
+                                                          </CHRONSTRUCT>
+                        <SHORTPROSE>
+                            <P><PMANUSCRIPTHISTORY><PARCHIVALLOCATION>A copy can be found in the
+                                        Larpent Collection (<ORGNAME STANDARD="Huntington Library" REF="https://commons.cwrc.ca/orlando:28074ac8-ddfd-4f0d-b515-299809d004a2">Huntington Library</ORGNAME>) of play
+                                        manuscripts.</PARCHIVALLOCATION></PMANUSCRIPTHISTORY></P>
+                        </SHORTPROSE>
+                    </PRODUCTION>
+                    <TEXTUALFEATURES>
+                        <SHORTPROSE>
+                            <P><TINTERTEXTUALITY GENDEROFAUTHOR="MAN" INTERTEXTTYPE="MISQUOTATION">The title is a gendered inversion of <NAME REF="https://commons.cwrc.ca/orlando:0ad030cd-341e-473c-b128-3417a4d232d7" STANDARD="Jonson, Ben">Ben Jonson</NAME>’s 1598 play <TITLE TITLETYPE="MONOGRAPHIC">Every Man in His
+                                    Humour</TITLE></TINTERTEXTUALITY>. <TPLOT>This play has a more
+                                    intricate plot and a larger cast of characters than <TITLE TITLETYPE="MONOGRAPHIC">Bayes in Petticoats</TITLE> as a
+                                    party crowd gathers at Lord and Lady Byfield's country estate.
+                                    CC portrays <TCHARACTERNAME>Mrs Croston</TCHARACTERNAME>, a
+                                        <TCHARACTERTYPEROLE>cranky widow</TCHARACTERTYPEROLE> who
+                                    harrasses <TCHARACTERNAME>Sir John Byfield</TCHARACTERNAME>
+                                    about his new wife's spending and parties. At the conclusion of
+                                    the play, Sir John kicks Mrs Croston out of his home.
+                                        <TCHARACTERNAME>Miss Gibberish</TCHARACTERNAME>,
+                                        <TCHARACTERNAME>Lady Di Clatter</TCHARACTERNAME>, and
+                                        <TCHARACTERNAME>Mrs Goodfellow</TCHARACTERNAME>, a trio of
+                                        <TCHARACTERTYPEROLE>pseudo-intellectual
+                                        women</TCHARACTERTYPEROLE>, provide additional entertainment
+                                    to the play by arguing the relative virtues of science and
+                                    philosophy; these characters are likely CC's satiric take on the
+                                    tired joke of learned ladies.<BIBCITS><BIBCIT PLACEHOLDER="White 45-46" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">45-46</BIBCIT></BIBCITS></TPLOT></P>
+                        </SHORTPROSE>
+                    </TEXTUALFEATURES>
+                    <RECEPTION>
+                        <SHORTPROSE>
+                            <P><RRESPONSES RESPONSETYPE="RECENT" FORMALITY="FORMAL">Although it was
+                                    only staged once in CC's lifetime, <NAME REF="https://commons.cwrc.ca/orlando:00c689c0-6f02-427c-b98c-1fe7f88bbb6d" STANDARD="Nussbaum, Felicity ">Felicity Nussbaum</NAME>
+                                    deems it <QUOTE DIRECT="Y">the best of Clive's small corpus,</QUOTE> <BIBCITS><BIBCIT PLACEHOLDER="Nussbaum 178" REF="https://commons.cwrc.ca/orlando:0dfb35b9-4f5f-4f1d-b0ff-387fff4df233">178</BIBCIT></BIBCITS> while
+                                        <NAME REF="https://commons.cwrc.ca/orlando:42925f0e-7857-475e-8556-72b5a7ffa98e" STANDARD="Frushell, Richard C. ">Richard C. Frushell</NAME> states
+                                    that CC's <QUOTE DIRECT="Y">reputation as a minor playwright primarily
+                                        should rest</QUOTE> on <TITLE TITLETYPE="UNPUBLISHED">Every
+                                        Woman in Her Humour</TITLE>.<BIBCITS>  <BIBCIT PLACEHOLDER="White 45" QTDIN="QTDINYES" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">45</BIBCIT>
+                                    </BIBCITS></RRESPONSES></P>
+                        </SHORTPROSE>
+                    </RECEPTION>
+                </DIV2>
+                <DIV2>
+                    <HEADING><TITLE TITLETYPE="UNPUBLISHED">The Sketch of a Fine Lady’s Return from
+                            a Rout</TITLE></HEADING>
+                    <TEXTSCOPE PLACEHOLDER="CC, The Sketch of a Fine Lady's Return from a Rout, 1763"/>
+                    <PRODUCTION>
+                        <CHRONSTRUCT CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="DECADE" RESP="SYS">
+                            <DATE>21 March 1763</DATE>
+                            <CHRONPROSE><PPERFORMANCE><NAME REF="https://commons.cwrc.ca/orlando:0643b53b-8b11-4957-9da4-ecdba4f5ed10" STANDARD="Clive, Catherine">CC</NAME> used her benefit night to stage <TITLE TITLETYPE="UNPUBLISHED">The Sketch of a Fine Lady’s Return
+                                        from a Rout</TITLE> at <ORGNAME REF="https://commons.cwrc.ca/orlando:fe0ee572-d7a2-4e96-a1cb-0497fbd683de" REG="Theatre Royal,, Drury Lane" STANDARD="Theatre Royal,, Drury Lane">Drury
+                                Lane</ORGNAME>.</PPERFORMANCE></CHRONPROSE>
+                            <BIBCITS>
+                                <BIBCIT PLACEHOLDER="White 46" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">46</BIBCIT>
+                            <BIBCIT PLACEHOLDER="Clive, Sketch, prelims" REF="https://commons.cwrc.ca/orlando:bibliographic-19-the_sketch_of_a_fine_ladys_return_from_a_rout">prelims</BIBCIT></BIBCITS><SCHOLARNOTE><P>A note on the Larpent manuscript says the farce would be performed at this theatre and this time if the Lord Chamberlain made no objection, and it seems he did not.</P>
+                            </SCHOLARNOTE>
+                         </CHRONSTRUCT>
+                    </PRODUCTION>
+                    <TEXTUALFEATURES>
+                        <SHORTPROSE>
+                            <P>It is one of the few plays written about Irish subjects and possibly
+                                the only instance of an Irish subject treated by a woman of Irish
+                                extraction during this period.
+                                <PPERFORMANCE>It was performed at least once in <PLACE><SETTLEMENT>Dublin</SETTLEMENT><REGION REG="Leinster"/><GEOG REG="Ireland"/></PLACE> for CC on 27
+                                    June 1763</PPERFORMANCE>.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Nussbaum 184" REF="https://commons.cwrc.ca/orlando:0dfb35b9-4f5f-4f1d-b0ff-387fff4df233">184</BIBCIT>
+                                </BIBCITS></P>
+                        </SHORTPROSE>
+                    </TEXTUALFEATURES>
+                    <TEXTUALFEATURES>
+                        <SHORTPROSE>
+                            <P>The play explores themes of <TTHEMETOPIC>conflict between a woman's
+                                    true desires and her domestic and social
+                                    obligations.</TTHEMETOPIC>
+                                <TPLOT>It features <TCHARACTERNAME REG="Jenkings, Sir Jeremy">Sir Jeremy</TCHARACTERNAME>, the
+                                    recently knighted husband of <TCHARACTERNAME>Lady
+                                        Jenkings</TCHARACTERNAME>, who is enraged by her waste of
+                                    money; she in turn considers him dull and uninteresting. Lady
+                                    Jenkings successfully recovers her losses, and she and her
+                                    husband reconcile.</TPLOT>
+                                <TITLE TITLETYPE="UNPUBLISHED">The Sketch of a Fine Lady’s Return
+                                    from a Rout</TITLE> is more self-referential than <TITLE TITLETYPE="UNPUBLISHED">Every Woman in Her Humour</TITLE>, and
+                                it is believed that CC's reputation as a gamestress and her
+                                English-Irish heritage  is alluded to through her casting as Lady Jenkings.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Nussbaum 184" REF="https://commons.cwrc.ca/orlando:0dfb35b9-4f5f-4f1d-b0ff-387fff4df233">184</BIBCIT>
+                                    <BIBCIT PLACEHOLDER="White 46-47" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">46-47</BIBCIT></BIBCITS></P>
+                        </SHORTPROSE>
+                    </TEXTUALFEATURES>
+                </DIV2>
+                <DIV2>
+                    <HEADING><TITLE TITLETYPE="UNPUBLISHED">The Faithful Irish
+                        Woman</TITLE></HEADING>
+                    <TEXTSCOPE PLACEHOLDER="CC, The Faithful Irish Woman, 1765"/>
+                    <PRODUCTION>
+                        <CHRONSTRUCT CHRONCOLUMN="WRITINGCLIMATE" RELEVANCE="SELECTIVE" RESP="SYS">
+                            <DATE>18 March 1765</DATE>
+                            <CHRONPROSE><PLASTLITERARYACTIVITY><PPERFORMANCE>The final play that CC is known to have written, <TITLE TITLETYPE="UNPUBLISHED">The Faithful Irish Woman</TITLE>,
+                                debuted as the <TGENRE GENRENAME="AFTERPIECE">afterpiece</TGENRE>
+                                for her benefit, apparently after some delay.</PPERFORMANCE></PLASTLITERARYACTIVITY></CHRONPROSE>
+                            <BIBCITS>
+                                <BIBCIT PLACEHOLDER="White 47" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">47</BIBCIT>
+                            </BIBCITS>
+                        </CHRONSTRUCT>
+                        <SHORTPROSE>
+                            <P>CC <TGENRE GENRENAME="ADAPTATION">adapted</TGENRE> <TITLE TITLETYPE="UNPUBLISHED" REG="The Sketch of a Fine Lady’s Return from a Rout">The
+                                    Sketch</TITLE> into two acts and re-titled it <TITLE TITLETYPE="UNPUBLISHED">The Faithful Irish Woman</TITLE>. <BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Nussbaum 184" REF="https://commons.cwrc.ca/orlando:0dfb35b9-4f5f-4f1d-b0ff-387fff4df233">184</BIBCIT>
+                                </BIBCITS><RRESPONSES RESPONSETYPE="RECENT"> As Nussbaum notes,
+                                        <QUOTE>Clive’s views in <TITLE TITLETYPE="UNPUBLISHED">The
+                                            Faithful Irish Woman</TITLE> were not without
+                                        controversy.</QUOTE><BIBCITS>
+                                        <BIBCIT PLACEHOLDER="Nussbaum 185" REF="https://commons.cwrc.ca/orlando:0dfb35b9-4f5f-4f1d-b0ff-387fff4df233">185</BIBCIT>
+                                    </BIBCITS> Of her later three works surviving through the
+                                    Larpent collection at Huntington Library, the manuscript of this
+                                    play appears to be the most heavily censored. Among the emended
+                                    phrases are a number of claims regarding the quality of language
+                                    spoken in England and Ireland, such as Mrs O'Conner's remark
+                                    that English was spoken <QUOTE>in the purest Manner in
+                                        Dublin.</QUOTE> <BIBCITS><BIBCIT PLACEHOLDER="Clive, Faithful 7" REF="https://commons.cwrc.ca/orlando:85976cda-1996-492a-b4d8-77a58e53c4ec">7</BIBCIT></BIBCITS> Specific comparisons of English with Irish
+                                    people and places have been made more ambiguous, and Mrs
+                                    O'Connor merely suggests instead of asserting that she will
+                                    shake hands on the deal by which she rescues Capt. Truman financially.<BIBCITS>
+                                        <BIBCIT PLACEHOLDER="Clive, Faithful 7, 21" REF="https://commons.cwrc.ca/orlando:85976cda-1996-492a-b4d8-77a58e53c4ec">7, 21</BIBCIT>  <BIBCIT PLACEHOLDER="Nussbaum 185" REF="https://commons.cwrc.ca/orlando:0dfb35b9-4f5f-4f1d-b0ff-387fff4df233">185</BIBCIT>
+                                    </BIBCITS></RRESPONSES>
+                                <BIBCITS>
+                                    </BIBCITS></P>
+                        </SHORTPROSE>
+                    </PRODUCTION>
+                    <TEXTUALFEATURES>
+                        <SHORTPROSE>
+                            <P>The adaption follows the same storyline and cast of characters as
+                                    <TITLE TITLETYPE="UNPUBLISHED" REG="The Sketch of a Fine Lady’s Return from a Rout">The
+                                    Sketch</TITLE> but <TCHARACTERTYPEROLE PROTAGONIST="FEMALE">CC
+                                    takes on a new role as <TCHARACTERNAME>Mrs.
+                                        O'Conner</TCHARACTERNAME>, a landowning Irishwoman who
+                                    is</TCHARACTERTYPEROLE> the cousin of <TCHARACTERNAME>Lady
+                                    Jenkings</TCHARACTERNAME> and the romantic interest of
+                                    <TCHARACTERNAME>Captain Truman</TCHARACTERNAME>, an English
+                                seacaptain who eventually loses his fortune in a shipwreck. Clive
+                                parodies her own Irish ancestry by adopting a thick accent and
+                                incorporating dialogue defending Irish culture. The proud
+                                Irish-English identity exhibited by <TCHARACTERNAME>Mrs
+                                    O'Connor</TCHARACTERNAME> reverses models of language, gender,
+                                and social class observed in CC's own family heritage and plots of
+                                popular Irish plays on the English stage. Near the conclusion of the
+                                afterpiece, Mrs O'Connor sings an excerpt from Air X in <TITLE TITLETYPE="MONOGRAPHIC">The Beggar's Opera</TITLE>: <QUOTE>Thus safe on shore, I ask no more; / My All is in my Possession, Possession.</QUOTE> In doing so, CC creates a theatrical space in which she can inhabit
+                                as a dispossessed Irish-English woman by integrating references to
+                                her repossession of the role of <QUOTE>pretty Polly</QUOTE> with Mrs
+                                O'Connor's "possession" of Irish land.<BIBCITS>
+                                    <BIBCIT PLACEHOLDER="Clive, Faithful 21" REF="https://commons.cwrc.ca/orlando:85976cda-1996-492a-b4d8-77a58e53c4ec">21</BIBCIT>
+                                    <BIBCIT PLACEHOLDER="Nussbaum 184-88" REF="https://commons.cwrc.ca/orlando:0dfb35b9-4f5f-4f1d-b0ff-387fff4df233">184-88</BIBCIT>
+                                    <BIBCIT PLACEHOLDER="White 46-47" REF="https://commons.cwrc.ca/orlando:abac3702-566b-4ea8-a631-25850053426c">46-47</BIBCIT></BIBCITS></P>
+                        </SHORTPROSE>
+                    </TEXTUALFEATURES>
+                </DIV2>
+            </DIV1>
+        </WRITING>
+        <WORKSCITED>
+            <SOURCE> Unless otherwise noted, all information is from <TITLE TITLETYPE="MONOGRAPHIC">[InsertSourceTitle]</TITLE>.
+                [I wonder if we
+                could scrap this now?]</SOURCE>
+            <SOURCE>Baldwin, Olive, and Thelma Wilson. “Kitty Clive: Her Birth and Marriage Dates.”
+                Theatre Notebook, vol. 74, no. 1, 2020, pp. 2–7.</SOURCE>
+            <SOURCE>Chetwood, William Rufus. A General History of the Stage: From Its Origin in
+                Greece Down to the Present Time. W. Owen, 1749.</SOURCE><SOURCE>Clive, Catherine. Every Woman in Her Humour. The Huntington Library, John Larpent Collection, LA 174.</SOURCE>
+            <SOURCE>Clive, Catherine. The Case of Mrs. Clive: Submitted to the Publick (London:
+                Printed for B. Dod, 1744), 18–19. </SOURCE>
+            <SOURCE>Clive, Catherine, The Faithful Irish Woman (1765), The Huntington Library, John
+                Larpent Collection, LA 247.<RESEARCHNOTE>AF: Email aflynn04@uoguelph.ca for copy of
+                    PDF if unable to access through Alberta. Used page numbers penciled in top
+                    corner.</RESEARCHNOTE></SOURCE><SOURCE>Clive, Catherine. The Sketch of a Fine Lady's Return from a Rout. The Huntington Library, John Larpent Collection, LA 220.</SOURCE><SOURCE>Clive. To the Author of the London Daily Post. The London Daily Post and General Advertiser, 19 November 1736, p. 1</SOURCE>
+            <SOURCE>Griffith, Elizabeth. The Platonic Wife (1765). London, 1765.</SOURCE>
+            <SOURCE>Highfill, Philip H., et al. A Biographical Dictionary of Actors, Actresses,
+                Musicians, Dancers, Managers and Other Stage Personnel in London, 1660-1800.
+                Southern Illinois University Press, 1973–1993.<RESEARCHNOTE>AF: Entries on "Clive,
+                    Catherine" and "Raftor, James".</RESEARCHNOTE></SOURCE>
+            <SOURCE>Joncus, Berta. Kitty Clive, or the Fair Songster. Boydell &amp; Brewer,
+                2019.</SOURCE>
+            <SOURCE>Kinservik, Matthew J. “Benefit Play Selection at Drury Lane 1729–1769: the Cases
+                of Mrs Cibber, Mrs Clive, and Mrs Pritchard.” Theatre Notebook 50, no. 1 (1996),
+                    18.<RESEARCHNOTE>AF: Email aflynn04@uoguelph.ca for copy of PDF if unable to
+                    access through Alberta.</RESEARCHNOTE></SOURCE>
+            <SOURCE>Kinservik, Matthew J. “Garrick’s Unpublished Epilogue for Catherine Clive’s The
+                Rehearsal: or, Bays in Petticoats (1750)” Études Anglaises 49, no. 3 (1996):
+                    320-26.<RESEARCHNOTE>AF: Email aflynn04@uoguelph.ca for copy of PDF if unable to
+                    access through Alberta.</RESEARCHNOTE></SOURCE>
+            <SOURCE>Nussbaum, Felicity. Rival Queens : Actresses, Performance, and the
+                Eighteenth-Century British Theater. University of Pennsylvania Press, 2010.</SOURCE>
+            <SOURCE>Pye, Jael-Henrietta Pye, A Short View of the Principal Seats and Gardens in and
+                About Twickenham (London: n.p, 1771), 15–16.</SOURCE>
+            <SOURCE>Sheridan, Frances Chamberlaine. The Dupe (1764). London, 1764.</SOURCE>
+            <SOURCE>White, Willow. Feminist comedy: The professionalization of women playwrights in
+                London, 1750-1800. 2021. McGill University.</SOURCE>
+        </WORKSCITED>
+    </DIV0>
+</ENTRY>
