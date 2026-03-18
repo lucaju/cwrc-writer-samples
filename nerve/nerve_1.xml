@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sample Document Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc sameAs="http://www.cwrc.ca">
+				<p>Created from original research by members of CWRC/CSÉC unless otherwise noted.</p>
+			</sourceDesc>
+		</fileDesc>
+</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>
+					<title><persName key="Russell, Bertrand, 1872-1970." ref="http://viaf.org/viaf/36924137" ana="webannotation:http://temp.lincsproject.ca/1n6hbFFibDG">Bertrand Russell</persName> to Patricia Spence - October 21, 1935</title>
+				</head>
+				<opener>
+					<note>
+						<p>Bad writing due to shaky train</p><p>In train</p><p>
+							Oslo to Bergen</p>
+					</note>
+					<dateline>
+						<date cert="high" when="1935-10-21">21.10.35</date>
+					</dateline>
+					<salute>Dearest -</salute>
+				</opener><p>I have had no letter from you since I left Stockholm, but I had a nice one from John in an envelope you had sent him. I had sent him one addressed to Copenhagen but he hadn't used it.</p><p>When I reached Oslo yesterday evening, Brynjulf Bull should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with no one about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/> time of my arrival wrong, and 
+						<choice><sic>when</sic><corr>when</corr></choice>
+					he had found he had missed me he phoned to every hotel in Oslo till he hit on the right one. He left me at 10, and then I had to do a Sunday Referee article. Today my journey lasts from 9 till 9 - fortunately one of the most beautiful railway journeys in the world. Tomorrow I lecture at Bergen to the Anglo-Norwegian Society. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for home via Bergen.</p>
+				<pb n="3"/>
+				<p>Bull is a nice young man but incompetent - can't quite stand the communists, but finds the socialists too mild.</p><p>I am unhappily wondering what you are feeling about me.</p>
+				<closer>
+					<salute>I love you very much -</salute>
+					<signed>
+						B
+					</signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+	<standOff type="annotation">
+		<xenoData>
+			<rdf:RDF>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/1n6hbFFibDG">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/1n6hbFFibDG",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-03-18T00:56:16.764Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/64E1uLFWOw7",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/russell_letter.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/russell_letter.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Sample Document Title"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/64E1uLFWOw7/selector/textPosition/WKdcnLh1P2X",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 18,
+                "end": 34,
+                "refinedBy": {
+                    "id": "/target/64E1uLFWOw7/selector/textQuote/istMpDX6zSZ",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Bertrand Russell",
+                    "prefix": "\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t",
+                    "suffix": "to Patricia Spence - October 21, 1935\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tBad writing due to shaky trainIn train\n\t\t\t\t\t\t\tOslo to Bergen\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t21"
+                }
+            },
+            {
+                "id": "/target/64E1uLFWOw7/selector/css/CjtYREVE3gH",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/1n6hbFFibDG]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/36924137",
+        "type": "crm:E21_Person",
+        "label": "Russell, Bertrand, 1872-1970.",
+        "description": "Russell, Bertrand"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				</rdf:Description>
+			</rdf:RDF>
+		</xenoData>
+	</standOff>
+</TEI>
