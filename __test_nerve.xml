@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Others
+					in Support of Women's Right to Vote in the United States, 1871</title>
+				<author>Elizabeth Cady Stanton </author>
+					<author>Isabella Beecher Hooker </author>
+					<author>Elizabeth S. Bladen</author> 
+					<author>Olympia Brown </author>
+					<author>Susan B. Anthony </author>
+					<author>Josephine S. Griffing</author>
+				<respStmt>
+					<name>
+						<orgName>(U.S.) National Archives</orgName>
+					</name>
+					<resp>Publisher</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>National Archives</distributor>
+				<availability>
+					<licence>Public Domain</licence>
+				</availability>
+					<idno type="custom">National Archives Identifier https://catalog.archives.gov/id/1634184</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<p>This primary source comes from the Records of the U.S. Senate. National Archives
+					Identifier: 1634184 Full Citation: Letter to the United States Congress from
+					Elizabeth Cady Stanton and Susan B. Anthony and Others in Support of Women's
+					Suffrage; 12/1871; Petition and Memorials, Resolutions of State Legislatures,
+					and Related Documents which were Referred to the Committee on the Judiciary
+					during the 42nd Congress; (SEN 42A-H11.4); Committee Papers, 1816 - 2011;
+					Records of the U.S. Senate, Record Group 46; National Archives Building,
+					Washington, DC. [Online Version,
+					https://www.docsteach.org/documents/document/congress-stanton-anthony, last accessed 19 February 2023]</p>
+			</sourceDesc>
+		</fileDesc>
+<encodingDesc>
+			<projectDesc>
+				<p>This encoded file was created by Diane Jakacki and made available for a Linked
+					Editing Academic Framework (LEAF) / LEAF-Writer workshop. This file is not meant for
+					use or publication outside of the workshop environment.</p>
+			</projectDesc>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb facs="https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/Congress_Letter/congress_letter_image1.jpg"/>
+
+			<opener>To the Honorable the Senate and House of Representatives of the United States in
+				<orgName key="United States Congress" ref="http://www.wikidata.org/entity/Q11268" ana="webannotation:http://temp.lincsproject.ca/9kcEwJfbiQl">Congress</orgName> Assembled:</opener>
+			<p>The undersigned, Citisens of the United States, believing that under the present
+					Federal Constitution all women who are citisens of the United States have the
+					right to vote, pray your Honorable Body to
+				enact a law during the present session that shall assist and protect them in the exercise of that
+					right
+			</p>
+			<p>And they pray further that they may be permitted in person, and in behalf of the
+				thousands of other women who are petitioning <orgName key="United States Congress" ref="http://www.wikidata.org/entity/Q11268" ana="webannotation:http://temp.lincsproject.ca/Gsv5gmySTcD">Congress</orgName> to the same effect to be heard
+				upon this Memmoiral before the Senate and House at an early day in the present
+				Session.</p>
+			<p>We ask your Honorable Body to bear in mind that while men are represented on the
+				floor of <orgName key="United States Congress" ref="http://www.wikidata.org/entity/Q11268" ana="webannotation:http://temp.lincsproject.ca/T0m218euoSD">Congress</orgName> and so may be said to be heard there, women
+				who are allowed no vote and therefore no representation cannot truly be heard except
+				as <orgName key="United States Congress" ref="http://www.wikidata.org/entity/Q11268" ana="webannotation:http://temp.lincsproject.ca/gvuCADdS9G9">Congress</orgName> shall open its doors to us in person.</p>
+			<closer>
+				<signatures><persName key="Stanton, Elizabeth Cady, 1815-1902" ref="http://viaf.org/viaf/22937739" ana="webannotation:http://temp.lincsproject.ca/SwB4Oa4nXX4" cert="low" type="real">Elizabeth Cady Stanton</persName> 
+				Isabella Beecher Hooker 
+				Elizabeth S. Bladen 
+				Olympia Brown 
+				Susan B. Anthony 
+				Josephine S. Griffing</signatures> 
+				Hartford Conn. Dec. 1871</closer>
+		</body>
+	</text>
+	<standOff type="annotation">
+		
+<xenoData>
+			
+<rdf:RDF>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/9kcEwJfbiQl">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/9kcEwJfbiQl",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-15T14:27:05.937Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/0LMlKPdrhak",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Others\n\t\t\t\t\tin Support of Women's Right to Vote in the United States, 1871"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/0LMlKPdrhak/selector/textPosition/SQHtzSBitME",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 97,
+                "end": 105,
+                "refinedBy": {
+                    "id": "/target/0LMlKPdrhak/selector/textQuote/dbCBfXra3kE",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Congress",
+                    "prefix": "\n\t\t\n\t\t\t\n\n\t\t\tTo the Honorable the Senate and House of Representatives of the United States in\n\t\t\t",
+                    "suffix": "Assembled:\n\t\t\tThe undersigned, Citisens of the United States, believing that under the present\n\t\t\t\t\tFederal Constitution all women who are citisens of the United States have the\n\t\t\t\t\tright to vote, pray your Honorable Body to\n\t\t\t\tenact a law during the present session that shall assist and protect them in the exercise of that\n\t\t\t\t\tright\n\t\t\t\n\t\t\tAnd they pray further that they may be permitted in person, and in behalf of the\n\t\t\t\tthousands of other women who are petitioning Congress to the same effect to be heard\n\t\t\t\tupon this Memmoiral before the Senate and House at an early day in the present\n\t\t\t\tSession"
+                }
+            },
+            {
+                "id": "/target/0LMlKPdrhak/selector/css/rcNEGNlqVCi",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/9kcEwJfbiQl]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q11268",
+        "type": "crm:E74_Group",
+        "label": "United States Congress",
+        "description": "bicameral legislature of the United States"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Gsv5gmySTcD">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Gsv5gmySTcD",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-15T14:27:05.975Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/E64cpqdYrqw",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Others\n\t\t\t\t\tin Support of Women's Right to Vote in the United States, 1871"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/E64cpqdYrqw/selector/textPosition/7hHKHB8hehy",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 582,
+                "end": 590,
+                "refinedBy": {
+                    "id": "/target/E64cpqdYrqw/selector/textQuote/oK2XL2sS2ty",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Congress",
+                    "prefix": "\n\t\t\n\t\t\t\n\n\t\t\tTo the Honorable the Senate and House of Representatives of the United States in\n\t\t\t\tCongress Assembled:\n\t\t\tThe undersigned, Citisens of the United States, believing that under the present\n\t\t\t\t\tFederal Constitution all women who are citisens of the United States have the\n\t\t\t\t\tright to vote, pray your Honorable Body to\n\t\t\t\tenact a law during the present session that shall assist and protect them in the exercise of that\n\t\t\t\t\tright\n\t\t\t\n\t\t\tAnd they pray further that they may be permitted in person, and in behalf of the\n\t\t\t\tthousands of other women who are petitioning",
+                    "suffix": "to the same effect to be heard\n\t\t\t\tupon this Memmoiral before the Senate and House at an early day in the present\n\t\t\t\tSession"
+                }
+            },
+            {
+                "id": "/target/E64cpqdYrqw/selector/css/Z9GoA4HQUgg",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Gsv5gmySTcD]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q11268",
+        "type": "crm:E74_Group",
+        "label": "United States Congress",
+        "description": "bicameral legislature of the United States"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/T0m218euoSD">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/T0m218euoSD",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-15T14:27:05.992Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/O0C4yaoYP0L",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Others\n\t\t\t\t\tin Support of Women's Right to Vote in the United States, 1871"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/O0C4yaoYP0L/selector/textPosition/ZXQJSN5rEhK",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 815,
+                "end": 823,
+                "refinedBy": {
+                    "id": "/target/O0C4yaoYP0L/selector/textQuote/xqCPRR7D0P0",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Congress",
+                    "prefix": "\n\t\t\tWe ask your Honorable Body to bear in mind that while men are represented on the\n\t\t\t\tfloor of",
+                    "suffix": "and so may be said to be heard there, women\n\t\t\t\twho are allowed no vote and therefore no representation cannot truly be heard except\n\t\t\t\tas Congress shall open its doors to us in person"
+                }
+            },
+            {
+                "id": "/target/O0C4yaoYP0L/selector/css/T25JbwCJSbu",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/T0m218euoSD]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q11268",
+        "type": "crm:E74_Group",
+        "label": "United States Congress",
+        "description": "bicameral legislature of the United States"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/gvuCADdS9G9">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/gvuCADdS9G9",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-15T14:27:06.008Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/tH48jkuz2ke",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Others\n\t\t\t\t\tin Support of Women's Right to Vote in the United States, 1871"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/tH48jkuz2ke/selector/textPosition/ncEl8mvVPDR",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 964,
+                "end": 972,
+                "refinedBy": {
+                    "id": "/target/tH48jkuz2ke/selector/textQuote/1GRJvbwaHp9",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Congress",
+                    "prefix": "\n\t\t\tWe ask your Honorable Body to bear in mind that while men are represented on the\n\t\t\t\tfloor of Congress and so may be said to be heard there, women\n\t\t\t\twho are allowed no vote and therefore no representation cannot truly be heard except\n\t\t\t\tas",
+                    "suffix": "shall open its doors to us in person"
+                }
+            },
+            {
+                "id": "/target/tH48jkuz2ke/selector/css/iLLVFXECyim",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/gvuCADdS9G9]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q11268",
+        "type": "crm:E74_Group",
+        "label": "United States Congress",
+        "description": "bicameral legislature of the United States"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/SwB4Oa4nXX4">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/SwB4Oa4nXX4",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-15T14:23:01.121Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/5oJg1UUq2jq",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Others\n\t\t\t\t\tin Support of Women's Right to Vote in the United States, 1871"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/5oJg1UUq2jq/selector/textPosition/TUMVh3yydee",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 1019,
+                "end": 1041,
+                "refinedBy": {
+                    "id": "/target/5oJg1UUq2jq/selector/textQuote/YhWOS2N8MFj",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Elizabeth Cady Stanton",
+                    "prefix": "\n\t\t\t\n\t\t\t",
+                    "suffix": "\n\t\t\t\tIsabella Beecher Hooker \n\t\t\t\tElizabeth S"
+                }
+            },
+            {
+                "id": "/target/5oJg1UUq2jq/selector/css/nQLLW51Damw",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/SwB4Oa4nXX4]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/22937739",
+        "type": "crm:E21_Person",
+        "label": "Stanton, Elizabeth Cady, 1815-1902",
+        "description": "Stanton, Elizabeth Cady",
+        "P2_has_type": [
+            "edit:modeReal"
+        ]
+    },
+    "P2_has_type": [
+        "oa:identifying",
+        "edit:certaintyLow"
+    ]
+}]]>
+				
+</rdf:Description>
+			
+</rdf:RDF>
+		
+</xenoData>
+	</standOff>
+</TEI>
