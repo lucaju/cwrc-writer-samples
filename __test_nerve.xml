@@ -52,7 +52,7 @@
 				<orgName key="United States Congress" ref="http://www.wikidata.org/entity/Q11268" ana="webannotation:http://temp.lincsproject.ca/9kcEwJfbiQl">Congress</orgName> Assembled:</opener>
 			<p>The undersigned, Citisens of the United States, believing that under the present
 					Federal Constitution all women who are citisens of the United States have the
-					right to vote, pray your Honorable Body to
+					right to vote, pray your <persName key="Bladen, Elizabeth S." ref="http://viaf.org/viaf/12041742" ana="webannotation:http://temp.lincsproject.ca/xFUbatQIWOR">Honorable Body</persName> to
 				enact a law during the present session that shall assist and protect them in the exercise of that
 					right
 			</p>
@@ -67,7 +67,7 @@
 			<closer>
 				<signatures><persName key="Stanton, Elizabeth Cady, 1815-1902" ref="http://viaf.org/viaf/22937739" ana="webannotation:http://temp.lincsproject.ca/SwB4Oa4nXX4" cert="low" type="real">Elizabeth Cady Stanton</persName> 
 				Isabella Beecher Hooker 
-				Elizabeth S. Bladen 
+				 
 				Olympia Brown 
 				Susan B. Anthony 
 				Josephine S. Griffing</signatures> 
@@ -524,6 +524,94 @@
     "P2_has_type": [
         "oa:identifying",
         "edit:certaintyLow"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/xFUbatQIWOR">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/xFUbatQIWOR",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-15T14:51:07.721Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/ZJLx7alDXkJ",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Others\n\t\t\t\t\tin Support of Women's Right to Vote in the United States, 1871"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ZJLx7alDXkJ/selector/textPosition/7bwm6X6ILjU",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 1076,
+                "end": 1095,
+                "refinedBy": {
+                    "id": "/target/ZJLx7alDXkJ/selector/textQuote/h19ezfWhO8T",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Elizabeth S. Bladen",
+                    "prefix": "\n\t\t\t\n\t\t\t\tElizabeth Cady Stanton \n\t\t\t\tIsabella Beecher Hooker \n\t\t\t",
+                    "suffix": "\n\t\t\t\tOlympia Brown \n\t\t\t\tSusan B"
+                }
+            },
+            {
+                "id": "/target/ZJLx7alDXkJ/selector/css/w8xYgQm5L0l",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/xFUbatQIWOR]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/12041742",
+        "type": "crm:E21_Person",
+        "label": "Bladen, Elizabeth S."
+    },
+    "P2_has_type": [
+        "oa:identifying"
     ]
 }]]>
 				
