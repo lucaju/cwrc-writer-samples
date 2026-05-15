@@ -58,7 +58,7 @@
 			</p>
 			<p>And they pray further that they may be permitted in person, and in behalf of the
 				thousands of other women who are petitioning <orgName key="United States Congress" ref="http://www.wikidata.org/entity/Q11268" ana="webannotation:http://temp.lincsproject.ca/Gsv5gmySTcD">Congress</orgName> to the same effect to be heard
-				upon this Memmoiral before the Senate and House at an early day in the present
+				upon this Memmoiral before the <orgName key="Senate from Camboja" ref="http://www.authority.com/4545" ana="webannotation:http://temp.lincsproject.ca/mFez1chTSoH">Senate</orgName> and House at an early day in the present
 				Session.</p>
 			<p>We ask your Honorable Body to bear in mind that while men are represented on the
 				floor of <orgName key="United States Congress" ref="http://www.wikidata.org/entity/Q11268" ana="webannotation:http://temp.lincsproject.ca/T0m218euoSD">Congress</orgName> and so may be said to be heard there, women
@@ -616,9 +616,102 @@
 }]]>
 				
 </rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/mFez1chTSoH">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/mFez1chTSoH",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-15T14:54:10.833Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/lATK8Fk3URz",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/__test_nerve.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/__test_nerve.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Others\n\t\t\t\t\tin Support of Women's Right to Vote in the United States, 1871"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/lATK8Fk3URz/selector/textPosition/8tZjT4ZtfRS",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 657,
+                "end": 663,
+                "refinedBy": {
+                    "id": "/target/lATK8Fk3URz/selector/textQuote/B86GOUhxDur",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Senate",
+                    "prefix": "\n\t\t\n\t\t\t\n\n\t\t\tTo the Honorable the Senate and House of Representatives of the United States in\n\t\t\t\tCongress Assembled:\n\t\t\tThe undersigned, Citisens of the United States, believing that under the present\n\t\t\t\t\tFederal Constitution all women who are citisens of the United States have the\n\t\t\t\t\tright to vote, pray your Honorable Body to\n\t\t\t\tenact a law during the present session that shall assist and protect them in the exercise of that\n\t\t\t\t\tright\n\t\t\t\n\t\t\tAnd they pray further that they may be permitted in person, and in behalf of the\n\t\t\t\tthousands of other women who are petitioning Congress to the same effect to be heard\n\t\t\t\tupon this Memmoiral before the",
+                    "suffix": "and House at an early day in the present\n\t\t\t\tSession"
+                }
+            },
+            {
+                "id": "/target/lATK8Fk3URz/selector/css/KywnHLFl0hM",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/mFez1chTSoH]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.authority.com/4545",
+        "label": "Senate from Camboja",
+        "type": "crm:E74_Group",
+        "entityType": "crm:E74_Group"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
 			
 </rdf:RDF>
 		
+
+		
 </xenoData>
+	
 	</standOff>
+
 </TEI>
