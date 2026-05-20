@@ -189,7 +189,7 @@
                
               </opener>
               
-              <p>When I reached Oslo yesterday evening, Brynjulf Bull should have been there to meet
+              <p>When I reached <placeName key="Oslomej" ref="https://sws.geonames.org/863885" ana="webannotation:http://temp.lincsproject.ca/dRfgGgDG4Uc">Oslo</placeName> yesterday evening, Brynjulf Bull should have been there to meet
                  me, but wasn't. He is not on the telephone, so I took a taxi to his address, which
                  turned out to be a students' club with no one about on Sundays, so I went to a hotel
                  feeling rather non-plussed. But presently he turned up. He had got the<pb cert="high" xml:space="default" n="2"/>
@@ -217,4 +217,103 @@
            </div>
         </body>
      </text>
-  </TEI>
+  	<standOff type="annotation">
+		
+<xenoData>
+			
+<rdf:RDF>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/dRfgGgDG4Uc">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/dRfgGgDG4Uc",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T02:22:42.434Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "http://localhost:3000",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "http://localhost:3000",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/Il5oUwCEuG7",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Tests/teiAll2.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/Tests/teiAll2.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Sample Document Title"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Il5oUwCEuG7/selector/textPosition/r1a3QpqsiVV",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 451,
+                "end": 455,
+                "refinedBy": {
+                    "id": "/target/Il5oUwCEuG7/selector/textQuote/zfuYvWUdjps",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Oslo",
+                    "prefix": "35\n                 \n               \n              \n              \n              When I reached",
+                    "suffix": "yesterday evening, Brynjulf Bull should have been there to meet\n                 me, but wasn't"
+                }
+            },
+            {
+                "id": "/target/Il5oUwCEuG7/selector/css/Jtibd1h4Di5",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/dRfgGgDG4Uc]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/863885",
+        "type": "crm:E53_Place",
+        "label": "Oslomej",
+        "description": "null, MK"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+			
+</rdf:RDF>
+		
+</xenoData>
+	</standOff>
+</TEI>
