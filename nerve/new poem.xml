@@ -58,7 +58,7 @@
 					</l>
 				</lg>
 				<lg>
-					<l>He is tearful, choking tears; but not he</l><l>would blame the clever English; in their place</l><l>he'd do the same; maybe.</l>
+					<l>He is tearful, choking tears; but not he</l><l>would blame the clever <rs key="English" ref="http://vocab.getty.edu/tgn/2317823" ana="webannotation:http://temp.lincsproject.ca/bjtC4k5qZwz">English</rs>; in their place</l><l>he'd do the same; maybe.</l>
 				</lg>
 				<lg>
 					<l part="I">Where <emph>are</emph> your sons?</l><l part="F">The whole street wears one face,</l><l>shadowed and grim; and in the darkness rises</l><l>the body-odour of race.</l>
@@ -160,9 +160,102 @@
 }]]>
 				
 </rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/bjtC4k5qZwz">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/bjtC4k5qZwz",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:tagging",
+    "created": "2026-05-20T02:28:24.020Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "crm:E21_Person",
+        "name": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "http://localhost:3000",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "http://localhost:3000",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/i3pxkWlZH5I",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/nerve/new%20poem.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/nerve/new%20poem.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Political Meeting"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/i3pxkWlZH5I/selector/textPosition/MfCKJIq7mVb",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 1861,
+                "end": 1868,
+                "refinedBy": {
+                    "id": "/target/i3pxkWlZH5I/selector/textQuote/g3nZtKnEQ17",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "English",
+                    "prefix": "Calmly, therefore, he begins to speak of war,\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tpraises the virtue of being Canadien,of being at peace, of faith, of family,and suddenly his other voice: Where are your sons?\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tHe is tearful, choking tears; but not hewould blame the clever",
+                    "suffix": " in their placehe'd do the same; maybe"
+                }
+            },
+            {
+                "id": "/target/i3pxkWlZH5I/selector/css/3oSfII69i06",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/bjtC4k5qZwz]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://vocab.getty.edu/tgn/2317823",
+        "type": "crm:E28_Conceptual_Object",
+        "label": "English",
+        "description": ""
+    },
+    "P2_has_type": [
+        "oa:tagging"
+    ]
+}]]>
+				
+</rdf:Description>
 			
 </rdf:RDF>
 		
+
+		
 </xenoData>
+	
 	</standOff>
+
 </TEI>
