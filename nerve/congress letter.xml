@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Others
+					in Support of Women's Right to Vote in the United States, 1871</title>
+				<author>Elizabeth Cady Stanton </author>
+					<author>Isabella Beecher Hooker </author>
+					<author>Elizabeth S. Bladen</author> 
+					<author>Olympia Brown </author>
+					<author>Susan B. Anthony </author>
+					<author>Josephine S. Griffing</author>
+				<respStmt>
+					<name>
+						<orgName>(U.S.) National Archives</orgName>
+					</name>
+					<resp>Publisher</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>National Archives</distributor>
+				<availability>
+					<licence>Public Domain</licence>
+				</availability>
+					<idno type="custom">National Archives Identifier https://catalog.archives.gov/id/1634184</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<p>This primary source comes from the Records of the U.S. Senate. National Archives
+					Identifier: 1634184 Full Citation: Letter to the United States Congress from
+					Elizabeth Cady Stanton and Susan B. Anthony and Others in Support of Women's
+					Suffrage; 12/1871; Petition and Memorials, Resolutions of State Legislatures,
+					and Related Documents which were Referred to the Committee on the Judiciary
+					during the 42nd Congress; (SEN 42A-H11.4); Committee Papers, 1816 - 2011;
+					Records of the U.S. Senate, Record Group 46; National Archives Building,
+					Washington, DC. [Online Version,
+					https://www.docsteach.org/documents/document/congress-stanton-anthony, last accessed 19 February 2023]</p>
+			</sourceDesc>
+		</fileDesc>
+<encodingDesc>
+			<projectDesc>
+				<p>This encoded file was created by Diane Jakacki and made available for a Linked
+					Editing Academic Framework (LEAF) / LEAF-Writer workshop. This file is not meant for
+					use or publication outside of the workshop environment.</p>
+			</projectDesc>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb facs="https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/Congress_Letter/congress_letter_image1.jpg"/>
+
+			<opener>To the Honorable the Senate and House of Representatives of the United States in
+				Congress Assembled:</opener>
+			<p>The undersigned, Citisens of the United States, believing that under the present
+					Federal Constitution all women who are citisens of the United States have the
+					right to vote, pray your Honorable Body to
+				enact a law during the present session that shall assist and protect them in the exercise of that
+					right
+			</p>
+			<p>And they pray further that they may be permitted in person, and in behalf of the
+				thousands of other women who are petitioning Congress to the same effect to be heard
+				upon this Memmoiral before the Senate and House at an early day in the present
+				Session.</p>
+			<p>We ask your Honorable Body to bear in mind that while men are represented on the
+				floor of Congress and so may be said to be heard there, women
+				who are allowed no vote and therefore no representation cannot truly be heard except
+				as Congress shall open its doors to us in person.</p>
+			<closer>
+				<signatures><persName key="Elizabeth Cady Stanton" ref="http://www.wikidata.org/entity/Q465335" ana="webannotation:http://temp.lincsproject.ca/CT7k934-ILv">Elizabeth Cady Stanton</persName> 
+				Isabella Beecher Hooker 
+				<persName key="Bladen, Elizabeth S." ref="http://viaf.org/viaf/12041742" ana="webannotation:http://temp.lincsproject.ca/Oz4Q7x7aiXt">Elizabeth S. Bladen</persName> 
+				Olympia Brown 
+				Susan B. Anthony 
+				Josephine S. Griffing</signatures> 
+				Hartford Conn. Dec. 1871</closer>
+		</body>
+	</text>
+	<standOff type="annotation">
+		
+<xenoData>
+			
+<rdf:RDF>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/CT7k934-ILv">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/CT7k934-ILv",
+    "type": "Annotation",
+    "motivation": "identifying",
+    "created": "2026-06-12T17:37:37.896Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "Person",
+        "name": "Luciano Frizzera",
+        "label": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "http://localhost:3000",
+        "type": "Software",
+        "name": "NERVE",
+        "label": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "http://temp.lincsproject.ca/CT7k934-ILv/target/PkxKbcIG6-i",
+        "type": [
+            "SpecificResource",
+            "E73_Information_Object"
+        ],
+        "label": "Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women&#39;s Right to Vote in the United States, 1871 containing \"Elizabeth Cady Stanton\"",
+        "format": "application/tei+xml",
+        "selector": [
+            {
+                "id": "http://temp.lincsproject.ca/CT7k934-ILv/target/PkxKbcIG6-i/selector/3mF-mf0Nxto",
+                "type": "TextPositionSelector",
+                "start": 1019,
+                "end": 1041,
+                "label": "\"Elizabeth Cady Stanton\" snippet from Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women&#39;s Right to Vote in the United States, 1871"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/CT7k934-ILv/target/PkxKbcIG6-i/selector/X2tENoLtg56",
+                "type": "TextQuoteSelector",
+                "exact": "Elizabeth Cady Stanton",
+                "prefix": "\n\t\t\t\n\t\t\t",
+                "suffix": "\n\t\t\t\tIsabella Beecher Hooker \n\t\t\t\tElizabeth S",
+                "label": "\"Elizabeth Cady Stanton\" snippet from Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women&#39;s Right to Vote in the United States, 1871"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/CT7k934-ILv/target/PkxKbcIG6-i/selector/erP3uWVv4u8",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/CT7k934-ILv]",
+                "label": "\"Elizabeth Cady Stanton\" snippet from Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women&#39;s Right to Vote in the United States, 1871"
+            }
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women's Right to Vote in the United States, 1871",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/CT7k934-ILv/target/PkxKbcIG6-i",
+            "P72_has_language": "lexvo:en",
+            "P1_is_identified_by": {
+                "id": "http://temp.lincsproject.ca/CT7k934-ILv/target/PkxKbcIG6-i/source/P1_is_identified_by/VbzDW9Eg2wG",
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women&#39;s Right to Vote in the United States, 1871",
+                "P190_has_symbolic_content": "Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women's Right to Vote in the United States, 1871"
+            }
+        },
+        "P67_refers_to": "http://www.wikidata.org/entity/Q465335",
+        "P190_has_symbolic_content": "Elizabeth Cady Stanton"
+    },
+    "label": "Elizabeth Cady Stanton identified in Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women&#39;s Right to Vote in the United States, 1871",
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q465335",
+        "type": "E21_Person",
+        "label": "Elizabeth Cady Stanton",
+        "description": "American writer, suffragist and Women's Rights activist (1815–1902)"
+    }
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Oz4Q7x7aiXt">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Oz4Q7x7aiXt",
+    "type": "Annotation",
+    "motivation": "identifying",
+    "created": "2026-06-12T17:38:02.821Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "Person",
+        "name": "Luciano Frizzera",
+        "label": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "http://localhost:3000",
+        "type": "Software",
+        "name": "NERVE",
+        "label": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "http://temp.lincsproject.ca/Oz4Q7x7aiXt/target/XV-wB74hV8S",
+        "type": [
+            "SpecificResource",
+            "E73_Information_Object"
+        ],
+        "label": "Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women&#39;s Right to Vote in the United States, 1871 containing \"Elizabeth S. Bladen\"",
+        "format": "application/tei+xml",
+        "selector": [
+            {
+                "id": "http://temp.lincsproject.ca/Oz4Q7x7aiXt/target/XV-wB74hV8S/selector/XoVv1Wov8aO",
+                "type": "TextPositionSelector",
+                "start": 1076,
+                "end": 1095,
+                "label": "\"Elizabeth S. Bladen\" snippet from Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women&#39;s Right to Vote in the United States, 1871"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/Oz4Q7x7aiXt/target/XV-wB74hV8S/selector/VkbLwT3KJ6m",
+                "type": "TextQuoteSelector",
+                "exact": "Elizabeth S. Bladen",
+                "prefix": "\n\t\t\t\n\t\t\t\tElizabeth Cady Stanton \n\t\t\t\tIsabella Beecher Hooker \n\t\t\t",
+                "suffix": "\n\t\t\t\tOlympia Brown \n\t\t\t\tSusan B",
+                "label": "\"Elizabeth S. Bladen\" snippet from Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women&#39;s Right to Vote in the United States, 1871"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/Oz4Q7x7aiXt/target/XV-wB74hV8S/selector/-s_ibWlXWKn",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Oz4Q7x7aiXt]",
+                "label": "\"Elizabeth S. Bladen\" snippet from Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women&#39;s Right to Vote in the United States, 1871"
+            }
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/LEAF-VRE/LEAF-templates/refs/heads/main/samples/congress_letter.xml",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women's Right to Vote in the United States, 1871",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/Oz4Q7x7aiXt/target/XV-wB74hV8S",
+            "P72_has_language": "lexvo:en",
+            "P1_is_identified_by": {
+                "id": "http://temp.lincsproject.ca/Oz4Q7x7aiXt/target/XV-wB74hV8S/source/P1_is_identified_by/CLBHMixE9nG",
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women&#39;s Right to Vote in the United States, 1871",
+                "P190_has_symbolic_content": "Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women's Right to Vote in the United States, 1871"
+            }
+        },
+        "P67_refers_to": "http://viaf.org/viaf/12041742",
+        "P190_has_symbolic_content": "Elizabeth S. Bladen"
+    },
+    "label": "\"Elizabeth S. Bladen\" identifying Bladen, Elizabeth S. in Letter to Congress from Elizabeth Cady Stanton, Susan B. Anthony and Othersin Support of Women&#39;s Right to Vote in the United States, 1871",
+    "body": {
+        "id": "http://viaf.org/viaf/12041742",
+        "type": "E21_Person",
+        "label": "Bladen, Elizabeth S."
+    }
+}]]>
+				
+</rdf:Description>
+			
+</rdf:RDF>
+		
+</xenoData>
+	</standOff>
+</TEI>
