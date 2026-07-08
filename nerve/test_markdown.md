@@ -80,7 +80,7 @@
             <quote>Before starting to sync files, you must link an account in the <hi rend="bold">Synchronize</hi> sub-menu.</quote>
             <div>
                <head>Open a file</head>
-               <p>You can open a file from <hi rend="bold">Google Drive</hi>, <hi rend="bold">Dropbox</hi> or <hi rend="bold"><orgName key="Game off game jam 2020 [en ligne])" ref="http://viaf.org/viaf/17172122647803162447" ana="webannotation:http://temp.lincsproject.ca/BhvwaC4U_CI">GitHub</orgName></hi> by opening the <hi rend="bold">Synchronize</hi> sub-menu and clicking <hi rend="bold">Open from</hi>. Once opened in the workspace, any modification in the file will be automatically synced.</p>
+               <p>You can open a file from <hi rend="bold">Google Drive</hi>, <hi rend="bold">Dropbox</hi> or <hi rend="bold"><orgName key="Game off game jam 2020 [en ligne])" ref="http://viaf.org/viaf/17172122647803162447" ana="webannotation:http://temp.lincsproject.ca/BhvwaC4U_CI" type="fictional">GitHub</orgName></hi> by opening the <hi rend="bold">Synchronize</hi> sub-menu and clicking <hi rend="bold">Open from</hi>. Once opened in the workspace, any modification in the file will be automatically synced.</p>
             </div>
             <div>
                <head>Save a file</head>
@@ -267,8 +267,11 @@
     },
     "body": {
         "id": "http://viaf.org/viaf/17172122647803162447",
-        "type": "E74_Group",
-        "label": "Game off game jam 2020 [en ligne])"
+        "type": "E89_Propositional_Object",
+        "label": "Game off game jam 2020 [en ligne])",
+        "P2_has_type": [
+            "wikidata:Q14623646"
+        ]
     }
 }]]>
 				
@@ -276,6 +279,10 @@
 			
 </rdf:RDF>
 		
+
+		
 </xenoData>
+	
 	</standOff>
+
 </TEI>
