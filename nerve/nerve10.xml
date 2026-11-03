@@ -68,7 +68,7 @@
                         <p>
                             <placeName cert="high" ref="http://www.geonames.org/6453366">
                                 <placeName xml:id="http://localhost:3000/iA-_zXRTvDq" key="Oslo" ref="http://dbpedia.org/resource/Oslo">
-                                    Oslo
+                                    <placeName key="Oslo Central Station" ref="https://sws.geonames.org/6692410" ana="webannotation:http://temp.lincsproject.ca/Ju3VlJgfLSP">Oslo</placeName>
                                 </placeName>
                             </placeName>
                             to Bergen
@@ -474,10 +474,120 @@
 }]]>
 				
 </rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Ju3VlJgfLSP">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Ju3VlJgfLSP",
+    "type": "Annotation",
+    "motivation": "identifying",
+    "created": "2026-11-03T21:44:50.721Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "Person",
+        "name": "Luciano Frizzera",
+        "label": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://38182023-review-cursor-aut-8iu3lf.alpha.lincsproject.ca",
+        "type": "Software",
+        "name": "NERVE",
+        "label": "NERVE",
+        "softwareVersion": "0.5.0"
+    },
+    "target": {
+        "id": "http://temp.lincsproject.ca/Ju3VlJgfLSP/target/kgL93IFZchW",
+        "type": [
+            "SpecificResource",
+            "E73_Information_Object"
+        ],
+        "label": {
+            "@value": "Sample Document Title containing \"Oslo\"",
+            "@lang": "en"
+        },
+        "format": "application/tei+xml",
+        "selector": [
+            {
+                "id": "http://temp.lincsproject.ca/Ju3VlJgfLSP/target/kgL93IFZchW/selector/2ij549udi9A",
+                "type": "TextPositionSelector",
+                "start": 755,
+                "end": 759,
+                "label": {
+                    "@value": "\"Oslo\" snippet from Sample Document Title",
+                    "@lang": "en"
+                }
+            },
+            {
+                "id": "http://temp.lincsproject.ca/Ju3VlJgfLSP/target/kgL93IFZchW/selector/sqEY0vFHbar",
+                "type": "TextQuoteSelector",
+                "exact": "Oslo",
+                "prefix": "\n        \n            \n                \n                    \n                        Sample Letter -\n                        \n                            Bertrand Russell\n                        \n                        to\n                        \n                            Patricia Spence\n                        \n                        - October 21, 1935\n                    \n                \n                \n                    \n                        \n                            Bad writing due to shaky train\n                        \n                        \n                            In train\n                        \n                        \n                            \n                                \n                                   ",
+                "suffix": "                                \n                            \n                            to Bergen\n                        \n                    \n                    \n                        \n                            21",
+                "label": {
+                    "@value": "\"Oslo\" snippet from Sample Document Title",
+                    "@lang": "en"
+                }
+            },
+            {
+                "id": "http://temp.lincsproject.ca/Ju3VlJgfLSP/target/kgL93IFZchW/selector/BDc8VCxSTx1",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Ju3VlJgfLSP]",
+                "label": {
+                    "@value": "\"Oslo\" snippet from Sample Document Title",
+                    "@lang": "en"
+                }
+            }
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/nerve/nerve10.xml",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": {
+                "@value": "Sample Document Title",
+                "@lang": "fr"
+            },
+            "P106_is_composed_of": "http://temp.lincsproject.ca/Ju3VlJgfLSP/target/kgL93IFZchW",
+            "P72_has_language": "lexvo:fr",
+            "P1_is_identified_by": {
+                "id": "http://temp.lincsproject.ca/Ju3VlJgfLSP/target/kgL93IFZchW/source/P1_is_identified_by/LLcyE6hFknR",
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": {
+                    "@value": "Title of Sample Document Title",
+                    "@lang": "en"
+                },
+                "P190_has_symbolic_content": "Sample Document Title"
+            }
+        },
+        "P67_refers_to": "https://sws.geonames.org/6692410",
+        "P190_has_symbolic_content": "Oslo"
+    },
+    "label": {
+        "@value": "\"Oslo\" identifying Oslo Central Station in Sample Document Title",
+        "@lang": "en"
+    },
+    "body": {
+        "id": "https://sws.geonames.org/6692410",
+        "type": "E53_Place",
+        "label": "Oslo Central Station",
+        "description": "Oslo, Oslo, NO"
+    }
+}]]>
+				
+</rdf:Description>
 			
 </rdf:RDF>
 		
+
+		
 </xenoData>
+	
 	</standOff>
+
 
 </TEI>
