@@ -86,7 +86,7 @@
                 <p>
                     I have had no letter from you since I left
                     <placeName cert="high" ref="http://www.geonames.org/2673722">
-                        Stockholm
+                        <placeName key="Stockholms stadshus" ref="https://sws.geonames.org/6944470" ana="webannotation:http://temp.lincsproject.ca/9KGkLV4M7qm">Stockholm</placeName>
                     </placeName>
                     , but I had a nice one from
                     <persName xml:id="http://localhost:3000/Zl9z337mOwN" key="Pope John Paul II" ref="http://dbpedia.org/resource/Pope_John_Paul_II">
@@ -110,7 +110,7 @@
                     <placeName cert="high" ref="http://www.geonames.org/6548528">
                         <placeName key="Bergen" ref="https://sws.geonames.org/3161732" ana="webannotation:http://temp.lincsproject.ca/HwSDcAJ7xFy">Bergen</placeName>
                     </placeName>
-                    to the Anglo-Norwegian Society. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for home via Bergen.
+                    to the <orgName key="Norske sivilingenirs forening" ref="http://vocab.getty.edu/ulan/500214562" ana="webannotation:http://temp.lincsproject.ca/q67841LvRFv">Anglo-Norwegian Society</orgName>. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for home via Bergen.
                 </p>
                 <pb n="3"/>
                 <p>
@@ -576,6 +576,218 @@
         "type": "E53_Place",
         "label": "Oslo Central Station",
         "description": "Oslo, Oslo, NO"
+    }
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/9KGkLV4M7qm">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/9KGkLV4M7qm",
+    "type": "Annotation",
+    "motivation": "identifying",
+    "created": "2026-11-03T21:46:35.001Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "Person",
+        "name": "Luciano Frizzera",
+        "label": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://38182023-review-cursor-aut-8iu3lf.alpha.lincsproject.ca",
+        "type": "Software",
+        "name": "NERVE",
+        "label": "NERVE",
+        "softwareVersion": "0.5.0"
+    },
+    "target": {
+        "id": "http://temp.lincsproject.ca/9KGkLV4M7qm/target/6_1U6za-LJJ",
+        "type": [
+            "SpecificResource",
+            "E73_Information_Object"
+        ],
+        "label": {
+            "@value": "Sample Document Title containing \"Stockholm\"",
+            "@lang": "en"
+        },
+        "format": "application/tei+xml",
+        "selector": [
+            {
+                "id": "http://temp.lincsproject.ca/9KGkLV4M7qm/target/6_1U6za-LJJ/selector/0rmbt7xw370",
+                "type": "TextPositionSelector",
+                "start": 1253,
+                "end": 1262,
+                "label": {
+                    "@value": "\"Stockholm\" snippet from Sample Document Title",
+                    "@lang": "en"
+                }
+            },
+            {
+                "id": "http://temp.lincsproject.ca/9KGkLV4M7qm/target/6_1U6za-LJJ/selector/LeUA_NhqrSB",
+                "type": "TextQuoteSelector",
+                "exact": "Stockholm",
+                "prefix": "35\n                        \n                    \n                    \n                        Dearest -\n                    \n                \n                \n                    I have had no letter from you since I left\n                    \n                       ",
+                "suffix": "                    \n                    , but I had a nice one from\n                    \n                        John\n                    \n                    in an envelope you had sent him",
+                "label": {
+                    "@value": "\"Stockholm\" snippet from Sample Document Title",
+                    "@lang": "en"
+                }
+            },
+            {
+                "id": "http://temp.lincsproject.ca/9KGkLV4M7qm/target/6_1U6za-LJJ/selector/eDWBXBaEJrH",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/9KGkLV4M7qm]",
+                "label": {
+                    "@value": "\"Stockholm\" snippet from Sample Document Title",
+                    "@lang": "en"
+                }
+            }
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/nerve/nerve10.xml",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": {
+                "@value": "Sample Document Title",
+                "@lang": "fr"
+            },
+            "P106_is_composed_of": "http://temp.lincsproject.ca/9KGkLV4M7qm/target/6_1U6za-LJJ",
+            "P72_has_language": "lexvo:fr",
+            "P1_is_identified_by": {
+                "id": "http://temp.lincsproject.ca/9KGkLV4M7qm/target/6_1U6za-LJJ/source/P1_is_identified_by/IwhNkkBsq3g",
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": {
+                    "@value": "Title of Sample Document Title",
+                    "@lang": "en"
+                },
+                "P190_has_symbolic_content": "Sample Document Title"
+            }
+        },
+        "P67_refers_to": "https://sws.geonames.org/6944470",
+        "P190_has_symbolic_content": "Stockholm"
+    },
+    "label": {
+        "@value": "\"Stockholm\" identifying Stockholms stadshus in Sample Document Title",
+        "@lang": "en"
+    },
+    "body": {
+        "id": "https://sws.geonames.org/6944470",
+        "type": "E53_Place",
+        "label": "Stockholms stadshus",
+        "description": "Stockholm, Stockholms Kommun, SE"
+    }
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/q67841LvRFv">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/q67841LvRFv",
+    "type": "Annotation",
+    "motivation": "identifying",
+    "created": "2026-11-03T21:46:46.380Z",
+    "creator": {
+        "id": "https://github.com/lucaju",
+        "type": "Person",
+        "name": "Luciano Frizzera",
+        "label": "Luciano Frizzera"
+    },
+    "generator": {
+        "id": "https://38182023-review-cursor-aut-8iu3lf.alpha.lincsproject.ca",
+        "type": "Software",
+        "name": "NERVE",
+        "label": "NERVE",
+        "softwareVersion": "0.5.0"
+    },
+    "target": {
+        "id": "http://temp.lincsproject.ca/q67841LvRFv/target/e5LQJ3DVZTw",
+        "type": [
+            "SpecificResource",
+            "E73_Information_Object"
+        ],
+        "label": {
+            "@value": "Sample Document Title containing \"Anglo-Norwegian Society\"",
+            "@lang": "en"
+        },
+        "format": "application/tei+xml",
+        "selector": [
+            {
+                "id": "http://temp.lincsproject.ca/q67841LvRFv/target/e5LQJ3DVZTw/selector/ObES1zJ8fip",
+                "type": "TextPositionSelector",
+                "start": 2586,
+                "end": 2609,
+                "label": {
+                    "@value": "\"Anglo-Norwegian Society\" snippet from Sample Document Title",
+                    "@lang": "en"
+                }
+            },
+            {
+                "id": "http://temp.lincsproject.ca/q67841LvRFv/target/e5LQJ3DVZTw/selector/as0_KnkSd1F",
+                "type": "TextQuoteSelector",
+                "exact": "Anglo-Norwegian Society",
+                "prefix": " Tomorrow I lecture at\n                    \n                        Bergen\n                    \n                    to the",
+                "suffix": " Next day I go back to Oslo, lecture there Fri",
+                "label": {
+                    "@value": "\"Anglo-Norwegian Society\" snippet from Sample Document Title",
+                    "@lang": "en"
+                }
+            },
+            {
+                "id": "http://temp.lincsproject.ca/q67841LvRFv/target/e5LQJ3DVZTw/selector/KapsTFbfvsd",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/q67841LvRFv]",
+                "label": {
+                    "@value": "\"Anglo-Norwegian Society\" snippet from Sample Document Title",
+                    "@lang": "en"
+                }
+            }
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/lucaju/cwrc-writer-samples/main/nerve/nerve10.xml",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": {
+                "@value": "Sample Document Title",
+                "@lang": "fr"
+            },
+            "P106_is_composed_of": "http://temp.lincsproject.ca/q67841LvRFv/target/e5LQJ3DVZTw",
+            "P72_has_language": "lexvo:fr",
+            "P1_is_identified_by": {
+                "id": "http://temp.lincsproject.ca/q67841LvRFv/target/e5LQJ3DVZTw/source/P1_is_identified_by/VVUPKTN8Nt8",
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": {
+                    "@value": "Title of Sample Document Title",
+                    "@lang": "en"
+                },
+                "P190_has_symbolic_content": "Sample Document Title"
+            }
+        },
+        "P67_refers_to": "http://vocab.getty.edu/ulan/500214562",
+        "P190_has_symbolic_content": "Anglo-Norwegian Society"
+    },
+    "label": {
+        "@value": "\"Anglo-Norwegian Society\" identifying Norske sivilingenirs forening in Sample Document Title",
+        "@lang": "en"
+    },
+    "body": {
+        "id": "http://vocab.getty.edu/ulan/500214562",
+        "type": "E74_Group",
+        "label": "Norske sivilingenirs forening",
+        "description": ""
     }
 }]]>
 				
